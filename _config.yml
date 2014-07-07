@@ -1,20 +1,20 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:         true
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
+title:            shiv.me
+tagline:          musings, rants, raves, and occasional burts of awesome!
+url:              http://shiv.me
+paginate:         10
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Shiva
+  url:            https://twitter.com/shiva
+  email:          shiv@shiv.me
 
 # Custom vars
 version:          1.0.0
