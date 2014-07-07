@@ -7,7 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            shiv.me
-tagline:          musings, rants, raves, and occasional burts of awesome!
+tagline:          musings, rants, raves, and occasional bursts of awesome!
 url:              http://shiv.me
 paginate:         10
 baseurl:          /
@@ -19,7 +19,7 @@ author:
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/shiva/shiva.github.io
 
 
 pages_list:       
