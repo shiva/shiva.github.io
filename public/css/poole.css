@@ -43,18 +43,22 @@
 
 html,
 body {
+  /*background: url("/images/header.jpg") no-repeat top center fixed;
+  background-size: 100% 30%;
+  */
   margin: 0;
   padding: 0;
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
   line-height: 1.5;
 }
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
@@ -150,7 +154,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Menlo, Monaco, "Roboto";
 }
 code {
   padding: .25em .5em;
