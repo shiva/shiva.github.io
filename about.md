@@ -4,29 +4,39 @@ title: About
 ---
 
 <p class="message">
-  I'm Shivanand Velmurugan. I usually go by Shiva. I design and develop software for a living, and for pleasure.
+  I'm Shiva. I design and develop software for a living, and for pleasure.
 </p>
 
+### Me, around teh internets!!
 
-## Me, around teh internets!!
+#### Code: 
+*   [Github] [1]
+*   [Bitbucket] [2]
 
-Code: 
- * [http://github.com/shiva]
- * http://bitbucket.org/shiva
+#### Photographs: 
+*   [500px] [3]
+*   [Flickr] [4]
 
-Photographs: 
- * http://shiv.500px.com/
- * http://flickr.com/photos/shvelmur
+#### Books:
+*   [Goodreads] [5]
 
-Books:
- * https://www.goodreads.com/user/show/856502-shivanand-velmurugan
+#### Social:
+ *   [Twitter] [6]
+ *   [Facebook] [7]
+ *   [Tumblr] [8]
 
-Social:
- * http://twitter.com/shiva
- * http://facebook.com/shivanand
- * http://shiva.tumblr.com/
+#### Professional:
+ *   [LinkedIn] [9]
+ *   [Resume] [10]
 
-Professional:
- * http://ca.linkedin.com/in/vshivanand
- * http://shiv.me/cv/
+[1]: http://github.com/shiva
+[2]: http://bitbucket.org/shiva
+[3]: http://shiv.500px.com/
+[4]: http://flickr.com/photos/shvelmur
+[5]: https://www.goodreads.com/user/show/856502-shivanand-velmurugan
+[6]: http://twitter.com/shiva
+[7]: http://facebook.com/shivanand
+[8]: http://shiva.tumblr.com/
+[9]: http://ca.linkedin.com/in/vshivanand
+[10]: http://shiv.me/cv/
 

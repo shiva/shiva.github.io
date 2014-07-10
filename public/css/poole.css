@@ -323,6 +323,9 @@ tbody tr:nth-child(odd) th {
   color: #c0c0c0;
   letter-spacing: 0;
 }
+.site-title a {
+  font-size: 4em;
+}
 
 
 /*
