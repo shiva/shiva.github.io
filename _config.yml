@@ -5,7 +5,7 @@ redcarpet:
 highlighter:         true
 
 # Permalinks
-permalink:        pretty
+permalink:        :year/:month/:title
 
 # Setup
 title:            shiv.me
