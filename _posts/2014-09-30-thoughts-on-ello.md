@@ -53,7 +53,10 @@ Some posts from others more articulate than me:
 
 @budnitz One of the founders of Ello [makes great points][2] on starting up something new. Nice to see the passion and the vision. Kudos!  
 
+[Cross-posted on Ello][3]
+
 [1]: https://ello.co/thomashawk/post/yTBdvFtgsjFuv6gi3kWy-A 
 [2]: https://ello.co/budnitz/post/WDPYMs2EvyUqUtDh5lAOiA
+[3]: https://ello.co/shivanand/post/y7Kwrh64mViqEgRNg_OV2g
 
 
