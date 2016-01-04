@@ -1,3 +1,6 @@
 [submodule "_posts"]
 	path = _posts
 	url = https://github.com/shiva/blog-posts.git
+[submodule "_drafts"]
+	path = _drafts
+	url = https://github.com/shiva/drafts.git
