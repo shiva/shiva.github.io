@@ -6,15 +6,16 @@ highlighter:      true
 permalink:        :year/:month/:title
 
 # Setup
-title:            shiv.me
-tagline:          musings, rants, raves, and occasional bursts of awesome!
-url:              "http://blog.shiv.me"
-paginate:         10
-baseurl:          ""
-author:
-  name:           Shiva
-  url:            https://twitter.com/shiva
-  email:          shiv@shiv.me
+title:          shiv.me
+tagline:        musings, rants, raves, and occasional bursts of awesome!
+url:            "http://blog.shiv.me"
+paginate:       10
+baseurl:        ""
+author:         Shiva
+author-link:    https://twitter.com/shiva
+#name:           Shiva
+#  url:            https://twitter.com/shiva
+#  email:          shiv@shiv.me
 
 # Custom vars
 version:          1.0.0
@@ -37,8 +38,8 @@ sitemap:
     change_frequency_name: "change_frequency"
     priority_name: "priority"
 
-gems: [jekyll-paginate]
-
+gems: 
+    - jekyll-paginate
 
 jekyll-crosspost_to_medium:
     enabled: true 
@@ -55,7 +56,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Picturefill
 # A responsive image polyfill: http://scottjehl.github.io/picturefill/
-picturefill: false
+picturefill: true
 
 # Typography
 # To use, publish a kit and enter the ID here. If you do not wish to use Typekit,
@@ -69,6 +70,3 @@ paginate: 5
 sass:
     style: :compressed
 
-# Picturefill
-# A responsive image polyfill: http://scottjehl.github.io/picturefill/
-picturefill: false
