@@ -1,0 +1,47 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+    extensions: [smart]
+highlighter:         true
+
+# Permalinks
+permalink:        :year/:month/:title
+
+# Setup
+title:            shiv.me
+tagline:          musings, rants, raves, and occasional bursts of awesome!
+url:              http://blog.shiv.me
+paginate:         10
+baseurl:          /
+author:
+  name:           Shiva
+  url:            https://twitter.com/shiva
+  email:          shiv@shiv.me
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/shiva/shiva.github.io
+
+
+pages_list:       
+    About: '/about'
+    Archive: '/archive'
+    Feed: '/atom.xml'
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
+jekyll-crosspost_to_medium:
+    enabled: true 
+    cache: .jekyll-crosspost_to_medium
+    status: draft
+    license: cc-40-by-nc-sa
