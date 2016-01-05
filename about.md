@@ -3,31 +3,17 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  I'm Shiva. I design and develop software for a living, and for pleasure.
-</p>
+I'm Shiva. I design and develop software for a living, and for pleasure.
 
-### Me, around teh internets!!
+Code: [Github] [1], [Bitbucket] [2]
 
-#### Code: 
-*   [Github] [1]
-*   [Bitbucket] [2]
+Photographs: [500px] [3], [Flickr] [4]
 
-#### Photographs: 
-*   [500px] [3]
-*   [Flickr] [4]
+Books: [Goodreads] [5]
 
-#### Books:
-*   [Goodreads] [5]
+Social: [Twitter] [6], [Facebook] [7], [Tumblr] [8]
 
-#### Social:
- *   [Twitter] [6]
- *   [Facebook] [7]
- *   [Tumblr] [8]
-
-#### Professional:
- *   [LinkedIn] [9]
- *   [Resume] [10]
+Professional: [LinkedIn] [9], [Resume] [10]
 
 [1]: http://github.com/shiva
 [2]: http://bitbucket.org/shiva

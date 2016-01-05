@@ -4,8 +4,9 @@ highlighter:    rouge
 permalink:      :year/:month/:title
 
 github: https://github.com/shiva/shiva.github.io
-about: I write software for a living and for pleasure
 urls:
+    - text: about
+      url: /about
     - text: github
       url: https://github.com/shiva
     - text: email
@@ -13,13 +14,13 @@ urls:
 
 tagline:        musings, rants, raves, and occasional bursts of awesome!
 url:            http://blog.shiv.me
-paginate:       10
+paginate:       5
 baseurl:        ""
 
-pages_list:       
-    About: '/about'
-    Archive: '/archive'
-    Feed: '/atom.xml'
+#pages_list:       
+#    About: '/about'
+#    Archive: '/archive'
+#    Feed: '/atom.xml'
 
 sitemap:
     file: "/sitemap.xml"
@@ -35,3 +36,7 @@ jekyll-crosspost_to_medium:
     cache: .jekyll-crosspost_to_medium
     status: draft
     license: cc-40-by-nc-sa
+
+gems:
+    - jekyll-paginate
+      #- jekyll-crosspost_to_medium
