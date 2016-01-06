@@ -4,13 +4,33 @@
  <title>The blog of </title>
  <link href="/atom.xml" rel="self"/>
  <link href=""/>
- <updated>2016-01-05T23:54:40-08:00</updated>
+ <updated>2016-01-05T23:59:08-08:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Goals for 2016</title>
+   <link href="/2016/01/resolutions"/>
+   <updated>2016-01-05T00:00:00-08:00</updated>
+   <id>/2016/01/resolutions</id>
+   <content type="html">&lt;p&gt;The word “resolutions”, feels forced. It feels like a ritual declaration of intent, followed immediately by inaction, and eventually concession that it was all in jest. This year, I am going to have some goals.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Don’t smoke&lt;/li&gt;
+  &lt;li&gt;Say yes more often&lt;/li&gt;
+  &lt;li&gt;Read a book a month&lt;/li&gt;
+  &lt;li&gt;Write an app a month&lt;/li&gt;
+  &lt;li&gt;Blog once a week&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Goals, feels more friendly, reachable, inviting almost.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Thoughts on ello</title>
@@ -110,10 +130,33 @@
    <link href="/2014/04/ink-rotation-april-2014"/>
    <updated>2014-04-23T00:00:00-07:00</updated>
    <id>/2014/04/ink-rotation-april-2014</id>
-   <content type="html">&lt;p&gt;I haven&#39;t been very good with rotating the inks in the last year. Having accumulated more than my share of inks, it is time to have fewer pens inked and rotate colors.&lt;/p&gt;
-&lt;p&gt;I still couldn&#39;t resist inking 9 pens! There are 3 pens I&#39;m excited about -- 2 parker 51 and a custom pen made out of 10000 year-old bogwood (a gift from &lt;a href=&quot;http://tinaferan.com&quot;&gt;Christina&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/20140423-085227.jpg&quot;&gt;&lt;img src=&quot;/images/20140423-085227.jpg&quot; alt=&quot;20140423-085227.jpg&quot; class=&quot;alignnone size-full&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/20140423-085350.jpg&quot;&gt;&lt;img src=&quot;/images/20140423-085350.jpg&quot; alt=&quot;20140423-085350.jpg&quot; class=&quot;alignnone size-full&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;I haven’t been very good with rotating the inks in the last year. Having accumulated more than my share of inks, it is time to have fewer pens inked and rotate colors.&lt;/p&gt;
+
+&lt;picture&gt;
+    &lt;source srcset=&quot;/generated/20140423-085227-1200by1497-d76a76.jpg&quot; media=&quot;(min-width: 800px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 800px) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085227-800by998-d76a76.jpg&quot; media=&quot;(min-width: 800px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085227-900by1123-d76a76.jpg&quot; media=&quot;(min-width: 600px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 600px) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085227-600by748-d76a76.jpg&quot; media=&quot;(min-width: 600px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085227-450by561-d76a76.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085227-300by374-d76a76.jpg&quot; /&gt;
+    &lt;img src=&quot;/generated/20140423-085227-300by374-d76a76.jpg&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I still couldn’t resist inking 9 pens! There are 3 pens I’m excited about – 2 parker 51 and a custom pen made out of 10000 year-old bogwood (a gift from &lt;a href=&quot;http://tinaferan.com&quot;&gt;Christina&lt;/a&gt;).&lt;/p&gt;
+
+&lt;picture&gt;
+    &lt;source srcset=&quot;/generated/20140423-085350-1200by1280-f487a8.jpg&quot; media=&quot;(min-width: 800px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 800px) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085350-800by853-f487a8.jpg&quot; media=&quot;(min-width: 800px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085350-900by960-f487a8.jpg&quot; media=&quot;(min-width: 600px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 600px) and (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085350-600by640-f487a8.jpg&quot; media=&quot;(min-width: 600px)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085350-450by480-f487a8.jpg&quot; media=&quot;(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)&quot; /&gt;
+    &lt;source srcset=&quot;/generated/20140423-085350-300by320-f487a8.jpg&quot; /&gt;
+    &lt;img src=&quot;/generated/20140423-085350-300by320-f487a8.jpg&quot; /&gt;
+  &lt;/picture&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </content>
  </entry>
  
