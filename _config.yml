@@ -15,6 +15,7 @@ author:
   name:           Shiva
   url:            https://twitter.com/shiva
   email:          shiv@shiv.me
+  #bio: "I write software for a living and for pleasure. Here, I write about software development as a craft. On occasion I pointificate about things that are not software."
 
 theme:
   # Color for top bar, links, etc
@@ -34,6 +35,8 @@ social:
 
 # Custom vars
 lsi: false
+theme:
+    show_disclaimer: true
 version:          1.0.0
 github:
   repo:           https://github.com/shiva/shiva.github.io
@@ -60,6 +63,39 @@ jekyll-crosspost_to_medium:
     status: draft
     license: cc-40-by-nc-sa
 
+responsive_image:
+  # [Required]
+  # Path to the image template.
+  template: _includes/responsive-image.html
+  
+  # [Optional, Default: 85]
+  # Quality to use when resizing images.
+  default_quality: 90
+          
+  # [Optional, Default: []]
+  # An array of resize configuration objects. Each object must contain at least
+  # a `width` value.
+  sizes:
+    - width: 480  # [Required] How wide the resized image will be.
+      quality: 80 # [Optional] Overrides default_quality for this size.
+    - width: 800
+    - width: 1400
+      quality: 90
+          
+  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
+  # The template used when generating filenames for resized images. Must be a
+  # relative path.
+          
+  # Parameters available are:
+  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
+  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
+  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
+  #   %{width}       Width of the resized image
+  #   %{height}      Height of the resized image
+  #
+  output_path_format: assets/resized/%{width}/%{basename}
+
 gems:
     - jekyll-paginate
-    - jekyll-crosspost_to_medium
+      #- jekyll-responsive_image
+    - jekyll-crosspost-to-medium

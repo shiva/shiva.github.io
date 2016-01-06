@@ -5,11 +5,16 @@
   </a>
   <h2>I'm <a href="/">{{ site.author.name }}</a>.</h2>
   <hr/>
-  <ul>
   {% if site.author.bio %}
   <p>{{ site.author.bio }}
   {% endif %}
   <hr/>
+  <ul>
+  <div>
+      {% for page in pages_list %}
+      <li><a href="{{ site.pages_list.page }}">{{ page }}</a></li>
+      {% endfor %}
+  </div>
   <div>
     <div id="social">
       {% include social.html %}

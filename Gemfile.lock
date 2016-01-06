@@ -12,6 +12,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-crosspost-to-medium (0.1.2)
     jekyll-paginate (1.1.0)
     jekyll-responsive_image (0.13.0)
       jekyll (>= 2.0, < 4.0)
@@ -39,6 +40,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-crosspost-to-medium
   jekyll-paginate
   jekyll-responsive_image
   rmagick
