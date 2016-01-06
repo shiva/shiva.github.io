@@ -1,8 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-redcarpet:
-    extensions: [smart]
-highlighter:         true
+markdown:        kramdown 
+highlighter:     rouge
 
 # Permalinks
 permalink:        :year/:month/:title
@@ -11,22 +9,38 @@ permalink:        :year/:month/:title
 title:            shiv.me
 tagline:          musings, rants, raves, and occasional bursts of awesome!
 url:              http://blog.shiv.me
-paginate:         10
 baseurl:          /
+paginate:         20
 author:
   name:           Shiva
   url:            https://twitter.com/shiva
   email:          shiv@shiv.me
 
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+social:
+    github: shiva
+    bitbucket: shiva
+    #hacker_news: swanson
+    #stackexchange: 348619
+    #stackoverflow: 348619
+    twitter: shiva
+    facebook: shivanand
+    tumblr: shiva
+    linkedin: vshivanand
+    #gplus: 110552447039675960964
+
 # Custom vars
+lsi: false
 version:          1.0.0
 github:
   repo:           https://github.com/shiva/shiva.github.io
 
-
 pages_list:       
     About: '/about'
-    Archive: '/archive'
+    #Archive: '/archive'
     Feed: '/atom.xml'
 
 sitemap:
@@ -45,3 +59,7 @@ jekyll-crosspost_to_medium:
     cache: .jekyll-crosspost_to_medium
     status: draft
     license: cc-40-by-nc-sa
+
+gems:
+    - jekyll-paginate
+    - jekyll-crosspost_to_medium
