@@ -1,7 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     colorator (0.1)
+    fastimage (1.6.8)
+      addressable (~> 2.3, >= 2.3.5)
     ffi (1.9.10)
     jekyll (3.0.1)
       colorator (~> 0.1)
@@ -14,6 +17,10 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-crosspost-to-medium (0.1.2)
     jekyll-paginate (1.1.0)
+    jekyll-picture-tag (0.3.0)
+      fastimage (~> 1.6.4)
+      jekyll (< 4)
+      mini_magick (~> 3.8.0)
     jekyll-responsive_image (0.13.0)
       jekyll (>= 2.0, < 4.0)
       rmagick
@@ -27,6 +34,8 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.5)
+    mini_magick (3.8.1)
+      subexec (~> 0.2.1)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -34,6 +43,7 @@ GEM
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.20)
+    subexec (0.2.3)
 
 PLATFORMS
   ruby
@@ -42,6 +52,7 @@ DEPENDENCIES
   jekyll
   jekyll-crosspost-to-medium
   jekyll-paginate
+  jekyll-picture-tag
   jekyll-responsive_image
   rmagick
 
