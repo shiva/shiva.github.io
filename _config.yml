@@ -8,8 +8,8 @@ permalink:        :year/:month/:title
 # Setup
 title:            shiv.me
 tagline:          musings, rants, raves, and occasional bursts of awesome!
-url:              http://blog.shiv.me
-baseurl:          /
+#url:              http://blog.shiv.me
+baseurl:          ""
 paginate:         30
 author:
   name:           Shiva
@@ -65,39 +65,23 @@ jekyll-crosspost_to_medium:
     status: draft
     license: cc-40-by-nc-sa
 
-responsive_image:
-  # [Required]
-  # Path to the image template.
-  template: _includes/responsive-image.html
-  
-  # [Optional, Default: 85]
-  # Quality to use when resizing images.
-  default_quality: 90
-          
-  # [Optional, Default: []]
-  # An array of resize configuration objects. Each object must contain at least
-  # a `width` value.
-  sizes:
-    - width: 480  # [Required] How wide the resized image will be.
-      quality: 80 # [Optional] Overrides default_quality for this size.
-    - width: 800
-    - width: 1400
-      quality: 90
-          
-  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
-  # The template used when generating filenames for resized images. Must be a
-  # relative path.
-          
-  # Parameters available are:
-  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
-  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
-  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
-  #   %{width}       Width of the resized image
-  #   %{height}      Height of the resized image
-  #
-  output_path_format: assets/resized/%{width}/%{basename}
+picture:
+      source: "images"
+      output: "generated"
+      markup: "picture"
+      presets:
+          default:
+              ppi: [1, 1.5]
+              source_large:
+                  media: "(min-width: 800px)"
+                  width: "800"
+              source_medium:
+                  media: "(min-width: 600px)"
+                  width: "600"
+              source_default: 
+                  width: "300"
 
 gems:
     - jekyll-paginate
-      #- jekyll-responsive_image
     - jekyll-crosspost-to-medium
+    - jekyll-picture-tag
