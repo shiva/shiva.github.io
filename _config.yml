@@ -10,20 +10,21 @@ title:            shiv.me
 tagline:          musings, rants, raves, and occasional bursts of awesome!
 url:              http://blog.shiv.me
 baseurl:          /
-paginate:         20
+paginate:         30
 author:
   name:           Shiva
   url:            https://twitter.com/shiva
   email:          shiv@shiv.me
-  #bio: "I write software for a living and for pleasure. Here, I write about software development as a craft. On occasion I pointificate about things that are not software."
 
+# Custom vars
 theme:
   # Color for top bar, links, etc
   highlight_color: '#3498db'
 
-social:
+  social:
     github: shiva
     bitbucket: shiva
+    goodreads: shiv
     #hacker_news: swanson
     #stackexchange: 348619
     #stackoverflow: 348619
@@ -31,20 +32,21 @@ social:
     facebook: shivanand
     tumblr: shiva
     linkedin: vshivanand
+    flickr: shvelmur
+    500px: shiv
     #gplus: 110552447039675960964
 
-# Custom vars
-lsi: false
-theme:
-    show_disclaimer: true
+  lsi: false
+  show_disclaimer: true
+
 version:          1.0.0
 github:
   repo:           https://github.com/shiva/shiva.github.io
 
-pages_list:       
-    About: '/about'
-    #Archive: '/archive'
-    Feed: '/atom.xml'
+#pages_list:       
+#    About: '/about'
+#    Projects: '/projects'
+#    Archive: '/archive'
 
 sitemap:
     file: "/sitemap.xml"

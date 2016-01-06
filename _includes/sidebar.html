@@ -4,21 +4,20 @@
     <img src="/logo.png" id="logo" alt="Blog logo"/>
   </a>
   <h2>I'm <a href="/">{{ site.author.name }}</a>.</h2>
-  <hr/>
+  {%if site.pages_list %}
+    <hr/>
+    <ul>
+    {% for page in site.pages_list %}
+      <li><a href="{{ page[1] }}">{{ page[0] }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
   {% if site.author.bio %}
-  <p>{{ site.author.bio }}
+    <hr />
+    <p>{{ site.author.bio }}</p>
   {% endif %}
   <hr/>
-  <ul>
-  <div>
-      {% for page in pages_list %}
-      <li><a href="{{ site.pages_list.page }}">{{ page }}</a></li>
-      {% endfor %}
+  <div id="social">
+    {% include social.html %}
   </div>
-  <div>
-    <div id="social">
-      {% include social.html %}
-    </div>
-  </div>
-  </ul>
 </nav>
