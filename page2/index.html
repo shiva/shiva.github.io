@@ -113,81 +113,141 @@
 
     <div class="eleven columns content">
       <div id="home">
-  <ul id="blog-posts" class="posts">
     
-      <li><span>01 Dec 2011 &raquo;</span><a href="/2011/12/music-and-hearing">music and hearing</a></li>
+    <p class="meta">
+    March 31, 2014
+    </p>
+
+    <h1 class="title"><a href="/2014/03/git-status-multiple-directories">Getting git status on multiple directories</a></h1>
+
+    <div id="post">
+      At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The "git status" command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
+
+The following command, executes git status in every subdirectory that is a git repository.
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># for d in `find . -name ".git"`; do  </span>
+<span class="gp">&gt; </span><span class="nb">echo</span> <span class="s2">"processing </span><span class="nv">$d</span><span class="s2"> ..."</span>; 
+<span class="gp">&gt; </span>git --git-dir<span class="o">=</span><span class="nv">$d</span> --work-tree<span class="o">=</span><span class="nv">$d</span>/.. status; <span class="k">done</span></code></pre></figure>
+
+    </div>
     
-      <li><span>29 Nov 2011 &raquo;</span><a href="/2011/11/that-time-of-the-year">That time of the year</a></li>
+    <p class="meta">
+    February 14, 2014
+    </p>
+
+    <h1 class="title"><a href="/2014/02/obvious-but-not">Somethings should be obvious, but are not, obviously</a></h1>
+
+    <div id="post">
+      <p><em>Update: Apparently, I had accidentally hit a minor bug in pew. This has now been <a href="https://github.com/berdario/invewrapper/issues/21">fixed</a>.</em></p>
+<p>Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It's the "duh" moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.</p>
+<p>I am currently on a bit of <a href="http://www.mongodb.org/">MongoDB</a> binge, and I was setting up a dev environment, using <a href="http://crunchbang.org/">Crunchbang</a> on <a href="https://www.virtualbox.org/">Virtualbox</a>. Since it is a clean install, I wanted to bootstrap using only <a href="https://github.com/berdario/invewrapper">pew</a> and <a href="http://www.pip-installer.org/en/latest/">pip</a>, which have recently become my favourite part of working in a pure python environment (no more sudo == yay!!)</p>
+<p>I followed the <a href="https://github.com/berdario/invewrapper#installation">instructions to install pew</a> (which is quite straight-forward). All one should need is</p>
+<pre><code>pip install pew
+</code></pre>
+<p>However, when I tried the same, the install worked, but I couldn't run pew. It couldn't find all the libraries it needed to load (virtualenv, in this case)</p>
+<pre><code>shiva@crunchbang-2:~$ sudo pip install pew
+Downloading/unpacking pew
+Downloading pew-0.1.9.tar.gz
+Running setup.py (path:/tmp/pip_build_root/pew/setup.py) egg_info for package pew
+...
+Successfully installed pew virtualenv
+Cleaning up...
+
+shiva@crunchbang-2:~$ pew ls
+Traceback (most recent call last):
+File "/usr/local/bin/pew", line 5, in
+from pkg_resources import load_entry_point
+File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 2707, in
+working_set.require(__requires__)
+File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 686, in require
+needed = self.resolve(parse_requirements(requirements))
+File "/usr/lib/python2.7/dist-packages/pkg_resources.py", line 584, in resolve
+raise DistributionNotFound(req)
+pkg_resources.DistributionNotFound: virtualenv
+
+</code></pre>
+<p>After trying several things, including looking a lot of code in pew, the fix was quite simple.</p>
+<p>The version of setup-tools that comes default with python2.7 and crunchbang seems flawed.</p>
+<pre><code>shiva@crunchbang-2:~$ sudo pip install -U setuptools
+Downloading/unpacking setuptools from https://pypi.python.org/packages/3.4/s/setuptools/setuptools-2.2-py2.py3-none-any.whl#md5=3b7d84f496aed8c07b91efba4aa197a4
+Downloading setuptools-2.2-py2.py3-none-any.whl (540kB): 540kB downloaded
+Installing collected packages: setuptools
+Found existing installation: distribute 0.6.24dev-r0
+Uninstalling distribute:
+Successfully uninstalled distribute
+Successfully installed setuptools
+Cleaning up...
+
+shiva@crunchbang-2:~$ pew ls
+
+shiva@crunchbang-2:~$ pew new test
+New python executable in test/bin/python
+Installing setuptools, pip...done.
+Launching subshell in virtual environment. Type 'exit' or 'Ctrl+D' to return.
+/home/shiva/.local/share/virtualenvs/test/bin:/home/shiva/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+</code></pre>
+
+    </div>
     
-      <li><span>27 Nov 2011 &raquo;</span><a href="/2011/11/whats-in-store-for-me">What's in store for me</a></li>
+    <p class="meta">
+    January 27, 2014
+    </p>
+
+    <h1 class="title"><a href="/2014/01/bitcoins-new-languages-freedom-and-other-things">Bitcoins, new languages, freedom and other things</a></h1>
+
+    <div id="post">
+      <p>Some interesting links for the weekend:</p>
+<ul>
+<li>Mr.Krugman thinks <a href="http://krugman.blogs.nytimes.com/2013/12/28/bitcoin-is-evil/">Bitcoin is evil.</a></li>
+<li>Why should <strong>I</strong> <a href="http://bits.blogs.nytimes.com/2011/11/27/disruptions-fliers-must-turn-off-devices-but-its-not-clear-why/?_r=0">turn off my devices for 30 mins</a>, while a hunk of steel and glass is hurled into the upper atmosphere? #first-world-problems</li>
+<li><a href="http://lambda-the-ultimate.org/node/4862">Lamdba expressions</a>: something for the nerd in you.</li>
+<li>America, you make me want to travel! <a href="http://reason.com/archives/2013/12/28/americas-internal-checkpoints">NOT REALLY!</a></li>
+<li>We don't really change. <a href="https://medium.com/p/defd9264bf14">Let's not blame it on tech!</a> Truth from Gary Vaynerchuk of winelibrary fame.</li>
+</ul>
+
+    </div>
     
-      <li><span>08 Nov 2011 &raquo;</span><a href="/2011/11/badly-punctuated-parameter-list-in-define">Badly punctuated parameter list in #define</a></li>
+    <p class="meta">
+    January 25, 2014
+    </p>
+
+    <h1 class="title"><a href="/2014/01/tele-conf">Those wonderful tele-conference meetings</a></h1>
+
+    <div id="post">
+      <p>If you have worked for a large company, you know you have been here. Hilarious</p>
+<p><iframe src="//www.youtube.com/embed/DYu_bGbZiiQ" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></p>
+
+    </div>
     
-      <li><span>05 Oct 2011 &raquo;</span><a href="/2011/10/worldwide-photowalk-2011">Worldwide Photowalk 2011</a></li>
+    <p class="meta">
+    January 02, 2014
+    </p>
+
+    <h1 class="title"><a href="/2014/01/2013-on-twitter-a-recap">2013 on twitter - a recap</a></h1>
+
+    <div id="post">
+      <p><a href="http://vizify.com/">Vizify</a> makes a video out of the posts you have made on twitter in the last year. <a href="https://twitter.com/tinaferan">Christina</a>, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn't the world need yet another summary of meee!!</p>
+<p><a href="https://www.vizify.com/shivanand/twitter-video">2013 on twitter</a></p>
+<p>Thanks to my top followers</p>
+<ol>
+<li><a href="https://twitter.com/tinaferan">Christina</a></li>
+<li><a href="https://twitter.com/ray_lian">Ray Lian</a></li>
+<li><a href="https://twitter.com/covivant">Dave Kell</a></li>
+</ol>
+
+    </div>
     
-      <li><span>05 Oct 2011 &raquo;</span><a href="/2011/10/rip-steve-jobs">RIP Steve Jobs</a></li>
-    
-      <li><span>25 Sep 2011 &raquo;</span><a href="/2011/09/sometimes-they-are-useful-for-a-lifetime">Sometimes, they are useful for a lifetime</a></li>
-    
-      <li><span>30 Aug 2011 &raquo;</span><a href="/2011/08/osx-lion-and-jumping-through-a-few-hoops">OSX Lion and jumping through a few hoops</a></li>
-    
-      <li><span>28 Aug 2011 &raquo;</span><a href="/2011/08/life-in-the-bash-universe">Life in the BASH universe</a></li>
-    
-      <li><span>28 Aug 2011 &raquo;</span><a href="/2011/08/dump-fb-for-gplus">10 reasons to dump Facebook for G+. Now!</a></li>
-    
-      <li><span>24 Jul 2011 &raquo;</span><a href="/2011/07/people-of-gvrd">People of GVRD - a photographic experiment</a></li>
-    
-      <li><span>23 Jul 2011 &raquo;</span><a href="/2011/07/osx-lion-a-first-look-at-2-am">OSX Lion. A first look (at 2 AM)</a></li>
-    
-      <li><span>07 Jul 2011 &raquo;</span><a href="/2011/07/some-major-site-updates">Some major site updates!</a></li>
-    
-      <li><span>21 Jun 2011 &raquo;</span><a href="/2011/06/exporting-xdisplay">Exporting XDisplay</a></li>
-    
-      <li><span>01 May 2011 &raquo;</span><a href="/2011/05/ipad-and-friends">iPad and friends</a></li>
-    
-      <li><span>27 Apr 2011 &raquo;</span><a href="/2011/04/you-cribbing-bunch-of-morons">You cribbing bunch of morons</a></li>
-    
-      <li><span>23 Apr 2011 &raquo;</span><a href="/2011/04/blogsy-a-ray-of-hope">Blogsy - a ray of hope</a></li>
-    
-      <li><span>21 Mar 2011 &raquo;</span><a href="/2011/03/cthulhu-is-your-god">Cthulhu is your god</a></li>
-    
-      <li><span>16 Mar 2011 &raquo;</span><a href="/2011/03/to-the-people-of-japan">To the people of Japan</a></li>
-    
-      <li><span>04 Mar 2011 &raquo;</span><a href="/2011/03/no-matter-what-we-say">No matter what we say</a></li>
-    
-      <li><span>31 Jan 2011 &raquo;</span><a href="/2011/01/job-control-on-nix-systems">Job Control on *NIX systems</a></li>
-    
-      <li><span>26 Jan 2011 &raquo;</span><a href="/2011/01/the-dude-rocks">The Dude ... Rocks!</a></li>
-    
-      <li><span>26 Jan 2011 &raquo;</span><a href="/2011/01/my-linkedin-network-visualized">My linkedin network visualized</a></li>
-    
-      <li><span>25 Jan 2011 &raquo;</span><a href="/2011/01/anger-is-illogical">Anger is Illogical</a></li>
-    
-      <li><span>13 Jan 2011 &raquo;</span><a href="/2011/01/impersonations">Impersonations</a></li>
-    
-      <li><span>11 Jan 2011 &raquo;</span><a href="/2011/01/music-from-dmu">Music from DMU</a></li>
-    
-      <li><span>20 Nov 2010 &raquo;</span><a href="/2010/11/bcv2010-roundup">Barcamp Vancouver 2010 - Roundup</a></li>
-    
-      <li><span>03 Nov 2010 &raquo;</span><a href="/2010/11/power">Power of 2</a></li>
-    
-      <li><span>09 Sep 2010 &raquo;</span><a href="/2010/09/you-know-it-is-time">You know it is time ..</a></li>
-    
-      <li><span>31 Aug 2010 &raquo;</span><a href="/2010/08/awesome-cricket-ads">Awesome cricket ads</a></li>
-    
-  </ul>
 </div>
 
+<!-- Pagination links -->
 <div class="pagination">
-  
-    <a class="pagination-item older" href="page3">Older</a>
-  
-  
     
-      <a class="pagination-item newer" href="">Newer</a>
+    <a href="/page3" class="next">Older</a>
     
-  
-</div>
+    <span class="page_number ">Page: 2 of 64</span>
+    
+    <a href="/" class="previous">Newer</a>
+    
 </div>
 
 

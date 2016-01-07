@@ -113,81 +113,92 @@
 
     <div class="eleven columns content">
       <div id="home">
-  <ul id="blog-posts" class="posts">
     
-      <li><span>23 Jun 2008 &raquo;</span><a href="/2008/06/cvs-getting-list-of-files-changed-in-the-current-tree">cvs - Getting list of files changed in the current tree</a></li>
+    <p class="meta">
+    August 20, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/08/multiple-ssh-profiles">Multiple ssh profiles for multiple services</a></h1>
+
+    <div id="post">
+      <p>I use git -- quite extensively. At work, we have several git repositories, across different organizations. In addition, I also <a href="http://github.com/shiva">hack</a> for pleasure. Interacting with several git servers means that I need to have different roles and identities for them. The solution is to setup up one ssh key for each domain, and use ~/.ssh/config profiles to control them. Based on the host I'm connecting to, a different ssh private/public key pair is used -- make life a lot easier!</p>
+<p>Thanks to <a href="http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys">Karanbir Singh</a>, for this:</p>
+<p><script src="https://gist.github.com/3410101.js?file=ssh-config-multi-service"></script></p>
+
+    </div>
     
-      <li><span>10 Jun 2008 &raquo;</span><a href="/2008/06/whaddup-mister">Whaddup Mister?!</a></li>
+    <p class="meta">
+    June 01, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/06/i-am-fat-no-more">I am fat no more</a></h1>
+
+    <div id="post">
+      <p><script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheet/tq?key=0AqWZ2BE_jW5jdDduVDUxLUFyekhnd3FHcTZVWGQ4dGc&transpose=0&headers=1&range=A1%3AB11&gid=0&pub=1","options":{"vAxes":[{"useFormatFromData":true,"viewWindowMode":"pretty","viewWindow":{}},{"useFormatFromData":true,"viewWindowMode":"pretty","viewWindow":{}}],"displayAnnotations":true,"min":180,"booleanRole":"certainty","max":270,"scaleType":"maximize","fill":20,"displayRangeSelector":true,"hAxis":{"useFormatFromData":true,"viewWindowMode":"pretty","viewWindow":{}},"wmode":"opaque","width":480,"height":400},"state":{},"chartType":"AnnotatedTimeLine","chartName":"Chart 1"} </script></p>
+<p>BMI, is not the best measure of health, or fitness, but >30 is a definite indicator of lack of care about one’s health. After several years of exactly that, I’m finally within reasonable limits. My BMI is 24.0; It’s official, I’m <a href="http://www.nhlbisupport.com/bmi/">not obese anymore</a>.</p>
+<p>In the last 4 years, I have seen my weight go from 230 lbs to 266 lbs, and back to 202 lbs, as of today.</p>
+<p>It’s a good day!</p>
+
+    </div>
     
-      <li><span>04 Jun 2008 &raquo;</span><a href="/2008/06/a-web-based-writer-for-writing-to-a-blog">A web based writer for writing to a blog?!</a></li>
+    <p class="meta">
+    May 21, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/05/more-nix-goodness">More *nix goodness</a></h1>
+
+    <div id="post">
+      <p>Ohh *nix command prompt, I love thee!</p>
+<p>Can you guess what these commands do?</p>
+<p style="padding-left: 30px;"><code># grep -l &lt;regex&gt;<br />
+# find . -name &lt;regex&gt; -delete<br />
+</code></p>
+
+    </div>
     
-      <li><span>25 May 2008 &raquo;</span><a href="/2008/05/so-long-and-thanks-for-all-the-good-times">So long and thanks for all the good times</a></li>
+    <p class="meta">
+    May 20, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/05/an-hour-with-haml-and-stasis">An hour with HAML and Stasis</a></h1>
+
+    <div id="post">
+      <p>I have been meaning to get into the exciting world of static site-gen. Why, you ask? Well, I will tell you why?! Actually, I'm too lazy, and it's late on a Sunday night -- instead, <a href="http://mickgardner.com/">Mick Gardner</a>, can inform you on the <a href="http://mickgardner.com/2011/04/27/An-Introduction-To-Static-Site-Generators.html">virtues of static site-generation</a>.</p>
+<p>After an hour of mucking around with several site-generators, I chose <a href="http://stasis.me/">Stasis</a>, which is a good compromise to the blog-oriented <a href="http://jekyllrb.com/">Jekyll</a>, and options-insanity that is <a href="http://nanoc.stoneship.org/">nanoc</a>. With my new-found fascination for Ruby, I wanted to stay away from <a href="http://ringce.com/hyde">Hyde</a> (which is Python based -- it's time to try the dark-side, a little)</p>
+<p><a href="http://haml.info/">HAML</a>, is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:</p>
+<p>HTML:<br />
+<script type="text/javascript" src="https://gist.github.com/2760742.js?file=sample.html"></script></p>
+<p>HAML:<br />
+<script type="text/javascript" src="https://gist.github.com/2760742.js?file=sample.haml"></script></p>
+<p>Although, the HTML version has intrusive tags, it is easier on the eyes. It is a relief, not have to code, the end tag for every HTML element. It is much faster to type HAML by hand (especially in vim). In the end, it was a quick, painless process to convert the raw HTML code, to HAML, and generate the same html using stasis.</p>
+<p>Life's good. I'm still learning a few new tricks. What more can one ask for?</p>
+
+    </div>
     
-      <li><span>06 May 2008 &raquo;</span><a href="/2008/05/hey-wordpress-guys-have-you-heard-of-diff">Hey wordpress guys, have you heard of diff?!</a></li>
+    <p class="meta">
+    February 08, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/02/my-bags-are-packed">My bags are packed</a></h1>
+
+    <div id="post">
+      <p>This saturday, I will be leaving to Sweden for work. It will be an exciting two months! Hopefully, I will have some time to enjoy and experience a new country, and chronicle the (mis)adventures there!</p>
+<p>For now, here's some music. This song has followed me around for the last 12 years, and when it is time for me to go away, I hear this song playing somwhere. It's corny, but its nice.<br />
+<iframe src="http://www.youtube-nocookie.com/embed/f4hsC0nRvZM" frameborder="0" width="420" height="315"></iframe></p>
+
+    </div>
     
-      <li><span>23 Apr 2008 &raquo;</span><a href="/2008/04/twitter-digests">Twitter digests</a></li>
-    
-      <li><span>20 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-20">Twitter Updates for 2008-04-20</a></li>
-    
-      <li><span>19 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-19">Twitter Updates for 2008-04-19</a></li>
-    
-      <li><span>18 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-18">Twitter Updates for 2008-04-18</a></li>
-    
-      <li><span>16 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-16">Twitter Updates for 2008-04-16</a></li>
-    
-      <li><span>15 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-15">Twitter Updates for 2008-04-15</a></li>
-    
-      <li><span>14 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-14">Twitter Updates for 2008-04-14</a></li>
-    
-      <li><span>13 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-13">Twitter Updates for 2008-04-13</a></li>
-    
-      <li><span>12 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-12">Twitter Updates for 2008-04-12</a></li>
-    
-      <li><span>11 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-11">Twitter Updates for 2008-04-11</a></li>
-    
-      <li><span>10 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-10">Twitter Updates for 2008-04-10</a></li>
-    
-      <li><span>09 Apr 2008 &raquo;</span><a href="/2008/04/well-this-is-a-first">Jott - a voice-based blog client!</a></li>
-    
-      <li><span>09 Apr 2008 &raquo;</span><a href="/2008/04/twitter-updates-for-2008-04-09">Twitter Updates for 2008-04-09</a></li>
-    
-      <li><span>02 Apr 2008 &raquo;</span><a href="/2008/04/welcome-new-friends-from-twitter">Welcome new friends from twitter</a></li>
-    
-      <li><span>15 Mar 2008 &raquo;</span><a href="/2008/03/biting-the-mac-bullet">Biting the "Mac" Bullet</a></li>
-    
-      <li><span>13 Mar 2008 &raquo;</span><a href="/2008/03/can-we-end-the-six-years-of-fear">Can we end the Six Years of Fear ?</a></li>
-    
-      <li><span>29 Jan 2008 &raquo;</span><a href="/2008/01/that-queasy-feeling">That queasy feeling</a></li>
-    
-      <li><span>18 Jan 2008 &raquo;</span><a href="/2008/01/bye-bye-ipod">Bye bye IPOD</a></li>
-    
-      <li><span>16 Jan 2008 &raquo;</span><a href="/2008/01/ipod-touch-downgrade-from-113-to-111">IPOD touch: Downgrade from 1.1.3 to 1.1.1</a></li>
-    
-      <li><span>15 Jan 2008 &raquo;</span><a href="/2008/01/ipod-touchiphone-support">Ipod touch/Iphone support</a></li>
-    
-      <li><span>15 Jan 2008 &raquo;</span><a href="/2008/01/ipod-touch-111-firmware-link">IPod touch 1.1.1 firmware link</a></li>
-    
-      <li><span>18 Dec 2007 &raquo;</span><a href="/2007/12/review-canon-40d">Review: Canon 40D</a></li>
-    
-      <li><span>18 Dec 2007 &raquo;</span><a href="/2007/12/google-blogs-its-feature-later">Google blogs its feature later than I do!</a></li>
-    
-      <li><span>14 Dec 2007 &raquo;</span><a href="/2007/12/the-webfaction-experience">The webfaction experience</a></li>
-    
-      <li><span>30 Nov 2007 &raquo;</span><a href="/2007/11/what-will-happen-in-100-years">What will happen in 100 years?</a></li>
-    
-  </ul>
 </div>
 
+<!-- Pagination links -->
 <div class="pagination">
-  
-    <a class="pagination-item older" href="page6">Older</a>
-  
-  
     
-      <a class="pagination-item newer" href="page4">Newer</a>
+    <a href="/page6" class="next">Older</a>
     
-  
-</div>
+    <span class="page_number ">Page: 5 of 64</span>
+    
+    <a href="/page4" class="previous">Newer</a>
+    
 </div>
 
 
