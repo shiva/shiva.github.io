@@ -4,27 +4,30 @@ title: Blog Posts
 ---
 
 <div id="home">
-  <ul id="blog-posts" class="posts">
     {% for post in paginator.posts %}
-      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+    <p class="meta">
+    {{ post.date | date: "%B %d, %Y" }}
+    </p>
+
+    <h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+    <div id="post">
+      {{ post.content }}
+    </div>
     {% endfor %}
-  </ul>
 </div>
 
+<!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Older</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    <span class="next ">Older</span>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+    {% else %}
+    <span class="previous">Newer</span>
+    {% endif %}
 </div>

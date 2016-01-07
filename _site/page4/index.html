@@ -113,81 +113,109 @@
 
     <div class="eleven columns content">
       <div id="home">
-  <ul id="blog-posts" class="posts">
     
-      <li><span>29 Jul 2009 &raquo;</span><a href="/2009/07/dreams-for-the-next-100-years">Dreams for the next 100 years</a></li>
+    <p class="meta">
+    February 17, 2013
+    </p>
+
+    <h1 class="title"><a href="/2013/02/work-with-rpms">Working with rpms (extract, list contents)</a></h1>
+
+    <div id="post">
+      <p>Unix. I love thee!</p>
+<p>Extract an rpm without installing in to the current directory (really, the rpm command should support this):</p>
+<p><code><br />
+$ rpm2cpio myrpmfile.rpm | cpio -idmv</p>
+<p>*i: Restore archive</p>
+<p>*d: Create leading directories where needed</p>
+<p>*m: Retain previous file modification times when creating files</p>
+<p>*v: Verbose i.e. display progress<br />
+</code></p>
+<p>List contents of an rpm:</p>
+<p><code><br />
+$ rpm -qlp myrpmfile.rpm<br />
+</code></p>
+<p><a href="http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html">source</a></p>
+
+    </div>
     
-      <li><span>09 Jul 2009 &raquo;</span><a href="/2009/07/for-the-last-time-its-not-an-os">For the last time, its not an OS!</a></li>
+    <p class="meta">
+    January 14, 2013
+    </p>
+
+    <h1 class="title"><a href="/2013/01/culinary-delights">A weekend of culinary delights</a></h1>
+
+    <div id="post">
+      <p>The great G.B Shaw, in "Man and Superman" (not that Superman), quipped, "<em>There is no love sincerer than the love of food</em>." I had a weekend, that reminded me how much I love being fed. It also, reminded me of my wayward ways, in keeping the waistline in check, but I diverge. For this Christmas, I got the most amazing gift -- the gift of an evening out trying out food that tasted, as good as it sounds and looks. Without much ado, here is the spread:</p>
+<p>[gallery ids="13701,13702,13704,13703,13705,13706,13707,13708,13709,13710,13711,13712"]</p>
+<p>Thanks to all the hobby chefs for the wonderful delights, and the hospitality. I aspire to such skills in the kitchen, and perhaps I shall be able to pay it forward. Thanks to Christina for the  most-awesomest gift ever (yes, we invent words here), and Sophie for "subbing" for the sick Tina (I owe you one, Sophie!)</p>
+<p>If you want to know more about <a href="http://www.socialbites.ca/">Social Bites</a> (and you should), get in touch with the wonderful bundle of energy that is Annika! (<a href="https://twitter.com/SocialBites">@socialbites</a>, <a href="https://www.facebook.com/socialbites.ca">Social bites on FB</a>)</p>
+<p>And the chefs: <a href="https://twitter.com/wontongirljojo">@wontongirljojo</a>, <a href="https://twitter.com/jonesboy">@jonesboy</a></p>
+
+    </div>
     
-      <li><span>11 Jun 2009 &raquo;</span><a href="/2009/06/fathers-and-sons">Fathers and Sons</a></li>
+    <p class="meta">
+    September 26, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/09/git-logs-and-files-in-a-commit">Git: beautiful git logs and listing files in a commit</a></h1>
+
+    <div id="post">
+      <p>Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.</p>
+<p><script src="https://gist.github.com/3791502.js?file=git-config-alias"></script></p>
+<p>For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.</p>
+<p>The following is from the latest <a href="https://github.com/torvalds/linux" title="linux by Linus">linux.git</a><br />
+<script src="https://gist.github.com/3791502.js?file=git-log-output-for-linux"></script></p>
+<p>Fortunately, git log has options one can use, that make the output look like this:<br />
+<script src="https://gist.github.com/3791502.js?file=git-lg-output-for-linux"></script></p>
+<p>Another useful command is git show, with the --name-only option. It displays the list of files in a particular commit.<br />
+<script src="https://gist.github.com/3791502.js?file=git-show-name-only"></script></p>
+
+    </div>
     
-      <li><span>05 Jun 2009 &raquo;</span><a href="/2009/06/20-years-is-a-long-time-lest-we-forget">20 years is a long time .. lest we forget</a></li>
+    <p class="meta">
+    August 27, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/08/macports-from-behind-a-proxy">Macports from behind a proxy</a></h1>
+
+    <div id="post">
+      <p>I've been using my MBP as the main computer at work for a couple of weeks now. It is not officially "supported", and I'm left to my own devices to figure out any issues that arise.</p>
+<p>Configuring proxies on the mac for all GUI applications is quite simple. However, most of the *nix tools have trouble with it. Macports, which I love to hate, should read it from the environment's $http_proxy and $rsync_proxy, but for some reason doesn't really do so. The simplest fix, is to override system env variables, and use the macport configuration file to provide the proxy. It works like a charm (one of reason to like macports, I suppose)</p>
+<p>Edit $HOME/macports/etc/macports/macports.conf, and add the following.<br />
+(I prefer installing macports in its own directory .. if it ever gets too big, I can delete the directory, and go back to using standard tools that come with the mac)</p>
+<p><script src="https://gist.github.com/3491699.js"> </script></p>
+
+    </div>
     
-      <li><span>09 Apr 2009 &raquo;</span><a href="/2009/04/dealing-with-electronic-waste">Dealing with electronic waste</a></li>
+    <p class="meta">
+    August 23, 2012
+    </p>
+
+    <h1 class="title"><a href="/2012/08/two-factor-authentication-and-spicy-salmon-sashimi-don">Two-factor authentication and spicy salmon sashimi don</a></h1>
+
+    <div id="post">
+      <p>For the last few months I've been annoyed. Two or three times a week, I get a flurry of emails from Facebook and twitter claiming that I reset my password. Sounds like a first-world problem? It is. However, I have 4 emails linked to my Facebook account and one to my twitter account. I get on average 15-20 mails a week, and I dutifully dis-avow each one of them.</p>
+<p>Then, <a href="http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard">this happens</a>. It scares the hell out of me, but I procrastinate. After a good two weeks, and 40 mails later, I've finally caved, and enabled it. Now, it's practically impossible to hack my account. Password + token to access from any new device, and I can remotely revoke access to any device I lose.</p>
+<p>Now, what does it have to do with sashimi, you ask? Well, nothing really! That's just the bait to get you to read this most important thing. Don't be like me, and procrastinate forever. Enable two-factor authentication on both <a href="http://support.google.com/accounts/bin/answer.py?hl=en&amp;answer=180744">google</a> and <a href="http://m.facebook.com/note.php?note_id=10150172618258920&amp;_rdr">Facebook</a>! You'll be glad you did. Both have very compelling implementations that are easy to configure and use.</p>
+<blockquote><p>
+  Security is like good sushi -- once you've tasted the good kind, it's hard to go back to just good enough.
+</p></blockquote>
+<p>Well, here's your reward for reading this far:<br />
+<a href="http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg"><img src="/images/20120823-214038.jpg" alt="20120823-214038.jpg" class="alignnone size-full" /></a></p>
+
+    </div>
     
-      <li><span>09 Mar 2009 &raquo;</span><a href="/2009/03/computer-recording-equipment">Computer Recording Equipment</a></li>
-    
-      <li><span>06 Mar 2009 &raquo;</span><a href="/2009/03/latest-communication-tech">Latest Communication Technologies</a></li>
-    
-      <li><span>14 Feb 2009 &raquo;</span><a href="/2009/02/the-devil-is-in-the-why">The devil is in the why?</a></li>
-    
-      <li><span>28 Jan 2009 &raquo;</span><a href="/2009/01/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france">I recommend drinking Vin Chaud when you're in Strasbourg, France</a></li>
-    
-      <li><span>28 Jan 2009 &raquo;</span><a href="/2009/01/how-id-spend-1000">How I'd spend $1,000</a></li>
-    
-      <li><span>25 Jan 2009 &raquo;</span><a href="/2009/01/a-week-in-strasbourg">A Week in Strasbourg</a></li>
-    
-      <li><span>23 Jan 2009 &raquo;</span><a href="/2009/01/when-i-get-home-i-kick-my-shoes-off">When I get home, I kick my shoes off</a></li>
-    
-      <li><span>23 Jan 2009 &raquo;</span><a href="/2009/01/on-the-road-with-some-70s">On the road with some 70s</a></li>
-    
-      <li><span>23 Jan 2009 &raquo;</span><a href="/2009/01/my-first-job-building-custom-pcs">My first job: Building Custom PCs</a></li>
-    
-      <li><span>02 Jan 2009 &raquo;</span><a href="/2009/01/review-a-year-in-the-merde-by-stephen-clarke">Review: A Year in the Merde by Stephen Clarke</a></li>
-    
-      <li><span>02 Jan 2009 &raquo;</span><a href="/2009/01/are-you-using-open-dns">Are you using Open-DNS?</a></li>
-    
-      <li><span>14 Dec 2008 &raquo;</span><a href="/2008/12/little-masters">Little masters</a></li>
-    
-      <li><span>24 Nov 2008 &raquo;</span><a href="/2008/11/apple-are-you-stupid">Apple! Are you stupid?!</a></li>
-    
-      <li><span>19 Nov 2008 &raquo;</span><a href="/2008/11/review-jamie-at-home-cook-your-way-to-the-good-life-by-jamie-oliver">Review: Jamie at Home: Cook Your Way to the Good Life by Jamie Oliver</a></li>
-    
-      <li><span>25 Oct 2008 &raquo;</span><a href="/2008/10/twitter-client">Proposed GUI for C++ based twitter client</a></li>
-    
-      <li><span>15 Oct 2008 &raquo;</span><a href="/2008/10/how-i-handle-emails">How I handle 1000+ emails and 300+ blog posts a day</a></li>
-    
-      <li><span>15 Oct 2008 &raquo;</span><a href="/2008/10/a-thousand-tweets">A Thousand Tweets</a></li>
-    
-      <li><span>25 Sep 2008 &raquo;</span><a href="/2008/09/webified-desktop-applications">Webified desktop applications</a></li>
-    
-      <li><span>25 Sep 2008 &raquo;</span><a href="/2008/09/tandoori-spiced-fish-with-cucumber">Tandoori spiced fish with cucumber</a></li>
-    
-      <li><span>09 Sep 2008 &raquo;</span><a href="/2008/09/unix-removing-duplicates-from-a-file">Unix: removing duplicates from a file</a></li>
-    
-      <li><span>02 Sep 2008 &raquo;</span><a href="/2008/09/in-the-browser-lies-the-power-wave-2-of-the-google-takeover">In the browser lies the power - Wave 2 of the Google takeover</a></li>
-    
-      <li><span>04 Aug 2008 &raquo;</span><a href="/2008/08/chicken-curry-with-eggs-served-on-rice-2">Chicken Curry with Eggs served on Rice</a></li>
-    
-      <li><span>21 Jul 2008 &raquo;</span><a href="/2008/07/movie-review-the-dark-knight-spoiler-alert">Movie Review: The Dark Knight (spoiler alert)</a></li>
-    
-      <li><span>29 Jun 2008 &raquo;</span><a href="/2008/06/shooting-star">Shooting Star</a></li>
-    
-      <li><span>27 Jun 2008 &raquo;</span><a href="/2008/06/friendfeed-comments-for-wordpress">Friendfeed comments for wordpress</a></li>
-    
-  </ul>
 </div>
 
+<!-- Pagination links -->
 <div class="pagination">
-  
-    <a class="pagination-item older" href="page5">Older</a>
-  
-  
     
-      <a class="pagination-item newer" href="page3">Newer</a>
+    <a href="/page5" class="next">Older</a>
     
-  
-</div>
+    <span class="page_number ">Page: 4 of 64</span>
+    
+    <a href="/page3" class="previous">Newer</a>
+    
 </div>
 
 

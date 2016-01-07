@@ -10,7 +10,7 @@ title:            shiv.me
 tagline:          musings, rants, raves, and occasional bursts of awesome!
 #url:              http://blog.shiv.me
 baseurl:          ""
-paginate:         30
+paginate:         5
 author:
   name:           Shiva
   url:            https://twitter.com/shiva
@@ -85,3 +85,4 @@ gems:
     - jekyll-paginate
     - jekyll-crosspost-to-medium
     - jekyll-picture-tag
+
