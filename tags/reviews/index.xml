@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/reviews/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-02-10 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Battle of the static site generators - part 1</title>
+          <link>/2016/02/battle-of-the-static-site-generators-1/</link>
+          <pubDate>Wed, 10 Feb 2016 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2016/02/battle-of-the-static-site-generators-1/</guid>
+          <description>
+
+&lt;p&gt;I set myself a goal to write more this year - in fact, I attempted to do so once every week. This required me to look at my blog, which led to the inevitable: small changes in what it looked like, led to general dis-satisfcation with the current solution I have to publish my blog, which quickly ballooned into a whole host of activities.&lt;/p&gt;
+
+&lt;p&gt;Let me step back a bit.&lt;/p&gt;
+
+&lt;h2 id=&#34;jekyll-is-really-hyde:a995a9a971f135f2b62918ade899bc11&#34;&gt;Jekyll is really Hyde&lt;/h2&gt;
+
+&lt;p&gt;I host my blog on github, using a static site generator - Jekyll. It is written in ruby, has some cool features. Overall, it is a decent solution, but I was never satisfied with options it provided. I have hesistated to hack at it, since ruby isn&amp;rsquo;t my language-du-jour, and most of the changes have been quite minimal. It is also extremely slow&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;As any self-respecting programmer is wont to do, instead of writing more posts, and meeting my goal, I delved right into fixing &amp;ldquo;bike-shed&amp;rdquo; &amp;ndash; in this case, research and use a new static-site generator. Why, you ask? To you, non-existent, ever-questioning inquisitive you, I say &amp;ndash; Why not?!&lt;/p&gt;
+
+&lt;p&gt;As with any successful hunt, one &lt;em&gt;must&lt;/em&gt; make a list: One that shall help determine settle the battle of the generators.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Must be &lt;em&gt;fast&lt;/em&gt; &amp;ndash; I mean blazing.&lt;/li&gt;
+&lt;li&gt;Must be in one of the languages I currently hack in: go, nim, c, c++, javascript, python, rust, erlang&lt;/li&gt;
+&lt;li&gt;Should have good defaults &amp;ndash; shouldn&amp;rsquo;t need plugins to perform basic features: syntax highlighting, responsive images, theming,
+ permalinks and good markdown support.&lt;/li&gt;
+&lt;li&gt;Should have a few good themes&lt;/li&gt;
+&lt;li&gt;Good community support and/or documents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;the-contenders:a995a9a971f135f2b62918ade899bc11&#34;&gt;The contenders&lt;/h2&gt;
+
+&lt;p&gt;Scouring the corners of the internet, I narrowed down on two final choices: &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;new-shiny-shiny:a995a9a971f135f2b62918ade899bc11&#34;&gt;New shiny, shiny&lt;/h2&gt;
+
+&lt;p&gt;They
+   - are faster at generating 300+ pages.
+   - are opinionated and hence have good defaults.
+   - support most of features I am looking for except responsive images.
+   - provide extended markdown support by default.
+   - hosted by an active community.&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo-ftw:a995a9a971f135f2b62918ade899bc11&#34;&gt;Hugo FTW!&lt;/h2&gt;
+
+&lt;p&gt;Both Hugo and Hexo are pretty good. They are fast enough for my use, and are implemented in modern languages that I am actively learning.&lt;/p&gt;
+
+&lt;p&gt;Hugo edged out Hexo: It has a few features that look promising and is a bit more fun to hack. It is written in go and this make it ideal. I am switching to Go as a primary language for my hacking needs. A lot of issues, and about 3000 forks is a good opportunity to contribute to a larg-ish project in go!&lt;/p&gt;
+
+&lt;p&gt;The choice is made. Now to move the herd. I have the daunting task of migrating 300+ posts that were originally posted on different blog engines of the past: blogger, wordpress, and octopress and finally jekyll.&lt;/p&gt;
+
+&lt;p&gt;In subsequent posts, I will write about a small tool I have built to help with fixing YAML frontmatter after converting posts from html to markdown.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Sometimes, they are useful for a lifetime</title>
+          <link>/2011/09/sometimes-they-are-useful-for-a-lifetime/</link>
+          <pubDate>Sun, 25 Sep 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/09/sometimes-they-are-useful-for-a-lifetime/</guid>
+          <description>&lt;p&gt;And sometimes, they barely hold your attention. However, the recent acquisition is the former. I got the mammoth of a book, over the weekend; it weighs a ton and I&amp;rsquo;ll be sleeping with it, clutched tight in my hands.&lt;/p&gt;
+
+&lt;p&gt;If you already have the tomb by tanenbaum of similar name, the unix programming interface, you probably are not going to glean much value from this one (you can thank POSIX for maintaining a modicum of consistency over the years and some would vehemently contest that). That said, if you write code for *nix systems, it definitely deserves the shelf-space as much as any other programming book.&lt;/p&gt;
+
+&lt;p&gt;In the few hours I&amp;rsquo;ve spent with it, I&amp;rsquo;ve already learnt and have had a few concepts made clear. It is definitely not a linear read and there is quite a lot of interesting things to read about. I&amp;rsquo;m currently working through some fun tests of my understanding of pthreads. Watch for those [here][0].&lt;/p&gt;
+
+&lt;p&gt;[0]: &lt;a href=&#34;https://github.com/shiva/fun&#34;&gt;https://github.com/shiva/fun&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Fun with an iphone app</title>
+          <link>/2009/10/fun-with-an-iphone-app/</link>
+          <pubDate>Wed, 21 Oct 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2009/10/fun-with-an-iphone-app/</guid>
+          <description>&lt;p&gt;Got a new iPhone app called sketchbook, by autodesk.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=327375467&amp;amp;mt=8&#34;&gt;http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=327375467&amp;amp;mt=8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to check this out. Trust it is really cool and loads of fun&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2009/10/p_600_400_94004C32-12FE-420C-B6F5-BECAE41FD03B.jpeg&#34;&gt;&lt;img src=&#34;/images/p_600_400_94004C32-12FE-420C-B6F5-BECAE41FD03B.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;img src=&#34;/images/p_600_400_A8AFD185-95A4-4B6F-B673-1694E478CA29.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/p_600_400_832597CB-C15D-4D70-9B6A-2F6B6B81EC3B.jpeg&#34; alt=&#34;&#34; /&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2009/10/p_480_320_1B8D36FE-EF3B-4A07-BE09-59C684C9B72B.jpeg&#34;&gt;&lt;img src=&#34;/images/p_480_320_1B8D36FE-EF3B-4A07-BE09-59C684C9B72B.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/p_480_320_89D65B20-7721-4693-96FB-273B1CCA7BF4.jpeg&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;/images/p_480_320_D9B49784-A392-4610-A7C5-A43A8BC3D363.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[]&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2009/10/p_480_320_1B8D36FE-EF3B-4A07-BE09-59C684C9B72B.jpeg&#34;&gt;1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/p_480_320_63D8EF9C-110F-4A99-98BF-8FB49B604A82.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Review: A Year in the Merde by Stephen Clarke</title>
+          <link>/2009/01/review-a-year-in-the-merde-by-stephen-clarke/</link>
+          <pubDate>Fri, 02 Jan 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2009/01/review-a-year-in-the-merde-by-stephen-clarke/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.goodreads.com/book/show/10765.A_Year_in_the_Merde?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;&lt;img src=&#34;/images/10765.jpg&#34; alt=&#34;A Year in the Merde&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.goodreads.com/book/show/10765.A_Year_in_the_Merde?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;A Year in the Merde&lt;/a&gt; by &lt;a href=&#34;http://www.goodreads.com/author/show/7041.Stephen_Clarke&#34;&gt;Stephen Clarke&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;rating: 5 of 5 stars&lt;br /&gt;
+If you are on your way to Paris, or on the way from Paris, or in Paris, or &amp;hellip; nevermind&amp;hellip; just read this book if you are associated, in any way, with Paris. You&amp;rsquo;ll love it.&lt;/p&gt;
+
+&lt;p&gt;(If you are French, read this too, get angry, rebel and then revel in the glory! :) )&lt;/p&gt;
+
+&lt;p&gt;[View all my reviews at goodreads.][2]&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://www.goodreads.com/review/list/856502?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;http://www.goodreads.com/review/list/856502?utm_medium=api&amp;amp;utm_source=blog_review&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Movie Review: The Dark Knight (spoiler alert)</title>
+          <link>/2008/07/movie-review-the-dark-knight-spoiler-alert/</link>
+          <pubDate>Mon, 21 Jul 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/07/movie-review-the-dark-knight-spoiler-alert/</guid>
+          <description>&lt;p&gt;In a moment of mild insanity (actually more like boredom), I decided to watch the last show last night. I was plesantly surprised to find that the movie was playing in 2 theatres @ &lt;a href=&#34;http://www.cineplex.com/Theatres/TheatreDetails/C5CEF4DF/SilverCity_Coquitlam.aspx&#34;&gt;Silvercity, Coquitlam&lt;/a&gt;. With all the &lt;a href=&#34;http://news.google.ca/news?hl=en&amp;amp;q=batman&#34;&gt;hype&lt;/a&gt;, and the huge &lt;a href=&#34;http://www.cnn.com/2008/SHOWBIZ/Movies/07/20/boxoffice.ap/index.html&#34;&gt;revenue generation&lt;/a&gt; in the first week, the movie does deliver most of what it promises.&lt;/p&gt;
+
+&lt;p&gt;Before you start reading the rest of the post, there are few items, that could give away the plot. I wonder if one needs to worry about the plot in Batman. Here&amp;rsquo;s the &lt;strong&gt;short version&lt;/strong&gt; of the review - &lt;strong&gt;watch it if you haven&amp;rsquo;t done so as yet. NOW!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some things I liked:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1. The movie is a lot more serious than previous renderings of Batman. Finally, a Batman movie, where you don&amp;rsquo;t have to laugh at Batman.&lt;/p&gt;
+
+&lt;p&gt;2. The Joker (&lt;a href=&#34;http://www.imdb.com/name/nm0005132/&#34;&gt;Heath Ledger&lt;/a&gt;) was truly amazing. I liked that he retained the southern sounding voice. Heath shines like diamond, and really stands out in terms of his performance. It is such a pity that the world has lost such a wonderful actor. He could have been this generation&amp;rsquo;s Brando or Pacino. He has set new heights for the Batman villian (Traditionally, the villians have been better actors anyway)&lt;/p&gt;
+
+&lt;p&gt;3. Batman is real, he gets hurt and has his flaws, and I don&amp;rsquo;t hear &amp;ldquo;kapow&amp;rdquo; or &amp;ldquo;zing&amp;rdquo; during the action sequences.&lt;/p&gt;
+
+&lt;p&gt;4. Makeup was wonderful - both the Joker and Two-Face, are more believable and frightening in their own ways.&lt;/p&gt;
+
+&lt;p&gt;5. This movie has one of the best casts in all Batman movies (For a franchise, that has always had a star cast, this one really get the right people for the roles - remember &lt;a href=&#34;http://www.imdb.com/name/nm0000123/&#34;&gt;George Clooney&lt;/a&gt; and &lt;a href=&#34;http://www.imdb.com/name/nm0000216/&#34;&gt;Arnold Schwarzenegger&lt;/a&gt; anyone?!)&lt;/p&gt;
+
+&lt;p&gt;6. Thankfully, no robin - nuff said.&lt;/p&gt;
+
+&lt;p&gt;Now for some things that &lt;strong&gt;could have been better&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;1. 2:35 mins - the show started at 10:00 PM and ended at 1:00 AM! 3 hours is way too long (even for Indians - we get an intermission for our 3 hour movies).&lt;/p&gt;
+
+&lt;p&gt;2. Two villians too big for this movie. I thought the villians didn&amp;rsquo;t get enough screen time.&lt;/p&gt;
+
+&lt;p&gt;3. Two-Face&amp;rsquo;s plot is quite unconvincing, and it&amp;rsquo;s a pity he&amp;rsquo;s killed with such little damage. &lt;a href=&#34;http://www.imdb.com/name/nm0001173/&#34;&gt;Aaron Eckhart&lt;/a&gt; is no match for &lt;a href=&#34;http://www.imdb.com/name/nm0000169/&#34;&gt;Tommy Lee Jones&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;4. I hate the new Batman&amp;rsquo;s voice. What&amp;rsquo;s with the constant growling. I think that&amp;rsquo;s the only flaw with the new Batman. &lt;a href=&#34;http://www.imdb.com/name/nm0000288/&#34;&gt;Christian Bale&lt;/a&gt;, should learn to show some emotion through his eyes (wrath, anger, hatred etc). I liked him much better in the first movie. He has shown good promise, and if he does a couple more, I can see him as one of the better Batmans. I must say, the best one (my opinion) was [Michael Keaton][9]. I always liked the quirky Batman. This more dark Batman, closer to the comic, impresses as well, but yet to prove himself. I think he needs a villian who really pushes him hard.&lt;/p&gt;
+
+&lt;p&gt;All in all, a very enjoyable 3 hours, if you have the penchant for Batman, and can hold the large Combo in your bladder long enough. Must see movie. Don&amp;rsquo;t miss it! Now, check out the trailer. (Kudos to Warner Bros. for providing an embeddable version).&lt;/p&gt;
+
+&lt;p&gt;[9]: &lt;a href=&#34;http://www.imdb.com/name/nm0000474/&#34;&gt;http://www.imdb.com/name/nm0000474/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Review: Canon 40D</title>
+          <link>/2007/12/review-canon-40d/</link>
+          <pubDate>Tue, 18 Dec 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2007/12/review-canon-40d/</guid>
+          <description>&lt;p&gt;The best thing since .. well a Canon 20D.&lt;/p&gt;
+
+&lt;p&gt;If this video convinced you to buy a &lt;a href=&#34;http://www.amazon.com/gp/product/B000V5P90K?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000V5P90K&#34;&gt;Canon 40D&lt;/a&gt;, or &lt;a href=&#34;http://www.amazon.com/gp/product/B000GFT7H6?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000GFT7H6&#34;&gt;Canon 30D&lt;/a&gt; or [Canon20D][2], use the affiliate links  as provided.&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://www.amazon.com/gp/product/B0002XQJFA?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B0002XQJFA&#34;&gt;http://www.amazon.com/gp/product/B0002XQJFA?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B0002XQJFA&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>The webfaction experience</title>
+          <link>/2007/12/the-webfaction-experience/</link>
+          <pubDate>Fri, 14 Dec 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2007/12/the-webfaction-experience/</guid>
+          <description>&lt;p&gt;The reason for the respite in my blogging, was my move to a new web-host. After several hours of researching, I decided to go with &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;webfaction.com&lt;/a&gt;. If you haven&amp;rsquo;t already visited webfaction, &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;DO IT right now&lt;/a&gt;! It has been simply amazing. I love the one click installer, and within hours of getting billed, I got access to my account. It comes with shell access, SFTP, enough space, &lt;a href=&#34;http://www.rubyonrails.org/&#34;&gt;rails 2.x&lt;/a&gt; (just days after it was release), &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;django&lt;/a&gt;, [wordpress 2.3.1][3] and a host of other webapps, all of which you can install with a just a few clicks on their web interface.&lt;/p&gt;
+
+&lt;p&gt;_Note: links provided to webfaction&amp;rsquo;s website, have my &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;affiliate link&lt;/a&gt;.Â Â _&lt;/p&gt;
+
+&lt;p&gt;[3]: &lt;a href=&#34;http://wordpress.org/download/&#34;&gt;http://wordpress.org/download/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>A review of &#34;Crash (2005) (Widescreen Edition)&#34;</title>
+          <link>/2006/03/a-review-of-crash-2005-widescreen-edition/</link>
+          <pubDate>Fri, 24 Mar 2006 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2006/03/a-review-of-crash-2005-widescreen-edition/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.allconsuming.net/item/view/47082&#34;&gt;Crash (2005) (Widescreen Edition)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some one tell me what the hell are they talking about in this movie!!!! It is the mind-numbing experience of watching 7 movies at one go.&lt;/p&gt;
+
+&lt;p&gt;I must give it to the director though, for tying together each of the sub-plots, but man.. you gotta tell me something by the end of the story!!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.allconsuming.net/person/shvelmur/47082&#34;&gt;&lt;br /&gt;
+See more about Crash (2005) (Widescreen Edition)&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/cvs/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-06-23 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>cvs - Getting list of files changed in the current tree</title>
+          <link>/2008/06/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+          <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/06/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+          <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; checkins. I did some googling today, and found how to find the list of files changed without updating your tree.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;#cvs -n update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks [Jonnay][0] for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
+
+&lt;p&gt;[0]: &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

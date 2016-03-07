@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/invewrapper/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2014-02-14 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Somethings should be obvious, but are not, obviously</title>
+          <link>/2014/02/somethings-should-be-obvious-but-are-not-obviously/</link>
+          <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2014/02/somethings-should-be-obvious-but-are-not-obviously/</guid>
+          <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It&amp;rsquo;s the &amp;ldquo;duh&amp;rdquo; moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.&lt;/p&gt;
+
+&lt;p&gt;I am currently on a bit of &lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt; binge, and I was setting up a dev environment, using &lt;a href=&#34;http://crunchbang.org/&#34;&gt;Crunchbang&lt;/a&gt; on &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;Virtualbox&lt;/a&gt;. Since it is a clean install, I wanted to bootstrap using only &lt;a href=&#34;https://github.com/berdario/invewrapper&#34;&gt;pew&lt;/a&gt; and &lt;a href=&#34;http://www.pip-installer.org/en/latest/&#34;&gt;pip&lt;/a&gt;, which have recently become my favourite part of working in a pure python environment (no more sudo == yay!!)&lt;/p&gt;
+
+&lt;p&gt;I followed the &lt;a href=&#34;https://github.com/berdario/invewrapper#installation&#34;&gt;instructions to install pew&lt;/a&gt; (which is quite straight-forward). All one should need is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;    pip install pew
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, when I tried the same, the install worked, but I couldn&amp;rsquo;t run pew. It couldn&amp;rsquo;t find all the libraries it needed to load (virtualenv, in this case)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;    shiva@crunchbang-2:~$ sudo pip install pew
+    Downloading/unpacking pew
+    Downloading pew-0.1.9.tar.gz
+    Running setup.py (path:/tmp/pip_build_root/pew/setup.py) egg_info for package pew
+    ...
+    Successfully installed pew virtualenv
+    Cleaning up...
+    
+    shiva@crunchbang-2:~$ pew ls
+    Traceback (most recent call last):
+    File &amp;quot;/usr/local/bin/pew&amp;quot;, line 5, in
+    from pkg_resources import load_entry_point
+    File &amp;quot;/usr/lib/python2.7/dist-packages/pkg_resources.py&amp;quot;, line 2707, in
+    working_set.require(__requires__)
+    File &amp;quot;/usr/lib/python2.7/dist-packages/pkg_resources.py&amp;quot;, line 686, in require
+    needed = self.resolve(parse_requirements(requirements))
+    File &amp;quot;/usr/lib/python2.7/dist-packages/pkg_resources.py&amp;quot;, line 584, in resolve
+    raise DistributionNotFound(req)
+    pkg_resources.DistributionNotFound: virtualenv
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After trying several things, including looking a lot of code in pew, the fix was quite simple.
+The version of setup-tools that comes default with python2.7 and crunchbang seems flawed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;    shiva@crunchbang-2:~$ sudo pip install -U setuptools
+    Downloading/unpacking setuptools from https://pypi.python.org/packages/3.4/s/setuptools/setuptools-2.2-py2.py3-none-any.whl#md5=3b7d84f496aed8c07b91efba4aa197a4
+    Downloading setuptools-2.2-py2.py3-none-any.whl (540kB): 540kB downloaded
+    Installing collected packages: setuptools
+    Found existing installation: distribute 0.6.24dev-r0
+    Uninstalling distribute:
+    Successfully uninstalled distribute
+    Successfully installed setuptools
+    Cleaning up...
+    
+    shiva@crunchbang-2:~$ pew ls
+    
+    shiva@crunchbang-2:~$ pew new test
+    New python executable in test/bin/python
+    Installing setuptools, pip...done.
+    Launching subshell in virtual environment. Type &#39;exit&#39; or &#39;Ctrl+D&#39; to return.
+    /home/shiva/.local/share/virtualenvs/test/bin:/home/shiva/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

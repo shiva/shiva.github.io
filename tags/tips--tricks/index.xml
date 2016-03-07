@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/tips--tricks/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-06-21 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Exporting XDisplay</title>
+          <link>/2011/06/exporting-xdisplay/</link>
+          <pubDate>Tue, 21 Jun 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/06/exporting-xdisplay/</guid>
+          <description>&lt;p&gt;In *nix systems, you can make the display, the GUI of an application, appear on another machine.  This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.&lt;/p&gt;
+
+&lt;p&gt;You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details. By default, the XServer instance on your desktop disallows communication from all machines except localhost. Thus, you will need to add the host in the allowed list using the xhost command.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On your machine&lt;/strong&gt;,  to disable security checks:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ xhost +&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To allow connections from a single  host:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ xhost +&amp;lt;hostname/ip&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the client machine&lt;/strong&gt; where the application is run, set the X Server to display to (for bash shell):&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:&amp;lt;displaynumber&amp;gt;.&amp;lt;screennumber&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you haven&amp;rsquo;t changed the display-number or screen-number :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:0.0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For a more detailed description of the&lt;/p&gt;
+
+&lt;p&gt;[How to export your X Display][0].&lt;/p&gt;
+
+&lt;p&gt;[0]: &lt;a href=&#34;http://www.hungry.com/~jamie/xexport.html&#34;&gt;http://www.hungry.com/~jamie/xexport.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>How I handle 1000&#43; emails and 300&#43; blog posts a day</title>
+          <link>/2008/10/how-i-handle-1000-emails-and-300-blog-posts-a-day/</link>
+          <pubDate>Wed, 15 Oct 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/10/how-i-handle-1000-emails-and-300-blog-posts-a-day/</guid>
+          <description>&lt;p&gt;Several people are shocked to hear that I read 1000+ emails and &lt;a href=&#34;http://www.google.com/reader/shared/18301612726860782682&#34;&gt;several hundred blog posts a day&lt;/a&gt;. Ofcourse, when I say that, all I mean is that, I process that much content. I read around 30-40% (That is really the signal-to-noise ratio of web content these days&amp;ndash;and that is, if you are subscribed to high quality feeds)&lt;/p&gt;
+
+&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;google reader trends&amp;rdquo;][&lt;img src=&#34;/images/2945049781_d005a9184b.jpg&#34; alt=&#34;google reader trends&#34; /&gt;][1][/caption]&lt;/p&gt;
+
+&lt;p&gt;One of friends was curious how I can handle all that data flow, and I emailed her this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Everyday, go to bed with a zero count.&lt;/li&gt;
+&lt;li&gt;Use tools to reduce your processing. (use email rules/filters to move mails to manageable folders and Google reader for feeds)&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Learn to skip-read. I use a 2 parse method.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parse through sets of items (email headers or blog post headlines), and mark the ones your need to pay attention to (usually around 40%).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Filter based on short-listed items and then go through them in detail. In the case of blog posts, if something does retain my attention after the first 4 sentences, I skip that item.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(only for blog posts) I mark the ones I have to comment on, and then do my commenting after I finish a folder.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Sometimes, you just can&amp;rsquo;t squeeze everything in a day, I either bookmark or mail it to myself to be addressed over the weekend.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What do you think? Am I missing something that will make my life a little easier?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Thanks to Aswinanand for pointing this out&amp;ndash;I don&amp;rsquo;t really get 1000+ emails. I was just exaggerating (which is just another way of saying, click-baiting! :) )&lt;/p&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2945049781/&#34;&gt;http://www.flickr.com/photos/shvelmur/2945049781/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>cvs - Getting list of files changed in the current tree</title>
+          <link>/2008/06/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+          <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/06/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+          <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; checkins. I did some googling today, and found how to find the list of files changed without updating your tree.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;#cvs -n update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks [Jonnay][0] for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
+
+&lt;p&gt;[0]: &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>IPOD touch: Downgrade from 1.1.3 to 1.1.1</title>
+          <link>/2008/01/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</link>
+          <pubDate>Wed, 16 Jan 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/01/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</guid>
+          <description>&lt;p&gt;My ipod touch was upgraded to 1.1.3, after connecting to my computer, and I wanted to downgrade to 1.1.1, so I could jailbreak it and put any app I want on it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ipodtouchmaster.com/&#34;&gt;ipodtouchmaster &lt;/a&gt;found [a way to downgrade][1] it using iPhuc.&lt;/p&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.youtube.com/v/YakjwxB3nQU&#34;&gt;http://www.youtube.com/v/YakjwxB3nQU&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Recovery from GRUB Failure</title>
+          <link>/2007/04/recovery-from-grub-failure/</link>
+          <pubDate>Fri, 06 Apr 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2007/04/recovery-from-grub-failure/</guid>
+          <description>&lt;p&gt;I have a dual-boot PC at home, which boots to OpenSUSE and Windows. After a very tiring 7 hour journey, I came home to a GRUB failure. After searching for help all over the web, I found some help &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_3.html&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_12.html#SEC38&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_4.html#SEC12&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_13.html#SEC78&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://www.troubleshooters.com/linux/grub/grub.htm&#34;&gt;here&lt;/a&gt; and [here][5]. :)&lt;/p&gt;
+
+&lt;p&gt;It turns out, that GRUB stage 2 was not being loaded. So here&amp;rsquo;s what I did.&lt;/p&gt;
+
+&lt;p&gt;1. set the root partition&lt;/p&gt;
+
+&lt;p&gt;2. run GRUB setup on the MBR.&lt;/p&gt;
+
+&lt;p&gt;3. load the os using chainloader.&lt;/p&gt;
+
+&lt;p&gt;To set a partition as root, it is required to know the device where the root partition resides. This can be found using the following command&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;grub&amp;gt; find /boot/grub/stage1  
+grub&amp;gt; root (hd0,0)  
+grub&amp;gt; setup (hd0,0)  
+grub&amp;gt;chainloader +1&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This got my system back to normal. I&amp;rsquo;m wondering where I can get some more information about GRUB, I don&amp;rsquo;t understand GRUB much and would like to change that. Links to tutorials anyone?!&lt;/p&gt;
+
+&lt;p&gt;Update: Since there is hardly any audience that read my blog, it&amp;rsquo;s only fair that I stop asking questions.. :) So here are some links that I found&lt;/p&gt;
+
+&lt;p&gt;[tags]boot problem, GRUB failure, GRUB, GRUB corrupted[/tags]&lt;/p&gt;
+
+&lt;p&gt;[5]: &lt;a href=&#34;http://www.geocities.com/epark/linux/grub-w2k-HOWTO.html&#34;&gt;http://www.geocities.com/epark/linux/grub-w2k-HOWTO.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Bangalore Hangouts</title>
+          <link>/2007/03/bangalore-hangouts/</link>
+          <pubDate>Sun, 04 Mar 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2007/03/bangalore-hangouts/</guid>
+          <description>&lt;p&gt;Thanks to the person who has compiled this huge list of addresses of establishements in bangalore. I have no clue how currrent this list is, but here it is.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.html&#34;&gt;Bangalore Hangouts&lt;/a&gt; - &lt;a href=&#34;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.xls&#34;&gt;excel&lt;/a&gt;, &lt;a href=&#34;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.ods&#34;&gt;ods&lt;/a&gt;, [pdf][3]&lt;/p&gt;
+
+&lt;p&gt;Usual disclaimers apply. DO NOT get in touch if your dog dies because of an error in this&lt;/p&gt;
+
+&lt;p&gt;document.&lt;/p&gt;
+
+&lt;p&gt;[tags]bangalore, bangalore hangouts, restaurants, blore, pubs, clubs[/tags]&lt;/p&gt;
+
+&lt;p&gt;[3]: &lt;a href=&#34;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.pdf&#34;&gt;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Hacking Wordpress - An extended XML-RPC API</title>
+          <link>/2007/01/hacking-wordpress---an-extended-xml-rpc-api/</link>
+          <pubDate>Mon, 15 Jan 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2007/01/hacking-wordpress---an-extended-xml-rpc-api/</guid>
+          <description>&lt;p&gt;Having broken my elbow, I have spent the last two weeks typing away with a single hand. With nothing much to do, I went about looking at ways to improve the capabilities of blog editors. I use BlogDesk for my blogging needs. It is a wonderful editor, that let you do all operations provided by MetaWeblog API. However I wanted to do more than what was provided there. I wanted to add some features for plugins that I used.&lt;/p&gt;
+
+&lt;p&gt;The following is a propopsed list of extensions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create/edit posts&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;define post passwords (&lt;em&gt;Thanks to &lt;a href=&#34;http://www.blogdesk.org/en/index.htm&#34;&gt;Johannes Oppermann&lt;/a&gt;, developer of the wonderful blog client, BlogDesk&lt;/em&gt;&lt;a href=&#34;http://www.blogdesk.org/en/index.htm&#34;&gt;)&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;image insert from different services (flickr)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;tagging support&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Similar to &lt;a href=&#34;http://redalt.com/wiki/Comment+Quicktags&#34;&gt;QuickTags&lt;/a&gt; plugin&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Support for &lt;a href=&#34;http://www.neato.co.nz/ultimate-tag-warrior/&#34;&gt;Ultimate Tag Warrior&amp;rsquo;s &lt;/a&gt; features&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Adsense integration&lt;/li&gt;
+&lt;li&gt;
+Admin Support&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;display a dasboard&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Spam Karma comment moderation&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Adsense data&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In my search I found some interesting links.&lt;br /&gt;
+&lt;a href=&#34;http://blog.circlesixdesign.com/2006/10/01/hacking-xmlrpc-wordpress-and-textmate/&#34;&gt;Tutorial on hacking XMLRPC&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Links for writing XML-RPC clients&lt;br /&gt;
+&lt;a href=&#34;http://ws.apache.org/xmlrpc/client.html&#34;&gt;http://ws.apache.org/xmlrpc/client.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.ibiblio.org/xml/books/xmljava/chapters/ch03s04.html&#34;&gt;http://www.ibiblio.org/xml/books/xmljava/chapters/ch03s04.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.wordtracker.com/docs/api/ch03s02.html&#34;&gt;http://www.wordtracker.com/docs/api/ch03s02.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://jblogeditor.svn.sourceforge.net/viewvc/jblogeditor/trunk/main/src/com/chimshaw/jblogeditor/metaweblog/MetaWeblogBlog.java?revision=4&amp;amp;view=markup&#34;&gt;JBlogEditor svn trunk&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, the end result, here&amp;rsquo;s the pre-Alpha version of &lt;a href=&#34;http://shvelmur.com/downloads/code/WPexAPI/xmlrpc.php.txt&#34;&gt;WPexAPI&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Return of Javascript!</title>
+          <link>/2006/08/return-of-javascript/</link>
+          <pubDate>Thu, 10 Aug 2006 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2006/08/return-of-javascript/</guid>
+          <description>&lt;p&gt;After what has been ages, I have returned. Not that many are reading this, but I intend to use this for future reference in any case&lt;/p&gt;
+
+&lt;p&gt;I have wanted to learn javascript, and this time I found a sustainable way. Learn a language by implementing something very huge in it. I&amp;rsquo;m writing, what I must say a very kewl application at work, and am learning quite a few tricks in javascript.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Associative arrays in javascript:&lt;/strong&gt;&lt;br /&gt;
+Although, the Array() datatype, looks like a juicy candidate for building associative arrays, that is one of the most harmful things you can do. Particularly if you are using the prototype library. For more information read this &lt;a href=&#34;http://www.andrewdupont.net/2006/05/18/javascript-associative-arrays-considered-harmful/&#34;&gt;post &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The solution: use the Object datatype&lt;br /&gt;
+**2. How to iterate an Object in javascript:&lt;br /&gt;
+** There are a couple of really kewl ways to iterate objects:&lt;br /&gt;
+1. for .. in&lt;br /&gt;
+2. for each .. in&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&#34;http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Guide:Object_Manipulation_Statements&#34;&gt;object manipulation guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Will add more as I go along.&lt;/p&gt;
+
+&lt;p&gt;Btw, JSON rules - the following links on list libraries that aid in creating JSON based AJAXified applications.&lt;br /&gt;
+&lt;a href=&#34;http://www.json.org/js.html&#34;&gt;1. JSON in javascript (client-side stuff)&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://json-lib.sourceforge.net/index.html&#34;&gt;2. JSON in Java (server-side stuff)&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Learn HTML and Javascript</title>
+          <link>/2005/11/learn-html-and-javascript/</link>
+          <pubDate>Fri, 25 Nov 2005 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2005/11/learn-html-and-javascript/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.yourhtmlsource.com/&#34;&gt;HTMLSource: HTML Tutorials&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I know I need to refrain from this incessant habit of link-blogging, but hey, somethin&amp;rsquo; better than nothin&amp;rsquo;. A lot has been happening lately, but no time for that now!&lt;/p&gt;
+
+&lt;p&gt;This is a wonderful site, by far the most useful and easy-to-find-info site for HTML and Javascript. They don&amp;rsquo;t assume that you have a PHD in web-develeopment before talking about some of these kewl technologies. Check it out!&lt;/p&gt;
+
+&lt;p&gt;technorati tags: &lt;a href=&#34;http://technorati.com/tag/links&#34;&gt;links&lt;/a&gt;, [javascript][2], [tutorials][3]&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://technorati.com/tag/&#34;&gt;http://technorati.com/tag/&lt;/a&gt; javascript
+[3]: &lt;a href=&#34;http://technorati.com/tag/&#34;&gt;http://technorati.com/tag/&lt;/a&gt; tutorials&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>getting batch categories to work with Word press 1.5.1.1</title>
+          <link>/2005/05/getting-batch-categories-to-work-with-word-press-1.5.1.1/</link>
+          <pubDate>Fri, 27 May 2005 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2005/05/getting-batch-categories-to-work-with-word-press-1.5.1.1/</guid>
+          <description>&lt;p&gt;I simply love that plugin - Batch categories, like a myriad of other wordpress users. (A thousand thanks to Stephanie Booth wouldn&amp;rsquo;t suffice ;) ), but I had problems getting it to work in 1.5.1&lt;/p&gt;
+
+&lt;p&gt;Lots of results out there, that explain how to fix it, but none that lets a newbie get it up quickly. I know this is a repetition, but it still took my more than a day to get it fixed (mebbe it&amp;rsquo;s my dull head.. but then again)&lt;/p&gt;
+
+&lt;p&gt;If you are brand new to Word press, here it. As simple as it gets (or atleast I think so&amp;hellip; do get back in case you have doubts)&lt;/p&gt;
+
+&lt;p&gt;1. Download and install Batch-categories (0.9) from &lt;a href=&#34;http://climbtothestars.org/archives/2004/07/13/batch-categories-09/&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;
+2. Installing implies, that you copy the batch-categories.php file to /wp-admin/&lt;br /&gt;
+3. Edit /wp-admin/batch-categories.php and do the modifications as detailed below&lt;/p&gt;
+
+&lt;p&gt;**Change this:&lt;br /&gt;
+**&lt;/p&gt;
+
+&lt;p&gt;$title = __(&amp;lsquo;Batch Categories&amp;rsquo;);&lt;br /&gt;
+$parent_file = &amp;lsquo;edit.php&amp;rsquo;;&lt;br /&gt;
+require_once(&amp;lsquo;admin-header.php&amp;rsquo;);&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;to this:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$title = __(&amp;lsquo;Batch Categories&amp;rsquo;);&lt;br /&gt;
+$parent_file = &amp;lsquo;edit.php&amp;rsquo;;&lt;br /&gt;
+**require_once(&amp;lsquo;admin.php&amp;rsquo;);&lt;br /&gt;
+**require_once(&amp;lsquo;admin-header.php&amp;rsquo;);&lt;/p&gt;
+
+&lt;p&gt;Save batch-categories.php. Now launching it in your browser directly, will give you the required functionality (batch editing categories ie )&lt;/p&gt;
+
+&lt;p&gt;4. If you want to include it as part of your admin screen, then open ****/wp-admin/menu.php&lt;/p&gt;
+
+&lt;p&gt;**Below this:&lt;br /&gt;
+**&lt;/p&gt;
+
+&lt;p&gt;$submenu[&amp;lsquo;edit.php&amp;rsquo;][30] = array(__(&amp;lsquo;Files&amp;rsquo;), 8, &amp;lsquo;templates.php&amp;rsquo;);&lt;/p&gt;
+
+&lt;p&gt;**Add this:&lt;br /&gt;
+**&lt;/p&gt;
+
+&lt;p&gt;$submenu[&amp;lsquo;edit.php&amp;rsquo;][40] = array(__(&amp;lsquo;Batch Categories&amp;rsquo;), 1, &amp;lsquo;batch-categories.php&amp;rsquo;);&lt;/p&gt;
+
+&lt;p&gt;**5. Edit /wp-admin/batch-categories.php and delete the following:&lt;br /&gt;
+**&lt;/p&gt;
+
+&lt;p&gt;&amp;lt; ul id=&amp;ldquo;adminmenu2?&amp;gt;&lt;br /&gt;
+&amp;lt; li&amp;gt;&amp;lt; a href=&amp;ldquo;edit.php&amp;rdquo;&amp;gt;&amp;lt; /a&amp;gt;&amp;lt; /li&amp;gt;&lt;br /&gt;
+&amp;lt; li&amp;gt;&amp;lt; a href=&amp;ldquo;edit-comments.php&amp;rdquo;&amp;gt;&amp;lt; ?php _e(&amp;lsquo;Comments&amp;rsquo;) ?&amp;gt;&amp;lt; /a&amp;gt;&amp;lt; /li&amp;gt;&lt;br /&gt;
+&amp;lt; li&amp;gt;&amp;lt; a href=&amp;ldquo;moderation.php&amp;rdquo;&amp;gt;&amp;lt; ?php _e(&amp;lsquo;Awaiting Moderation&amp;rsquo;) ?&amp;gt;&amp;lt; /a&amp;gt;&amp;lt; /li&amp;gt;&lt;br /&gt;
+&amp;lt; li class=&amp;ldquo;last&amp;rdquo;&amp;gt;&amp;lt; a href=&amp;ldquo;batch-categories.php&amp;rdquo; class=&amp;ldquo;current&amp;rdquo;&amp;gt;&amp;lt; ?php _e(&amp;lsquo;Batch Categories&amp;rsquo;) ?&amp;gt;&amp;lt; /a&amp;gt;&amp;lt; /li&amp;gt;&lt;br /&gt;
+&amp;lt; /ul&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Well, I always beleive that if you want to learn, then you need to do things the hardest way possible. Then, the next time around you can eliminate that way and go on to more efficient ways. On that note, if you don&amp;rsquo;t want to do all the editing yourself. You can find the files here. Just download them and put them in you wp-admin directory, and enjoy! Ofcourse, you better take all the backups required and don&amp;rsquo;t spam me if something is screwed up in your database.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://shvelmur.com/uploads/batch-categories.php.txt&#34;&gt;batch-categories.php&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://shvelmur.com/uploads/menu.php.txt&#34;&gt;menu.php&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Note: 1. Do not use left-click on the above link. Use right-click and &amp;ldquo;Save Link As..&amp;rdquo;/&amp;ldquo;Save Target As..&amp;rdquo; and rename the file to *.php instead of *.php.txt&lt;br /&gt;
+2. The above files are valid for 1.5.1 Wordpress only. Please follow the manual procedure for later versions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wishlist for batch categories(BC)&lt;/strong&gt;&lt;br /&gt;
+Since we are discussing BC here, I thought I&amp;rsquo;ll jot down a couple things that would make BC really kewl&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Display categories already assigned&lt;/li&gt;
+&lt;li&gt;Instead of a combo, use a multiple listbox&lt;/li&gt;
+&lt;li&gt;report category names instead of IDs&lt;/li&gt;
+&lt;li&gt;UI for options like number of posts,etc&lt;/li&gt;
+&lt;li&gt;Paging - displays all posts, but on different pages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maybe I should get in touch with steph about this, but then before that I need start exploring php (I&amp;rsquo;m a total novice on that)&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/tutorials/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2005-10-06 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>SNMP tutorials</title>
+          <link>/2005/10/snmp-tutorials/</link>
+          <pubDate>Thu, 06 Oct 2005 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2005/10/snmp-tutorials/</guid>
+          <description>&lt;p&gt;SNMP being the bread and butter for me, I decided to dig up some tutorials and links regarding the same.&lt;br /&gt;
+For the uninitiated, SNMP is short for Simple Network Management Protocol, and is a protocol used to manage network devices such as routers, switches etc.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.simpleweb.org/&#34;&gt;Simple Web&lt;/a&gt; - Introduction to SNMP, and good set of tutorials&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.simple-times.org/pub/toc.html&#34;&gt;Simple Times&lt;/a&gt; - technical articles and featured columns&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cisco.com/warp/public/535/3.html&#34;&gt;Cisco - SNMP Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cisco.com/univercd/cc/td/doc/cisintwk/ito_doc/snmp.htm&#34;&gt;Cisco - whitepaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.snmplink.org/&#34;&gt;SnmpLink&lt;/a&gt; - Links to almost every possible SNMP resource&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

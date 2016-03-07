@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/scoble-proof/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2010-02-10 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>And another thing about Google Buzz</title>
+          <link>/2010/02/and-another-thing-about-google-buzz/</link>
+          <pubDate>Wed, 10 Feb 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2010/02/and-another-thing-about-google-buzz/</guid>
+          <description>&lt;p&gt;There are several issues that people have uncovered in the last 2 days that it has existed. For me, of all the features that Buzz lacks, one thing really stands out. There is no way to just see a &lt;strong&gt;list of the conversations&lt;/strong&gt; (without the whole list of comments expanded by default). This is the main reason that I &lt;strong&gt;*had*&lt;/strong&gt; to unfollow Scoble, Michael Arrington, Louis Gray and a bunch of others. Take a look at [this conversation][0], and you would understand why.&lt;/p&gt;
+
+&lt;p&gt;Every time, anyone, replied to that thread (which incidently has been at the top of scoble&amp;rsquo;s buzz list all day), it would become the top post on my buzz view as well.  Now you are thinking, &amp;ldquo;Well, Buzz was not meant for long conversations&amp;rdquo;. Go back and read the comments on that conversation .. all 350+ of them, and come back here.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note to Google Buzz Developers:&lt;/strong&gt; Now that truly sucks, and is such a trivial use-case that I wouldn&amp;rsquo;t be surprised if it gets fixed in a day or two &amp;hellip; it better if you want Scoble to continue to use it (and we all know how vital that is for any social network&amp;rsquo;s success).&lt;/p&gt;
+
+&lt;p&gt;So here&amp;rsquo;s my humble request: PLEASE LET ME MINIMIZE HUGE-ASS THREADS&lt;/p&gt;
+
+&lt;p&gt;Google has already done this with Google Reader, where you can just see a list of items, or see them expanded. I don&amp;rsquo;t see any reason why this wasn&amp;rsquo;t the case, out of the box, for Buzz. In end, the only conclusion that I can think of is that, this pre-pre-alpha from a user experience perspective, and somehow all the design gurus (the ones who kept the Google page clean all these years), have disappeared into the user.&lt;/p&gt;
+
+&lt;p&gt;Google Buzz is by far, the clumsiest google product, with almost zero forethought to how users, will use it. It&amp;rsquo;s almost as if, none of the enigneers/designers on the Buzz have ever used twitter or facebook or friendfeed. Somehow I find that hard to believe. I&amp;rsquo;m hoping they&amp;rsquo;ll fix some, if not all the usability issues very soon.&lt;/p&gt;
+
+&lt;p&gt;Iterate guys! Iterate! Fast and hard.&lt;/p&gt;
+
+&lt;p&gt;[0]: &lt;a href=&#34;http://www.google.com/buzz/scobleizer/NE7yRrwbhbH/This-is-already-WAY-BETTER-than-FriendFeed-Why-Not&#34;&gt;http://www.google.com/buzz/scobleizer/NE7yRrwbhbH/This-is-already-WAY-BETTER-than-FriendFeed-Why-Not&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/extract-rpm/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2013-02-17 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Working with rpms (extract, list contents)</title>
+          <link>/2013/02/working-with-rpms-extract-list-contents/</link>
+          <pubDate>Sun, 17 Feb 2013 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2013/02/working-with-rpms-extract-list-contents/</guid>
+          <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
+
+&lt;p&gt;Extract an rpm without installing in to the current directory (really, the rpm command should support this):&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ rpm2cpio myrpmfile.rpm | cpio -idmv&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;*i: Restore archive&lt;/p&gt;
+
+&lt;p&gt;*d: Create leading directories where needed&lt;/p&gt;
+
+&lt;p&gt;*m: Retain previous file modification times when creating files&lt;/p&gt;
+
+&lt;p&gt;*v: Verbose i.e. display progress&lt;/p&gt;
+
+&lt;p&gt;List contents of an rpm:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+$ rpm -qlp myrpmfile.rpm  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;[source][0]&lt;/p&gt;
+
+&lt;p&gt;[0]: &lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/website-updates/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-06-27 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Friendfeed comments for wordpress</title>
+          <link>/2008/06/friendfeed-comments-for-wordpress/</link>
+          <pubDate>Fri, 27 Jun 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/06/friendfeed-comments-for-wordpress/</guid>
+          <description>&lt;p&gt;Conversations on the web have evolved quite a bit, in the last &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; years. During the late 90s, conversations on the web, was pretty much non-existant, except for a few, who used their websites to engage in conversations. The advent of the blog, made available tools to start and continue conversations.&lt;/p&gt;
+
+&lt;p&gt;In the last couple of years, there has been several attempts to normalize comments, across the blogging ecosystem, and several ways have been tried. &lt;a href=&#34;http://disqus.com&#34;&gt;Disqus&lt;/a&gt;, is a company, that is in the business of aggregating comments for your blog. &lt;a href=&#34;http://seesmic.com&#34;&gt;Seesmic&lt;/a&gt;, a video communications startup, has partnered with them to integrate video comments. Even after all of these innovations, getting people to comment on a blog, is still pretty difficult.&lt;/p&gt;
+
+&lt;p&gt;You need,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;an engaged audience (the kind that wants to comment)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;access to a critical mass of such people.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;regular compelling content, to keep your masses.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;friends who are A-listers, willing to quote or refer you to their audiences.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, with &lt;a href=&#34;http://friendfeed.com/shivanand&#34;&gt;Friendfeed&lt;/a&gt;, I see a break away from these restrictions. All you need, is the willingness to be read and comment on a lot of people&amp;rsquo;s content, which will enable a lot of people to follow you, which means you have their attention (one might argue the attention span is very less, but nonetheless, you have a chance).&lt;/p&gt;
+
+&lt;p&gt;Once you have a sizable following, all you need to do, is write that compelling content, that interests your followers (which should come by, as you comment more and more). Until now, to get people to visit your blog, your content has to compelling enough for them to leave the tool they used to discover your blog, and visit it, and then want to comment. Installing the [worpdress plugin for friendfeed comments][3] removes that barrier too.&lt;/p&gt;
+
+&lt;p&gt;That is exactly what I have done. So, from now on, anyone who follows me in friendfeed, can leave a comment in FF, and it will be autmatically part of my comment stream (although, it is not fully integrated into my comment feed etc)&lt;/p&gt;
+
+&lt;p&gt;How kewl is that?!&lt;/p&gt;
+
+&lt;p&gt;[3]: &lt;a href=&#34;http://wordpress.org/extend/plugins/friendfeed-comments/&#34;&gt;http://wordpress.org/extend/plugins/friendfeed-comments/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/projects/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-07-24 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>People of GVRD - a photographic experiment</title>
+          <link>/2011/07/people-of-gvrd---a-photographic-experiment/</link>
+          <pubDate>Sun, 24 Jul 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/07/people-of-gvrd---a-photographic-experiment/</guid>
+          <description>&lt;p&gt;A couple of weeks ago I started a new project - to shoot random strangers in the streets of GVRD (Greater Vancouver Regional Districts - for those of you that are not from here). I wanted to see if I had the guts to walk up to random strangers, and ask their permission to shoot a picture of them. I was also curious to know how they would react to it, and what my success rate would be.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve asked around 14, and 8 said yes. Some of them were not comfortable with their pictures on the internets. I offered them 3 options.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Pictures don&amp;rsquo;t end up on the internet (emailed to them if they send me an email)&lt;/li&gt;
+&lt;li&gt;On the internet for non-commercial purposes.&lt;/li&gt;
+&lt;li&gt;On the internet in public domain.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Only 2 were ok with public domain. The rest opted for option 2. One didn&amp;rsquo;t want it on the internet at all.&lt;/p&gt;
+
+&lt;p&gt;It was an interesting experience, and I&amp;rsquo;m looking forward to more such excursions. For the lack of a better name, I chose to call this project : &lt;a href=&#34;http://blog.shiv.me/projects/people-of-gvrd/&#34;&gt;People of GVRD&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Suggestions are welcome. Do you have a better name for the project? Perhaps, thoughts on how I should approach people. Do you think I&amp;rsquo;m insane? Apart from photos, would you be interested in a short blurb about the person? What would you like to know?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[![Sue &amp;amp; Family - 5](/images/5972190618_0931941b96_m.jpg)][1][![Sue &amp;amp; Family - 3](/images/5971630139_b1262ef3c0_m.jpg)][2]
+
+[![Sue &amp;amp; Family - 2](/images/5972181714_13ffb69f1a_m.jpg)][3][![Sue &amp;amp; Family - 1](/images/5972176262_b86c7d580c_m.jpg)][4]
+
+[![Louis](/images/5971615123_ba1a058817_m.jpg)][5][![Louis](/images/5972166850_2a95820ef3_m.jpg)][6]
+
+[![Ben](/images/5972162270_e6be65d5dd_m.jpg)][7][![Sol](/images/5971599871_0482b24987_m.jpg)][8]
+
+The above is also cross-posted to [google+][9]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;[9]: &lt;a href=&#34;https://plus.google.com/111413906991391429946/posts/JfykwgM54qM&#34;&gt;https://plus.google.com/111413906991391429946/posts/JfykwgM54qM&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Twitter digests</title>
+          <link>/2008/04/twitter-digests/</link>
+          <pubDate>Wed, 23 Apr 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/04/twitter-digests/</guid>
+          <description>&lt;p&gt;A few weeks back, I installed Alex King&amp;rsquo;s Twitter Tools for wordpress. Running it for a few weeks, I found that by lack of posting to my blog, became more apparent that earlier. There are now more &amp;ldquo;twitter&amp;rdquo; posts than the number of posts that I have written myself in the last year or so. How pathetic is that?!&lt;/p&gt;
+
+&lt;p&gt;Looks like I have almost lost the need to say something (about anything) and it is about time to shut down this blog. However, I intend to give it another shot (one last time), before I stop hosting my own blog, and move to life-streaming instead (You can already find my at shiva.tumblr.com).&lt;/p&gt;
+
+&lt;p&gt;There are few projects that I have started working on (in my off-time ofcourse).&lt;/p&gt;
+
+&lt;p&gt;1. Read-later&lt;/p&gt;
+
+&lt;p&gt;This is a clone of instapaper, written primarily for my own use and to learn django (as I find instapaper, rather limiting). Some features I intend to add include, cross-posting to twitter or del.icio.us, full-feed RSS to enable reading in Google reader. This isn&amp;rsquo;t as yet, production ready, in fact it is in its early stages.&lt;/p&gt;
+
+&lt;p&gt;2. Un-named java app framework&lt;/p&gt;
+
+&lt;p&gt;A framework for running high-throughput java based servers, allowing staged-processing of actions. The framework also provides resilency to failures, low-impact live logging and debugging.&lt;/p&gt;
+
+&lt;p&gt;3. Ex-SideRSS&lt;/p&gt;
+
+&lt;p&gt;An extension of sideRSS, that allows for displaying and customising RSS feeds for displaying in your wordpress sidebar.&lt;/p&gt;
+
+&lt;p&gt;Do check back atleast every week and hopefully, I will be able to find time to add more coding related posts. The plan is to post stuff that I learn about C/C++ development on unix based systems.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

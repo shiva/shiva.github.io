@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/phones-on-planes/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-03-13 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Can we end the Six Years of Fear ?</title>
+          <link>/2008/03/can-we-end-the-six-years-of-fear-/</link>
+          <pubDate>Thu, 13 Mar 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/03/can-we-end-the-six-years-of-fear-/</guid>
+          <description>&lt;p&gt;&amp;ldquo;This is it! Its the final straw. We need to do something about it!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;What is it?&amp;rdquo;, you ask. I am sick and tired of hearing story after story of crazed authority figures, forcing rules upon the common man, rendering life to a boring, monotonous series of security checks and bans and fines. From security at airports, to self-righteous moderation aimed at photographers in public spaces. I am sick of it.&lt;/p&gt;
+
+&lt;p&gt;There are a few like &lt;a href=&#34;http://thomashawk.com/&#34;&gt;Thomas Hawk&lt;/a&gt;, who continue to risk holding on to their principles in public, at the risk of crazed comments and flak from an audience that could care less. An example, is his post &lt;a href=&#34;http://thomashawk.com/2008/03/question-authority-and-why-its-time-to.html&#34;&gt;today&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;When I&amp;rsquo;m on an airplane, and the flight attendant tells everyone to turn off their cell phones and personal electronics, I never turn my iPhone off. I just leave it on. I&amp;rsquo;m not sure why I don&amp;rsquo;t turn it of&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Why should anyone turn off cellphones? or any electronic equipment for that matter?! every time I get on a plane, all I hear is that, cellphones could cause disruption of air-traffic communication and therefore everyone (usually 500 or more) have to turn off all electrical and electronic appliances.&lt;/p&gt;
+
+&lt;p&gt;There are several flaws with this rule.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Relying on voice based communication systems that are frail enough to be disrupted by a few cell phones are not safe enough for critical information. Pilots and Air-traffic control, should switch to more reliable data transfer mechanisms.&lt;/li&gt;
+&lt;li&gt;I am allowed to use my computer and other electronic devices post lift-off but not during it! Is losing communication in the middle of the flight somehow safer that losing it during lift-off?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This &amp;ldquo;rule&amp;rdquo; is symptomatic of several rules that we have in modern society: rules that have stopped making sense, but we continue to follow and enforce them senselessly&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Turn cellphones off near petrol stations.&lt;/li&gt;
+&lt;li&gt;No flash in museums or photo galleries&lt;/li&gt;
+&lt;li&gt;(In Canada), if you are the first car at an intersection turning left, and you have a green, move to the middle of the road until you find a space in the on coming traffic. (clear recipe for disaster)&lt;/li&gt;
+&lt;li&gt;Taking off shoe, toothpaste, comb, hair gel etc and displaying it to the world a.k.a your co-travelers, whilst wondering where all the stuff that they collect goes?!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Several things caught my eye, as I re-searched after I read &lt;a href=&#34;http://thomashawk.com/2008/03/question-authority-and-why-its-time-to.html&#34;&gt;Thomas&amp;rsquo; post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href=&#34;http://www.fcc.gov/cgb/consumerfacts/cellonplanes.html&#34;&gt;this note&lt;/a&gt; posted on FCC&amp;rsquo;s website.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In March 2007, the FCC terminated a proceeding that it began in late 2004 to consider potentially lifting this ban. The FCC determined that the technical information provided by interested parties in response to the proposal was insufficient to determine whether in-flight use of wireless devices on aircraft could cause harmful interference to wireless networks on the ground. Therefore, it decided at this time to make no changes in the rules prohibiting in-flight use of such devices.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Essentially, as opposed to proving something is not safe (or safe), the FCC decides to maintain status quo?!&lt;/p&gt;
+
+&lt;p&gt;Wikipedia &lt;a href=&#34;http://en.wikipedia.org/wiki/Mobile_phones_on_aircraft#Technical_issues&#34;&gt;article on the Channel reuse&lt;/a&gt; :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Channel reuse works because from a mobile phone on the ground, there will only be one &amp;ldquo;closest&amp;rdquo; tower that can possibly use a particular group of frequencies, CDMA codes, or time slots. The software that manages the system assumes that the signal from a phone on a particular tower can, on other towers, only be &amp;ldquo;heard&amp;rdquo; at greatly reduced signal strength. The frequency, code, or time slot used by the phone can therefore be reused by other phones on other towers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;hellip; and goes on to say &amp;hellip;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If a mobile phone is operated from an aircraft in flight above a city, this assumption is no longer valid, because the towers of many different cells may be about equidistant from the phone. Multiple towers might assume that the phone is under their control. The phone could be assigned a free channel by one tower, but could be heard on other towers using the same channel group, and the channel might already be in use on those towers. This could cause interference with existing calls. It is possible that the software controlling the towers could crash. Even if the software can cope with hearing the same phone on multiple, non-adjacent towers, the result at best is an overall decrease in the system&amp;rsquo;s capacity.&lt;/p&gt;
+
+&lt;p&gt;An additional concern is the output power of the mobile handset. Because the towers might be many miles below the aircraft, the phone might have to transmit at its maximum power to be received. This will increase the risk of interference with electronic equipment on the aircraft.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So essentially, the main reason for not allowing is that it could crash cell towers?! (The Wikipedia article provides more instances where there have been next to no evidence of mobile phones impacting air-traffic communication). Now I get why, it has to be switched off just before take-off, and not before entering the plane. Hmmm&amp;hellip; sounds like this regulation is more in the interest of cost control, that safety. The issue I have with legislation like this, is that, I would be happy to comply, if I was told that the true reason.&lt;/p&gt;
+
+&lt;p&gt;In the post-&lt;sup&gt;9&lt;/sup&gt;&amp;frasl;&lt;sub&gt;11&lt;/sub&gt; era, we have become more tolerant to crappy policy-making, and this is true all over the world. The &amp;ldquo;Bush infection&amp;rdquo; and the politics of fear (&lt;a href=&#34;http://my.barackobama.com/page/community/post/caitlinharvey/gGgBGW&#34;&gt;thanks Obama for bringing that up&lt;/a&gt;), has spread way beyond just the US. Every single country has had to suffer repercussions of the fear-tactics, and millions of air-travelers have to suffer for the benefit of the few.&lt;/p&gt;
+
+&lt;p&gt;And, this .. this..&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;This is it! It&amp;rsquo;s the final straw. We need to do something about it!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Note: where did the phrase &amp;ldquo;It&amp;rsquo;s the final straw&amp;rdquo; originate. Some answers - &lt;a href=&#34;http://www.phrases.org.uk/bulletin_board/41/messages/495.html&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://forum.wordreference.com/showthread.php?t=734447&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Update: Check out this [picture of a Virgin Atlantic Wifi based food ordering system inside a plane][7]. Aparently, the have &amp;ldquo;shielded&amp;rdquo; the cabin with lead and kryptonite to avoid &amp;ldquo;radio interference&amp;rdquo;. (That&amp;rsquo;s sarcasm btw &amp;ndash; borrowed from the source, just in case :) )&lt;/p&gt;
+
+&lt;p&gt;[7]: &lt;a href=&#34;http://www.jkontherun.com/2008/03/virgin-america.html&#34;&gt;http://www.jkontherun.com/2008/03/virgin-america.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

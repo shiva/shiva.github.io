@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/install/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-05-06 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Hey wordpress guys, have you heard of diff?!</title>
+          <link>/2008/05/hey-wordpress-guys-have-you-heard-of-diff/</link>
+          <pubDate>Tue, 06 May 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/05/hey-wordpress-guys-have-you-heard-of-diff/</guid>
+          <description>
+
+&lt;p&gt;I hate having to upgrade software. I truly do. I release a version every 3 months, and it try to make the upgrade as painless as possible. For an application like wordpress, that has been around for such a long, I would expect that they would do something to make it a little easier to upgrade.&lt;/p&gt;
+
+&lt;p&gt;Ok. Sorry about the rant, but here is my problem: the download for wordpress 2.5.1 is around 1 MB, but what has really changed is only a few lines. However, according to wordpress, you have to go through a time-consuming process to get your blog up to date.&lt;/p&gt;
+
+&lt;p&gt;The only reason why the wordpress team would want to do this, is coz they do not want to write an upgrade document everytime. What they really need to do, is stop bothering their blog users with such small updates and allow such updates from within wordpress itself. This is precisely the kinda thing that should by now, be atleast a plugin, if not part of the system.&lt;/p&gt;
+
+&lt;p&gt;The famous&lt;a href=&#34;http://codex.wordpress.org/Upgrading_WordPress&#34;&gt;5-minute, 3-step upgrade&lt;/a&gt; says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;0. Take a Backup&lt;/p&gt;
+
+&lt;p&gt;0.5 Disable plugins&lt;/p&gt;
+
+&lt;p&gt;1. Actually it&amp;rsquo;s three steps in this one step&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Get the &lt;a href=&#34;http://wordpress.org/download/&#34; title=&#34;http://wordpress.org/download/&#34;&gt;latest WordPress&lt;/a&gt;. Either download and extract it to your computer or download it directly to the server.&lt;/li&gt;
+&lt;li&gt;Delete your old &lt;code&gt;wp-includes&lt;/code&gt; and &lt;code&gt;wp-admin&lt;/code&gt; directories.&lt;/li&gt;
+&lt;li&gt;Copy the new WordPress files to your server, overwriting old files in the root. You may use FTP or shell commands to do so. Note that this means *all* the files, including all the files in the root directory as well. If you use the default or classic theme and have customized it, then you can skip that theme.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;2. Upgrade by calling the upgrade script&lt;/p&gt;
+
+&lt;p&gt;3. Turn back all your plugins on.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I grew sick of wordpress&amp;rsquo; lazy-ass upgrade steps, and decided about a year back that I would only run the upgrade their way, if it really requires taking down my website, and started doing these simple steps instead. (Ofcourse, I have a script that does this for me :) )&lt;/p&gt;
+
+&lt;p&gt;1. Download wordpress to a temp dir on your server&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[shvelmur@web24 wordpress]$ curl -o wp.tar.gz http://wordpress.org/latest.tar.gz  
+% TotalÂ Â Â  % Received % XferdÂ  Average SpeedÂ Â  TimeÂ Â Â  TimeÂ Â Â Â  TimeÂ  Current  
+DloadÂ  UploadÂ Â  TotalÂ Â  SpentÂ Â Â  LeftÂ  Speed  
+100 1154kÂ Â Â  0 1154kÂ Â Â  0Â Â Â Â  0Â  5390kÂ Â Â Â Â  0 --:--:-- --:--:-- --:--:-- 10.8M&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;2. Extract the downloaded zipped-tar file to a new dir, called &amp;ldquo;wp&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[shvelmur@web24 wordpress]$ gtar -zxvf wp.tar.gz  
+&lt;/code&gt;&lt;br /&gt;
+3. Do a diff between the two directories to see what&amp;rsquo;s changed.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[shvelmur@web24 wordpress]$ diff &amp;lt;current wordpress dir&amp;gt; &amp;lt;new dir&amp;gt;  
+&lt;/code&gt;&lt;br /&gt;
+In my installation this is the difference between wordpress 2.5 and wordpress 2.5.1&lt;/p&gt;
+
+&lt;p&gt;`diff ../../wpress/wp-config-sample.php ./wordpress/wp-config-sample.php&lt;br /&gt;
+11,12c11,12&lt;br /&gt;
+&amp;lt; // so make it long and complicated.Â  You can visit &lt;a href=&#34;https://www.grc.com/passwords.htm&#34;&gt;https://www.grc.com/passwords.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;to-get-a-phrase-generated-for-you-or-just-make-something-up:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; // to get a phrase generated for you, or just make something up.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;// so make it long and complicated.Â  You can visit &lt;a href=&#34;http://api.wordpress.org/secret-key/1.0/&#34;&gt;http://api.wordpress.org/secret-key/1.0/&lt;/a&gt;&lt;br /&gt;
+// to get a secret key generated for you, or just make something up.&lt;br /&gt;
+Common subdirectories: ../../wpress/wp-content and ./wordpress/wp-content&lt;br /&gt;
+Common subdirectories: ../../wpress/wp-includes and ./wordpress/wp-includes&lt;br /&gt;
+diff ../../wpress/wp-login.php ./wordpress/wp-login.php&lt;br /&gt;
+93c93&lt;/p&gt;
+
+&lt;h2 id=&#34;â-â-â-key-wpdb-get-var-select-user-activation-key-from-wpdb-users-where-user-login-user-login:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  $key = $wpdb-&amp;gt;get_var(&amp;ldquo;SELECT user_activation_key FROM $wpdb-&amp;gt;users WHERE user_login = &amp;lsquo;$user_login&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
+
+&lt;p&gt;Â Â Â  $key = $wpdb-&amp;gt;get_var($wpdb-&amp;gt;prepare(&amp;ldquo;SELECT user_activation_key FROM $wpdb-&amp;gt;users WHERE user_login = %s&amp;rdquo;, $user_login));&lt;br /&gt;
+99c99&lt;/p&gt;
+
+&lt;h2 id=&#34;â-â-â-â-â-â-wpdb-query-update-wpdb-users-set-user-activation-key-key-where-user-login-user-login:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  Â Â Â  $wpdb-&amp;gt;query(&amp;ldquo;UPDATE $wpdb-&amp;gt;users SET user_activation_key = &amp;lsquo;$key&amp;rsquo; WHERE user_login = &amp;lsquo;$user_login&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
+
+&lt;p&gt;Â Â Â  Â Â Â  $wpdb-&amp;gt;query($wpdb-&amp;gt;prepare(&amp;ldquo;UPDATE $wpdb-&amp;gt;users SET user_activation_key = %s WHERE user_login = %s&amp;rdquo;, $key, $user_login));&lt;br /&gt;
+121c121&lt;/p&gt;
+
+&lt;h2 id=&#34;â-â-â-user-wpdb-get-row-select-from-wpdb-users-where-user-activation-key-key:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  $user = $wpdb-&amp;gt;get_row(&amp;ldquo;SELECT * FROM $wpdb-&amp;gt;users WHERE user_activation_key = &amp;lsquo;$key&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
+
+&lt;p&gt;Â Â Â  $user = $wpdb-&amp;gt;get_row($wpdb-&amp;gt;prepare(&amp;ldquo;SELECT * FROM $wpdb-&amp;gt;users WHERE user_activation_key = %s&amp;rdquo;, $key));&lt;br /&gt;
+diff ../../wpress/wp-settings.php ./wordpress/wp-settings.php&lt;br /&gt;
+72,75c72,77&lt;br /&gt;
+&amp;lt; Â Â Â  Â Â Â  if ( $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;] == $_SERVER[&amp;lsquo;SCRIPT_NAME&amp;rsquo;] )&lt;br /&gt;
+&amp;lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&amp;lsquo;REQUEST_URI&amp;rsquo;] = $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;];&lt;br /&gt;
+&amp;lt; Â Â Â  Â Â Â  else&lt;/p&gt;
+
+&lt;h2 id=&#34;â-â-â-â-â-â-â-â-â-server-request-uri-server-script-name-server-path-info:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&amp;lsquo;REQUEST_URI&amp;rsquo;] = $_SERVER[&amp;lsquo;SCRIPT_NAME&amp;rsquo;] . $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;];&lt;/h2&gt;
+
+&lt;p&gt;Â Â Â  Â Â Â  if ( isset($_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;]) ) {&lt;br /&gt;
+Â Â Â  Â Â Â  Â Â Â  if ( $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;] == $_SERVER[&amp;lsquo;SCRIPT_NAME&amp;rsquo;] )&lt;br /&gt;
+Â Â Â  Â Â Â  Â Â Â  Â Â Â  $_SERVER[&amp;lsquo;REQUEST_URI&amp;rsquo;] = $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;];&lt;br /&gt;
+Â Â Â  Â Â Â  Â Â Â  else&lt;br /&gt;
+Â Â Â  Â Â Â  Â Â Â  Â Â Â  $_SERVER[&amp;lsquo;REQUEST_URI&amp;rsquo;] = $_SERVER[&amp;lsquo;SCRIPT_NAME&amp;rsquo;] . $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;];&lt;br /&gt;
+Â Â Â  Â Â Â  }&lt;br /&gt;
+332a335,342&lt;/p&gt;
+
+&lt;p&gt;/**&lt;br /&gt;
+Â  * It is possible to define this in wp-config.php&lt;br /&gt;
+Â  * @since 2.5.0&lt;br /&gt;
+Â  */&lt;br /&gt;
+if ( !defined( &amp;lsquo;AUTOSAVE_INTERVAL&amp;rsquo; ) )&lt;br /&gt;
+Â Â Â  define( &amp;lsquo;AUTOSAVE_INTERVAL&amp;rsquo;, 60 );&lt;/p&gt;
+
+&lt;p&gt;`&lt;br /&gt;
+As you can see, the only change is in wp-login.php. Just copy the wp-login.php from the new directory to the installed directory. Update: Copy the changed file, wp-login.php and also copy version.php in &lt;new wpress dir\&gt;/wp-includes, to the same directory in your installed dir.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;4. Just run the upgrade.php (it updates the DB, and makes the dashboard stop complaining about the version).&lt;/p&gt;
+
+&lt;p&gt;If all of this sounds very complex to you, it is not. All we are doing here is finding out which files changed between two versions, and copying files that matter instead of re-write the whole application, which requires bringing your blog down.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;P.S:&lt;/strong&gt; If you are by any chance involved with wordpress, please get an auto-installer done and built into wordpress, atleast for just minor changes, which can be easily done using some script on the server.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

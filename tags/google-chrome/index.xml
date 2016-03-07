@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/google-chrome/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2009-07-09 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>For the last time, its not an OS!</title>
+          <link>/2009/07/for-the-last-time-its-not-an-os/</link>
+          <pubDate>Thu, 09 Jul 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2009/07/for-the-last-time-its-not-an-os/</guid>
+          <description>&lt;p&gt;The last couple of days has been ablaze with news of Google taking over the world, destroying Microsoft and sticking all of humanity on stakes to collect sunlight and convert it to power. Obviously, &lt;a href=&#34;http://www.techcrunch.com/2009/07/08/google-chrome-redefining-the-operating-system/&#34;&gt;some are elated at this proposition&lt;/a&gt;,  &lt;a href=&#34;http://www.crunchgear.com/2009/07/08/a-third-opinion-on-google-chrome/&#34;&gt;some tentative&lt;/a&gt;, and then there are &lt;a href=&#34;http://fakesteve.blogspot.com/2009/07/lets-all-take-deep-breath-and-get-some.html&#34;&gt;some others&lt;/a&gt; &lt;a href=&#34;http://technosailor.com/2009/07/09/google-chrome-os-a-lot-to-do-about-nothing/&#34;&gt;who think all of this is just hogwash.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have but one thing to show you today. Presenting article number 1, a video by one of the minions at Google.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a tip: people on Times Square have no, frigging, clue of what a browser is. Don&amp;rsquo;t even get me started on, where the OS stops and the browser starts. The people you are trying to sell this to, don&amp;rsquo;t give a shit. The people who do know what a browser is, think you are just crap-shooting them.&lt;/p&gt;
+
+&lt;p&gt;Oh, since I do know what a browser is, considering that I&amp;rsquo;ve used one since 95, I will say, that writing a shell on a linux kernel, and distributing it with only one app, does not make it an OS. It is a linux distro. I&amp;rsquo;m sure the following are familiar: Ubuntu, RedHat, Suse (Novell), which are all the same as Google Chrome (or atleast what they say it will be).&lt;/p&gt;
+
+&lt;p&gt;So Google, stop &lt;a href=&#34;http://googleblog.blogspot.com/2009/07/introducing-google-chrome-os.html&#34;&gt;messing with things that don&amp;rsquo;t make you money&lt;/a&gt; and go fix that bug in Gmail or Google reader or maybe you can add RSS support to blogs on blogspot (the rest of the sane world did that only 5 years ago). We, who use your &amp;ldquo;free&amp;rdquo; ad-filled products will be very pleased. Oh yeah, while you are at it, figure out a way to &lt;a href=&#34;http://gigaom.com/2009/01/22/google-good-at-search-bad-at-investments/#comment-922970&#34;&gt;monetize those millions you invested&lt;/a&gt; in wonderful companies (Remember youtube, jaiku, jotspot, dodgeball, orkut, grandcentral ?! ). You might also want to consider improving this thing you helped invent &amp;ndash; search. I hear that there is a &lt;a href=&#34;http://www.bing.com/&#34;&gt;new-comer&lt;/a&gt;. He sounds bad, and has a shitty name, but [he&amp;rsquo;s getting better at it][7].&lt;/p&gt;
+
+&lt;p&gt;Now, that&amp;rsquo;s it for today&amp;rsquo;s rant. Get off my lawn, I need to go google myself (Damn, this is therapeutic).&lt;/p&gt;
+
+&lt;p&gt;[7]: &lt;a href=&#34;http://www.bing-vs-google.com/?q=google+chrome&#34;&gt;http://www.bing-vs-google.com/?q=google+chrome&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>In the browser lies the power - Wave 2 of the Google takeover</title>
+          <link>/2008/09/in-the-browser-lies-the-power---wave-2-of-the-google-takeover/</link>
+          <pubDate>Tue, 02 Sep 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/09/in-the-browser-lies-the-power---wave-2-of-the-google-takeover/</guid>
+          <description>&lt;p&gt;Finally it&amp;rsquo;s out in the open. The ultimate weapon in Google&amp;rsquo;s powerchest to combat desktop applications, render the need for a specific platform meaningless - the browser. I guess this has been in the making for the last decade, and here it is. A browser by a company that downloads pretty much most of the internet every day.&lt;/p&gt;
+
+&lt;p&gt;If you are still reading this, you shouldn&amp;rsquo;t be. Get outta here and &lt;a href=&#34;http://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html#&#34;&gt;read this&lt;/a&gt;. (Actually just open in a new window, and continue reading this).&lt;/p&gt;
+
+&lt;p&gt;I guess it makes a lot of sense for a company like Google to have an install base of their own, and what better way than, what has become the primary application on most computers, the browser. With Google&amp;rsquo;s data processing and storage capabilities, I can&amp;rsquo;t begin to imagine the things that could be done with a browser like this.&lt;/p&gt;
+
+&lt;p&gt;Some unique things about (I stand corrected, David) Key features of Google Chrome (such a lame name .. come on guys you can be a bit more creative than that &amp;ndash; too many Mozilla hackers @ Google?!), as mentioned in their &lt;a href=&#34;http://www.google.com/googlebooks/chrome/&#34;&gt;cartoon booklet&lt;/a&gt; (if you care to read thru 40 pages), include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tabs to the top (ignore that - such a cosmetic change) - Aparently this has been around for a while in Opera - thanks David Sheen&lt;/li&gt;
+&lt;li&gt;Tabs as &lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/4.jpg&#34;&gt;separate processes&lt;/a&gt; (that&amp;rsquo;s good in a way, but I&amp;rsquo;m not so sure about older machines)&lt;/li&gt;
+&lt;li&gt;New &lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/7.jpg&#34;&gt;garbage collection engine. &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/14.jpg&#34;&gt;javascript virtual machine&lt;/a&gt;, that supports &lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/15.jpg&#34;&gt;compiled javascript&lt;/a&gt; - I want to see the performance on that.&lt;/li&gt;
+&lt;li&gt;Apparently, they have a huge testbed, that can &lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/10.jpg&#34;&gt;test each browser build&lt;/a&gt; automatically using a hundred monkeys. (I don&amp;rsquo;t care too much about this, I just think this is over-engineering, but hey, this is me).&lt;/li&gt;
+&lt;li&gt;Uses &lt;a href=&#34;http://www.google.com/googlebooks/chrome/#&#34;&gt;Webkit for page-rendering&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/18.jpg&#34;&gt;Persistant tab state&lt;/a&gt;, and the tab can be detached as well, into a new window.&lt;/li&gt;
+&lt;li&gt;Standard &lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/19.jpg&#34;&gt;auto-completing address bar&lt;/a&gt; (Firefox 3)&lt;/li&gt;
+&lt;li&gt;Personalised start page &lt;a href=&#34;http://www.google.com/googlebooks/chrome/images/21.jpg&#34;&gt;with your browsing history, google info etc.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a write this, a huge array of ideas come to mind, that will surely come to be common-place in next few years. I&amp;rsquo;m throwing out some general ideas here, and maybe I&amp;rsquo;ll come back a few years and tick some of them down.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Personalised homepages with per-user google content (this is already present in their beta vision)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Single sign-on using open id and o-auth using google account information (read as identity management)&lt;/li&gt;
+&lt;li&gt;Social networking (submit to orkut etc), location aware&lt;/li&gt;
+&lt;li&gt;Voice calls from the browser (gtalk, jaiku etc)&lt;/li&gt;
+&lt;li&gt;Content tagging services, using collective intelligence (this could make google searches much better than they already are - something like mahalo + google, just that every click could potentially give google data, thereby bettering the result match for you.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That&amp;rsquo;s my five things google could do. What do you think? What could Google add to their browser, that willl change the way we use it in the next 5 years?&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/programming/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2014-02-14 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Somethings should be obvious, but are not, obviously</title>
+          <link>/2014/02/somethings-should-be-obvious-but-are-not-obviously/</link>
+          <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2014/02/somethings-should-be-obvious-but-are-not-obviously/</guid>
+          <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It&amp;rsquo;s the &amp;ldquo;duh&amp;rdquo; moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.&lt;/p&gt;
+
+&lt;p&gt;I am currently on a bit of &lt;a href=&#34;http://www.mongodb.org/&#34;&gt;MongoDB&lt;/a&gt; binge, and I was setting up a dev environment, using &lt;a href=&#34;http://crunchbang.org/&#34;&gt;Crunchbang&lt;/a&gt; on &lt;a href=&#34;https://www.virtualbox.org/&#34;&gt;Virtualbox&lt;/a&gt;. Since it is a clean install, I wanted to bootstrap using only &lt;a href=&#34;https://github.com/berdario/invewrapper&#34;&gt;pew&lt;/a&gt; and &lt;a href=&#34;http://www.pip-installer.org/en/latest/&#34;&gt;pip&lt;/a&gt;, which have recently become my favourite part of working in a pure python environment (no more sudo == yay!!)&lt;/p&gt;
+
+&lt;p&gt;I followed the &lt;a href=&#34;https://github.com/berdario/invewrapper#installation&#34;&gt;instructions to install pew&lt;/a&gt; (which is quite straight-forward). All one should need is&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;    pip install pew
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, when I tried the same, the install worked, but I couldn&amp;rsquo;t run pew. It couldn&amp;rsquo;t find all the libraries it needed to load (virtualenv, in this case)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;    shiva@crunchbang-2:~$ sudo pip install pew
+    Downloading/unpacking pew
+    Downloading pew-0.1.9.tar.gz
+    Running setup.py (path:/tmp/pip_build_root/pew/setup.py) egg_info for package pew
+    ...
+    Successfully installed pew virtualenv
+    Cleaning up...
+    
+    shiva@crunchbang-2:~$ pew ls
+    Traceback (most recent call last):
+    File &amp;quot;/usr/local/bin/pew&amp;quot;, line 5, in
+    from pkg_resources import load_entry_point
+    File &amp;quot;/usr/lib/python2.7/dist-packages/pkg_resources.py&amp;quot;, line 2707, in
+    working_set.require(__requires__)
+    File &amp;quot;/usr/lib/python2.7/dist-packages/pkg_resources.py&amp;quot;, line 686, in require
+    needed = self.resolve(parse_requirements(requirements))
+    File &amp;quot;/usr/lib/python2.7/dist-packages/pkg_resources.py&amp;quot;, line 584, in resolve
+    raise DistributionNotFound(req)
+    pkg_resources.DistributionNotFound: virtualenv
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After trying several things, including looking a lot of code in pew, the fix was quite simple.
+The version of setup-tools that comes default with python2.7 and crunchbang seems flawed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;    shiva@crunchbang-2:~$ sudo pip install -U setuptools
+    Downloading/unpacking setuptools from https://pypi.python.org/packages/3.4/s/setuptools/setuptools-2.2-py2.py3-none-any.whl#md5=3b7d84f496aed8c07b91efba4aa197a4
+    Downloading setuptools-2.2-py2.py3-none-any.whl (540kB): 540kB downloaded
+    Installing collected packages: setuptools
+    Found existing installation: distribute 0.6.24dev-r0
+    Uninstalling distribute:
+    Successfully uninstalled distribute
+    Successfully installed setuptools
+    Cleaning up...
+    
+    shiva@crunchbang-2:~$ pew ls
+    
+    shiva@crunchbang-2:~$ pew new test
+    New python executable in test/bin/python
+    Installing setuptools, pip...done.
+    Launching subshell in virtual environment. Type &#39;exit&#39; or &#39;Ctrl+D&#39; to return.
+    /home/shiva/.local/share/virtualenvs/test/bin:/home/shiva/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>More unix goodness</title>
+          <link>/2012/05/more-unix-goodness/</link>
+          <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2012/05/more-unix-goodness/</guid>
+          <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
+# find . -name &amp;lt;regex&amp;gt; -delete  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Badly punctuated parameter list in #define</title>
+          <link>/2011/11/badly-punctuated-parameter-list/</link>
+          <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/11/badly-punctuated-parameter-list/</guid>
+          <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ gmake  
+...  
+...  
+some_file.h:42: badly punctuated parameter list in \`#define&#39;  
+some_file.h:64: badly punctuated parameter list in \`#define&#39;  
+Failed to compile  
+$  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This was caused by the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
+...  
+#define LOG(...) { printf (##__VA_ARGS__); }  
+...  
+...  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This works in most modern C compilers. However, if you happen to use one from the 80s (I exaggerate a little - not by much), it throws the error as above. You can fix this as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
+...  
+#define LOG(ARGS...) { printf (##ARGS); }  
+...  
+...  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Power of 2</title>
+          <link>/2010/11/power-of-2/</link>
+          <pubDate>Wed, 03 Nov 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2010/11/power-of-2/</guid>
+          <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
+
+&lt;p&gt;As he writes, there is the simpleton O(n) solution (&lt;a href=&#34;http://veechand.wordpress.com/2009/12/19/is-a-number-power-of-two/&#34;&gt;you will have to click-through for that&lt;/a&gt;), and the most elegant (yet) bitwise solution:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/*
+ */
+bool
+is_power_of_2(int n) {
+   return ((n &amp;amp; -n) == n);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The bitwise way to calculate the power of 2 is probably the most efficient in c like languages. Ofcourse for that, your language of choice needs to support it and should be more efficient that common math functions. The other way is to use some simple math.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s say N, is the value, and you need to check if it is a power of two. Compute n = log N / log 2. If floor(n) == n, then N was a power of 2.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/*
+ */
+bool
+is_power_of_2_pure_math_baby(int n) {
+    /* address -ve numbers */
+    if (n &amp;lt; 0)
+        n = -n;
+
+    double i = log(n)/log(2);      /* i = power of 2 */
+    return (lower(i) == i);        /* check if perfect power of 2 */
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is obviously, a less efficient way of checking if a number is a power of 2, than using the bitwise method. However, it has a few advantages:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It works exactly the same way for all values of n.&lt;/li&gt;
+&lt;li&gt;It works exactly the same way for all integers (ie, n can be int8/16/32/64, long, signed or unsigned, and the same logic would work&lt;/li&gt;
+&lt;li&gt;It is O(1) like the bitwise solution&lt;/li&gt;
+&lt;li&gt;It is less cryptic (ie just basic understanding of math is reqd for grokking this solution)&lt;/li&gt;
+&lt;li&gt;Finally, it can be extended in future to calculate if n is a power of *any value*, not just 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Of course, t&lt;a href=&#34;http://www.artima.com/wbc/interprogP.html&#34;&gt;he point Josh Bloch was making &lt;/a&gt;in interviewing engineers, was that he is interested in knowing the &lt;strong&gt;WHY&lt;/strong&gt; of a solution. It does not matter if the algorithm is marginally less optimal or different. If you are an interviewer in your organisation, and you catch yourself asking a question like this, remember that if an engineer can reduce O(n) to O(1), stop with similar micro-skills test. Find out why she coded it the way she did. It will tell you a lot more about her skills than some algorithms/tricks that can be picked up in a&lt;a href=&#34;http://www.amazon.com/gp/product/047012167X?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=047012167X&#34;&gt;couple a days&lt;/a&gt;, if not [overnight][4].&lt;/p&gt;
+
+&lt;p&gt;[4]: &lt;a href=&#34;http://wiki.allegro.cc/index.php?title=Bitwise_operator#Power_of_two_check&#34;&gt;http://wiki.allegro.cc/index.php?title=Bitwise_operator#Power_of_two_check&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Why does Java not support unsigned int? - Part 1</title>
+          <link>/2010/07/why-does-java-not-support-unsigned-int---part-1/</link>
+          <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2010/07/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; is there unsigned int in #java support your answers &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;10 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; nope. but use char instead. If you really want a type, you can define your own class backed by char &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;12 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://itunes.apple.com/app/twitter/id333903271?mt=8&#34;&gt;Twitter for iPhone&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; defining a own class for unsigned..let me think over it.. but my main question is y #java didn&amp;rsquo;t support unsigned ? &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; the question actually is, why do you need unsigned? &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.seesmic.com/&#34;&gt;Seesmic&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; my answer so that in given 32 bit I could store wide range of numbers (given my application wont go negative) &lt;a href=&#34;http://twitter.com/veechand/status/18418869318&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;&lt;img src=&#34;/images/me_normal.PNG&#34; alt=&#34;Surendra Kumar&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34; title=&#34;Surendra Kumar&#34;&gt;surendrakumar&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; a lot of real life applications uses unsigned int. Example sales, money, hours, are all unsigned. &lt;a href=&#34;http://twitter.com/surendrakumar/status/18423069087&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;http://www.quoteurl.com/2bgmt&#34;&gt;this quote&lt;/a&gt; was brought to you by &lt;a href=&#34;http://www.quoteurl.com&#34;&gt;quoteurl&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Java is, by no means, a &amp;ldquo;new&amp;rdquo; language for anyone I know. However, we still try to write C/C++ like code using it. We approach it with all of the training of C/C++, and start micro-optimisation much before it is needed, and end up with hard to comprehend complex code.&lt;/p&gt;
+
+&lt;p&gt;I thought I will write a long-winded post about &lt;a href=&#34;http://darksleep.com/player/JavaAndUnsignedTypes.html#why_no_unsigned_types&#34;&gt;why unsigned int is not available in Java&lt;/a&gt;, and [how to emulate it if you really need to][18], but I will leave that to more able hands.&lt;/p&gt;
+
+&lt;p&gt;The reason for lack of unsigned types in Java are:&lt;br /&gt;
+1. The core of the Java language was designed to be simple. This meant leaving out anything that adds complexity that can be done without. unsigned types didn&amp;rsquo;t make the cut&lt;br /&gt;
+2. Someone got lazy and didn&amp;rsquo;t bother to implement them, when the time came to make Oak into Java. (I wish leaving things out like this happen more in the industry).&lt;/p&gt;
+
+&lt;p&gt;Now, let&amp;rsquo;s examine why one requires unsigned types:&lt;br /&gt;
+1. Represent business case values like salary or percentile etc&lt;br /&gt;
+2. Store bitsets &amp;ndash; each bit representing some state or option&lt;br /&gt;
+3. provide the ability to store more value that one can in an signed, thereby requiring lesser in-memory size&lt;/p&gt;
+
+&lt;p&gt;Case 1 is a no brainer: As long as the value fits within the bounds of a 32-bit integer, you shouldn&amp;rsquo;t care. Unless you need to store a value greater than 2,147,483,647, you shouldn&amp;rsquo;t care if it is signed or unsigned.&lt;/p&gt;
+
+&lt;p&gt;Case 2 is a hack: This is a typical carry-over from the C world, where there are no true enum or bitset types. If you need this, consider using an Enum or BitSet (as the case be for the problem you are trying to address)&lt;/p&gt;
+
+&lt;p&gt;Case 3 is a delusion, and a sin: To a certain extent this is also something that was necessary and a good thing in C, and almost useless, and sometimes wrong to do in Java. The cost and the risk of implementing a type, particularly one that will require, new arithmetic semantics to be written, is never justified. The less new language syntax one invents, the simpler the code is. My rule of thumb is &amp;ndash; if I&amp;rsquo;m extending the language, I delete that class, and re-write it to use only existing semantics. If that means re-writing 5 other classes, so be it. In the long run, that yields a better, compact, and clean system.&lt;/p&gt;
+
+&lt;p&gt;Now contrast that, with using a signed int, where you expect the value to be unsigned. Unless you need to store a value greater than 2,147,483,647 there is no reason or benefit for implementing an unsigned int. Even in that case, unless you expect that to be marshalled to a system implemented in another language (like C/C++) via rpc, you should be using a long.&lt;/p&gt;
+
+&lt;p&gt;The next time you get the urge to extend the Java language, by defining a class that the language left out &amp;ndash; think twice if you really need it. If, after deliberation, you still think you need it, implement it, use it in your code, delete the implementation and re-write your code. Trust me, it won&amp;rsquo;t have affected the application much, but your code will be cleaner and simpler to understand.&lt;/p&gt;
+
+&lt;p&gt;That is worth every extra-line of non-resuable code that you write.&lt;/p&gt;
+
+&lt;p&gt;Peace.&lt;br /&gt;
+-Shiva&lt;/p&gt;
+
+&lt;p&gt;[18]: &lt;a href=&#34;http://www.javamex.com/java_equivalents/unsigned.shtml&#34;&gt;http://www.javamex.com/java_equivalents/unsigned.shtml&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>The Holy Grail and the Programmer&#39;s High</title>
+          <link>/2009/10/the-holy-grail-and-the-programmers-high/</link>
+          <pubDate>Mon, 26 Oct 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2009/10/the-holy-grail-and-the-programmers-high/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, the inventor of RSS, wrote today about twitter&amp;rsquo;s latest API update for supporting the &lt;a href=&#34;http://blog.twitter.com/2009/09/soon-to-launch-lists.html&#34;&gt;lists feature&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;It turns out there&amp;rsquo;s an API call that retrieves the timeline for a list, and it works exactly like the API call that retrieves the timeline for an account. So much so that I didn&amp;rsquo;t even have to change the &lt;a href=&#34;http://listings.opml.org/verbs/apps/twitter/getTimeLine.html&#34;&gt;glue script&lt;/a&gt;, I pass in a &lt;a href=&#34;http://images.scripting.com/archiveScriptingCom/2009/10/25/gluescript.gif&#34;&gt;different URL&lt;/a&gt; and it just worked &amp;gt; [orig link][4]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I wonder if there can be a better award?! Dave Winer applauding twitter?! I never thought I&amp;rsquo;d see the day ;) (Just kidding Dave). Dave&amp;rsquo;s right though. There is a certain high that you get when something just works (as it was intended). That is the high that we programmers live for. It&amp;rsquo;s like a runner&amp;rsquo;s high.&lt;/p&gt;
+
+&lt;p&gt;It doesn&amp;rsquo;t happen very often though. When you work on large enterprise applications where several hundred bugs invariably creep in. Decades of dragging along old code and scars from several re-designs is a norm. But, once every so often, you change a complex module, with nothing but your own understanding of how the code works (it most cases, the understanding itself is small miracle), and the change that you make, works in several of the cases at once &amp;ndash; that moment is pure happiness. It completely makes up for all the months of slogging, and the bug-hunting&lt;/p&gt;
+
+&lt;p&gt;You cannot be a programmer, if you don&amp;rsquo;t live for that!&lt;/p&gt;
+
+&lt;p&gt;[4]: &lt;a href=&#34;http://www.scripting.com/stories/2009/10/25/goodApiDesignAtTwitter.html&#34;&gt;http://www.scripting.com/stories/2009/10/25/goodApiDesignAtTwitter.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>The devil is in the why?</title>
+          <link>/2009/02/the-devil-is-in-the-why/</link>
+          <pubDate>Sat, 14 Feb 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2009/02/the-devil-is-in-the-why/</guid>
+          <description>&lt;p&gt;Recently I got asked, what the best way to do a join between two large lists,  into another list was? I always tend to answer that question with: it depends.&lt;/p&gt;
+
+&lt;p&gt;Just like any other algorithm, there is no silver bullet. It is a trade off  between CPU and memory utilisation. Sometimes, we do have to think about these  things (this is code in c++ on a device with scarce resources, to say the  least).&lt;/p&gt;
+
+&lt;p&gt;Of course, the simplest solution for this would be to use multiple for loops:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;**// merge - version 1**  
+function List&amp;lt;C&amp;gt; merge(List&amp;lt;A&amp;gt; l1, List&amp;lt;B&amp;gt; l2) {&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  // oh god! I shouldn&#39;t be doing this  
+  for(A a: l1) {  
+    C c = new C(a);  
+    for(B b: l2) {  
+      if (c.foo == b.foo) {  
+        c.add(b);  
+      }  
+    }  
+  }  
+}  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;As is obvious any half-decent programmer would shudder at the thought of writing something like this, particularly let it run on a device with limited resources. A simple way to refactor this would be to create an index for one of the lists and iterate through other.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;**// merge - version 2**  
+function List&amp;lt;C&amp;gt; merge(List&amp;lt;A&amp;gt; l1, List&amp;lt;B&amp;gt; l2) {&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  // create the index  
+  HashMap&amp;lt;Foo, Bar&amp;gt; map = new HashMap();  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  for (B b: l2) {  
+    map.put (b.foo, b);  
+  }&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;  for(A a: l1) {  
+    C c = new C(a);  
+    c.add(map.get(a.foo));  
+  }  
+}  
+&lt;/code&gt;&lt;br /&gt;
+Conventional wisdom says, that version 2 is much better than version 1. Right? Well, what if you have 128 MB of shared memory across your system, but a dedicated processor for your subsystem?! Won&amp;rsquo;t you want to pick version 1 in that case? What if both the lists can have millions of entries? That would render both these cases useless.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, before trying to find a technical solution to the problem at hand, it might help to ask why? What is the need for this requirement? The key is to ask why until you reach a specific use-case. I tend to ask this all the way until I reach either a SOAP request, or a specific component in the GUI that requires this piece of data. Most of the time, we can get by without writing a potentially inefficient solution.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;&lt;img src=&#34;/images/3262859586_5caf14c1fb_m.jpg&#34; alt=&#34;Lord of his city&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case, after several &amp;ldquo;why&amp;rdquo;s, I discovered that this requirement came about, since one of the products in our suite (yeah we have a bunch of products that build on each other), need to display a list of names of object C, as the user searches for a specific one to add items to. If we had decided to write either v1 or v2, every time the user opened that GUI component, we would transport, a possible 10000 records from the device all the way to the GUI (which in our case is several layers above), when we only need a list of names based on a specific criteria.&lt;/p&gt;
+
+&lt;p&gt;The &amp;ldquo;how&amp;rdquo; of your design depends the &amp;ldquo;why&amp;rdquo;. The only limiting factor is the willingness to ask why, until you can find an alternate solution, or, are absolutely convinced that there is no other way to acheive a specific requirement without writing some inefficient code &amp;mdash; then defend rigorously against doing it. well, atleast you have to get a some kind of limits in place.&lt;/p&gt;
+
+&lt;p&gt;Sometimes you have to &lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;stand up to your product manager&lt;/a&gt;, and sometimes you have to take a [sip of warm wine][1], and go write that &amp;ldquo;piece of crap&amp;rdquo; code.&lt;/p&gt;
+
+&lt;p&gt;Happy coding!&lt;/p&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&#34;&gt;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

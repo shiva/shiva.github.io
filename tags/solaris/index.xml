@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/solaris/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-09-08 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Unix: how to check system configuration on solaris</title>
+          <link>/2007/09/unix-how-to-check-system-configuration-on-solaris/</link>
+          <pubDate>Sat, 08 Sep 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2007/09/unix-how-to-check-system-configuration-on-solaris/</guid>
+          <description>&lt;p&gt;I had to compare machine hardware today, and found information on that &lt;a href=&#34;http://esofthub.blogspot.com/2006/10/view-processor-speed-and-ram-size.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.&lt;/p&gt;
+
+&lt;p&gt;Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;#psrinfo -p&lt;/strong&gt; - lists number of physical processors .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;#psrinfo -p -v&lt;/strong&gt; - list number of virtual processors (cores) per physical processor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;#psrinfo -v&lt;/strong&gt; - detailed information for each virtual processor.&lt;/p&gt;
+
+&lt;p&gt;**#prtconf | grep Memory **- displays total amount of RAM.&lt;/p&gt;
+
+&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/unix%20commands&#34;&gt;unix commands&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/solaris%20commands&#34;&gt;solaris commands&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/system%20configuration&#34;&gt;system configuration&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

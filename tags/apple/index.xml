@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiv.me </title>
+    <link>/tags/apple/</link>
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2013-07-21 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>How to apologize to your users</title>
+          <link>/2013/07/how-to-apologize-to-your-users/</link>
+          <pubDate>Sun, 21 Jul 2013 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2013/07/how-to-apologize-to-your-users/</guid>
+          <description>&lt;p&gt;There has been an &lt;a href=&#34;http://www.osaware.com/2013/05/03/a-timeline-of-companies-that-have-been-hacked-in-2013/&#34;&gt;increase&lt;/a&gt; in &lt;a href=&#34;http://www.forbes.com/sites/ericbasu/2013/06/26/help-my-yahoo-account-was-hacked-forensic-on-the-latest-yahoo-attack/&#34;&gt;security&lt;/a&gt; &lt;a href=&#34;http://www.pcgamer.com/2013/07/03/ubisoft-accounts-hacked-email-addresses-and-passwords-compromised/&#34;&gt;breaches&lt;/a&gt; this year. This past week, two services I use were compromised - &lt;a href=&#34;http://staff.tumblr.com/post/55648373578/important-security-update-for-iphone-ipad-users&#34;&gt;Tumblr&lt;/a&gt; and &lt;a href=&#34;http://www.loopinsight.com/2013/07/21/apple-comments-on-developer-site-hack/&#34;&gt;Apple Developer Connection&lt;/a&gt;. Both services informed me of the security breach, and one made me feel like they cared, and the other one didn&amp;rsquo;t. Perhaps I am reading too much into this, but at the very least, it illustrates how important language is, in conveying how much we care.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/apple-sec-mail-468x300.jpg&#34; alt=&#34;Apple Security Mail&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apple&amp;rsquo;s mail is clear, concise and inspires confidence in their ability to take care of my information. They state the purpose of this communication, tell me what they did about it, and what they were going to do to fix it in the future. &lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;: Apparently, it was a [whitehat security guy doing his thing][5].&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/tumblr-sec-mail-423x300.jpg&#34; alt=&#34;Tumblr Security Mail&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tumblr on the other hand, makes a whole bunch of assumptions (NO! I don&amp;rsquo;t read your staff blog), trivializes the security issue that was in their software (by ignoring to tell what it actually is), makes more work for me (change my passwords &amp;ndash; for my own good, but none-the-less), insinuates that I should be doing things to take care of my passwords by buying other apps, and finally, throws a completely insincere apology.&lt;/p&gt;
+
+&lt;p&gt;Nowhere do they bother to mention:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Why they are getting in touch now&lt;/li&gt;
+&lt;li&gt;What the actual issue is (Some searching online explains why, but they should have mentioned it in the email)&lt;/li&gt;
+&lt;li&gt;That it was a Tumblr&amp;rsquo;s fault (&lt;a href=&#34;http://staff.tumblr.com/post/55648373578/important-security-update-for-iphone-ipad-users&#34;&gt;Sniffed in transit&lt;/a&gt; .. who sends un-encoded password over http anymore?!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The nonchalance of it all, really bothers me. Another small detail that Apple does well.&lt;/p&gt;
+
+&lt;p&gt;[5]: &lt;a href=&#34;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&#34;&gt;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>RIP Steve Jobs</title>
+          <link>/2011/10/rip-steve-jobs/</link>
+          <pubDate>Wed, 05 Oct 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/10/rip-steve-jobs/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;https://plus.google.com/117377434815709898403/posts&#34;&gt;DeWitt Clinton&lt;/a&gt; once &lt;a href=&#34;http://blog.unto.net/on_great_engineers_part_2/&#34;&gt;wrote&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;What are the hallmarks of a great engineer? A great engineer is characterized by their intelligence, versatility, creativity, loyalty, passion, experience, vision, dedication, composure, humility, and ability.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Apart from the &amp;ldquo;humility&amp;rdquo; part, which he never cared for, Steve Jobs was the epitome of that description. We shall miss you Mr. Jobs, especially for that keen sense of doing something perfectly.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.apple.com/stevejobs/&#34;&gt;RIP Steve Jobs&lt;/a&gt;, the maker of beautiful things.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-1.jpg&#34;&gt;&lt;img src=&#34;/images/steve-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[&lt;img src=&#34;/images/steve-2.jpg&#34; alt=&#34;&#34; /&gt;][4]&lt;/p&gt;
+
+&lt;p&gt;Me == sad today :(&lt;/p&gt;
+
+&lt;p&gt;[4]: &lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&#34;&gt;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>iPad and friends</title>
+          <link>/2011/05/ipad-and-friends/</link>
+          <pubDate>Sun, 01 May 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/05/ipad-and-friends/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/05/20110501-112322.jpg&#34;&gt;&lt;img src=&#34;/images/20110501-112322.jpg&#34; alt=&#34;20110501-112322.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s been a year since I &lt;a href=&#34;http://blog.shiv.me/2010/05/29/icaved.html&#34;&gt;sold my kidneys for an iPad&lt;/a&gt;. It&amp;rsquo;s been fun. It has replaced every other device I own (ie, a couple of PCs and the nexus one). It&amp;rsquo;s an outright winner, when it comes to reading, especially long-form articles, and books alike. It has become my go-to machine for everyday news, twitter/facebook, and even for browsing my favorite photographers.&lt;/p&gt;
+
+&lt;p&gt;It have however remained strictly in the realm of content consumption &amp;ndash; until now. In the last few days, I&amp;rsquo;ve added a stylus - the &lt;a href=&#34;http://www.amazon.com/gp/product/B003ZSHKIY/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399349&amp;amp;creativeASIN=B003ZSHKIY&#34;&gt;Targus iPad stylus&lt;/a&gt; (available quite readily at most &amp;lsquo;best-buy&amp;rsquo;s, and on &lt;a href=&#34;http://www.amazon.com/gp/product/B003ZSHKIY/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399349&amp;amp;creativeASIN=B003ZSHKIY&#34;&gt;Amazon&lt;/a&gt;), and the &lt;a href=&#34;http://www.amazon.com/gp/product/B003K1EYM6/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=keepinintouch-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399353&amp;amp;creativeASIN=B003K1EYM6&#34;&gt;iPad&amp;rsquo;s camera connect kit&lt;/a&gt;. If you own an iPad (v1 or v2) I would recommend that you fork out the moolah for these two. It will be the best $50 you&amp;rsquo;ll ever spend on accessories for the iPad. Forget the cool looking &lt;a href=&#34;http://store.apple.com/us/product/MC942?mco=MTM3NjE5ODE&#34;&gt;smart cover&lt;/a&gt;. These will be more rewarding than the 2 hours of thrill of watching the smart cover turn off the ipad when you close it.&lt;/p&gt;
+
+&lt;p&gt;The targus stylus is without doubt the best one in the market yet. It&amp;rsquo;s got good heft to it. Feels comfortable to hold. The only gripe I have with the Targus is the length. I can&amp;rsquo;t but wonder why they didn&amp;rsquo;t make it same as a standard pencil.&lt;/p&gt;
+
+&lt;p&gt;There is no contest between this, and the &lt;a href=&#34;http://tenonedesign.com/sketch.php&#34;&gt;Pogo Sketch&lt;/a&gt;. (Ten-one design could be the next Wacom, if they get their [][6]&lt;a href=&#34;http://thetechjournal.com/electronics/tablet/pressure-sensitive-drawing-headed-to-ipad.xhtml&#34;&gt;pressure sensitive stylus&lt;/a&gt; right. Wacom should buy them out, now, before they get too big). The targus has an air-filled bubble for the tip, which slides with less resistance against the iPad&amp;rsquo;s screen, than the spongy one of the pogo sketch. The tip is still fairly large, and the level of control you get varies by the app. If you use [][7]&lt;a href=&#34;itms-apps://itunes.apple.com/ca/app/penultimate/id354098826?mt=8&#34;&gt;Penultimate&lt;/a&gt;, this stylus will provide much better control. The iPad can now actually replace paper &amp;amp; pen (somewhat). I can&amp;rsquo;t wait to see how good the &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/wacom-stylus-for-ipad-is-not-what-youre-hoping-for/&#34;&gt;Wacom&lt;/a&gt; &lt;a href=&#34;http://www.geeky-gadgets.com/wacom-ipad-stylus-looks-ugly-but-works-beautiful-18-04-2011/&#34;&gt;stylus&lt;/a&gt; &lt;a href=&#34;http://reviews.cnet.com/8301-31747_7-20055024-243.html&#34;&gt;is going to be&lt;/a&gt;. It will definitely cost more (around $40 if I&amp;rsquo;m right), but for $20, this is the best stylus (that is also readily available) right now.&lt;/p&gt;
+
+&lt;p&gt;The camera connect kit, is a thing of marvel. It is not like Apple to allow such a wide range of applications for a single piece of plastic (even if it is over-priced for something that should be part of the iPad purchase). I just found out that it works quite well with my camera (a Canon 7D). Importing RAW images onto the iPad are faster than importing them on my MacbookPro (something seriously out-of-whack here &amp;ndash; I&amp;rsquo;ll need to investigate, to confirm this). It also allows connecting any &amp;ldquo;Mac&amp;rdquo; supported keyboard (I&amp;rsquo;m typing this post on my logitech USB Wave keyboard, which I must say kicks the pants off any keyboard Apple currently sells). Of course, carrying a keyboard around is out of question, but it&amp;rsquo;s nice to know it works without any special drivers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip&lt;/strong&gt;: Both &lt;em&gt;Ctrl+shift+arrows&lt;/em&gt; (begin/end of line), and &lt;em&gt;Cmd+shift+arrows&lt;/em&gt; (1-word at a time) allow you to select text on iPad. of course, you can navigate around the text, if you don&amp;rsquo;t use shift. No, someone needs to port vim to iOS. That would be awesome.&lt;/p&gt;
+
+&lt;p&gt;The killer combo of the week, was a little hard to choose. Here are two:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Targus Stylus + Penultimate&lt;/li&gt;
+&lt;li&gt;Blogsy + iPad Camera connect kit + Logitech Wave keyboard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[][11][Photosmith][11] looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
+
+&lt;p&gt;[11]: &lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;http://blog.photosmithapp.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>You cribbing bunch of morons</title>
+          <link>/2011/04/you-cribbing-bunch-of-morons/</link>
+          <pubDate>Wed, 27 Apr 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/04/you-cribbing-bunch-of-morons/</guid>
+          <description>&lt;p&gt;And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-customers-lawsuit-data/&#34;&gt;all&lt;/a&gt; &lt;a href=&#34;http://gigaom.com/2011/04/21/researcher-iphone-location-data-already-used-by-cops/&#34;&gt;the&lt;/a&gt; [cribbing][2] around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
+&amp;gt;
+&amp;gt; Sometime in the next few weeks Apple will release a free iOS software update that:
+&amp;gt;
+&amp;gt; reduces the size of the crowd-sourced Wi-Fi hotspot and cell tower database cached on the iPhone,&lt;br /&gt;
+&amp;gt; ceases backing up this cache, and&lt;br /&gt;
+&amp;gt; deletes this cache entirely when Location Services is turned off.&lt;br /&gt;
+&amp;gt; In the next major iOS software release the cache will also be encrypted on the iPhone.
+&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Wouldn&amp;rsquo;t it be cool, if someone actually wrote an app that does the exact same thing? I bet it would sell like crazy! I&amp;rsquo;d buy it.&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-location/&#34;&gt;http://www.wired.com/gadgetlab/2011/04/iphone-location/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>No matter what we say</title>
+          <link>/2011/03/no-matter-what-we-say/</link>
+          <pubDate>Fri, 04 Mar 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2011/03/no-matter-what-we-say/</guid>
+          <description>&lt;p&gt;If you weren&amp;rsquo;t in a hole the past few days, you would have heard about the iPad 2 launch. Here&amp;rsquo;s Conan&amp;rsquo;s take on it.&lt;/p&gt;
+
+&lt;p&gt;I must say, the cover is a thing of engineering beauty. Kudos on that, Apple, and thanks for screwing over several thousands of your iPad 1 customers, who forked up 9.5 Billion in revenue in 9 months.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>iCaved</title>
+          <link>/2010/05/icaved/</link>
+          <pubDate>Sat, 29 May 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2010/05/icaved/</guid>
+          <description>&lt;p&gt;I did it. I &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;said&lt;/a&gt; &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition.html&#34;&gt;I&lt;/a&gt; &lt;a href=&#34;http://blog.shiv.me/2010/03/16/so-long-and-thanks-for-the-jailed-iphone.html&#34;&gt;wouldn&amp;rsquo;t&lt;/a&gt;. I said I will hold out for purely &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;ethical reasons&lt;/a&gt;, but it is &lt;a href=&#34;http://twitter.com/shiva/status/14946052410&#34;&gt;very hard to resist the iPad&lt;/a&gt;. The first impression in-store is simply &amp;ndash; awesome. This of course is not a surprise and is something that one can expect from apple these days.&lt;/p&gt;
+
+&lt;p&gt;Warning: This is a long post ..&lt;/p&gt;
+
+&lt;p&gt;Here are some thoughts, after a day of use:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It&amp;rsquo;s fast. Much faster than the iPhone 3GS. This is good news for the upcoming iPhone.&lt;/li&gt;
+&lt;li&gt;The battery lasts a really long time. It was around 80% and I used it for incessantly until it died &lt;sup&gt;7&lt;/sup&gt;&amp;frasl;&lt;sub&gt;8&lt;/sub&gt; hours later. The a4 processor is at this point THE chip to kill for. If you have any samsung shares, I would dump them now, and load up on apple (although they are a tad &lt;a href=&#34;http://www.google.com/finance?q=aapl&#34;&gt;pricy&lt;/a&gt; these days)&lt;/li&gt;
+&lt;li&gt;iPhone apps are useless and look ugly on the iPad. Don&amp;rsquo;t bother synching any of them&lt;/li&gt;
+&lt;li&gt;The keyboard is a lot more usable that I thought it would be. I&amp;rsquo;m typing this post at about 60-70% of my usual typing speed. (Only true if inclined at an proper angle &amp;ndash; the perfect angle: the one you get with the iPad case).&lt;/li&gt;
+&lt;li&gt;I missed the universal back button. I&amp;rsquo;ve been spoiled by the &lt;a href=&#34;http://blog.shiv.me/2010/03/16/so-long-and-thanks-for-the-jailed-iphone.html&#34;&gt;freedom-toting nexus one robot&lt;/a&gt; ;)&lt;/li&gt;
+&lt;li&gt;Other small annoyances include URL copy pasting between apps, and how the app store lists apps. Exiting the app store every time I install an app is also mind-numbing. I know I can use a Mac and install all apps at one go, but I didn&amp;rsquo;t spend a 1000 dollars for workarounds.&lt;/li&gt;
+&lt;li&gt;Although I could type very well, creating a blog post is not this device&amp;rsquo;s forte. For one, all the switching back and forth, is a nightmare, and there is simply no way to get the links to apps for instance from the ipad. Adding images is a pain as well (which is why this is a purely text-only post). It is really nice until you want to go beyond its function as a consumption device. Even a little, and it makes you want to get to a mac/pc in a hurry.&lt;/li&gt;
+&lt;li&gt;Some apps are just stellar, that make it worthwhile go through the above mentioned niggles.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I don&amp;rsquo;t feel any remorse at having bought it, but at the same time, I&amp;rsquo;m not floored by everything either. That is actually the strength of the device. It is the first time a computing device completely disappears and you interact with data. The experience depends on the app that you are using. Instapaper does a great job, so does the gmail web app.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not a fan of the drop list widget though. This is the one interface element that gets in the way, and frankly, I&amp;rsquo;m surprised that this got through the apple ui designers. A sliding in from left/right would have been a better option.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m a little cautious about buying a lot of apps like I did for the iPhone and then quitting the platform although I don&amp;rsquo;t see that happening with the iPad, there is no competition in sight for at least another 18 months, and even then it would take an androId tablet a year to get to this level of refinement (if they ever do)&lt;/p&gt;
+
+&lt;p&gt;If you are a still here, here are some must have apps. Most of them are free, so get &amp;lsquo;em now:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/instapaper-pro/id288545208?mt=8&#34;&gt;Instapaper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/goodreader-for-ipad/id363448914?mt=8&#34;&gt;Goodreader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/penultimate/id354098826?mt=8&#34;&gt;Penultimate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/beatwave/id363718254?mt=8&#34;&gt;Beatwave&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/tweetdeck-for-ipad/id364153769?mt=8&#34;&gt;Tweetdeck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/epicurious-recipes-shopping/id312101965?mt=8&#34;&gt;Epicurious&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/explore-flickr/id372457895?mt=8&#34;&gt;Exploreflickr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/kindle/id302584613?mt=8&#34;&gt;Kindle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/nyt-editors-choice/id357066198?mt=8&#34;&gt;Nyt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/alice-for-the-ipad-lite/id364746811?mt=8&#34;&gt;Alice lite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(bonus) put icons for all the google apps you use on the home screen. The web versions are really good.&lt;/li&gt;
+&lt;li&gt;(Ok. I&amp;rsquo;ll stop with this) [Dropbox][15]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;[15]: &lt;a href=&#34;http://itunes.apple.com/ca/app/dropbox/id327630330?mt=8&#34;&gt;http://itunes.apple.com/ca/app/dropbox/id327630330?mt=8&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>The day-after the &#34;big&#34; day</title>
+          <link>/2010/05/the-day-after-the-big-day/</link>
+          <pubDate>Fri, 14 May 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2010/05/the-day-after-the-big-day/</guid>
+          <description>&lt;p&gt;I turned 30 yesterday.&lt;/p&gt;
+
+&lt;p&gt;A whole day has passed since I left my 20s. They say it is a big day. They say it is a dreaded day. It was neither. Just busy (which is good).&lt;/p&gt;
+
+&lt;p&gt;I chanced upon [Douglas Adams&amp;rsquo; post][1] from 1999:&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; 1. everything that&amp;rsquo;s already in the world when you&amp;rsquo;re born is just normal;&lt;br /&gt;
+&amp;gt; 2. anything that gets invented between then and before you turn thirty is incredibly exciting and creative and with any luck you can make a career out of it;&lt;br /&gt;
+&amp;gt; 3. anything that gets invented after you&amp;rsquo;re thirty is against the natural order of things and the beginning of the end of civilisation as we know it until it&amp;rsquo;s been around for about ten years when it gradually turns out to be alright really.&lt;br /&gt;
+&amp;gt; Apply this list to movies, rock music, word processors and mobile phones to work out how old you are.&lt;/p&gt;
+
+&lt;p&gt;For me, Point 3 is intensely scary. I have lived all my life being on the bleeding edge (as much as I could afford, atleast). I&amp;rsquo;ve always been in constant search of tools and technology that will make every living moment better than the one before. It has been an affliction, but one that I have throughly enjoyed, and internalised even!&lt;/p&gt;
+
+&lt;p&gt;I hope that I continue to do that for the next decade (and prove Douglas Adams&amp;rsquo; wrong). A few posts ago, I took a partly political stand against the [ipad][3], and decided to not vote for it with my wallet. I have also been [vocal][2], about my distaste with Apple&amp;rsquo;s lock-down of the app deployment on the iphone and ipad. In the last few weeks, I&amp;rsquo;m starting to question myself. Maybe it is an effect of #3, as DNA pointed out. But then, this is could just be my way out, a way to weasel from [the stand][2] I took ;)&lt;/p&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://www.douglasadams.com/dna/19990901-00-a.html&#34;&gt;http://www.douglasadams.com/dna/19990901-00-a.html&lt;/a&gt; &amp;ldquo;Douglas Adams&amp;rdquo;&lt;br /&gt;
+[2]: &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&lt;/a&gt;&lt;br /&gt;
+[3]: &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition.html&#34;&gt;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition.html&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>So long and thanks for the &#34;jailed&#34; iphone</title>
+          <link>/2010/03/so-long-and-thanks-for-the-jailed-iphone/</link>
+          <pubDate>Tue, 16 Mar 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2010/03/so-long-and-thanks-for-the-jailed-iphone/</guid>
+          <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_737&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2010/03/Nexus-One-Phone-Choose-a-phone.png&#34;&gt;&lt;img src=&#34;/images/Nexus-One-Phone-Choose-a-phone-300x195.png&#34; alt=&#34;Google Nexus is available in Canada&#34; /&gt;&lt;/a&gt; So long oppression[/caption]&lt;/p&gt;
+
+&lt;p&gt;Thanks for the iPhone, Mr. Jobs. There is a new way to protest the iPhone. I don&amp;rsquo;t have to &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition/&#34;&gt;sign petitions&lt;/a&gt; anymore. I can now take my $500 &lt;a href=&#34;http://bit.ly/cXseFC&#34;&gt;elsewhere&lt;/a&gt;, for a slightly more open experience. I [didn&amp;rsquo;t ask for much][3], but I don&amp;rsquo;t have to wait on your whim any longer (no offense meant to you personally, Mr Jobs).&lt;/p&gt;
+
+&lt;p&gt;[3]: &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad/&#34;&gt;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad/&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>iPad is iBad petition</title>
+          <link>/2010/02/ipad-is-ibad-petition/</link>
+          <pubDate>Thu, 04 Feb 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2010/02/ipad-is-ibad-petition/</guid>
+          <description>&lt;p&gt;[&lt;a href=&#34;http://www.defectivebydesign.org/ipad][0&#34;&gt;http://www.defectivebydesign.org/ipad][0&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;If you think that the iPad is promoting DRM of apps that will lead computing in a direction that will undermine the freedom that we currently are enjoying, freedom the seeds of which have been sown over the last few decades, the visit the link above and sign the petition.&lt;/p&gt;
+
+&lt;p&gt;[0]: &lt;a href=&#34;http://www.defectivebydesign.org/ipad&#34;&gt;http://www.defectivebydesign.org/ipad&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>\[Jason\] The Case Against Apple--in Five Parts</title>
+          <link>/2009/08/%5Cjason%5C-the-case-against-apple--in-five-parts/</link>
+          <pubDate>Sat, 08 Aug 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2009/08/%5Cjason%5C-the-case-against-apple--in-five-parts/</guid>
+          <description>&lt;p&gt;Hi Jason,&lt;/p&gt;
+
+&lt;p&gt;I was writing a post very much on the same lines, when I read your mail. I&amp;rsquo;m on my 3rd ipod, 1st iphone and 2nd MBP (one which I ordered just last week). I don&amp;rsquo;t think I can in the right mind buy another iphone or ipod for the amount of control that apple gets.&lt;/p&gt;
+
+&lt;p&gt;1. Absolutely. This is a no-brainer, that I&amp;rsquo;m frankly surprised that Steve Jobs does not see?! Well not really. Apple has always been a closed company. I was under the impression that Apple was a *hardware* company. This behaviour of blocking other applications from talking to Apple products is not only insane, and unfair to the consumer, it quite frankly against the interest of Apple shareholders. I&amp;rsquo;m pretty sure that having more ways to access data on Apple devices will have a direct impact on the sales of those products. Any product manager or marketeer who has desgined/sold electronics products will see the sense in this.&lt;/p&gt;
+
+&lt;p&gt;2. Absolutely. And I hope that the FCC hammer comes down quick. With the blocking of the Google App, it becomes a clear case of diminishing the experience of the user. This could be the way out for Apple to end exclusivity deals.&lt;/p&gt;
+
+&lt;p&gt;3. I don&amp;rsquo;t think it a question of forgiving Apple. The consumer never forgives, he/she just chooses the product that best suits his/her needs. Apple already went through a round of this with the desktop wars and lost bitterly. It&amp;rsquo;s sad that they haven&amp;rsquo;t learnt their lesson.&lt;/p&gt;
+
+&lt;p&gt;Having said all of this, I still love their products, it&amp;rsquo;s their product mgmt that I hate.&lt;/p&gt;
+
+&lt;p&gt;(This post is a response to a message on Jason&amp;rsquo;s list. If you are not subscribed to &lt;a href=&#34;http://en.wikipedia.org/wiki/Jason_Calacanis&#34;&gt;Jason Calacanis&lt;/a&gt;, you should be. Go there NOW)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://posterous.com&#34;&gt;Posted via email&lt;/a&gt; from [shiva&amp;rsquo;s posterous][2]&lt;/p&gt;
+
+&lt;p&gt;[2]: &lt;a href=&#34;http://shiva.posterous.com/jason-the-case-against-apple-in-five-parts&#34;&gt;http://shiva.posterous.com/jason-the-case-against-apple-in-five-parts&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>That queasy feeling</title>
+          <link>/2008/01/that-queasy-feeling/</link>
+          <pubDate>Tue, 29 Jan 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/01/that-queasy-feeling/</guid>
+          <description>&lt;p&gt;A few days ago, I returned the Ipod touch that I had for exactly 11 days, coz Apple chose to charge me $20. Apart from me being a cheap bas***d, I had this queasy feeling in my gut, about apple products. I felt an unexplainable rage towards Apple, Jobs and the fanboys. I am usually a very moderate person, and it really surprised me that I could harbor such crazy extremism and frustration. I could never place a finger on the source, until I read &lt;a href=&#34;http://www.codinghorror.com/archives/001044.html&#34;&gt;this article&lt;/a&gt; on Coding Horror by Jeff Atwood.&lt;/p&gt;
+
+&lt;p&gt;He hits the nail on the head with this one:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;So let&amp;rsquo;s be completely clear: &lt;strong&gt;when you buy a new Mac, you&amp;rsquo;re buying a giant hardware dongle&lt;/strong&gt; that allows you to run OS X software.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and goes on to state something, that threw the spotlight on that source that I was trying to find within myself&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Maybe I&amp;rsquo;m a hypocrite. Maybe the issue cuts philosophically deeper than mere dongles. Maybe it&amp;rsquo;s not only about the freedom to run your operating system on whatever hardware you wish, but also the freedom to run whatever software you want for whatever purpose you need, in perpetuity. That&amp;rsquo;s [Freedom Zero][1]:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are two kinds of us: those who put conviction above convenience, and those who don&amp;rsquo;t. There is nothing right or wrong about being on either of the sides. All that matters is that, one needs to understand, which &amp;ldquo;club&amp;rdquo; one belongs to. Through all this, I realized one thing - I will never be content with a Mac, until I convince myself to give up expecting my computer to do everything I want it to do. Do I want to do that? I have no idea. Do I want an ipod touch that allows me to run linux on it? I sure as hell do.&lt;/p&gt;
+
+&lt;p&gt;I hope, for the sake of computing, that Apple realizes that it has a platform in the Ipod Touch, get off its proud ass,Â  and open-up the touch to third party. However, with Apple, I just know that it will never happen. Why? It takes genius to build something like the iPhone or the iPod and a vision to make that into a platform.&lt;/p&gt;
+
+&lt;p&gt;[1]: &lt;a href=&#34;http://diveintomark.org/archives/2004/05/14/freedom-0&#34;&gt;http://diveintomark.org/archives/2004/05/14/freedom-0&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>IPod touch 1.1.1 firmware link</title>
+          <link>/2008/01/ipod-touch-1.1.1-firmware-link/</link>
+          <pubDate>Tue, 15 Jan 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2008/01/ipod-touch-1.1.1-firmware-link/</guid>
+          <description>&lt;p&gt;Since Apple&amp;rsquo;s is so bent upon &lt;a href=&#34;http://news.google.com/news/url?sa=t&amp;amp;ct=:ePkh8BM9g5ucBze5BG5yqhADkgWZeQBzjQYG/0-1&amp;amp;fp=478d8859dc34a86c&amp;amp;ei=vFuNR_i1EoOErQPTnYCHAg&amp;amp;url=http%3A//lifehacker.com/345114/iphone-ipod-touch-firmware-update-adds-faux%2bgps-multi%2bsms-and-more&amp;amp;cid=1126385834&amp;amp;sig2=kF9GGYFfNYp9px-jCahoww&#34;&gt;disappointing &lt;/a&gt;&lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fwww.apple.com%2Fhotnews%2Fopeniphoneletter%2F&amp;amp;ei=-VuNR_LbH5vCgAP97MXfBg&amp;amp;usg=AFQjCNFD-104d-f8j6eMkH4FtIXQnPei7w&amp;amp;sig2=47vb7ATncfgGpDWP79PQgA&#34;&gt;their &lt;/a&gt;customers, by introducing paid firmware upgrades, I needed to ensure that I have the option to jail break, my new ipod touch (if need be). (update: the firmware upgrade itself is not paid. Only the newapps are paid). I am going to wait until they &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=3&amp;amp;url=http%3A%2F%2Fwww.tuaw.com%2F2007%2F10%2F17%2Fapple-we-plan-to-have-an-iphone-sdk-in-developers-hands-in-fe%2F&amp;amp;ei=b1yNR-yLLYuQgwPzybHfBg&amp;amp;usg=AFQjCNEU4lvFx4EHi5SZE2s06qT7lNiBGg&amp;amp;sig2=Wi1NE6pO4ZjVXzyIje6FAw&#34;&gt;release their SDK in February&lt;/a&gt; before I jailbreak mine.&lt;/p&gt;
+
+&lt;p&gt;I found a link to the &lt;a href=&#34;http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3932.20070927.p23dD/iPod1,1_1.1.1_3A110a_Restore.ipsw&#34;&gt;1.1.1 firmware&lt;/a&gt; (thanks to &lt;a href=&#34;http://rupertgee.wordpress.com/2007/12/02/downgraderestore-ipod-touch-firmware-to-version-111-using-os-x/&#34;&gt;Rupert&lt;/a&gt; and who-ever posted [this][5]).&lt;br /&gt;
+I have a copy on my hard-drive (just in case).&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see how the whole thing works out. Just when I thought, Apple has a killer product, they have to limit the scope of a platform and make it a device. A very sad day for computing.&lt;/p&gt;
+
+&lt;p&gt;[5]: &lt;a href=&#34;http://forums.hardwarezone.com/showpost.php?p=26755502&amp;amp;postcount=40&#34;&gt;http://forums.hardwarezone.com/showpost.php?p=26755502&amp;amp;postcount=40&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Apple iMplant</title>
+          <link>/2005/10/apple-implant/</link>
+          <pubDate>Wed, 26 Oct 2005 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>/2005/10/apple-implant/</guid>
+          <description>&lt;p&gt;Have you heard about the latest ipod.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.bbspot.com/News/2005/01/new_ipod_implant.html&#34;&gt;http://www.bbspot.com/News/2005/01/new_ipod_implant.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://news.com.com/5208-7354-0.html?forumID=1&amp;amp;threadID=4129&amp;amp;messageID=24004&amp;amp;start=-1&#34;&gt;http://news.com.com/5208-7354-0.html?forumID=1&amp;amp;threadID=4129&amp;amp;messageID=24004&amp;amp;start=-1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is amazing.. Imagine being able to have a device implanted in your body, with which you cantrol with your thought, and which will use your brain as a hardrive, and use blood sugar as a battery cell.&lt;/p&gt;
+
+&lt;p&gt;Eerie thought envelop me, when I think of what could be?!! Living the matrix ?!!&lt;br /&gt;
+It is not only the body heat that can be a source of energy (like in &amp;ldquo;The Matrix&amp;rdquo;), even human blood sugar can be harnesed!&lt;/p&gt;
+
+&lt;p&gt;This better be a hoax, or I will have to shave my head for that pod implant and create space on the back of my skul for a USB port! Scary to think, that the next upgrade will have to be my brain (for lack of storage space!!)&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>
