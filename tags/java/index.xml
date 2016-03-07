@@ -12,10 +12,10 @@
       
         <item>
           <title>Unsigned Arithmetic</title>
-          <link>/2010/08/unsigned-arithmetic/</link>
+          <link>/2010/08/23/unsigned-arithmetic/</link>
           <pubDate>Mon, 23 Aug 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/08/unsigned-arithmetic/</guid>
+          <guid>/2010/08/23/unsigned-arithmetic/</guid>
           <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
 
 &lt;p&gt;I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.&lt;/p&gt;
@@ -43,10 +43,10 @@
       
         <item>
           <title>Why does Java not support unsigned int? - Part 1</title>
-          <link>/2010/07/why-does-java-not-support-unsigned-int---part-1/</link>
+          <link>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
           <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/07/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <guid>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
           <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
 
 &lt;blockquote&gt;

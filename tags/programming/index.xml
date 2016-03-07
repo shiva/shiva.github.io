@@ -12,10 +12,10 @@
       
         <item>
           <title>Somethings should be obvious, but are not, obviously</title>
-          <link>/2014/02/somethings-should-be-obvious-but-are-not-obviously/</link>
+          <link>/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
           <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2014/02/somethings-should-be-obvious-but-are-not-obviously/</guid>
+          <guid>/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
           <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It&amp;rsquo;s the &amp;ldquo;duh&amp;rdquo; moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.&lt;/p&gt;
@@ -78,10 +78,10 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
       
         <item>
           <title>More unix goodness</title>
-          <link>/2012/05/more-unix-goodness/</link>
+          <link>/2012/05/21/more-unix-goodness/</link>
           <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2012/05/more-unix-goodness/</guid>
+          <guid>/2012/05/21/more-unix-goodness/</guid>
           <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
@@ -94,10 +94,10 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
       
         <item>
           <title>Badly punctuated parameter list in #define</title>
-          <link>/2011/11/badly-punctuated-parameter-list/</link>
+          <link>/2011/11/08/badly-punctuated-parameter-list/</link>
           <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/11/badly-punctuated-parameter-list/</guid>
+          <guid>/2011/11/08/badly-punctuated-parameter-list/</guid>
           <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
@@ -137,10 +137,10 @@ $
       
         <item>
           <title>Power of 2</title>
-          <link>/2010/11/power-of-2/</link>
+          <link>/2010/11/03/power-of-2/</link>
           <pubDate>Wed, 03 Nov 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/11/power-of-2/</guid>
+          <guid>/2010/11/03/power-of-2/</guid>
           <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
 
 &lt;p&gt;As he writes, there is the simpleton O(n) solution (&lt;a href=&#34;http://veechand.wordpress.com/2009/12/19/is-a-number-power-of-two/&#34;&gt;you will have to click-through for that&lt;/a&gt;), and the most elegant (yet) bitwise solution:&lt;/p&gt;
@@ -190,10 +190,10 @@ is_power_of_2_pure_math_baby(int n) {
       
         <item>
           <title>Why does Java not support unsigned int? - Part 1</title>
-          <link>/2010/07/why-does-java-not-support-unsigned-int---part-1/</link>
+          <link>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
           <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/07/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <guid>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
           <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -272,10 +272,10 @@ is_power_of_2_pure_math_baby(int n) {
       
         <item>
           <title>The Holy Grail and the Programmer&#39;s High</title>
-          <link>/2009/10/the-holy-grail-and-the-programmers-high/</link>
+          <link>/2009/10/26/the-holy-grail-and-the-programmers-high/</link>
           <pubDate>Mon, 26 Oct 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/10/the-holy-grail-and-the-programmers-high/</guid>
+          <guid>/2009/10/26/the-holy-grail-and-the-programmers-high/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, the inventor of RSS, wrote today about twitter&amp;rsquo;s latest API update for supporting the &lt;a href=&#34;http://blog.twitter.com/2009/09/soon-to-launch-lists.html&#34;&gt;lists feature&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -296,10 +296,10 @@ is_power_of_2_pure_math_baby(int n) {
       
         <item>
           <title>The devil is in the why?</title>
-          <link>/2009/02/the-devil-is-in-the-why/</link>
+          <link>/2009/02/14/the-devil-is-in-the-why/</link>
           <pubDate>Sat, 14 Feb 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/02/the-devil-is-in-the-why/</guid>
+          <guid>/2009/02/14/the-devil-is-in-the-why/</guid>
           <description>&lt;p&gt;Recently I got asked, what the best way to do a join between two large lists,  into another list was? I always tend to answer that question with: it depends.&lt;/p&gt;
 
 &lt;p&gt;Just like any other algorithm, there is no silver bullet. It is a trade off  between CPU and memory utilisation. Sometimes, we do have to think about these  things (this is code in c++ on a device with scarce resources, to say the  least).&lt;/p&gt;

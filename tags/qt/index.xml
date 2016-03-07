@@ -12,10 +12,10 @@
       
         <item>
           <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-          <link>/2008/10/proposed-gui-for-c-based-twitter-client/</link>
+          <link>/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
           <pubDate>Sat, 25 Oct 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/10/proposed-gui-for-c-based-twitter-client/</guid>
+          <guid>/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
           <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;

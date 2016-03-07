@@ -1,2 +1,2 @@
 # shiva.github.io
-static site generated using jekyll - destined for blog.shiv.me
+static site generated using hugo - destined for blog.shiv.me

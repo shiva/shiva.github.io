@@ -12,10 +12,10 @@
       
         <item>
           <title>Blogsy - a ray of hope</title>
-          <link>/2011/04/blogsy---a-ray-of-hope/</link>
+          <link>/2011/04/23/blogsy---a-ray-of-hope/</link>
           <pubDate>Sat, 23 Apr 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/04/blogsy---a-ray-of-hope/</guid>
+          <guid>/2011/04/23/blogsy---a-ray-of-hope/</guid>
           <description>&lt;p&gt;This is a test post from &lt;a href=&#34;http://blogsyapp.com/&#34;&gt;blogsy&lt;/a&gt;, an iPad blogging tool.&lt;/p&gt;
 
 &lt;p&gt;The interface design looks thoughtful &amp;ndash; drag &amp;amp; drop of images from flickr and picasa, videos from YouTube, a built it google search and browser to get at other content. Although there is a bit of a learning curve, it makes the iPad a true content generation device.&lt;/p&gt;
@@ -30,10 +30,10 @@
       
         <item>
           <title>OPML Editor as a wordpress editor</title>
-          <link>/2010/03/opml-editor-as-a-wordpress-editor/</link>
+          <link>/2010/03/24/opml-editor-as-a-wordpress-editor/</link>
           <pubDate>Wed, 24 Mar 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/03/opml-editor-as-a-wordpress-editor/</guid>
+          <guid>/2010/03/24/opml-editor-as-a-wordpress-editor/</guid>
           <description>&lt;p&gt;This is a test post to see if &lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;&amp;rsquo;s [][1]&lt;a href=&#34;http://editor.opml.org/&#34;&gt;OPML editor&lt;/a&gt; works with a [][2][][2][self-hosted wordpress blog][2]. There is something geeky about seeing crappy fonts on a screen, that makes one want to use a tool more.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve known of the OPML editor for a few years now, and have tried several times to find a neat use-case for it in my workflow, and it never had a compelling enough reason for me to stick with it. I&amp;rsquo;m hoping that this new wordpress editor tool will make me want to use this more.&lt;/p&gt;
@@ -69,10 +69,10 @@
       
         <item>
           <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-          <link>/2008/10/proposed-gui-for-c-based-twitter-client/</link>
+          <link>/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
           <pubDate>Sat, 25 Oct 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/10/proposed-gui-for-c-based-twitter-client/</guid>
+          <guid>/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
           <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;
@@ -89,10 +89,10 @@
       
         <item>
           <title>A web based writer for writing to a blog?!</title>
-          <link>/2008/06/a-web-based-writer-for-writing-to-a-blog/</link>
+          <link>/2008/06/04/a-web-based-writer-for-writing-to-a-blog/</link>
           <pubDate>Wed, 04 Jun 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/06/a-web-based-writer-for-writing-to-a-blog/</guid>
+          <guid>/2008/06/04/a-web-based-writer-for-writing-to-a-blog/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://writetomyblog.com/&#34;&gt;WriteToMyBlog.com&lt;/a&gt;, is a web-based editor (with a lot of formatting options), that allows you to write to your blog (from another website?!).&lt;/p&gt;
 
 &lt;p&gt;First thoughts go like,&lt;/p&gt;
@@ -141,10 +141,10 @@
       
         <item>
           <title>Jott - a voice-based blog client!</title>
-          <link>/2008/04/jott---a-voice-based-blog-client/</link>
+          <link>/2008/04/09/jott---a-voice-based-blog-client/</link>
           <pubDate>Wed, 09 Apr 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/04/jott---a-voice-based-blog-client/</guid>
+          <guid>/2008/04/09/jott---a-voice-based-blog-client/</guid>
           <description>&lt;p&gt;Well, this is a first post to my blog using Jott, which is a very cool service. It allows you to call a number and talk what you want to post, and post it to your blog. I think it&amp;rsquo;s one of the new tools that really enable blogging. I&amp;rsquo;m just going to try it and see how it works out. &lt;a href=&#34;http://www.jott.com/show.aspx?id=d6549201-5361-44c4-adf3-ef43abf8488c&#34;&gt;listen&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Powered by [Jott][1]&lt;/p&gt;
@@ -157,10 +157,10 @@
       
         <item>
           <title>Issue with Twitbin, Jing the next-gen screen capture</title>
-          <link>/2007/10/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
+          <link>/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
           <pubDate>Tue, 02 Oct 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/10/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
+          <guid>/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -181,10 +181,10 @@
       
         <item>
           <title>The zen of Photo Management</title>
-          <link>/2007/03/the-zen-of-photo-management/</link>
+          <link>/2007/03/08/the-zen-of-photo-management/</link>
           <pubDate>Thu, 08 Mar 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/03/the-zen-of-photo-management/</guid>
+          <guid>/2007/03/08/the-zen-of-photo-management/</guid>
           <description>&lt;p&gt;I have been &lt;a href=&#34;http://shvelmur.com/wpress/sharpalbum/&#34;&gt;rambling&lt;/a&gt; for the last month or so, about the need for better photo management. Having acquired a N730 recently, I have started shooting more and more pictures, and the chore of organising them, and sharing them has been such a bore, that I haven&amp;rsquo;t uploaded a single picture.&lt;/p&gt;
 
 &lt;p&gt;Well, to change that I launched into building one myself to suit my own needs, only to discover that someone has already thought of most of it and has built a product and a service around it.&lt;/p&gt;
@@ -215,10 +215,10 @@
       
         <item>
           <title>Website clean up</title>
-          <link>/2007/03/website-clean-up/</link>
+          <link>/2007/03/07/website-clean-up/</link>
           <pubDate>Wed, 07 Mar 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/03/website-clean-up/</guid>
+          <guid>/2007/03/07/website-clean-up/</guid>
           <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.&lt;/p&gt;
@@ -258,10 +258,10 @@
       
         <item>
           <title>XML Validator</title>
-          <link>/2007/02/xml-validator/</link>
+          <link>/2007/02/08/xml-validator/</link>
           <pubDate>Thu, 08 Feb 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/02/xml-validator/</guid>
+          <guid>/2007/02/08/xml-validator/</guid>
           <description>
 
 &lt;p&gt;It is quite surprising that there are hardly any open-source to validate XML out there. I had the need to validate a auto-generated XML output against a valid xsd, to see if the code that I wrote to generate XML was producing not only syntactically correct XML, but also XML that was data-valid. &lt;strong&gt;XML Validator&lt;/strong&gt;, provides an UI that allows you to check the validity of any XML, in with reference to its xsd. It is free for Personal and Commercial use without any warranties. So don&amp;rsquo;t come to me if it makes your dog barks all night, or if your computer commits suicide.&lt;/p&gt;
@@ -314,10 +314,10 @@
       
         <item>
           <title>Nexo - The tool you&#39;ll remember for a while</title>
-          <link>/2007/02/nexo---the-tool-youll-remember-for-a-while/</link>
+          <link>/2007/02/06/nexo---the-tool-youll-remember-for-a-while/</link>
           <pubDate>Tue, 06 Feb 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/02/nexo---the-tool-youll-remember-for-a-while/</guid>
+          <guid>/2007/02/06/nexo---the-tool-youll-remember-for-a-while/</guid>
           <description>&lt;p&gt;Firstly, thanks Scoble.. I think I&amp;rsquo;ll stop reading other gadget/tech sites .. you are my new feed filter.&lt;/p&gt;
 
 &lt;p&gt;Secondly, I got a whiff of yet another web 2.0 (does that even mean anything these days!) application site. &lt;a href=&#34;http://www.nexo.com/&#34;&gt;Nexo&lt;/a&gt; is a wonderful wonderful site. just as Scoble says &amp;ldquo;It&amp;rsquo;s Yahoo Groups done right&amp;rdquo;.&lt;/p&gt;
@@ -332,10 +332,10 @@
       
         <item>
           <title>Common Access Portal</title>
-          <link>/2007/01/common-access-portal/</link>
+          <link>/2007/01/20/common-access-portal/</link>
           <pubDate>Sat, 20 Jan 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/01/common-access-portal/</guid>
+          <guid>/2007/01/20/common-access-portal/</guid>
           <description>&lt;p&gt;With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -361,10 +361,10 @@
       
         <item>
           <title>Windows Live writer - Growing pains</title>
-          <link>/2006/12/windows-live-writer---growing-pains/</link>
+          <link>/2006/12/26/windows-live-writer---growing-pains/</link>
           <pubDate>Tue, 26 Dec 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/12/windows-live-writer---growing-pains/</guid>
+          <guid>/2006/12/26/windows-live-writer---growing-pains/</guid>
           <description>&lt;p&gt;I just downloaded Windows Live Writer&lt;/p&gt;
 
 &lt;p&gt;At first look, it looks good! I haven&amp;rsquo;t been able to say that about most Microsoft products off late. The last product that was awe-inspiring was perhaps VC++ 6.0 (such wide range of features), IE 6.0 (it was big deal when it came into the market) and maybe, to some extent Office 2003 (a lot less buggy and smaller file sizes than previous releases).&lt;/p&gt;
@@ -434,10 +434,10 @@ Homestead, Milpitas - Statelite View&lt;/p&gt;
       
         <item>
           <title>Firefox upgrade!</title>
-          <link>/2006/12/firefox-upgrade/</link>
+          <link>/2006/12/24/firefox-upgrade/</link>
           <pubDate>Sun, 24 Dec 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/12/firefox-upgrade/</guid>
+          <guid>/2006/12/24/firefox-upgrade/</guid>
           <description>&lt;p&gt;It is not just M$ that struggles with frequent patches for its products. Mozilla just released a whole host of bug fixes in a new release 2.0.0.1. You can download it &lt;a href=&#34;http://www.mozilla.com/en-US/firefox/&#34;&gt;here &lt;/a&gt;or use the direct links below.&lt;br /&gt;
 &lt;a href=&#34;http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.1/win32/en-US/Firefox%20Setup%202.0.0.1.exe&#34;&gt;&lt;br /&gt;
 &lt;/a&gt;Http Direct Links to Oregon State University&amp;rsquo;s Open Source Lab&lt;a href=&#34;http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.1/win32/en-US/Firefox%20Setup%202.0.0.1.exe&#34;&gt;&lt;br /&gt;
@@ -464,10 +464,10 @@ Windows&lt;/a&gt;&lt;br /&gt;
       
         <item>
           <title>Bandwith tests</title>
-          <link>/2006/08/bandwith-tests/</link>
+          <link>/2006/08/24/bandwith-tests/</link>
           <pubDate>Thu, 24 Aug 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/08/bandwith-tests/</guid>
+          <guid>/2006/08/24/bandwith-tests/</guid>
           <description>&lt;p&gt;Wanna find out if you are getting what you are paying for? Well, you can atleast get an idea of what bandwidth is actually provided to you by visiting speedtes.net&lt;/p&gt;
 
 &lt;p&gt;This is what I get at my office!&lt;/p&gt;
@@ -484,10 +484,10 @@ Windows&lt;/a&gt;&lt;br /&gt;
       
         <item>
           <title>Fastr</title>
-          <link>/2006/02/fastr/</link>
+          <link>/2006/02/17/fastr/</link>
           <pubDate>Fri, 17 Feb 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/02/fastr/</guid>
+          <guid>/2006/02/17/fastr/</guid>
           <description>&lt;p&gt;Thanks to kottke.org, I found a very engaging game, to keep my busy during the long hours of installing applications at work!&lt;br /&gt;
 Check out &lt;a href=&#34;http://randomchaos.com/games/fastr/&#34;&gt;Fastr.&lt;/a&gt; Oh Yeah, btw, it uses AJAX to update the scores. Welcome to Web 2.0&lt;/p&gt;
 </description>
@@ -497,10 +497,10 @@ Check out &lt;a href=&#34;http://randomchaos.com/games/fastr/&#34;&gt;Fastr.&lt;
       
         <item>
           <title>Opera for free! Yipeee!</title>
-          <link>/2005/09/opera-for-free-yipeee/</link>
+          <link>/2005/09/21/opera-for-free-yipeee/</link>
           <pubDate>Wed, 21 Sep 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/09/opera-for-free-yipeee/</guid>
+          <guid>/2005/09/21/opera-for-free-yipeee/</guid>
           <description>&lt;p&gt;There was once a wondeful browser called &amp;ldquo;Opera&amp;rdquo;. The lucid interface, the smal memory footprint - it was simply browsing heaven.&lt;/p&gt;
 
 &lt;p&gt;Then came the version loaded with ads, heavy, sluggish UI and a hug memory footprint in the name of new improved UI. The ads loaded version of opera turned out to nag-ware and I totally detested it and moved to other browsers (read Firefox). Get online and check websites out became &amp;ldquo;swimming&amp;rdquo; and not &amp;ldquo;surfing&amp;rdquo;&lt;/p&gt;
@@ -519,10 +519,10 @@ Check out &lt;a href=&#34;http://randomchaos.com/games/fastr/&#34;&gt;Fastr.&lt;
       
         <item>
           <title>Google Talk</title>
-          <link>/2005/08/google-talk/</link>
+          <link>/2005/08/24/google-talk/</link>
           <pubDate>Wed, 24 Aug 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/08/google-talk/</guid>
+          <guid>/2005/08/24/google-talk/</guid>
           <description>&lt;p&gt;Another wonderful tool and a new area that Google has strolled into and stormed!&lt;br /&gt;
 Check out the new IM from Google.. neat sparse interface as usual. Extremely intuitive and very light on system resources. I&amp;rsquo;m lovin&amp;rsquo; it!&lt;/p&gt;
 
@@ -536,10 +536,10 @@ Check out the new IM from Google.. neat sparse interface as usual. Extremely int
       
         <item>
           <title>The new face of google</title>
-          <link>/2005/07/the-new-face-of-google/</link>
+          <link>/2005/07/19/the-new-face-of-google/</link>
           <pubDate>Tue, 19 Jul 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/07/the-new-face-of-google/</guid>
+          <guid>/2005/07/19/the-new-face-of-google/</guid>
           <description>&lt;p&gt;Check out the future of google [here][0]&lt;/p&gt;
 
 &lt;p&gt;Google Suggest is in BETA testing (as all other kewl features of google ;) ). Just go to the link above and search for your favourite search text and wait for a second before pressing &amp;ldquo;Enter&amp;rdquo; and voila!&lt;/p&gt;
@@ -552,10 +552,10 @@ Check out the new IM from Google.. neat sparse interface as usual. Extremely int
       
         <item>
           <title>Firetune - speed up your firefox</title>
-          <link>/2005/07/firetune---speed-up-your-firefox/</link>
+          <link>/2005/07/07/firetune---speed-up-your-firefox/</link>
           <pubDate>Thu, 07 Jul 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/07/firetune---speed-up-your-firefox/</guid>
+          <guid>/2005/07/07/firetune---speed-up-your-firefox/</guid>
           <description>&lt;p&gt;I just found this link on an orkut forum &amp;hellip; yeah , I&amp;rsquo;m part of orkut too!!&lt;br /&gt;
 Check out [Firetune][0]. It is supposed to make Firefox quicker.&lt;/p&gt;
 

@@ -12,10 +12,10 @@
       
         <item>
           <title>Getting git status on multiple directories</title>
-          <link>/2014/03/getting-git-status-on-multiple-directories/</link>
+          <link>/2014/03/31/getting-git-status-on-multiple-directories/</link>
           <pubDate>Mon, 31 Mar 2014 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2014/03/getting-git-status-on-multiple-directories/</guid>
+          <guid>/2014/03/31/getting-git-status-on-multiple-directories/</guid>
           <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
 The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
 
