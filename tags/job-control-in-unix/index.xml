@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/job-control-in-unix/</link>
+    <link>http://blog.shiv.me/tags/job-control-in-unix/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Job Control on \*NIX systems</title>
-          <link>/2011/01/31/job-control-on-%5Cnix-systems/</link>
+          <link>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</link>
           <pubDate>Mon, 31 Jan 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/01/31/job-control-on-%5Cnix-systems/</guid>
+          <guid>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</guid>
           <description>&lt;p&gt;If you are not a UNIX user/not a geek, please turn away right now.&lt;/p&gt;
 
 &lt;p&gt;Every year, I either chance upon something new, or remind myself of something interesting that I&amp;rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):&lt;/p&gt;

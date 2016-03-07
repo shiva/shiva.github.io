@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/wordpress/</link>
+    <link>http://blog.shiv.me/tags/wordpress/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Hey wordpress guys, have you heard of diff?!</title>
-          <link>/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</link>
+          <link>http://blog.shiv.me/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</link>
           <pubDate>Tue, 06 May 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</guid>
+          <guid>http://blog.shiv.me/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</guid>
           <description>
 
 &lt;p&gt;I hate having to upgrade software. I truly do. I release a version every 3 months, and it try to make the upgrade as painless as possible. For an application like wordpress, that has been around for such a long, I would expect that they would do something to make it a little easier to upgrade.&lt;/p&gt;
@@ -129,10 +129,10 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
       
         <item>
           <title>EX-SideRSS</title>
-          <link>/2007/10/01/ex-siderss/</link>
+          <link>http://blog.shiv.me/2007/10/01/ex-siderss/</link>
           <pubDate>Mon, 01 Oct 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/10/01/ex-siderss/</guid>
+          <guid>http://blog.shiv.me/2007/10/01/ex-siderss/</guid>
           <description>&lt;p&gt;After several months of keeping away from updating or changing my website, I broke the fast today. I found a wonderful plugin, &lt;a href=&#34;http://www.underjc.com/?q=node/13&#34;&gt;sideRSS&lt;/a&gt;, which allows display of RSS feeds within a blog&amp;rsquo;s sidebar. As usual, I needed a specific functionality that was not supported the way I wanted it. I hacked it a little bit, renamed the plugin, and posted a custom version for download on my website.&lt;/p&gt;
 
 &lt;p&gt;If you need to share Google Shared Items, on your blog, but hate to include javascript (like I do), then use this. You can download it &lt;a href=&#34;http://shvelmur.com/downloads/projects/ex-siderss.php&#34;&gt;here&lt;/a&gt; (right-click and use &amp;ldquo;Save Target As&amp;hellip;&amp;rdquo;) and find install information &lt;a href=&#34;http://shvelmur.com/wpress/projects/exsiderss/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -149,10 +149,10 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
       
         <item>
           <title>Wordpress commended for lack of spam</title>
-          <link>/2007/04/11/wordpress-commended-for-lack-of-spam/</link>
+          <link>http://blog.shiv.me/2007/04/11/wordpress-commended-for-lack-of-spam/</link>
           <pubDate>Wed, 11 Apr 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/04/11/wordpress-commended-for-lack-of-spam/</guid>
+          <guid>http://blog.shiv.me/2007/04/11/wordpress-commended-for-lack-of-spam/</guid>
           <description>&lt;p&gt;Me and thousands of other people, continue to use wordpress, one of the leading blog management systems (sounds kewl, eh? ;) ), and proof that is it in fact leading is &lt;a href=&#34;http://www.plagiarismtoday.com/2007/04/09/why-wordpresscom-is-virtually-spam-free/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Apparently, &lt;a href=&#34;http://wordpress.com&#34;&gt;Wordpress.com&lt;/a&gt;, has the least spam, compared to other free blog-hosting services. The honored list of competitors, include the likes of google, myspace and AOL, each one of them goliaths! &lt;a href=&#34;http://en.wikipedia.org/wiki/Matt_Mullenweg&#34;&gt;Matt Mullenweg&lt;/a&gt;, the creator of &lt;a href=&#34;http://wordpress.org&#34;&gt;Wordpress&lt;/a&gt;, associates the success of wordpress.com spam protection to Akismet. This is something that I use now. I used spam-karma before this, which was pretty good, but with Akismet, it is almost zero-management.&lt;/p&gt;
@@ -165,10 +165,10 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
       
         <item>
           <title>Website clean up</title>
-          <link>/2007/03/07/website-clean-up/</link>
+          <link>http://blog.shiv.me/2007/03/07/website-clean-up/</link>
           <pubDate>Wed, 07 Mar 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/03/07/website-clean-up/</guid>
+          <guid>http://blog.shiv.me/2007/03/07/website-clean-up/</guid>
           <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.&lt;/p&gt;
@@ -176,7 +176,7 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
 &lt;p&gt;I&amp;rsquo;m attempting to clean up my online junkyard, yet again, just as &lt;a href=&#34;http://www.sscnet.ucla.edu/southasia/History/Mughals/mahmud_mughals.html&#34;&gt;Mahmud of Ghazni invaded the Indian sub-continent 17 times&lt;/a&gt;. Here are few things that I&amp;rsquo;m doing, which are keeping me from posting, not to mention a 1000 entries in my google reader, loads of work at office, the &lt;a href=&#34;http://shvelmur.com/wpress/sharpalbum/&#34;&gt;impending release of #Album&lt;/a&gt; and not to mention &lt;a href=&#34;http://www.google.com/reader/shared/14480565058256660224&#34;&gt;Mr. Scoble, who doesn&amp;rsquo;t let me sleep&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Remove all static html files&lt;/li&gt;
 &lt;li&gt;Separate tech items from normal blog. (I&amp;rsquo;m thinking of using wordpress categories to do this)&lt;/li&gt;
 &lt;li&gt;Install &lt;a href=&#34;http://www.google.com/a/&#34;&gt;google-apps&lt;/a&gt; on a sub-domain.&lt;/li&gt;
@@ -208,10 +208,10 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
       
         <item>
           <title>Website clean up</title>
-          <link>/2007/03/07/website-clean-up/</link>
+          <link>http://blog.shiv.me/2007/03/07/website-clean-up/</link>
           <pubDate>Wed, 07 Mar 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/03/07/website-clean-up/</guid>
+          <guid>http://blog.shiv.me/2007/03/07/website-clean-up/</guid>
           <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.&lt;/p&gt;
@@ -219,7 +219,7 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
 &lt;p&gt;I&amp;rsquo;m attempting to clean up my online junkyard, yet again, just as &lt;a href=&#34;http://www.sscnet.ucla.edu/southasia/History/Mughals/mahmud_mughals.html&#34;&gt;Mahmud of Ghazni invaded the Indian sub-continent 17 times&lt;/a&gt;. Here are few things that I&amp;rsquo;m doing, which are keeping me from posting, not to mention a 1000 entries in my google reader, loads of work at office, the &lt;a href=&#34;http://shvelmur.com/wpress/sharpalbum/&#34;&gt;impending release of #Album&lt;/a&gt; and not to mention &lt;a href=&#34;http://www.google.com/reader/shared/14480565058256660224&#34;&gt;Mr. Scoble, who doesn&amp;rsquo;t let me sleep&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Remove all static html files&lt;/li&gt;
 &lt;li&gt;Separate tech items from normal blog. (I&amp;rsquo;m thinking of using wordpress categories to do this)&lt;/li&gt;
 &lt;li&gt;Install &lt;a href=&#34;http://www.google.com/a/&#34;&gt;google-apps&lt;/a&gt; on a sub-domain.&lt;/li&gt;
@@ -251,10 +251,10 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
       
         <item>
           <title>Common Access Portal</title>
-          <link>/2007/01/20/common-access-portal/</link>
+          <link>http://blog.shiv.me/2007/01/20/common-access-portal/</link>
           <pubDate>Sat, 20 Jan 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/01/20/common-access-portal/</guid>
+          <guid>http://blog.shiv.me/2007/01/20/common-access-portal/</guid>
           <description>&lt;p&gt;With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -280,10 +280,10 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
       
         <item>
           <title>Page link in wordpress</title>
-          <link>/2005/12/15/page-link-in-wordpress/</link>
+          <link>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</link>
           <pubDate>Thu, 15 Dec 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/12/15/page-link-in-wordpress/</guid>
+          <guid>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</guid>
           <description>&lt;p&gt;I have been wondering for sometime now, how K2, added an entry in pages, but the content was controlled from the one of the php files in the theme directory.&lt;/p&gt;
 
 &lt;p&gt;It turns out that is is very simple (yet elegant &amp;hellip; hat&amp;rsquo;s off to wordpress guys). I used this to integrate FAlbum into K2.&lt;/p&gt;

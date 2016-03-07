@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/ff/</link>
+    <link>http://blog.shiv.me/tags/ff/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Friendfeed comments for wordpress</title>
-          <link>/2008/06/27/friendfeed-comments-for-wordpress/</link>
+          <link>http://blog.shiv.me/2008/06/27/friendfeed-comments-for-wordpress/</link>
           <pubDate>Fri, 27 Jun 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/06/27/friendfeed-comments-for-wordpress/</guid>
+          <guid>http://blog.shiv.me/2008/06/27/friendfeed-comments-for-wordpress/</guid>
           <description>&lt;p&gt;Conversations on the web have evolved quite a bit, in the last &lt;sup&gt;4&lt;/sup&gt;&amp;frasl;&lt;sub&gt;5&lt;/sub&gt; years. During the late 90s, conversations on the web, was pretty much non-existant, except for a few, who used their websites to engage in conversations. The advent of the blog, made available tools to start and continue conversations.&lt;/p&gt;
 
 &lt;p&gt;In the last couple of years, there has been several attempts to normalize comments, across the blogging ecosystem, and several ways have been tried. &lt;a href=&#34;http://disqus.com&#34;&gt;Disqus&lt;/a&gt;, is a company, that is in the business of aggregating comments for your blog. &lt;a href=&#34;http://seesmic.com&#34;&gt;Seesmic&lt;/a&gt;, a video communications startup, has partnered with them to integrate video comments. Even after all of these innovations, getting people to comment on a blog, is still pretty difficult.&lt;/p&gt;

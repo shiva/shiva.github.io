@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/extended/</link>
+    <link>http://blog.shiv.me/tags/extended/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Website clean up</title>
-          <link>/2007/03/07/website-clean-up/</link>
+          <link>http://blog.shiv.me/2007/03/07/website-clean-up/</link>
           <pubDate>Wed, 07 Mar 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/03/07/website-clean-up/</guid>
+          <guid>http://blog.shiv.me/2007/03/07/website-clean-up/</guid>
           <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.&lt;/p&gt;
@@ -23,7 +23,7 @@
 &lt;p&gt;I&amp;rsquo;m attempting to clean up my online junkyard, yet again, just as &lt;a href=&#34;http://www.sscnet.ucla.edu/southasia/History/Mughals/mahmud_mughals.html&#34;&gt;Mahmud of Ghazni invaded the Indian sub-continent 17 times&lt;/a&gt;. Here are few things that I&amp;rsquo;m doing, which are keeping me from posting, not to mention a 1000 entries in my google reader, loads of work at office, the &lt;a href=&#34;http://shvelmur.com/wpress/sharpalbum/&#34;&gt;impending release of #Album&lt;/a&gt; and not to mention &lt;a href=&#34;http://www.google.com/reader/shared/14480565058256660224&#34;&gt;Mr. Scoble, who doesn&amp;rsquo;t let me sleep&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Remove all static html files&lt;/li&gt;
 &lt;li&gt;Separate tech items from normal blog. (I&amp;rsquo;m thinking of using wordpress categories to do this)&lt;/li&gt;
 &lt;li&gt;Install &lt;a href=&#34;http://www.google.com/a/&#34;&gt;google-apps&lt;/a&gt; on a sub-domain.&lt;/li&gt;

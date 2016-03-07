@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/launchpad/</link>
+    <link>http://blog.shiv.me/tags/launchpad/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>OSX Lion. A first look (at 2 AM)</title>
-          <link>/2011/07/23/osx-lion.-a-first-look-at-2-am/</link>
+          <link>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</link>
           <pubDate>Sat, 23 Jul 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/07/23/osx-lion.-a-first-look-at-2-am/</guid>
+          <guid>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</guid>
           <description>&lt;p&gt;Just upgraded to OSX Lion. A very slick interface.&lt;/p&gt;
 
 &lt;p&gt;Quick Review:&lt;/p&gt;

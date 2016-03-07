@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/solaris/</link>
+    <link>http://blog.shiv.me/tags/solaris/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,17 +12,17 @@
       
         <item>
           <title>Unix: how to check system configuration on solaris</title>
-          <link>/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</link>
+          <link>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</link>
           <pubDate>Sat, 08 Sep 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
+          <guid>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
           <description>&lt;p&gt;I had to compare machine hardware today, and found information on that &lt;a href=&#34;http://esofthub.blogspot.com/2006/10/view-processor-speed-and-ram-size.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.&lt;/p&gt;
 
 &lt;p&gt;Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;#psrinfo -p&lt;/strong&gt; - lists number of physical processors .&lt;/p&gt;
 

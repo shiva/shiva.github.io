@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/tips--tricks/</link>
+    <link>http://blog.shiv.me/tags/tips--tricks/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Exporting XDisplay</title>
-          <link>/2011/06/21/exporting-xdisplay/</link>
+          <link>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</link>
           <pubDate>Tue, 21 Jun 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/06/21/exporting-xdisplay/</guid>
+          <guid>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</guid>
           <description>&lt;p&gt;In *nix systems, you can make the display, the GUI of an application, appear on another machine.  This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.&lt;/p&gt;
 
 &lt;p&gt;You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details. By default, the XServer instance on your desktop disallows communication from all machines except localhost. Thus, you will need to add the host in the allowed list using the xhost command.&lt;/p&gt;
@@ -48,13 +48,13 @@
       
         <item>
           <title>How I handle 1000&#43; emails and 300&#43; blog posts a day</title>
-          <link>/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</link>
+          <link>http://blog.shiv.me/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</link>
           <pubDate>Wed, 15 Oct 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</guid>
+          <guid>http://blog.shiv.me/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</guid>
           <description>&lt;p&gt;Several people are shocked to hear that I read 1000+ emails and &lt;a href=&#34;http://www.google.com/reader/shared/18301612726860782682&#34;&gt;several hundred blog posts a day&lt;/a&gt;. Ofcourse, when I say that, all I mean is that, I process that much content. I read around 30-40% (That is really the signal-to-noise ratio of web content these days&amp;ndash;and that is, if you are subscribed to high quality feeds)&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;google reader trends&amp;rdquo;][&lt;img src=&#34;/images/2945049781_d005a9184b.jpg&#34; alt=&#34;google reader trends&#34; /&gt;][1][/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;google reader trends&amp;rdquo;][&lt;img src=&#34;http://blog.shiv.me/images/2945049781_d005a9184b.jpg&#34; alt=&#34;google reader trends&#34; /&gt;][1][/caption]&lt;/p&gt;
 
 &lt;p&gt;One of friends was curious how I can handle all that data flow, and I emailed her this:&lt;/p&gt;
 
@@ -85,10 +85,10 @@
       
         <item>
           <title>cvs - Getting list of files changed in the current tree</title>
-          <link>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+          <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
           <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+          <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
           <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
@@ -107,10 +107,10 @@
       
         <item>
           <title>IPOD touch: Downgrade from 1.1.3 to 1.1.1</title>
-          <link>/2008/01/16/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</link>
+          <link>http://blog.shiv.me/2008/01/16/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</link>
           <pubDate>Wed, 16 Jan 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/01/16/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</guid>
+          <guid>http://blog.shiv.me/2008/01/16/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</guid>
           <description>&lt;p&gt;My ipod touch was upgraded to 1.1.3, after connecting to my computer, and I wanted to downgrade to 1.1.1, so I could jailbreak it and put any app I want on it.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://ipodtouchmaster.com/&#34;&gt;ipodtouchmaster &lt;/a&gt;found [a way to downgrade][1] it using iPhuc.&lt;/p&gt;
@@ -123,10 +123,10 @@
       
         <item>
           <title>Recovery from GRUB Failure</title>
-          <link>/2007/04/06/recovery-from-grub-failure/</link>
+          <link>http://blog.shiv.me/2007/04/06/recovery-from-grub-failure/</link>
           <pubDate>Fri, 06 Apr 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/04/06/recovery-from-grub-failure/</guid>
+          <guid>http://blog.shiv.me/2007/04/06/recovery-from-grub-failure/</guid>
           <description>&lt;p&gt;I have a dual-boot PC at home, which boots to OpenSUSE and Windows. After a very tiring 7 hour journey, I came home to a GRUB failure. After searching for help all over the web, I found some help &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_3.html&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_12.html#SEC38&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_4.html#SEC12&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://orgs.man.ac.uk/documentation/grub/grub_13.html#SEC78&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;http://www.troubleshooters.com/linux/grub/grub.htm&#34;&gt;here&lt;/a&gt; and [here][5]. :)&lt;/p&gt;
 
 &lt;p&gt;It turns out, that GRUB stage 2 was not being loaded. So here&amp;rsquo;s what I did.&lt;/p&gt;
@@ -158,10 +158,10 @@ grub&amp;gt;chainloader +1&lt;/code&gt;&lt;/p&gt;
       
         <item>
           <title>Bangalore Hangouts</title>
-          <link>/2007/03/04/bangalore-hangouts/</link>
+          <link>http://blog.shiv.me/2007/03/04/bangalore-hangouts/</link>
           <pubDate>Sun, 04 Mar 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/03/04/bangalore-hangouts/</guid>
+          <guid>http://blog.shiv.me/2007/03/04/bangalore-hangouts/</guid>
           <description>&lt;p&gt;Thanks to the person who has compiled this huge list of addresses of establishements in bangalore. I have no clue how currrent this list is, but here it is.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.html&#34;&gt;Bangalore Hangouts&lt;/a&gt; - &lt;a href=&#34;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.xls&#34;&gt;excel&lt;/a&gt;, &lt;a href=&#34;http://shvelmur.com/downloads/blore_hangouts/Bangalore_Hangouts.ods&#34;&gt;ods&lt;/a&gt;, [pdf][3]&lt;/p&gt;
@@ -180,10 +180,10 @@ grub&amp;gt;chainloader +1&lt;/code&gt;&lt;/p&gt;
       
         <item>
           <title>Hacking Wordpress - An extended XML-RPC API</title>
-          <link>/2007/01/15/hacking-wordpress---an-extended-xml-rpc-api/</link>
+          <link>http://blog.shiv.me/2007/01/15/hacking-wordpress---an-extended-xml-rpc-api/</link>
           <pubDate>Mon, 15 Jan 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/01/15/hacking-wordpress---an-extended-xml-rpc-api/</guid>
+          <guid>http://blog.shiv.me/2007/01/15/hacking-wordpress---an-extended-xml-rpc-api/</guid>
           <description>&lt;p&gt;Having broken my elbow, I have spent the last two weeks typing away with a single hand. With nothing much to do, I went about looking at ways to improve the capabilities of blog editors. I use BlogDesk for my blogging needs. It is a wonderful editor, that let you do all operations provided by MetaWeblog API. However I wanted to do more than what was provided there. I wanted to add some features for plugins that I used.&lt;/p&gt;
 
 &lt;p&gt;The following is a propopsed list of extensions:&lt;/p&gt;
@@ -220,10 +220,10 @@ Admin Support&lt;br /&gt;&lt;/li&gt;
       
         <item>
           <title>Return of Javascript!</title>
-          <link>/2006/08/10/return-of-javascript/</link>
+          <link>http://blog.shiv.me/2006/08/10/return-of-javascript/</link>
           <pubDate>Thu, 10 Aug 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/08/10/return-of-javascript/</guid>
+          <guid>http://blog.shiv.me/2006/08/10/return-of-javascript/</guid>
           <description>&lt;p&gt;After what has been ages, I have returned. Not that many are reading this, but I intend to use this for future reference in any case&lt;/p&gt;
 
 &lt;p&gt;I have wanted to learn javascript, and this time I found a sustainable way. Learn a language by implementing something very huge in it. I&amp;rsquo;m writing, what I must say a very kewl application at work, and am learning quite a few tricks in javascript.&lt;/p&gt;
@@ -251,10 +251,10 @@ Although, the Array() datatype, looks like a juicy candidate for building associ
       
         <item>
           <title>Learn HTML and Javascript</title>
-          <link>/2005/11/25/learn-html-and-javascript/</link>
+          <link>http://blog.shiv.me/2005/11/25/learn-html-and-javascript/</link>
           <pubDate>Fri, 25 Nov 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/11/25/learn-html-and-javascript/</guid>
+          <guid>http://blog.shiv.me/2005/11/25/learn-html-and-javascript/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://www.yourhtmlsource.com/&#34;&gt;HTMLSource: HTML Tutorials&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I know I need to refrain from this incessant habit of link-blogging, but hey, somethin&amp;rsquo; better than nothin&amp;rsquo;. A lot has been happening lately, but no time for that now!&lt;/p&gt;
@@ -272,10 +272,10 @@ Although, the Array() datatype, looks like a juicy candidate for building associ
       
         <item>
           <title>getting batch categories to work with Word press 1.5.1.1</title>
-          <link>/2005/05/27/getting-batch-categories-to-work-with-word-press-1.5.1.1/</link>
+          <link>http://blog.shiv.me/2005/05/27/getting-batch-categories-to-work-with-word-press-1.5.1.1/</link>
           <pubDate>Fri, 27 May 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/05/27/getting-batch-categories-to-work-with-word-press-1.5.1.1/</guid>
+          <guid>http://blog.shiv.me/2005/05/27/getting-batch-categories-to-work-with-word-press-1.5.1.1/</guid>
           <description>&lt;p&gt;I simply love that plugin - Batch categories, like a myriad of other wordpress users. (A thousand thanks to Stephanie Booth wouldn&amp;rsquo;t suffice ;) ), but I had problems getting it to work in 1.5.1&lt;/p&gt;
 
 &lt;p&gt;Lots of results out there, that explain how to fix it, but none that lets a newbie get it up quickly. I know this is a repetition, but it still took my more than a day to get it fixed (mebbe it&amp;rsquo;s my dull head.. but then again)&lt;/p&gt;

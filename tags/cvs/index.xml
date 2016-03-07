@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/cvs/</link>
+    <link>http://blog.shiv.me/tags/cvs/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>cvs - Getting list of files changed in the current tree</title>
-          <link>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+          <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
           <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+          <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
           <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;

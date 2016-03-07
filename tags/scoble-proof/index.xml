@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/scoble-proof/</link>
+    <link>http://blog.shiv.me/tags/scoble-proof/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>And another thing about Google Buzz</title>
-          <link>/2010/02/10/and-another-thing-about-google-buzz/</link>
+          <link>http://blog.shiv.me/2010/02/10/and-another-thing-about-google-buzz/</link>
           <pubDate>Wed, 10 Feb 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/02/10/and-another-thing-about-google-buzz/</guid>
+          <guid>http://blog.shiv.me/2010/02/10/and-another-thing-about-google-buzz/</guid>
           <description>&lt;p&gt;There are several issues that people have uncovered in the last 2 days that it has existed. For me, of all the features that Buzz lacks, one thing really stands out. There is no way to just see a &lt;strong&gt;list of the conversations&lt;/strong&gt; (without the whole list of comments expanded by default). This is the main reason that I &lt;strong&gt;*had*&lt;/strong&gt; to unfollow Scoble, Michael Arrington, Louis Gray and a bunch of others. Take a look at [this conversation][0], and you would understand why.&lt;/p&gt;
 
 &lt;p&gt;Every time, anyone, replied to that thread (which incidently has been at the top of scoble&amp;rsquo;s buzz list all day), it would become the top post on my buzz view as well.  Now you are thinking, &amp;ldquo;Well, Buzz was not meant for long conversations&amp;rdquo;. Go back and read the comments on that conversation .. all 350+ of them, and come back here.&lt;/p&gt;

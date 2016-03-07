@@ -15,17 +15,17 @@
   </title>
 
   
-  <link rel="stylesheet" href="/css/poole.css">
-  <link rel="stylesheet" href="/css/syntax.css">
-  <link rel="stylesheet" href="/css/lanyon.css">
+  <link rel="stylesheet" href="http://blog.shiv.me/css/poole.css">
+  <link rel="stylesheet" href="http://blog.shiv.me/css/syntax.css">
+  <link rel="stylesheet" href="http://blog.shiv.me/css/lanyon.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.shiv.me/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="http://blog.shiv.me/assets/favicon.ico">
 
   
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.shiv.me/atom.xml">
 </head>
 
 
@@ -41,8 +41,8 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="/">Home</a>
-    <a class="sidebar-nav-item " href="/post">Archives</a>
+    <a class="sidebar-nav-item " href="http://blog.shiv.me/">Home</a>
+    <a class="sidebar-nav-item " href="http://blog.shiv.me/post">Archives</a>
 
     
     
@@ -706,7 +706,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="/" title="Home">shiv.me</a>
+            <a href="http://blog.shiv.me/" title="Home">shiv.me</a>
             <small></small>
           </h3>
         </div>
@@ -763,7 +763,7 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
 
 <p>Sometimes, before trying to find a technical solution to the problem at hand, it might help to ask why? What is the need for this requirement? The key is to ask why until you reach a specific use-case. I tend to ask this all the way until I reach either a SOAP request, or a specific component in the GUI that requires this piece of data. Most of the time, we can get by without writing a potentially inefficient solution.</p>
 
-<p><a href="http://flickr.com/photos/shvelmur/3262859586/"><img src="/images/3262859586_5caf14c1fb_m.jpg" alt="Lord of his city" /></a></p>
+<p><a href="http://flickr.com/photos/shvelmur/3262859586/"><img src="http://blog.shiv.me/images/3262859586_5caf14c1fb_m.jpg" alt="Lord of his city" /></a></p>
 
 <p>In this case, after several &ldquo;why&rdquo;s, I discovered that this requirement came about, since one of the products in our suite (yeah we have a bunch of products that build on each other), need to display a list of names of object C, as the user searches for a specific one to add items to. If we had decided to write either v1 or v2, every time the user opened that GUI component, we would transport, a possible 10000 records from the device all the way to the GUI (which in our case is several layers above), when we only need a list of names based on a specific criteria.</p>
 

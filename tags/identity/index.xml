@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/identity/</link>
+    <link>http://blog.shiv.me/tags/identity/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Getting rid of passwords</title>
-          <link>/2014/07/14/getting-rid-of-passwords/</link>
+          <link>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</link>
           <pubDate>Mon, 14 Jul 2014 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2014/07/14/getting-rid-of-passwords/</guid>
+          <guid>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</guid>
           <description>&lt;p&gt;I hate passwords. Seems like several smart people are on the case of getting rid of the &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
 
 &lt;ul&gt;

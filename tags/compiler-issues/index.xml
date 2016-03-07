@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/compiler-issues/</link>
+    <link>http://blog.shiv.me/tags/compiler-issues/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Badly punctuated parameter list in #define</title>
-          <link>/2011/11/08/badly-punctuated-parameter-list/</link>
+          <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
           <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/11/08/badly-punctuated-parameter-list/</guid>
+          <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
           <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;

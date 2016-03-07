@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/books/</link>
+    <link>http://blog.shiv.me/tags/books/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Sometimes, they are useful for a lifetime</title>
-          <link>/2011/09/25/sometimes-they-are-useful-for-a-lifetime/</link>
+          <link>http://blog.shiv.me/2011/09/25/sometimes-they-are-useful-for-a-lifetime/</link>
           <pubDate>Sun, 25 Sep 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/09/25/sometimes-they-are-useful-for-a-lifetime/</guid>
+          <guid>http://blog.shiv.me/2011/09/25/sometimes-they-are-useful-for-a-lifetime/</guid>
           <description>&lt;p&gt;And sometimes, they barely hold your attention. However, the recent acquisition is the former. I got the mammoth of a book, over the weekend; it weighs a ton and I&amp;rsquo;ll be sleeping with it, clutched tight in my hands.&lt;/p&gt;
 
 &lt;p&gt;If you already have the tomb by tanenbaum of similar name, the unix programming interface, you probably are not going to glean much value from this one (you can thank POSIX for maintaining a modicum of consistency over the years and some would vehemently contest that). That said, if you write code for *nix systems, it definitely deserves the shelf-space as much as any other programming book.&lt;/p&gt;
@@ -30,11 +30,11 @@
       
         <item>
           <title>Guess what I&#39;m getting in a week or two?!</title>
-          <link>/2009/10/14/guess-what-im-getting-in-a-week-or-two/</link>
+          <link>http://blog.shiv.me/2009/10/14/guess-what-im-getting-in-a-week-or-two/</link>
           <pubDate>Wed, 14 Oct 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/10/14/guess-what-im-getting-in-a-week-or-two/</guid>
-          <description>&lt;p&gt;&lt;img src=&#34;/images/CropperCapture2-283x300.jpg&#34; alt=&#34;CropperCapture[2]&#34; /&gt;&lt;/p&gt;
+          <guid>http://blog.shiv.me/2009/10/14/guess-what-im-getting-in-a-week-or-two/</guid>
+          <description>&lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/CropperCapture2-283x300.jpg&#34; alt=&#34;CropperCapture[2]&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been waiting for this for a while now! Gary I hope it is all that I expect it to be. If I don&amp;rsquo;t read this the day I get it, and jump up from my bed at 2 AM crying &amp;ldquo;crush it&amp;rdquo; &amp;hellip; well &amp;hellip; I bet I will.&lt;/p&gt;
 </description>
@@ -44,11 +44,11 @@
       
         <item>
           <title>Review: A Year in the Merde by Stephen Clarke</title>
-          <link>/2009/01/02/review-a-year-in-the-merde-by-stephen-clarke/</link>
+          <link>http://blog.shiv.me/2009/01/02/review-a-year-in-the-merde-by-stephen-clarke/</link>
           <pubDate>Fri, 02 Jan 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/01/02/review-a-year-in-the-merde-by-stephen-clarke/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://www.goodreads.com/book/show/10765.A_Year_in_the_Merde?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;&lt;img src=&#34;/images/10765.jpg&#34; alt=&#34;A Year in the Merde&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.goodreads.com/book/show/10765.A_Year_in_the_Merde?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;A Year in the Merde&lt;/a&gt; by &lt;a href=&#34;http://www.goodreads.com/author/show/7041.Stephen_Clarke&#34;&gt;Stephen Clarke&lt;/a&gt;&lt;/p&gt;
+          <guid>http://blog.shiv.me/2009/01/02/review-a-year-in-the-merde-by-stephen-clarke/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.goodreads.com/book/show/10765.A_Year_in_the_Merde?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/10765.jpg&#34; alt=&#34;A Year in the Merde&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.goodreads.com/book/show/10765.A_Year_in_the_Merde?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;A Year in the Merde&lt;/a&gt; by &lt;a href=&#34;http://www.goodreads.com/author/show/7041.Stephen_Clarke&#34;&gt;Stephen Clarke&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;rating: 5 of 5 stars&lt;br /&gt;
 If you are on your way to Paris, or on the way from Paris, or in Paris, or &amp;hellip; nevermind&amp;hellip; just read this book if you are associated, in any way, with Paris. You&amp;rsquo;ll love it.&lt;/p&gt;
@@ -65,10 +65,10 @@ If you are on your way to Paris, or on the way from Paris, or in Paris, or &amp;
       
         <item>
           <title>SNMP tutorials</title>
-          <link>/2005/10/06/snmp-tutorials/</link>
+          <link>http://blog.shiv.me/2005/10/06/snmp-tutorials/</link>
           <pubDate>Thu, 06 Oct 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/10/06/snmp-tutorials/</guid>
+          <guid>http://blog.shiv.me/2005/10/06/snmp-tutorials/</guid>
           <description>&lt;p&gt;SNMP being the bread and butter for me, I decided to dig up some tutorials and links regarding the same.&lt;br /&gt;
 For the uninitiated, SNMP is short for Simple Network Management Protocol, and is a protocol used to manage network devices such as routers, switches etc.&lt;/p&gt;
 

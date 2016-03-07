@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/hacking/</link>
+    <link>http://blog.shiv.me/tags/hacking/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Unsigned Arithmetic</title>
-          <link>/2010/08/23/unsigned-arithmetic/</link>
+          <link>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</link>
           <pubDate>Mon, 23 Aug 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/08/23/unsigned-arithmetic/</guid>
+          <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
           <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
 
 &lt;p&gt;I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.&lt;/p&gt;

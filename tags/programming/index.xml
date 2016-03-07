@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/programming/</link>
+    <link>http://blog.shiv.me/tags/programming/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Somethings should be obvious, but are not, obviously</title>
-          <link>/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
+          <link>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
           <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
+          <guid>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
           <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It&amp;rsquo;s the &amp;ldquo;duh&amp;rdquo; moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.&lt;/p&gt;
@@ -78,10 +78,10 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
       
         <item>
           <title>More unix goodness</title>
-          <link>/2012/05/21/more-unix-goodness/</link>
+          <link>http://blog.shiv.me/2012/05/21/more-unix-goodness/</link>
           <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2012/05/21/more-unix-goodness/</guid>
+          <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
           <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
@@ -94,10 +94,10 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
       
         <item>
           <title>Badly punctuated parameter list in #define</title>
-          <link>/2011/11/08/badly-punctuated-parameter-list/</link>
+          <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
           <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/11/08/badly-punctuated-parameter-list/</guid>
+          <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
           <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
@@ -137,10 +137,10 @@ $
       
         <item>
           <title>Power of 2</title>
-          <link>/2010/11/03/power-of-2/</link>
+          <link>http://blog.shiv.me/2010/11/03/power-of-2/</link>
           <pubDate>Wed, 03 Nov 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/11/03/power-of-2/</guid>
+          <guid>http://blog.shiv.me/2010/11/03/power-of-2/</guid>
           <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
 
 &lt;p&gt;As he writes, there is the simpleton O(n) solution (&lt;a href=&#34;http://veechand.wordpress.com/2009/12/19/is-a-number-power-of-two/&#34;&gt;you will have to click-through for that&lt;/a&gt;), and the most elegant (yet) bitwise solution:&lt;/p&gt;
@@ -190,45 +190,45 @@ is_power_of_2_pure_math_baby(int n) {
       
         <item>
           <title>Why does Java not support unsigned int? - Part 1</title>
-          <link>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
+          <link>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
           <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <guid>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
           <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; is there unsigned int in #java support your answers &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;10 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; nope. but use char instead. If you really want a type, you can define your own class backed by char &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;12 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://itunes.apple.com/app/twitter/id333903271?mt=8&#34;&gt;Twitter for iPhone&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; defining a own class for unsigned..let me think over it.. but my main question is y #java didn&amp;rsquo;t support unsigned ? &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; the question actually is, why do you need unsigned? &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.seesmic.com/&#34;&gt;Seesmic&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; my answer so that in given 32 bit I could store wide range of numbers (given my application wont go negative) &lt;a href=&#34;http://twitter.com/veechand/status/18418869318&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;&lt;img src=&#34;/images/me_normal.PNG&#34; alt=&#34;Surendra Kumar&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/me_normal.PNG&#34; alt=&#34;Surendra Kumar&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34; title=&#34;Surendra Kumar&#34;&gt;surendrakumar&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; a lot of real life applications uses unsigned int. Example sales, money, hours, are all unsigned. &lt;a href=&#34;http://twitter.com/surendrakumar/status/18423069087&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
@@ -272,10 +272,10 @@ is_power_of_2_pure_math_baby(int n) {
       
         <item>
           <title>The Holy Grail and the Programmer&#39;s High</title>
-          <link>/2009/10/26/the-holy-grail-and-the-programmers-high/</link>
+          <link>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</link>
           <pubDate>Mon, 26 Oct 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/10/26/the-holy-grail-and-the-programmers-high/</guid>
+          <guid>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, the inventor of RSS, wrote today about twitter&amp;rsquo;s latest API update for supporting the &lt;a href=&#34;http://blog.twitter.com/2009/09/soon-to-launch-lists.html&#34;&gt;lists feature&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -296,10 +296,10 @@ is_power_of_2_pure_math_baby(int n) {
       
         <item>
           <title>The devil is in the why?</title>
-          <link>/2009/02/14/the-devil-is-in-the-why/</link>
+          <link>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</link>
           <pubDate>Sat, 14 Feb 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/02/14/the-devil-is-in-the-why/</guid>
+          <guid>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</guid>
           <description>&lt;p&gt;Recently I got asked, what the best way to do a join between two large lists,  into another list was? I always tend to answer that question with: it depends.&lt;/p&gt;
 
 &lt;p&gt;Just like any other algorithm, there is no silver bullet. It is a trade off  between CPU and memory utilisation. Sometimes, we do have to think about these  things (this is code in c++ on a device with scarce resources, to say the  least).&lt;/p&gt;
@@ -345,7 +345,7 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
 
 &lt;p&gt;Sometimes, before trying to find a technical solution to the problem at hand, it might help to ask why? What is the need for this requirement? The key is to ask why until you reach a specific use-case. I tend to ask this all the way until I reach either a SOAP request, or a specific component in the GUI that requires this piece of data. Most of the time, we can get by without writing a potentially inefficient solution.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;&lt;img src=&#34;/images/3262859586_5caf14c1fb_m.jpg&#34; alt=&#34;Lord of his city&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3262859586_5caf14c1fb_m.jpg&#34; alt=&#34;Lord of his city&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In this case, after several &amp;ldquo;why&amp;rdquo;s, I discovered that this requirement came about, since one of the products in our suite (yeah we have a bunch of products that build on each other), need to display a list of names of object C, as the user searches for a specific one to add items to. If we had decided to write either v1 or v2, every time the user opened that GUI component, we would transport, a possible 10000 records from the device all the way to the GUI (which in our case is several layers above), when we only need a list of names based on a specific criteria.&lt;/p&gt;
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/django-host/</link>
+    <link>http://blog.shiv.me/tags/django-host/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>The webfaction experience</title>
-          <link>/2007/12/14/the-webfaction-experience/</link>
+          <link>http://blog.shiv.me/2007/12/14/the-webfaction-experience/</link>
           <pubDate>Fri, 14 Dec 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/12/14/the-webfaction-experience/</guid>
+          <guid>http://blog.shiv.me/2007/12/14/the-webfaction-experience/</guid>
           <description>&lt;p&gt;The reason for the respite in my blogging, was my move to a new web-host. After several hours of researching, I decided to go with &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;webfaction.com&lt;/a&gt;. If you haven&amp;rsquo;t already visited webfaction, &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;DO IT right now&lt;/a&gt;! It has been simply amazing. I love the one click installer, and within hours of getting billed, I got access to my account. It comes with shell access, SFTP, enough space, &lt;a href=&#34;http://www.rubyonrails.org/&#34;&gt;rails 2.x&lt;/a&gt; (just days after it was release), &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;django&lt;/a&gt;, [wordpress 2.3.1][3] and a host of other webapps, all of which you can install with a just a few clicks on their web interface.&lt;/p&gt;
 
 &lt;p&gt;_Note: links provided to webfaction&amp;rsquo;s website, have my &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;affiliate link&lt;/a&gt;.Â Â _&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/unix-commands/</link>
+    <link>http://blog.shiv.me/tags/unix-commands/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Getting git status on multiple directories</title>
-          <link>/2014/03/31/getting-git-status-on-multiple-directories/</link>
+          <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
           <pubDate>Mon, 31 Mar 2014 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2014/03/31/getting-git-status-on-multiple-directories/</guid>
+          <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
           <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
 The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
 
@@ -31,10 +31,10 @@ done
       
         <item>
           <title>Working with rpms (extract, list contents)</title>
-          <link>/2013/02/17/working-with-rpms-extract-list-contents/</link>
+          <link>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</link>
           <pubDate>Sun, 17 Feb 2013 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2013/02/17/working-with-rpms-extract-list-contents/</guid>
+          <guid>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</guid>
           <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
 
 &lt;p&gt;Extract an rpm without installing in to the current directory (really, the rpm command should support this):&lt;/p&gt;
@@ -66,10 +66,10 @@ $ rpm -qlp myrpmfile.rpm
       
         <item>
           <title>More unix goodness</title>
-          <link>/2012/05/21/more-unix-goodness/</link>
+          <link>http://blog.shiv.me/2012/05/21/more-unix-goodness/</link>
           <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2012/05/21/more-unix-goodness/</guid>
+          <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
           <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
@@ -82,10 +82,10 @@ $ rpm -qlp myrpmfile.rpm
       
         <item>
           <title>Unix: removing duplicates from a file</title>
-          <link>/2008/09/09/unix-removing-duplicates-from-a-file/</link>
+          <link>http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/</link>
           <pubDate>Tue, 09 Sep 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/09/09/unix-removing-duplicates-from-a-file/</guid>
+          <guid>http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/</guid>
           <description>&lt;p&gt;Over the last few months, I have re-discovered some unix commands (it&amp;rsquo;s been such a long time)&lt;/p&gt;
 
 &lt;ul&gt;

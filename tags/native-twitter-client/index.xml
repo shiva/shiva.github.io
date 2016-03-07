@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/native-twitter-client/</link>
+    <link>http://blog.shiv.me/tags/native-twitter-client/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,15 +12,15 @@
       
         <item>
           <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-          <link>/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
+          <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
           <pubDate>Sat, 25 Oct 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
+          <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
           <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://twitpic.com/i942&#34; title=&#34;Share photos on twitter with Twitpic&#34;&gt;&lt;img src=&#34;/images/i942.jpg&#34; alt=&#34;Share photos on twitter with Twitpic&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://twitpic.com/i942&#34; title=&#34;Share photos on twitter with Twitpic&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/i942.jpg&#34; alt=&#34;Share photos on twitter with Twitpic&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s the proposed GUI. Sorry for the bad light. The iphone cam&amp;rsquo;s not too good with tungsten light.&lt;/p&gt;
 

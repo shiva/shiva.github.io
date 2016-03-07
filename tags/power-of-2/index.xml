@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/power-of-2/</link>
+    <link>http://blog.shiv.me/tags/power-of-2/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Power of 2</title>
-          <link>/2010/11/03/power-of-2/</link>
+          <link>http://blog.shiv.me/2010/11/03/power-of-2/</link>
           <pubDate>Wed, 03 Nov 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/11/03/power-of-2/</guid>
+          <guid>http://blog.shiv.me/2010/11/03/power-of-2/</guid>
           <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
 
 &lt;p&gt;As he writes, there is the simpleton O(n) solution (&lt;a href=&#34;http://veechand.wordpress.com/2009/12/19/is-a-number-power-of-two/&#34;&gt;you will have to click-through for that&lt;/a&gt;), and the most elegant (yet) bitwise solution:&lt;/p&gt;

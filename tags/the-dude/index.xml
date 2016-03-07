@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/the-dude/</link>
+    <link>http://blog.shiv.me/tags/the-dude/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>The Dude ... Rocks!</title>
-          <link>/2011/01/26/the-dude-...-rocks/</link>
+          <link>http://blog.shiv.me/2011/01/26/the-dude-...-rocks/</link>
           <pubDate>Wed, 26 Jan 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/01/26/the-dude-...-rocks/</guid>
+          <guid>http://blog.shiv.me/2011/01/26/the-dude-...-rocks/</guid>
           <description>&lt;p&gt;Need I say more ..&lt;/p&gt;
 
 &lt;p&gt;Watch the &lt;a href=&#34;http://video.pbs.org/video/1743456455&#34;&gt;full episode&lt;/a&gt;. See more [American Masters.][1]&lt;/p&gt;

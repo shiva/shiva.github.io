@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/java/</link>
+    <link>http://blog.shiv.me/tags/java/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Unsigned Arithmetic</title>
-          <link>/2010/08/23/unsigned-arithmetic/</link>
+          <link>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</link>
           <pubDate>Mon, 23 Aug 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/08/23/unsigned-arithmetic/</guid>
+          <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
           <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
 
 &lt;p&gt;I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.&lt;/p&gt;
@@ -43,45 +43,45 @@
       
         <item>
           <title>Why does Java not support unsigned int? - Part 1</title>
-          <link>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
+          <link>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
           <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <guid>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
           <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; is there unsigned int in #java support your answers &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;10 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; nope. but use char instead. If you really want a type, you can define your own class backed by char &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;12 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://itunes.apple.com/app/twitter/id333903271?mt=8&#34;&gt;Twitter for iPhone&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; defining a own class for unsigned..let me think over it.. but my main question is y #java didn&amp;rsquo;t support unsigned ? &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; the question actually is, why do you need unsigned? &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.seesmic.com/&#34;&gt;Seesmic&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; my answer so that in given 32 bit I could store wide range of numbers (given my application wont go negative) &lt;a href=&#34;http://twitter.com/veechand/status/18418869318&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;&lt;img src=&#34;/images/me_normal.PNG&#34; alt=&#34;Surendra Kumar&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/me_normal.PNG&#34; alt=&#34;Surendra Kumar&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34; title=&#34;Surendra Kumar&#34;&gt;surendrakumar&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; a lot of real life applications uses unsigned int. Example sales, money, hours, are all unsigned. &lt;a href=&#34;http://twitter.com/surendrakumar/status/18423069087&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;

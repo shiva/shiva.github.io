@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/google-street-view/</link>
+    <link>http://blog.shiv.me/tags/google-street-view/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Google&#39;s on Vancouver Streets</title>
-          <link>/2009/10/07/googles-on-vancouver-streets/</link>
+          <link>http://blog.shiv.me/2009/10/07/googles-on-vancouver-streets/</link>
           <pubDate>Wed, 07 Oct 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/10/07/googles-on-vancouver-streets/</guid>
+          <guid>http://blog.shiv.me/2009/10/07/googles-on-vancouver-streets/</guid>
           <description>&lt;p&gt;Google street view is now available for Vancouver, Canada. So, the big G has finally realized that people living outside the US might find use for google&amp;rsquo;s products.&lt;/p&gt;
 
 &lt;p&gt;I work here&lt;/p&gt;

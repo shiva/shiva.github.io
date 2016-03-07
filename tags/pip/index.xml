@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/pip/</link>
+    <link>http://blog.shiv.me/tags/pip/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Somethings should be obvious, but are not, obviously</title>
-          <link>/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
+          <link>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
           <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
+          <guid>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
           <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It&amp;rsquo;s the &amp;ldquo;duh&amp;rdquo; moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.&lt;/p&gt;

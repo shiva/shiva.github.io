@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/cthulhu/</link>
+    <link>http://blog.shiv.me/tags/cthulhu/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Cthulhu is your god</title>
-          <link>/2011/03/21/cthulhu-is-your-god/</link>
+          <link>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</link>
           <pubDate>Mon, 21 Mar 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/03/21/cthulhu-is-your-god/</guid>
+          <guid>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</guid>
           <description>&lt;p&gt;&amp;lsquo;Nuf said!&lt;/p&gt;
 </description>
         </item>

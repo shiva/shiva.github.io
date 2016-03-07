@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/xhost/</link>
+    <link>http://blog.shiv.me/tags/xhost/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Exporting XDisplay</title>
-          <link>/2011/06/21/exporting-xdisplay/</link>
+          <link>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</link>
           <pubDate>Tue, 21 Jun 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/06/21/exporting-xdisplay/</guid>
+          <guid>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</guid>
           <description>&lt;p&gt;In *nix systems, you can make the display, the GUI of an application, appear on another machine.  This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.&lt;/p&gt;
 
 &lt;p&gt;You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details. By default, the XServer instance on your desktop disallows communication from all machines except localhost. Thus, you will need to add the host in the allowed list using the xhost command.&lt;/p&gt;

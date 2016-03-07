@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/jing/</link>
+    <link>http://blog.shiv.me/tags/jing/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,13 +12,13 @@
       
         <item>
           <title>Issue with Twitbin, Jing the next-gen screen capture</title>
-          <link>/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
+          <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
           <pubDate>Tue, 02 Oct 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
+          <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I realized how much it mean to my twittering experience, when it went down sometime last week. I presumed, it was due to the upgrades that the twitter team was planning, and want to see if the problem persists. Well, looks like twitter is working fine now, through the web-interface, and I guess twitbin should be operational now, but.. well NO.. I still have to use the web interface and it suck big time.&lt;/p&gt;
 

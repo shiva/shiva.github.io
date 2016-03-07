@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/unix/</link>
+    <link>http://blog.shiv.me/tags/unix/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Getting git status on multiple directories</title>
-          <link>/2014/03/31/getting-git-status-on-multiple-directories/</link>
+          <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
           <pubDate>Mon, 31 Mar 2014 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2014/03/31/getting-git-status-on-multiple-directories/</guid>
+          <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
           <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
 The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
 
@@ -31,10 +31,10 @@ done
       
         <item>
           <title>Working with rpms (extract, list contents)</title>
-          <link>/2013/02/17/working-with-rpms-extract-list-contents/</link>
+          <link>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</link>
           <pubDate>Sun, 17 Feb 2013 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2013/02/17/working-with-rpms-extract-list-contents/</guid>
+          <guid>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</guid>
           <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
 
 &lt;p&gt;Extract an rpm without installing in to the current directory (really, the rpm command should support this):&lt;/p&gt;
@@ -66,10 +66,10 @@ $ rpm -qlp myrpmfile.rpm
       
         <item>
           <title>More unix goodness</title>
-          <link>/2012/05/21/more-unix-goodness/</link>
+          <link>http://blog.shiv.me/2012/05/21/more-unix-goodness/</link>
           <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2012/05/21/more-unix-goodness/</guid>
+          <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
           <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
@@ -82,10 +82,10 @@ $ rpm -qlp myrpmfile.rpm
       
         <item>
           <title>Life in the BASH universe</title>
-          <link>/2011/08/28/life-in-the-bash-universe/</link>
+          <link>http://blog.shiv.me/2011/08/28/life-in-the-bash-universe/</link>
           <pubDate>Sun, 28 Aug 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/08/28/life-in-the-bash-universe/</guid>
+          <guid>http://blog.shiv.me/2011/08/28/life-in-the-bash-universe/</guid>
           <description>&lt;p&gt;If you write a lot of scripts to automate tasks, you probably already know this. However, if you don&amp;rsquo;t, and you are still reading, you are probably a programmer, in which case, you really should be learning how to script in BASH!&lt;/p&gt;
 
 &lt;p&gt;A couple of pointers for you:&lt;br /&gt;
@@ -98,10 +98,10 @@ $ rpm -qlp myrpmfile.rpm
       
         <item>
           <title>Exporting XDisplay</title>
-          <link>/2011/06/21/exporting-xdisplay/</link>
+          <link>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</link>
           <pubDate>Tue, 21 Jun 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/06/21/exporting-xdisplay/</guid>
+          <guid>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</guid>
           <description>&lt;p&gt;In *nix systems, you can make the display, the GUI of an application, appear on another machine.  This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.&lt;/p&gt;
 
 &lt;p&gt;You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details. By default, the XServer instance on your desktop disallows communication from all machines except localhost. Thus, you will need to add the host in the allowed list using the xhost command.&lt;/p&gt;
@@ -134,10 +134,10 @@ $ rpm -qlp myrpmfile.rpm
       
         <item>
           <title>Job Control on \*NIX systems</title>
-          <link>/2011/01/31/job-control-on-%5Cnix-systems/</link>
+          <link>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</link>
           <pubDate>Mon, 31 Jan 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/01/31/job-control-on-%5Cnix-systems/</guid>
+          <guid>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</guid>
           <description>&lt;p&gt;If you are not a UNIX user/not a geek, please turn away right now.&lt;/p&gt;
 
 &lt;p&gt;Every year, I either chance upon something new, or remind myself of something interesting that I&amp;rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):&lt;/p&gt;
@@ -171,10 +171,10 @@ $ fg 2
       
         <item>
           <title>Unix: removing duplicates from a file</title>
-          <link>/2008/09/09/unix-removing-duplicates-from-a-file/</link>
+          <link>http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/</link>
           <pubDate>Tue, 09 Sep 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/09/09/unix-removing-duplicates-from-a-file/</guid>
+          <guid>http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/</guid>
           <description>&lt;p&gt;Over the last few months, I have re-discovered some unix commands (it&amp;rsquo;s been such a long time)&lt;/p&gt;
 
 &lt;ul&gt;
@@ -215,10 +215,10 @@ $ fg 2
       
         <item>
           <title>cvs - Getting list of files changed in the current tree</title>
-          <link>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+          <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
           <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+          <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
           <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
@@ -237,17 +237,17 @@ $ fg 2
       
         <item>
           <title>Unix: how to check system configuration on solaris</title>
-          <link>/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</link>
+          <link>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</link>
           <pubDate>Sat, 08 Sep 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
+          <guid>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
           <description>&lt;p&gt;I had to compare machine hardware today, and found information on that &lt;a href=&#34;http://esofthub.blogspot.com/2006/10/view-processor-speed-and-ram-size.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.&lt;/p&gt;
 
 &lt;p&gt;Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;#psrinfo -p&lt;/strong&gt; - lists number of physical processors .&lt;/p&gt;
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/k2/</link>
+    <link>http://blog.shiv.me/tags/k2/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Page link in wordpress</title>
-          <link>/2005/12/15/page-link-in-wordpress/</link>
+          <link>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</link>
           <pubDate>Thu, 15 Dec 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/12/15/page-link-in-wordpress/</guid>
+          <guid>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</guid>
           <description>&lt;p&gt;I have been wondering for sometime now, how K2, added an entry in pages, but the content was controlled from the one of the php files in the theme directory.&lt;/p&gt;
 
 &lt;p&gt;It turns out that is is very simple (yet elegant &amp;hellip; hat&amp;rsquo;s off to wordpress guys). I used this to integrate FAlbum into K2.&lt;/p&gt;

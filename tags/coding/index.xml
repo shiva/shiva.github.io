@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/coding/</link>
+    <link>http://blog.shiv.me/tags/coding/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>More unix goodness</title>
-          <link>/2012/05/21/more-unix-goodness/</link>
+          <link>http://blog.shiv.me/2012/05/21/more-unix-goodness/</link>
           <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2012/05/21/more-unix-goodness/</guid>
+          <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
           <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
@@ -28,10 +28,10 @@
       
         <item>
           <title>Unsigned Arithmetic</title>
-          <link>/2010/08/23/unsigned-arithmetic/</link>
+          <link>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</link>
           <pubDate>Mon, 23 Aug 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/08/23/unsigned-arithmetic/</guid>
+          <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
           <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
 
 &lt;p&gt;I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.&lt;/p&gt;
@@ -59,45 +59,45 @@
       
         <item>
           <title>Why does Java not support unsigned int? - Part 1</title>
-          <link>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
+          <link>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
           <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <guid>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
           <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; is there unsigned int in #java support your answers &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;10 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; nope. but use char instead. If you really want a type, you can define your own class backed by char &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;12 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://itunes.apple.com/app/twitter/id333903271?mt=8&#34;&gt;Twitter for iPhone&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18214701290&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; defining a own class for unsigned..let me think over it.. but my main question is y #java didn&amp;rsquo;t support unsigned ? &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18326785358&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/shiva&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Shivanand Velmurugan&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/shiva&#34; title=&#34;Shivanand Velmurugan&#34;&gt;shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand&#34;&gt;@veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; the question actually is, why do you need unsigned? &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.seesmic.com/&#34;&gt;Seesmic&lt;/a&gt; &lt;a href=&#34;http://twitter.com/veechand/status/18418050957&#34;&gt;in reply to veechand&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/veechand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/twitterProfilePhoto_normal.jpg&#34; alt=&#34;Veerabahu&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/veechand&#34; title=&#34;Veerabahu&#34;&gt;veechand&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; &lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;@surendrakumar&lt;/a&gt; my answer so that in given 32 bit I could store wide range of numbers (given my application wont go negative) &lt;a href=&#34;http://twitter.com/veechand/status/18418869318&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;&lt;img src=&#34;/images/me_normal.PNG&#34; alt=&#34;Surendra Kumar&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/me_normal.PNG&#34; alt=&#34;Surendra Kumar&#34; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://twitter.com/surendrakumar&#34; title=&#34;Surendra Kumar&#34;&gt;surendrakumar&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt; a lot of real life applications uses unsigned int. Example sales, money, hours, are all unsigned. &lt;a href=&#34;http://twitter.com/surendrakumar/status/18423069087&#34;&gt;13 Jul 2010 &lt;/a&gt; from &lt;a href=&#34;http://www.tweetdeck.com&#34;&gt;TweetDeck&lt;/a&gt; &lt;a href=&#34;http://twitter.com/shiva/status/18418774323&#34;&gt;in reply to shiva&lt;/a&gt;&lt;/p&gt;
@@ -141,10 +141,10 @@
       
         <item>
           <title>The devil is in the why?</title>
-          <link>/2009/02/14/the-devil-is-in-the-why/</link>
+          <link>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</link>
           <pubDate>Sat, 14 Feb 2009 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2009/02/14/the-devil-is-in-the-why/</guid>
+          <guid>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</guid>
           <description>&lt;p&gt;Recently I got asked, what the best way to do a join between two large lists,  into another list was? I always tend to answer that question with: it depends.&lt;/p&gt;
 
 &lt;p&gt;Just like any other algorithm, there is no silver bullet. It is a trade off  between CPU and memory utilisation. Sometimes, we do have to think about these  things (this is code in c++ on a device with scarce resources, to say the  least).&lt;/p&gt;
@@ -190,7 +190,7 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
 
 &lt;p&gt;Sometimes, before trying to find a technical solution to the problem at hand, it might help to ask why? What is the need for this requirement? The key is to ask why until you reach a specific use-case. I tend to ask this all the way until I reach either a SOAP request, or a specific component in the GUI that requires this piece of data. Most of the time, we can get by without writing a potentially inefficient solution.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;&lt;img src=&#34;/images/3262859586_5caf14c1fb_m.jpg&#34; alt=&#34;Lord of his city&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3262859586_5caf14c1fb_m.jpg&#34; alt=&#34;Lord of his city&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In this case, after several &amp;ldquo;why&amp;rdquo;s, I discovered that this requirement came about, since one of the products in our suite (yeah we have a bunch of products that build on each other), need to display a list of names of object C, as the user searches for a specific one to add items to. If we had decided to write either v1 or v2, every time the user opened that GUI component, we would transport, a possible 10000 records from the device all the way to the GUI (which in our case is several layers above), when we only need a list of names based on a specific criteria.&lt;/p&gt;
 
@@ -208,15 +208,15 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
       
         <item>
           <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-          <link>/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
+          <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
           <pubDate>Sat, 25 Oct 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
+          <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
           <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://twitpic.com/i942&#34; title=&#34;Share photos on twitter with Twitpic&#34;&gt;&lt;img src=&#34;/images/i942.jpg&#34; alt=&#34;Share photos on twitter with Twitpic&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://twitpic.com/i942&#34; title=&#34;Share photos on twitter with Twitpic&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/i942.jpg&#34; alt=&#34;Share photos on twitter with Twitpic&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s the proposed GUI. Sorry for the bad light. The iphone cam&amp;rsquo;s not too good with tungsten light.&lt;/p&gt;
 
@@ -228,10 +228,10 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
       
         <item>
           <title>Unix: removing duplicates from a file</title>
-          <link>/2008/09/09/unix-removing-duplicates-from-a-file/</link>
+          <link>http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/</link>
           <pubDate>Tue, 09 Sep 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/09/09/unix-removing-duplicates-from-a-file/</guid>
+          <guid>http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/</guid>
           <description>&lt;p&gt;Over the last few months, I have re-discovered some unix commands (it&amp;rsquo;s been such a long time)&lt;/p&gt;
 
 &lt;ul&gt;
@@ -272,10 +272,10 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
       
         <item>
           <title>cvs - Getting list of files changed in the current tree</title>
-          <link>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+          <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
           <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+          <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
           <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
@@ -294,10 +294,10 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
       
         <item>
           <title>EX-SideRSS</title>
-          <link>/2007/10/01/ex-siderss/</link>
+          <link>http://blog.shiv.me/2007/10/01/ex-siderss/</link>
           <pubDate>Mon, 01 Oct 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/10/01/ex-siderss/</guid>
+          <guid>http://blog.shiv.me/2007/10/01/ex-siderss/</guid>
           <description>&lt;p&gt;After several months of keeping away from updating or changing my website, I broke the fast today. I found a wonderful plugin, &lt;a href=&#34;http://www.underjc.com/?q=node/13&#34;&gt;sideRSS&lt;/a&gt;, which allows display of RSS feeds within a blog&amp;rsquo;s sidebar. As usual, I needed a specific functionality that was not supported the way I wanted it. I hacked it a little bit, renamed the plugin, and posted a custom version for download on my website.&lt;/p&gt;
 
 &lt;p&gt;If you need to share Google Shared Items, on your blog, but hate to include javascript (like I do), then use this. You can download it &lt;a href=&#34;http://shvelmur.com/downloads/projects/ex-siderss.php&#34;&gt;here&lt;/a&gt; (right-click and use &amp;ldquo;Save Target As&amp;hellip;&amp;rdquo;) and find install information &lt;a href=&#34;http://shvelmur.com/wpress/projects/exsiderss/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -314,17 +314,17 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
       
         <item>
           <title>Unix: how to check system configuration on solaris</title>
-          <link>/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</link>
+          <link>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</link>
           <pubDate>Sat, 08 Sep 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
+          <guid>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
           <description>&lt;p&gt;I had to compare machine hardware today, and found information on that &lt;a href=&#34;http://esofthub.blogspot.com/2006/10/view-processor-speed-and-ram-size.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.&lt;/p&gt;
 
 &lt;p&gt;Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;#psrinfo -p&lt;/strong&gt; - lists number of physical processors .&lt;/p&gt;
 
@@ -342,10 +342,10 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
       
         <item>
           <title>Eventing mechanism between two java processes using HTTP persistent connections</title>
-          <link>/2007/02/14/eventing-mechanism-between-two-java-processes-using-http-persistent-connections/</link>
+          <link>http://blog.shiv.me/2007/02/14/eventing-mechanism-between-two-java-processes-using-http-persistent-connections/</link>
           <pubDate>Wed, 14 Feb 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/02/14/eventing-mechanism-between-two-java-processes-using-http-persistent-connections/</guid>
+          <guid>http://blog.shiv.me/2007/02/14/eventing-mechanism-between-two-java-processes-using-http-persistent-connections/</guid>
           <description>&lt;p&gt;I have been twidling with HTTP Persistent connections in the last few weeks. Let me start at the beginning&lt;/p&gt;
 
 &lt;p&gt;I needed to replace CORBA in a legacy application with something new. Ofcourse, there are a few alternatives out there, but I needed something very lightweight. The problem had two major parts&lt;/p&gt;
@@ -374,10 +374,10 @@ The event part, however, provided a challenge. I had restrictions on opening por
       
         <item>
           <title>Ideas: Plugins for Windows Live writer</title>
-          <link>/2007/01/30/ideas-plugins-for-windows-live-writer/</link>
+          <link>http://blog.shiv.me/2007/01/30/ideas-plugins-for-windows-live-writer/</link>
           <pubDate>Tue, 30 Jan 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2007/01/30/ideas-plugins-for-windows-live-writer/</guid>
+          <guid>http://blog.shiv.me/2007/01/30/ideas-plugins-for-windows-live-writer/</guid>
           <description>&lt;p&gt;Been using Windows Live Writer as my blog writing tool. Here are some plugins that I would definetly make my life much easier. If you are insterested in writing a plugin or would like to add to these requirements, do get in touch.&lt;/p&gt;
 
 &lt;ol&gt;
@@ -434,10 +434,10 @@ The event part, however, provided a challenge. I had restrictions on opening por
       
         <item>
           <title>The art of software development</title>
-          <link>/2006/12/29/the-art-of-software-development/</link>
+          <link>http://blog.shiv.me/2006/12/29/the-art-of-software-development/</link>
           <pubDate>Fri, 29 Dec 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/12/29/the-art-of-software-development/</guid>
+          <guid>http://blog.shiv.me/2006/12/29/the-art-of-software-development/</guid>
           <description>&lt;p&gt;Though many disagree, and think of software development as a mundane, non-creative task, as Kevin Carlson@DDJ puts it aptly, it is a work of art!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://www.ddj.com/debugblog/archives/2006/12/the_static_idea.html&#34;&gt;&amp;ldquo;I suppose the question is this: &amp;ldquo;where are the limits of the scientific approach in software development?&amp;rdquo; I mean, we are, ultimately, talking about an act of creation&amp;rdquo;&lt;/a&gt; -&lt;/em&gt; Kevin Carlson&lt;/p&gt;
@@ -460,10 +460,10 @@ The event part, however, provided a challenge. I had restrictions on opening por
       
         <item>
           <title>Mono and Sharpdevelop - A baby step</title>
-          <link>/2006/12/24/mono-and-sharpdevelop---a-baby-step/</link>
+          <link>http://blog.shiv.me/2006/12/24/mono-and-sharpdevelop---a-baby-step/</link>
           <pubDate>Sun, 24 Dec 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/12/24/mono-and-sharpdevelop---a-baby-step/</guid>
+          <guid>http://blog.shiv.me/2006/12/24/mono-and-sharpdevelop---a-baby-step/</guid>
           <description>&lt;p&gt;Having joined Novell recently, the opportunity to learn a bunch of new development skills has come up. Novell products make extensive use of the mono platform for applications development.&lt;/p&gt;
 
 &lt;p&gt;After 4 long years, I find myself in need of re-learning some windows application development. I tried setting up mono on my windows pc, and encountered some peculiar issues. I had installed mono and then went looking around for an IDE. Well, monodevelop sounded kewl, and tried to get in compiled on windows. I found that I needed to setup cygwin if I need to build it, and another 100 MB download is not what I wanted to be doing.&lt;/p&gt;
@@ -480,7 +480,7 @@ The event part, however, provided a challenge. I had restrictions on opening por
 &lt;p&gt;I always thought that it had to be the other way around. Nice curve ball that one!&lt;br /&gt;
 Anyway, here&amp;rsquo;s the very first application that I have written in C# running on Mono!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/wpress/wp-content/uploads/2006/12/first-csharp-app-big.jpg&#34;&gt;&lt;img src=&#34;/images/first-csharp-app-big.jpg&#34; alt=&#34;first C# app-Large&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/wpress/wp-content/uploads/2006/12/first-csharp-app-big.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/first-csharp-app-big.jpg&#34; alt=&#34;first C# app-Large&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -488,10 +488,10 @@ Anyway, here&amp;rsquo;s the very first application that I have written in C# ru
       
         <item>
           <title>AJAX toolkits that are hot!</title>
-          <link>/2006/11/01/ajax-toolkits-that-are-hot/</link>
+          <link>http://blog.shiv.me/2006/11/01/ajax-toolkits-that-are-hot/</link>
           <pubDate>Wed, 01 Nov 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/11/01/ajax-toolkits-that-are-hot/</guid>
+          <guid>http://blog.shiv.me/2006/11/01/ajax-toolkits-that-are-hot/</guid>
           <description>&lt;p&gt;&lt;a href=&#34;http://summerofcode.wordpress.com/2006/07/22/javascript-mochikit-php-x-tinymce-et-al/&#34; title=&#34;Permanent Link to JavaScript, MochiKit, PHP, X, TinyMCE et. al.&#34;&gt;JavaScript, MochiKit, PHP, X, TinyMCE et. al.&lt;/a&gt;Nice article comparing some AJAX toolkits that are talked about these days. Also Anant is doing a very kewl project for Google Summer of code, called GuideXML, an online AJAXified XML editor that is sponsored by Gentoo! Way to go Anant.&lt;/p&gt;
 </description>
         </item>
@@ -500,10 +500,10 @@ Anyway, here&amp;rsquo;s the very first application that I have written in C# ru
       
         <item>
           <title>Tuning Garbage Collection</title>
-          <link>/2006/08/22/tuning-garbage-collection/</link>
+          <link>http://blog.shiv.me/2006/08/22/tuning-garbage-collection/</link>
           <pubDate>Tue, 22 Aug 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/08/22/tuning-garbage-collection/</guid>
+          <guid>http://blog.shiv.me/2006/08/22/tuning-garbage-collection/</guid>
           <description>&lt;p&gt;The much talked about and often cursed part of Java development is Garbage Collection.&lt;/p&gt;
 
 &lt;p&gt;I often say, &lt;em&gt;&amp;ldquo;Writing code in Java is easy, but writing good code is extremely hard&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
@@ -519,10 +519,10 @@ Resources:&lt;br /&gt;
       
         <item>
           <title>Convert byte\[\] to long in Java</title>
-          <link>/2006/05/23/convert-byte%5C%5C-to-long-in-java/</link>
+          <link>http://blog.shiv.me/2006/05/23/convert-byte%5C%5C-to-long-in-java/</link>
           <pubDate>Tue, 23 May 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/05/23/convert-byte%5C%5C-to-long-in-java/</guid>
+          <guid>http://blog.shiv.me/2006/05/23/convert-byte%5C%5C-to-long-in-java/</guid>
           <description>&lt;p&gt;One more little thing that is painfully difficult to do in Java. (I love Java though ;) )&lt;br /&gt;
 There are two ways of getting it done.&lt;/p&gt;
 
@@ -546,10 +546,10 @@ write byte array to DataOutputStream, and read from corresponding input stream u
       
         <item>
           <title>Bug Fix: Boast Machine 3.1</title>
-          <link>/2006/05/09/bug-fix-boast-machine-3.1/</link>
+          <link>http://blog.shiv.me/2006/05/09/bug-fix-boast-machine-3.1/</link>
           <pubDate>Tue, 09 May 2006 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2006/05/09/bug-fix-boast-machine-3.1/</guid>
+          <guid>http://blog.shiv.me/2006/05/09/bug-fix-boast-machine-3.1/</guid>
           <description>&lt;p&gt;There is an issue with installing the latest version of boast machine v3.1.&lt;/p&gt;
 
 &lt;p&gt;The message displayed during install is this&lt;br /&gt;
@@ -572,10 +572,10 @@ write byte array to DataOutputStream, and read from corresponding input stream u
       
         <item>
           <title>The wonder that is php</title>
-          <link>/2005/12/09/the-wonder-that-is-php/</link>
+          <link>http://blog.shiv.me/2005/12/09/the-wonder-that-is-php/</link>
           <pubDate>Fri, 09 Dec 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/12/09/the-wonder-that-is-php/</guid>
+          <guid>http://blog.shiv.me/2005/12/09/the-wonder-that-is-php/</guid>
           <description>&lt;p&gt;PHP is an incredibly easy to use scripting language and yesterday I had my first meeting with it.&lt;/p&gt;
 
 &lt;p&gt;Yeah, I know I support and fix some issues in wordpress, but that just requires programming knowledge, and not exactly great php exposure. But yesterday, I wrote a small tool to track some timesheet info, in php and the whole thing took about 1.5 hours to complete. Slick UI, storing and retreiving from DB et al!&lt;/p&gt;
@@ -590,10 +590,10 @@ write byte array to DataOutputStream, and read from corresponding input stream u
       
         <item>
           <title>VC&#43;&#43; Time</title>
-          <link>/2005/06/08/vc-time/</link>
+          <link>http://blog.shiv.me/2005/06/08/vc-time/</link>
           <pubDate>Wed, 08 Jun 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/06/08/vc-time/</guid>
+          <guid>http://blog.shiv.me/2005/06/08/vc-time/</guid>
           <description>&lt;p&gt;Started working in VC.NET. The Visual Studio 2005 BETA is out! really kewl stuff. I simply love the IDE enhancements&lt;br /&gt;
 I had to port an application from VC6 to VC.NET. It was such a breeze. a little googling and most of the issues are under control&lt;br /&gt;
 Will post an article on it sometime&lt;/p&gt;
@@ -606,10 +606,10 @@ Will post an article on it sometime&lt;/p&gt;
       
         <item>
           <title>Visual Studio .NET</title>
-          <link>/2005/06/03/visual-studio-.net/</link>
+          <link>http://blog.shiv.me/2005/06/03/visual-studio-.net/</link>
           <pubDate>Fri, 03 Jun 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2005/06/03/visual-studio-.net/</guid>
+          <guid>http://blog.shiv.me/2005/06/03/visual-studio-.net/</guid>
           <description>&lt;p&gt;Visual Studio .NET 2003 is kewl.. I mean really kewl! The work flow is a hugely improved. Quick, a breeze to install and work with.&lt;br /&gt;
 and VS 2005 sounds even better, Check out the Express editions at &lt;a href=&#34;http://lab.msdn.microsoft.com/express/&#34;&gt;http://lab.msdn.microsoft.com/express/&lt;/a&gt;&lt;/p&gt;
 </description>

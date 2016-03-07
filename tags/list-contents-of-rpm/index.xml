@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/list-contents-of-rpm/</link>
+    <link>http://blog.shiv.me/tags/list-contents-of-rpm/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Working with rpms (extract, list contents)</title>
-          <link>/2013/02/17/working-with-rpms-extract-list-contents/</link>
+          <link>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</link>
           <pubDate>Sun, 17 Feb 2013 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2013/02/17/working-with-rpms-extract-list-contents/</guid>
+          <guid>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</guid>
           <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
 
 &lt;p&gt;Extract an rpm without installing in to the current directory (really, the rpm command should support this):&lt;/p&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shiv.me </title>
-    <link>/tags/infographic/</link>
+    <link>http://blog.shiv.me/tags/infographic/</link>
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
@@ -12,11 +12,11 @@
       
         <item>
           <title>My linkedin network visualized</title>
-          <link>/2011/01/26/my-linkedin-network-visualized/</link>
+          <link>http://blog.shiv.me/2011/01/26/my-linkedin-network-visualized/</link>
           <pubDate>Wed, 26 Jan 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>/2011/01/26/my-linkedin-network-visualized/</guid>
-          <description>&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;506&amp;rdquo; caption=&amp;ldquo;linkedin-visualized&amp;rdquo;]&lt;img src=&#34;/images/inmap.gif&#34; alt=&#34;&#34; /&gt;[/caption]&lt;/p&gt;
+          <guid>http://blog.shiv.me/2011/01/26/my-linkedin-network-visualized/</guid>
+          <description>&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;506&amp;rdquo; caption=&amp;ldquo;linkedin-visualized&amp;rdquo;]&lt;img src=&#34;http://blog.shiv.me/images/inmap.gif&#34; alt=&#34;&#34; /&gt;[/caption]&lt;/p&gt;
 
 &lt;p&gt;[Very cool][0]&lt;/p&gt;
 
