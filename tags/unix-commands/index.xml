@@ -56,9 +56,7 @@ $ rpm2cpio myrpmfile.rpm | cpio -idmv&lt;/code&gt;&lt;/p&gt;
 $ rpm -qlp myrpmfile.rpm  
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;[source][0]&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       

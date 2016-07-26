@@ -98,9 +98,7 @@ $
 
 &lt;p&gt;&lt;code&gt;#cvs -n update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Thanks [Jonnay][0] for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;Jonnay&lt;/a&gt; for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
 </description>
         </item>
       

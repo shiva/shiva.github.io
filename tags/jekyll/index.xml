@@ -22,9 +22,9 @@
 
 &lt;p&gt;Let me step back a bit.&lt;/p&gt;
 
-&lt;h2 id=&#34;jekyll-is-really-hyde:a995a9a971f135f2b62918ade899bc11&#34;&gt;Jekyll is really Hyde&lt;/h2&gt;
+&lt;h2 id=&#34;jekyll-is-really-hyde&#34;&gt;Jekyll is really Hyde&lt;/h2&gt;
 
-&lt;p&gt;I host my blog on github, using a static site generator - Jekyll. It is written in ruby, has some cool features. Overall, it is a decent solution, but I was never satisfied with options it provided. I have hesistated to hack at it, since ruby isn&amp;rsquo;t my language-du-jour, and most of the changes have been quite minimal. It is also extremely slow&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;I host my blog on github, using a static site generator - Jekyll. It is written in ruby, has some cool features. Overall, it is a decent solution, but I was never satisfied with options it provided. I have hesistated to hack at it, since ruby isn&amp;rsquo;t my language-du-jour, and most of the changes have been quite minimal. It is also extremely slow&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;As any self-respecting programmer is wont to do, instead of writing more posts, and meeting my goal, I delved right into fixing &amp;ldquo;bike-shed&amp;rdquo; &amp;ndash; in this case, research and use a new static-site generator. Why, you ask? To you, non-existent, ever-questioning inquisitive you, I say &amp;ndash; Why not?!&lt;/p&gt;
 
@@ -39,11 +39,11 @@
 &lt;li&gt;Good community support and/or documents&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;the-contenders:a995a9a971f135f2b62918ade899bc11&#34;&gt;The contenders&lt;/h2&gt;
+&lt;h2 id=&#34;the-contenders&#34;&gt;The contenders&lt;/h2&gt;
 
 &lt;p&gt;Scouring the corners of the internet, I narrowed down on two final choices: &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;new-shiny-shiny:a995a9a971f135f2b62918ade899bc11&#34;&gt;New shiny, shiny&lt;/h2&gt;
+&lt;h2 id=&#34;new-shiny-shiny&#34;&gt;New shiny, shiny&lt;/h2&gt;
 
 &lt;p&gt;They
    - are faster at generating 300+ pages.
@@ -52,7 +52,7 @@
    - provide extended markdown support by default.
    - hosted by an active community.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo-ftw:a995a9a971f135f2b62918ade899bc11&#34;&gt;Hugo FTW!&lt;/h2&gt;
+&lt;h2 id=&#34;hugo-ftw&#34;&gt;Hugo FTW!&lt;/h2&gt;
 
 &lt;p&gt;Both Hugo and Hexo are pretty good. They are fast enough for my use, and are implemented in modern languages that I am actively learning.&lt;/p&gt;
 
@@ -66,8 +66,8 @@
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

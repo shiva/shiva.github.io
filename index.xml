@@ -6,8 +6,25 @@
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
-    <updated>2016-02-10 00:00:00 &#43;0000 UTC</updated>
+    <updated>2016-07-10 00:00:00 &#43;0000 UTC</updated>
 
+    
+      
+        <item>
+          <title>Use Linux, learn new things</title>
+          <link>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</link>
+          <pubDate>Sun, 10 Jul 2016 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</guid>
+          <description>&lt;p&gt;After 12+ years, I built a &lt;a href=&#34;https://ca.pcpartpicker.com/b/j6Cypg&#34;&gt;workstation from scratch&lt;/a&gt;. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked &lt;a href=&#34;https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions&#34;&gt;Arch Linux&lt;/a&gt;, on the recommendation of several colleagues. It&amp;rsquo;s been fun. &lt;a href=&#34;https://wiki.archlinux.org/index.php/pacman&#34;&gt;Pacman&lt;/a&gt; and &lt;a href=&#34;https://archlinux.fr/yaourt-en&#34;&gt;Yaourt&lt;/a&gt; are great package managers, and the &lt;a href=&#34;https://en.wikipedia.org/wiki/Rolling_release&#34;&gt;rolling release&lt;/a&gt; model ensures access to the bleeding edge all the time.&lt;/p&gt;
+
+&lt;p&gt;Working in linux always makes you learn something new. Today, I found out a simple way to shutdown KDE gracefully.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# qdbus org.kde.ksmserver /KSMServer logout 0 0 0
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
     
       
         <item>
@@ -22,9 +39,9 @@
 
 &lt;p&gt;Let me step back a bit.&lt;/p&gt;
 
-&lt;h2 id=&#34;jekyll-is-really-hyde:a995a9a971f135f2b62918ade899bc11&#34;&gt;Jekyll is really Hyde&lt;/h2&gt;
+&lt;h2 id=&#34;jekyll-is-really-hyde&#34;&gt;Jekyll is really Hyde&lt;/h2&gt;
 
-&lt;p&gt;I host my blog on github, using a static site generator - Jekyll. It is written in ruby, has some cool features. Overall, it is a decent solution, but I was never satisfied with options it provided. I have hesistated to hack at it, since ruby isn&amp;rsquo;t my language-du-jour, and most of the changes have been quite minimal. It is also extremely slow&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;I host my blog on github, using a static site generator - Jekyll. It is written in ruby, has some cool features. Overall, it is a decent solution, but I was never satisfied with options it provided. I have hesistated to hack at it, since ruby isn&amp;rsquo;t my language-du-jour, and most of the changes have been quite minimal. It is also extremely slow&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;As any self-respecting programmer is wont to do, instead of writing more posts, and meeting my goal, I delved right into fixing &amp;ldquo;bike-shed&amp;rdquo; &amp;ndash; in this case, research and use a new static-site generator. Why, you ask? To you, non-existent, ever-questioning inquisitive you, I say &amp;ndash; Why not?!&lt;/p&gt;
 
@@ -39,11 +56,11 @@
 &lt;li&gt;Good community support and/or documents&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;the-contenders:a995a9a971f135f2b62918ade899bc11&#34;&gt;The contenders&lt;/h2&gt;
+&lt;h2 id=&#34;the-contenders&#34;&gt;The contenders&lt;/h2&gt;
 
 &lt;p&gt;Scouring the corners of the internet, I narrowed down on two final choices: &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;new-shiny-shiny:a995a9a971f135f2b62918ade899bc11&#34;&gt;New shiny, shiny&lt;/h2&gt;
+&lt;h2 id=&#34;new-shiny-shiny&#34;&gt;New shiny, shiny&lt;/h2&gt;
 
 &lt;p&gt;They
    - are faster at generating 300+ pages.
@@ -52,7 +69,7 @@
    - provide extended markdown support by default.
    - hosted by an active community.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo-ftw:a995a9a971f135f2b62918ade899bc11&#34;&gt;Hugo FTW!&lt;/h2&gt;
+&lt;h2 id=&#34;hugo-ftw&#34;&gt;Hugo FTW!&lt;/h2&gt;
 
 &lt;p&gt;Both Hugo and Hexo are pretty good. They are fast enough for my use, and are implemented in modern languages that I am actively learning.&lt;/p&gt;
 
@@ -66,8 +83,8 @@
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -85,19 +102,19 @@
 
 &lt;p&gt;It has not been a great start. It, however, has been a busy one.&lt;/p&gt;
 
-&lt;h2 id=&#34;don-t-smoke-stay-quit-going-strong:274fe1f8c142b1089bb31bd074e1df5c&#34;&gt;Don’t smoke (Stay quit!!) : Going strong!&lt;/h2&gt;
+&lt;h2 id=&#34;don-t-smoke-stay-quit-going-strong&#34;&gt;Don’t smoke (Stay quit!!) : Going strong!&lt;/h2&gt;
 
 &lt;p&gt;The urge to smoke still surfaces on occasion. I have, however, been able to avoid every time. I must admit that it gets easier, but it always take a bit of an effort.m&lt;/p&gt;
 
-&lt;h2 id=&#34;say-yes-more-often-doing-ok:274fe1f8c142b1089bb31bd074e1df5c&#34;&gt;Say yes more often: Doing ok.&lt;/h2&gt;
+&lt;h2 id=&#34;say-yes-more-often-doing-ok&#34;&gt;Say yes more often: Doing ok.&lt;/h2&gt;
 
 &lt;p&gt;I have caught myself a couple of times. Still needs work&lt;/p&gt;
 
-&lt;h2 id=&#34;read-a-book-a-month-failing-miserably:274fe1f8c142b1089bb31bd074e1df5c&#34;&gt;Read a book a month: Failing miserably.&lt;/h2&gt;
+&lt;h2 id=&#34;read-a-book-a-month-failing-miserably&#34;&gt;Read a book a month: Failing miserably.&lt;/h2&gt;
 
 &lt;p&gt;Read about 5 pages. Currently reading &lt;a href=&#34;http://amzn.to/1PI7fTC&#34;&gt;Norwegian Wood&lt;/a&gt; by Haruki Murakami. It is a very interesting book, but I have not been able to find time consistently. TV, netflix and youtube, usurps time away from other pursuits.&lt;/p&gt;
 
-&lt;h2 id=&#34;write-an-app-a-month-doing-ok:274fe1f8c142b1089bb31bd074e1df5c&#34;&gt;Write an app a month: Doing ok.&lt;/h2&gt;
+&lt;h2 id=&#34;write-an-app-a-month-doing-ok&#34;&gt;Write an app a month: Doing ok.&lt;/h2&gt;
 
 &lt;p&gt;I have managed to write a small app to collect links and text and store those into a database. The app is written in go and is called notedown. It&amp;rsquo;s a lot of fun to hack something together. I am struggling with user authentication and authorization. &lt;a href=&#34;https://auth0.com/&#34;&gt;auth0&lt;/a&gt; is a great service to get started with implementing a good system for any app. At the moment, I have managed to put together a very rough version that kinda works.&lt;/p&gt;
 
@@ -105,7 +122,7 @@
 
 &lt;p&gt;If you are interested in the idea, you can reach me on &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;twitter&lt;/a&gt;, or &lt;a href=&#34;https://gitter.im/shiva/notedown?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&#34;&gt;Gitter&lt;/a&gt; or hack at it on &lt;a href=&#34;https://github.com/shiva/notedown&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;blog-once-a-week-failing-miserably:274fe1f8c142b1089bb31bd074e1df5c&#34;&gt;Blog once a week: Failing miserably.&lt;/h2&gt;
+&lt;h2 id=&#34;blog-once-a-week-failing-miserably&#34;&gt;Blog once a week: Failing miserably.&lt;/h2&gt;
 
 &lt;p&gt;As this post illustrates, I have procrastinated all month long. I guess two posts a month is still better than none.&lt;/p&gt;
 </description>
@@ -376,10 +393,8 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/ray_lian&#34;&gt;Ray Lian&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Dave Kell][4]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/covivant&#34;&gt;Dave Kell&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;https://twitter.com/covivant&#34;&gt;https://twitter.com/covivant&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -397,11 +412,9 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 
 &lt;p&gt;Most often, it is the later. Perhaps, the collective, is bound to make safer choices and very often, the simple or obvious option is not the safe one.&lt;/p&gt;
 
-&lt;p&gt;It always comes down to doing the [simple vs the easy][1]. Simple is hard!&lt;/p&gt;
+&lt;p&gt;It always comes down to doing the &lt;a href=&#34;http://blog.ulrichsossou.com/2012/07/13/easy-vs-simple/&#34;&gt;simple vs the easy&lt;/a&gt;. Simple is hard!&lt;/p&gt;
 
 &lt;p&gt;P.S: I work for a large company. It is a daily struggle, irrespective of the domain of the choice &amp;ndash; design, code or cultural.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://blog.ulrichsossou.com/2012/07/13/easy-vs-simple/&#34;&gt;http://blog.ulrichsossou.com/2012/07/13/easy-vs-simple/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -417,7 +430,7 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/apple-sec-mail-468x300.jpg&#34; alt=&#34;Apple Security Mail&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Apple&amp;rsquo;s mail is clear, concise and inspires confidence in their ability to take care of my information. They state the purpose of this communication, tell me what they did about it, and what they were going to do to fix it in the future. &lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;: Apparently, it was a [whitehat security guy doing his thing][5].&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Apple&amp;rsquo;s mail is clear, concise and inspires confidence in their ability to take care of my information. They state the purpose of this communication, tell me what they did about it, and what they were going to do to fix it in the future. &lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;: Apparently, it was a &lt;a href=&#34;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&#34;&gt;whitehat security guy doing his thing&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/tumblr-sec-mail-423x300.jpg&#34; alt=&#34;Tumblr Security Mail&#34; /&gt;&lt;/p&gt;
 
@@ -432,8 +445,6 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 &lt;/ul&gt;
 
 &lt;p&gt;The nonchalance of it all, really bothers me. Another small detail that Apple does well.&lt;/p&gt;
-
-&lt;p&gt;[5]: &lt;a href=&#34;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&#34;&gt;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -486,11 +497,9 @@ Me: &amp;ldquo;Gaaaa!!!&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;For the love of god, next time, maybe a quick check might be a good idea before you decide to recline. This way, you will help save crushed knees of some poor-souls.&lt;/p&gt;
 
-&lt;p&gt;Note: Cathay Pacific has an [interesting solution][3]. Their shell seats mean no reclining!.&lt;/p&gt;
+&lt;p&gt;Note: Cathay Pacific has an &lt;a href=&#34;http://www.terminalu.com/travel-blog/the-end-of-reclining-economy-seats-ana-removes-them-from-the-dreamliner/16703/&#34;&gt;interesting solution&lt;/a&gt;. Their shell seats mean no reclining!.&lt;/p&gt;
 
-&lt;p&gt;Later: I spoke too soon! Cathay has reverted to their [reclining seats][3]. Who cares about numb butts. Just get up and walk!&lt;/p&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://www.terminalu.com/travel-blog/the-end-of-reclining-economy-seats-ana-removes-them-from-the-dreamliner/16703/&#34;&gt;http://www.terminalu.com/travel-blog/the-end-of-reclining-economy-seats-ana-removes-them-from-the-dreamliner/16703/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Later: I spoke too soon! Cathay has reverted to their &lt;a href=&#34;http://www.terminalu.com/travel-blog/the-end-of-reclining-economy-seats-ana-removes-them-from-the-dreamliner/16703/&#34;&gt;reclining seats&lt;/a&gt;. Who cares about numb butts. Just get up and walk!&lt;/p&gt;
 </description>
         </item>
       
@@ -504,11 +513,9 @@ Me: &amp;ldquo;Gaaaa!!!&amp;rdquo;&lt;/p&gt;
           <guid>http://blog.shiv.me/2013/02/27/congrats-thomashawk/</guid>
           <description>&lt;p&gt;Congrats to Thomashawk on the &lt;a href=&#34;http://blog.flickr.net/2013/02/22/thomas-hawk-im-trying-to-capture-1-million-photos-before-i-die/&#34;&gt;flickr interview&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;&amp;ldquo;Why? Who?&amp;rdquo;, you ask. [Thomashawk][1], photographer extraordinaire, has taught me a lot about photography. I&amp;rsquo;ve never met him, or gone on a photo-walk (to be fixed some day), but have learnt from his work, nonetheless.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Why? Who?&amp;rdquo;, you ask. &lt;a href=&#34;http://thomashawk.com&#34;&gt;Thomashawk&lt;/a&gt;, photographer extraordinaire, has taught me a lot about photography. I&amp;rsquo;ve never met him, or gone on a photo-walk (to be fixed some day), but have learnt from his work, nonetheless.&lt;/p&gt;
 
 &lt;p&gt;I am compelled to write this, because, in some ways, there is a certain vindication to Flickr doing an article on him. He has been Flickr&amp;rsquo;s ardent fan, and critic. It&amp;rsquo;s been a long road! From the fun insanity of DMU(s), Zooomr, and flickr censorship to getting some well reserved recognition. Kudos!&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://thomashawk.com&#34;&gt;http://thomashawk.com&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -541,9 +548,7 @@ $ rpm2cpio myrpmfile.rpm | cpio -idmv&lt;/code&gt;&lt;/p&gt;
 $ rpm -qlp myrpmfile.rpm  
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;[source][0]&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -563,9 +568,7 @@ $ rpm -qlp myrpmfile.rpm
 
 &lt;p&gt;If you want to know more about &lt;a href=&#34;http://www.socialbites.ca/&#34;&gt;Social Bites&lt;/a&gt; (and you should), get in touch with the wonderful bundle of energy that is Annika! (&lt;a href=&#34;https://twitter.com/SocialBites&#34;&gt;@socialbites&lt;/a&gt;, &lt;a href=&#34;https://www.facebook.com/socialbites.ca&#34;&gt;Social bites on FB&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;And the chefs: &lt;a href=&#34;https://twitter.com/wontongirljojo&#34;&gt;@wontongirljojo&lt;/a&gt;, [@jonesboy][4]&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;https://twitter.com/jonesboy&#34;&gt;https://twitter.com/jonesboy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And the chefs: &lt;a href=&#34;https://twitter.com/wontongirljojo&#34;&gt;@wontongirljojo&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/jonesboy&#34;&gt;@jonesboy&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -579,21 +582,21 @@ $ rpm -qlp myrpmfile.rpm
           <guid>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</guid>
           <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
 
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-config-alias&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.&lt;/p&gt;
 
 &lt;p&gt;The following is from the latest &lt;a href=&#34;https://github.com/torvalds/linux&#34; title=&#34;linux by Linus&#34;&gt;linux.git&lt;/a&gt;&lt;/p&gt;
 
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-log-output-for-linux&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;Fortunately, git log has options one can use, that make the output look like this:&lt;/p&gt;
 
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-lg-output-for-linux&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;Another useful command is git show, with the &amp;ndash;name-only option. It displays the list of files in a particular commit.&lt;/p&gt;
 
-&lt;p&gt;&lt;script src=&#34;//gist.github.com/shiva/3791502.js&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-show-name-only&#34;&gt;&lt;/script&gt;
 </description>
         </item>
       
@@ -633,9 +636,7 @@ $ rpm -qlp myrpmfile.rpm
 &lt;/blockquote&gt;
 
 &lt;p&gt;Well, here&amp;rsquo;s your reward for reading this far:&lt;br /&gt;
-[&lt;img src=&#34;http://blog.shiv.me/images/20120823-214038.jpg&#34; alt=&#34;20120823-214038.jpg&#34; /&gt;][3]&lt;/p&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg&#34;&gt;http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/20120823-214038.jpg&#34; alt=&#34;20120823-214038.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -649,9 +650,7 @@ $ rpm -qlp myrpmfile.rpm
           <guid>http://blog.shiv.me/2012/08/20/multiple-ssh-profiles-for-multiple-services/</guid>
           <description>&lt;p&gt;I use git &amp;ndash; quite extensively. At work, we have several git repositories, across different organizations. In addition, I also &lt;a href=&#34;http://github.com/shiva&#34;&gt;hack&lt;/a&gt; for pleasure. Interacting with several git servers means that I need to have different roles and identities for them. The solution is to setup up one ssh key for each domain, and use ~/.ssh/config profiles to control them. Based on the host I&amp;rsquo;m connecting to, a different ssh private/public key pair is used &amp;ndash; make life a lot easier!&lt;/p&gt;
 
-&lt;p&gt;Thanks to [Karanbir Singh][1], for this:&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys&#34;&gt;http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&#34;http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys&#34;&gt;Karanbir Singh&lt;/a&gt;, for this:&lt;/p&gt;
 </description>
         </item>
       
@@ -663,13 +662,11 @@ $ rpm -qlp myrpmfile.rpm
           <pubDate>Fri, 01 Jun 2012 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
           <guid>http://blog.shiv.me/2012/06/01/i-am-fat-no-more/</guid>
-          <description>&lt;p&gt;BMI, is not the best measure of health, or fitness, but &amp;gt;30 is a definite indicator of lack of care about one&amp;rsquo;s health. After several years of exactly that, I&amp;rsquo;m finally within reasonable limits. My BMI is 24.0; It&amp;rsquo;s official, I&amp;rsquo;m [not obese anymore][0].&lt;/p&gt;
+          <description>&lt;p&gt;BMI, is not the best measure of health, or fitness, but &amp;gt;30 is a definite indicator of lack of care about one&amp;rsquo;s health. After several years of exactly that, I&amp;rsquo;m finally within reasonable limits. My BMI is 24.0; It&amp;rsquo;s official, I&amp;rsquo;m &lt;a href=&#34;http://www.nhlbisupport.com/bmi/&#34;&gt;not obese anymore&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In the last 4 years, I have seen my weight go from 230 lbs to 266 lbs, and back to 202 lbs, as of today.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s a good day!&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://www.nhlbisupport.com/bmi/&#34;&gt;http://www.nhlbisupport.com/bmi/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -701,7 +698,7 @@ $ rpm -qlp myrpmfile.rpm
 
 &lt;p&gt;After an hour of mucking around with several site-generators, I chose &lt;a href=&#34;http://stasis.me/&#34;&gt;Stasis&lt;/a&gt;, which is a good compromise to the blog-oriented &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, and options-insanity that is &lt;a href=&#34;http://nanoc.stoneship.org/&#34;&gt;nanoc&lt;/a&gt;. With my new-found fascination for Ruby, I wanted to stay away from &lt;a href=&#34;http://ringce.com/hyde&#34;&gt;Hyde&lt;/a&gt; (which is Python based &amp;ndash; it&amp;rsquo;s time to try the dark-side, a little)&lt;/p&gt;
 
-&lt;p&gt;[HAML][6], is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://haml.info/&#34;&gt;HAML&lt;/a&gt;, is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:&lt;/p&gt;
 
 &lt;p&gt;HTML:&lt;/p&gt;
 
@@ -710,8 +707,6 @@ $ rpm -qlp myrpmfile.rpm
 &lt;p&gt;Although, the HTML version has intrusive tags, it is easier on the eyes. It is a relief, not have to code, the end tag for every HTML element. It is much faster to type HAML by hand (especially in vim). In the end, it was a quick, painless process to convert the raw HTML code, to HAML, and generate the same html using stasis.&lt;/p&gt;
 
 &lt;p&gt;Life&amp;rsquo;s good. I&amp;rsquo;m still learning a few new tricks. What more can one ask for?&lt;/p&gt;
-
-&lt;p&gt;[6]: &lt;a href=&#34;http://haml.info/&#34;&gt;http://haml.info/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -725,9 +720,7 @@ $ rpm -qlp myrpmfile.rpm
           <guid>http://blog.shiv.me/2012/02/08/here-have-some-wine/</guid>
           <description>&lt;p&gt;Note to Self: Get wine. Lot&amp;rsquo;s of it! ;)&lt;/p&gt;
 
-&lt;p&gt;[&lt;img src=&#34;http://blog.shiv.me/images/206602701625531039_zoKKZhnd_c.jpg&#34; alt=&#34;&#34; /&gt;][0]&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://pinterest.com/pin/206602701625531039/&#34;&gt;http://pinterest.com/pin/206602701625531039/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://pinterest.com/pin/206602701625531039/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/206602701625531039_zoKKZhnd_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -772,12 +765,10 @@ $ rpm -qlp myrpmfile.rpm
 &lt;blockquote&gt;
 &lt;p&gt;I understand their muscle memory in terms of the scarcity business model. But restricting access to content is a bad business model in the age of a global network that costs practically nothing to distribute on.&lt;/p&gt;
 
-&lt;p&gt;via [A VC: Scarcity Is A Shitty Business Model][0].&lt;/p&gt;
+&lt;p&gt;via &lt;a href=&#34;http://www.avc.com/a_vc/2012/01/scarcity-is-a-shitty-business-model.html&#34;&gt;A VC: Scarcity Is A Shitty Business Model&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;We, humans are creative beings, and we will always seek the shortest, fastest, cheapest path to creative content. We can make it illegal, but we can&amp;rsquo;t stop people from reaching out to their fundamental impulses. Perhaps it is time we change the way we have organized how we make money from those impulses.&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://www.avc.com/a_vc/2012/01/scarcity-is-a-shitty-business-model.html&#34;&gt;http://www.avc.com/a_vc/2012/01/scarcity-is-a-shitty-business-model.html&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -831,7 +822,7 @@ $ rpm -qlp myrpmfile.rpm
 என் தலையை துவட்டிக்கொண்டே&lt;br /&gt;
 திட்டினாள் அம்மா&lt;br /&gt;
 என்னையல்ல; மழையை!&lt;br /&gt;
-[source: Joy Junction][1]&lt;/p&gt;
+&lt;a href=&#34;http://joyjunction.blogspot.com/2010/01/tamil-poem-about-mom.html&#34;&gt;source: Joy Junction&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;My translation, in the hope that it redeems the &amp;ldquo;theft&amp;rdquo;:&lt;/p&gt;
@@ -852,8 +843,6 @@ but with the rain.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Yes. We tamilians are melodramatic and sentimental sometimes &amp;hellip; (well actually, all the time. Some of us, just learn to hide it better) Mom. Dad. Grandma, Shankar and Swetha. There are days where I really miss you guys. Today was one such day.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://joyjunction.blogspot.com/2010/01/tamil-poem-about-mom.html&#34;&gt;http://joyjunction.blogspot.com/2010/01/tamil-poem-about-mom.html&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -871,9 +860,7 @@ but with the rain.&lt;/p&gt;
 
 &lt;p&gt;Movements 1 &amp;amp; 2: &lt;a href=&#34;http://youtu.be/idvduV2I3o0&#34;&gt;http://youtu.be/idvduV2I3o0&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Movements 3 &amp;amp; 4 : [&lt;a href=&#34;http://youtu.be/x8AEGLAyMOc][1&#34;&gt;http://youtu.be/x8AEGLAyMOc][1&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://youtu.be/x8AEGLAyMOc&#34;&gt;http://youtu.be/x8AEGLAyMOc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Movements 3 &amp;amp; 4 : &lt;a href=&#34;http://youtu.be/x8AEGLAyMOc&#34;&gt;http://youtu.be/x8AEGLAyMOc&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -922,15 +909,13 @@ refusing me ever and anon, saving me from perils of weak, uncertain desire.&lt;/
 &lt;a href=&#34;http://www.flickr.com/photos/kuram/2719700410/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Thirsty Hand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2719700410_844e7bcf4a_s.jpg&#34; alt=&#34;Thirsty Hand&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/elvispayne/508313402/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Rain Drops.&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/508313402_75b3794032_s.jpg&#34; alt=&#34;Rain Drops.&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/blurredfoto/3119404195/in/gallery-latitudes-72157624844894115/&#34; title=&#34;The frolic [Explore #1!]&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3119404195_3592cb4511_s.jpg&#34; alt=&#34;The frolic [Explore #1!]&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/mkb31/455588774/in/gallery-latitudes-72157624844894115/&#34; title=&#34;rain drops on my window...&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/455588774_b655a648d5_s.jpg&#34; alt=&#34;rain drops on my window...&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/stevewall/524803118/in/gallery-latitudes-72157624844894115/&#34; title=&#34;drops of spring&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/524803118_99be07a6d1_s.jpg&#34; alt=&#34;drops of spring&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/chewie007/4183901837/in/gallery-latitudes-72157624844894115/&#34; title=&#34;It&#39;s like an addiction...&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/4183901837_1055bbaf0b_s.jpg&#34; alt=&#34;It&#39;s like an addiction...&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/photos/matt_lew/1879101081/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Kissing Couple #2&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/1879101081_725dc07d16_s.jpg&#34; alt=&#34;Kissing Couple #2&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/camillelacroix/4155740631/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Rainy Avenue of the Americas&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/4155740631_684dc10ee6_s.jpg&#34; alt=&#34;Rainy Avenue of the Americas&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/cubagallery/4648356455/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Nature Macro&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/4648356455_fab0928df1_s.jpg&#34; alt=&#34;Nature Macro&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/alfhild/403221490/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Vampire Season&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/403221490_0fc4c03532_s.jpg&#34; alt=&#34;Vampire Season&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/vevi/2506193740/in/gallery-latitudes-72157624844894115/&#34; title=&#34;When the rain comes...&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2506193740_db231fda17_s.jpg&#34; alt=&#34;When the rain comes...&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/galepiccar/3423869209/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Weather Bulletin: today waterfall from the clouds&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3423869209_533348180e_s.jpg&#34; alt=&#34;Weather Bulletin: today waterfall from the clouds&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/latitudes/galleries/72157624844894115/&#34;&gt;Rain&lt;/a&gt;, a gallery by [Todd Klassy][19] on Flickr.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/latitudes/galleries/72157624844894115/&#34;&gt;Rain&lt;/a&gt;, a gallery by &lt;a href=&#34;http://www.flickr.com/photos/latitudes/&#34;&gt;Todd Klassy&lt;/a&gt; on Flickr.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s that time of the year, in Vancouver, when it starts to rain and is expected to do so, incessantly, for the next 6 months (I exaggerate, a little).&lt;/p&gt;
 
 &lt;p&gt;It is better to be prepared for it, and enjoy it while it lasts (like so many other things in life &amp;ndash; even the moments, that are not exactly the way one wants them to be)&lt;/p&gt;
 
 &lt;p&gt;So here are a few pictures, that show how beautiful and mesmerizing rain can be.&lt;/p&gt;
-
-&lt;p&gt;[19]: &lt;a href=&#34;http://www.flickr.com/photos/latitudes/&#34;&gt;http://www.flickr.com/photos/latitudes/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -1058,11 +1043,9 @@ $
 
 &lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-1.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[&lt;img src=&#34;http://blog.shiv.me/images/steve-2.jpg&#34; alt=&#34;&#34; /&gt;][4]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Me == sad today :(&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&#34;&gt;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -1080,9 +1063,7 @@ $
 &lt;a href=&#34;http://www.flickr.com/groups/wwpw2011-gastown/&#34;&gt;Gastown&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://www.flickr.com/groups/wwpw4/&#34;&gt;Scott Kelby&amp;rsquo;s WWPW4&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Thanks to Scott Kelby for starting such a wonderful thing, and letting it grow. This was as exciting as [last year&amp;rsquo;s Barcamp][4]&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;http://blog.shiv.me/2010/11/20/bcv2010-roundup.html&#34;&gt;http://blog.shiv.me/2010/11/20/bcv2010-roundup.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to Scott Kelby for starting such a wonderful thing, and letting it grow. This was as exciting as &lt;a href=&#34;http://blog.shiv.me/2010/11/20/bcv2010-roundup.html&#34;&gt;last year&amp;rsquo;s Barcamp&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -1098,9 +1079,7 @@ $
 
 &lt;p&gt;If you already have the tomb by tanenbaum of similar name, the unix programming interface, you probably are not going to glean much value from this one (you can thank POSIX for maintaining a modicum of consistency over the years and some would vehemently contest that). That said, if you write code for *nix systems, it definitely deserves the shelf-space as much as any other programming book.&lt;/p&gt;
 
-&lt;p&gt;In the few hours I&amp;rsquo;ve spent with it, I&amp;rsquo;ve already learnt and have had a few concepts made clear. It is definitely not a linear read and there is quite a lot of interesting things to read about. I&amp;rsquo;m currently working through some fun tests of my understanding of pthreads. Watch for those [here][0].&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;https://github.com/shiva/fun&#34;&gt;https://github.com/shiva/fun&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the few hours I&amp;rsquo;ve spent with it, I&amp;rsquo;ve already learnt and have had a few concepts made clear. It is definitely not a linear read and there is quite a lot of interesting things to read about. I&amp;rsquo;m currently working through some fun tests of my understanding of pthreads. Watch for those &lt;a href=&#34;https://github.com/shiva/fun&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       
@@ -1116,10 +1095,8 @@ $
 
 &lt;ol&gt;
 &lt;li&gt;How to &lt;a href=&#34;http://lifehacker.com/5823096/how-to-burn-your-own-lion-install-dvd-or-flash-drive&#34;&gt;burn your own install dvd&lt;/a&gt; for OSX Lion&lt;/li&gt;
-&lt;li&gt;You didn&amp;rsquo;t read this before you installed lion, did you? Then, [follow this thread][1].&lt;/li&gt;
+&lt;li&gt;You didn&amp;rsquo;t read this before you installed lion, did you? Then, &lt;a href=&#34;https://discussions.apple.com/thread/3191518?start=0&amp;amp;tstart=0&#34;&gt;follow this thread&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;https://discussions.apple.com/thread/3191518?start=0&amp;amp;tstart=0&#34;&gt;https://discussions.apple.com/thread/3191518?start=0&amp;amp;tstart=0&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -1127,10 +1104,10 @@ $
       
         <item>
           <title>10 reasons to dump Facebook for G&#43;. Now!</title>
-          <link>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g.-now/</link>
+          <link>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g&#43;.-now/</link>
           <pubDate>Sun, 28 Aug 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g.-now/</guid>
+          <guid>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g&#43;.-now/</guid>
           <description>&lt;p&gt;A friend asked what I like about google+, and as I started posting a reply , I noticed there were enough to make a blog post. So here goes&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s a quick list:&lt;br /&gt;
@@ -1207,8 +1184,6 @@ $
 
 The above is also cross-posted to [google+][9]
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;[9]: &lt;a href=&#34;https://plus.google.com/111413906991391429946/posts/JfykwgM54qM&#34;&gt;https://plus.google.com/111413906991391429946/posts/JfykwgM54qM&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -1287,9 +1262,7 @@ The above is also cross-posted to [google+][9]
 
 &lt;p&gt;For a more detailed description of the&lt;/p&gt;
 
-&lt;p&gt;[How to export your X Display][0].&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://www.hungry.com/~jamie/xexport.html&#34;&gt;http://www.hungry.com/~jamie/xexport.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.hungry.com/~jamie/xexport.html&#34;&gt;How to export your X Display&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       
@@ -1322,9 +1295,7 @@ The above is also cross-posted to [google+][9]
 &lt;li&gt;Blogsy + iPad Camera connect kit + Logitech Wave keyboard&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[][11][Photosmith][11] looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
-
-&lt;p&gt;[11]: &lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;http://blog.photosmithapp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[][11]&lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;Photosmith&lt;/a&gt; looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
 </description>
         </item>
       
@@ -1336,7 +1307,7 @@ The above is also cross-posted to [google+][9]
           <pubDate>Wed, 27 Apr 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
           <guid>http://blog.shiv.me/2011/04/27/you-cribbing-bunch-of-morons/</guid>
-          <description>&lt;p&gt;And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-customers-lawsuit-data/&#34;&gt;all&lt;/a&gt; &lt;a href=&#34;http://gigaom.com/2011/04/21/researcher-iphone-location-data-already-used-by-cops/&#34;&gt;the&lt;/a&gt; [cribbing][2] around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
+          <description>&lt;p&gt;And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-customers-lawsuit-data/&#34;&gt;all&lt;/a&gt; &lt;a href=&#34;http://gigaom.com/2011/04/21/researcher-iphone-location-data-already-used-by-cops/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-location/&#34;&gt;cribbing&lt;/a&gt; around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
 &amp;gt;
 &amp;gt; Sometime in the next few weeks Apple will release a free iOS software update that:
 &amp;gt;
@@ -1347,26 +1318,6 @@ The above is also cross-posted to [google+][9]
 &amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Wouldn&amp;rsquo;t it be cool, if someone actually wrote an app that does the exact same thing? I bet it would sell like crazy! I&amp;rsquo;d buy it.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-location/&#34;&gt;http://www.wired.com/gadgetlab/2011/04/iphone-location/&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Blogsy - a ray of hope</title>
-          <link>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</link>
-          <pubDate>Sat, 23 Apr 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</guid>
-          <description>&lt;p&gt;This is a test post from &lt;a href=&#34;http://blogsyapp.com/&#34;&gt;blogsy&lt;/a&gt;, an iPad blogging tool.&lt;/p&gt;
-
-&lt;p&gt;The interface design looks thoughtful &amp;ndash; drag &amp;amp; drop of images from flickr and picasa, videos from YouTube, a built it google search and browser to get at other content. Although there is a bit of a learning curve, it makes the iPad a true content generation device.&lt;/p&gt;
-
-&lt;p&gt;Maybe this will keep me blogging this time around. On that note, here&amp;rsquo;s a cutie pie to bring a smile to you, today.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/5603436835/&#34; title=&#34;Hey you by Shivanand Velmurugan, on Flickr&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/5603436835_900566038c.jpg&#34; alt=&#34;Hey you&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       

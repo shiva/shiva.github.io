@@ -20,7 +20,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/apple-sec-mail-468x300.jpg&#34; alt=&#34;Apple Security Mail&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Apple&amp;rsquo;s mail is clear, concise and inspires confidence in their ability to take care of my information. They state the purpose of this communication, tell me what they did about it, and what they were going to do to fix it in the future. &lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;: Apparently, it was a [whitehat security guy doing his thing][5].&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Apple&amp;rsquo;s mail is clear, concise and inspires confidence in their ability to take care of my information. They state the purpose of this communication, tell me what they did about it, and what they were going to do to fix it in the future. &lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;: Apparently, it was a &lt;a href=&#34;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&#34;&gt;whitehat security guy doing his thing&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/tumblr-sec-mail-423x300.jpg&#34; alt=&#34;Tumblr Security Mail&#34; /&gt;&lt;/p&gt;
 
@@ -35,8 +35,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;The nonchalance of it all, really bothers me. Another small detail that Apple does well.&lt;/p&gt;
-
-&lt;p&gt;[5]: &lt;a href=&#34;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&#34;&gt;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -60,11 +58,9 @@
 
 &lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-1.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[&lt;img src=&#34;http://blog.shiv.me/images/steve-2.jpg&#34; alt=&#34;&#34; /&gt;][4]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Me == sad today :(&lt;/p&gt;
-
-&lt;p&gt;[4]: &lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&#34;&gt;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -97,9 +93,7 @@
 &lt;li&gt;Blogsy + iPad Camera connect kit + Logitech Wave keyboard&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;[][11][Photosmith][11] looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
-
-&lt;p&gt;[11]: &lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;http://blog.photosmithapp.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[][11]&lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;Photosmith&lt;/a&gt; looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
 </description>
         </item>
       
@@ -111,7 +105,7 @@
           <pubDate>Wed, 27 Apr 2011 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
           <guid>http://blog.shiv.me/2011/04/27/you-cribbing-bunch-of-morons/</guid>
-          <description>&lt;p&gt;And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-customers-lawsuit-data/&#34;&gt;all&lt;/a&gt; &lt;a href=&#34;http://gigaom.com/2011/04/21/researcher-iphone-location-data-already-used-by-cops/&#34;&gt;the&lt;/a&gt; [cribbing][2] around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
+          <description>&lt;p&gt;And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-customers-lawsuit-data/&#34;&gt;all&lt;/a&gt; &lt;a href=&#34;http://gigaom.com/2011/04/21/researcher-iphone-location-data-already-used-by-cops/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-location/&#34;&gt;cribbing&lt;/a&gt; around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
 &amp;gt;
 &amp;gt; Sometime in the next few weeks Apple will release a free iOS software update that:
 &amp;gt;
@@ -122,8 +116,6 @@
 &amp;gt;&lt;/p&gt;
 
 &lt;p&gt;Wouldn&amp;rsquo;t it be cool, if someone actually wrote an app that does the exact same thing? I bet it would sell like crazy! I&amp;rsquo;d buy it.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-location/&#34;&gt;http://www.wired.com/gadgetlab/2011/04/iphone-location/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -186,10 +178,8 @@
 &lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/nyt-editors-choice/id357066198?mt=8&#34;&gt;Nyt&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://itunes.apple.com/ca/app/alice-for-the-ipad-lite/id364746811?mt=8&#34;&gt;Alice lite&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;(bonus) put icons for all the google apps you use on the home screen. The web versions are really good.&lt;/li&gt;
-&lt;li&gt;(Ok. I&amp;rsquo;ll stop with this) [Dropbox][15]&lt;/li&gt;
+&lt;li&gt;(Ok. I&amp;rsquo;ll stop with this) &lt;a href=&#34;http://itunes.apple.com/ca/app/dropbox/id327630330?mt=8&#34;&gt;Dropbox&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;p&gt;[15]: &lt;a href=&#34;http://itunes.apple.com/ca/app/dropbox/id327630330?mt=8&#34;&gt;http://itunes.apple.com/ca/app/dropbox/id327630330?mt=8&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -232,9 +222,7 @@
           <guid>http://blog.shiv.me/2010/03/16/so-long-and-thanks-for-the-jailed-iphone/</guid>
           <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_737&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2010/03/Nexus-One-Phone-Choose-a-phone.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/Nexus-One-Phone-Choose-a-phone-300x195.png&#34; alt=&#34;Google Nexus is available in Canada&#34; /&gt;&lt;/a&gt; So long oppression[/caption]&lt;/p&gt;
 
-&lt;p&gt;Thanks for the iPhone, Mr. Jobs. There is a new way to protest the iPhone. I don&amp;rsquo;t have to &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition/&#34;&gt;sign petitions&lt;/a&gt; anymore. I can now take my $500 &lt;a href=&#34;http://bit.ly/cXseFC&#34;&gt;elsewhere&lt;/a&gt;, for a slightly more open experience. I [didn&amp;rsquo;t ask for much][3], but I don&amp;rsquo;t have to wait on your whim any longer (no offense meant to you personally, Mr Jobs).&lt;/p&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad/&#34;&gt;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks for the iPhone, Mr. Jobs. There is a new way to protest the iPhone. I don&amp;rsquo;t have to &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition/&#34;&gt;sign petitions&lt;/a&gt; anymore. I can now take my $500 &lt;a href=&#34;http://bit.ly/cXseFC&#34;&gt;elsewhere&lt;/a&gt;, for a slightly more open experience. I &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad/&#34;&gt;didn&amp;rsquo;t ask for much&lt;/a&gt;, but I don&amp;rsquo;t have to wait on your whim any longer (no offense meant to you personally, Mr Jobs).&lt;/p&gt;
 </description>
         </item>
       
@@ -246,11 +234,9 @@
           <pubDate>Thu, 04 Feb 2010 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
           <guid>http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition/</guid>
-          <description>&lt;p&gt;[&lt;a href=&#34;http://www.defectivebydesign.org/ipad][0&#34;&gt;http://www.defectivebydesign.org/ipad][0&lt;/a&gt;]&lt;/p&gt;
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.defectivebydesign.org/ipad&#34;&gt;http://www.defectivebydesign.org/ipad&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you think that the iPad is promoting DRM of apps that will lead computing in a direction that will undermine the freedom that we currently are enjoying, freedom the seeds of which have been sown over the last few decades, the visit the link above and sign the petition.&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://www.defectivebydesign.org/ipad&#34;&gt;http://www.defectivebydesign.org/ipad&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -276,9 +262,7 @@
 
 &lt;p&gt;(This post is a response to a message on Jason&amp;rsquo;s list. If you are not subscribed to &lt;a href=&#34;http://en.wikipedia.org/wiki/Jason_Calacanis&#34;&gt;Jason Calacanis&lt;/a&gt;, you should be. Go there NOW)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://posterous.com&#34;&gt;Posted via email&lt;/a&gt; from [shiva&amp;rsquo;s posterous][2]&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://shiva.posterous.com/jason-the-case-against-apple-in-five-parts&#34;&gt;http://shiva.posterous.com/jason-the-case-against-apple-in-five-parts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://posterous.com&#34;&gt;Posted via email&lt;/a&gt; from &lt;a href=&#34;http://shiva.posterous.com/jason-the-case-against-apple-in-five-parts&#34;&gt;shiva&amp;rsquo;s posterous&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -301,14 +285,12 @@
 &lt;p&gt;and goes on to state something, that threw the spotlight on that source that I was trying to find within myself&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Maybe I&amp;rsquo;m a hypocrite. Maybe the issue cuts philosophically deeper than mere dongles. Maybe it&amp;rsquo;s not only about the freedom to run your operating system on whatever hardware you wish, but also the freedom to run whatever software you want for whatever purpose you need, in perpetuity. That&amp;rsquo;s [Freedom Zero][1]:&lt;/p&gt;
+&lt;p&gt;Maybe I&amp;rsquo;m a hypocrite. Maybe the issue cuts philosophically deeper than mere dongles. Maybe it&amp;rsquo;s not only about the freedom to run your operating system on whatever hardware you wish, but also the freedom to run whatever software you want for whatever purpose you need, in perpetuity. That&amp;rsquo;s &lt;a href=&#34;http://diveintomark.org/archives/2004/05/14/freedom-0&#34;&gt;Freedom Zero&lt;/a&gt;:&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;There are two kinds of us: those who put conviction above convenience, and those who don&amp;rsquo;t. There is nothing right or wrong about being on either of the sides. All that matters is that, one needs to understand, which &amp;ldquo;club&amp;rdquo; one belongs to. Through all this, I realized one thing - I will never be content with a Mac, until I convince myself to give up expecting my computer to do everything I want it to do. Do I want to do that? I have no idea. Do I want an ipod touch that allows me to run linux on it? I sure as hell do.&lt;/p&gt;
 
 &lt;p&gt;I hope, for the sake of computing, that Apple realizes that it has a platform in the Ipod Touch, get off its proud ass,Â  and open-up the touch to third party. However, with Apple, I just know that it will never happen. Why? It takes genius to build something like the iPhone or the iPod and a vision to make that into a platform.&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://diveintomark.org/archives/2004/05/14/freedom-0&#34;&gt;http://diveintomark.org/archives/2004/05/14/freedom-0&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -322,12 +304,10 @@
           <guid>http://blog.shiv.me/2008/01/15/ipod-touch-1.1.1-firmware-link/</guid>
           <description>&lt;p&gt;Since Apple&amp;rsquo;s is so bent upon &lt;a href=&#34;http://news.google.com/news/url?sa=t&amp;amp;ct=:ePkh8BM9g5ucBze5BG5yqhADkgWZeQBzjQYG/0-1&amp;amp;fp=478d8859dc34a86c&amp;amp;ei=vFuNR_i1EoOErQPTnYCHAg&amp;amp;url=http%3A//lifehacker.com/345114/iphone-ipod-touch-firmware-update-adds-faux%2bgps-multi%2bsms-and-more&amp;amp;cid=1126385834&amp;amp;sig2=kF9GGYFfNYp9px-jCahoww&#34;&gt;disappointing &lt;/a&gt;&lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fwww.apple.com%2Fhotnews%2Fopeniphoneletter%2F&amp;amp;ei=-VuNR_LbH5vCgAP97MXfBg&amp;amp;usg=AFQjCNFD-104d-f8j6eMkH4FtIXQnPei7w&amp;amp;sig2=47vb7ATncfgGpDWP79PQgA&#34;&gt;their &lt;/a&gt;customers, by introducing paid firmware upgrades, I needed to ensure that I have the option to jail break, my new ipod touch (if need be). (update: the firmware upgrade itself is not paid. Only the newapps are paid). I am going to wait until they &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=3&amp;amp;url=http%3A%2F%2Fwww.tuaw.com%2F2007%2F10%2F17%2Fapple-we-plan-to-have-an-iphone-sdk-in-developers-hands-in-fe%2F&amp;amp;ei=b1yNR-yLLYuQgwPzybHfBg&amp;amp;usg=AFQjCNEU4lvFx4EHi5SZE2s06qT7lNiBGg&amp;amp;sig2=Wi1NE6pO4ZjVXzyIje6FAw&#34;&gt;release their SDK in February&lt;/a&gt; before I jailbreak mine.&lt;/p&gt;
 
-&lt;p&gt;I found a link to the &lt;a href=&#34;http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3932.20070927.p23dD/iPod1,1_1.1.1_3A110a_Restore.ipsw&#34;&gt;1.1.1 firmware&lt;/a&gt; (thanks to &lt;a href=&#34;http://rupertgee.wordpress.com/2007/12/02/downgraderestore-ipod-touch-firmware-to-version-111-using-os-x/&#34;&gt;Rupert&lt;/a&gt; and who-ever posted [this][5]).&lt;br /&gt;
+&lt;p&gt;I found a link to the &lt;a href=&#34;http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3932.20070927.p23dD/iPod1,1_1.1.1_3A110a_Restore.ipsw&#34;&gt;1.1.1 firmware&lt;/a&gt; (thanks to &lt;a href=&#34;http://rupertgee.wordpress.com/2007/12/02/downgraderestore-ipod-touch-firmware-to-version-111-using-os-x/&#34;&gt;Rupert&lt;/a&gt; and who-ever posted &lt;a href=&#34;http://forums.hardwarezone.com/showpost.php?p=26755502&amp;amp;postcount=40&#34;&gt;this&lt;/a&gt;).&lt;br /&gt;
 I have a copy on my hard-drive (just in case).&lt;/p&gt;
 
 &lt;p&gt;Let&amp;rsquo;s see how the whole thing works out. Just when I thought, Apple has a killer product, they have to limit the scope of a platform and make it a device. A very sad day for computing.&lt;/p&gt;
-
-&lt;p&gt;[5]: &lt;a href=&#34;http://forums.hardwarezone.com/showpost.php?p=26755502&amp;amp;postcount=40&#34;&gt;http://forums.hardwarezone.com/showpost.php?p=26755502&amp;amp;postcount=40&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       

@@ -107,7 +107,7 @@
 
 &lt;p&gt;Java is, by no means, a &amp;ldquo;new&amp;rdquo; language for anyone I know. However, we still try to write C/C++ like code using it. We approach it with all of the training of C/C++, and start micro-optimisation much before it is needed, and end up with hard to comprehend complex code.&lt;/p&gt;
 
-&lt;p&gt;I thought I will write a long-winded post about &lt;a href=&#34;http://darksleep.com/player/JavaAndUnsignedTypes.html#why_no_unsigned_types&#34;&gt;why unsigned int is not available in Java&lt;/a&gt;, and [how to emulate it if you really need to][18], but I will leave that to more able hands.&lt;/p&gt;
+&lt;p&gt;I thought I will write a long-winded post about &lt;a href=&#34;http://darksleep.com/player/JavaAndUnsignedTypes.html#why_no_unsigned_types&#34;&gt;why unsigned int is not available in Java&lt;/a&gt;, and &lt;a href=&#34;http://www.javamex.com/java_equivalents/unsigned.shtml&#34;&gt;how to emulate it if you really need to&lt;/a&gt;, but I will leave that to more able hands.&lt;/p&gt;
 
 &lt;p&gt;The reason for lack of unsigned types in Java are:&lt;br /&gt;
 1. The core of the Java language was designed to be simple. This meant leaving out anything that adds complexity that can be done without. unsigned types didn&amp;rsquo;t make the cut&lt;br /&gt;
@@ -132,8 +132,6 @@
 
 &lt;p&gt;Peace.&lt;br /&gt;
 -Shiva&lt;/p&gt;
-
-&lt;p&gt;[18]: &lt;a href=&#34;http://www.javamex.com/java_equivalents/unsigned.shtml&#34;&gt;http://www.javamex.com/java_equivalents/unsigned.shtml&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -196,11 +194,9 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
 
 &lt;p&gt;The &amp;ldquo;how&amp;rdquo; of your design depends the &amp;ldquo;why&amp;rdquo;. The only limiting factor is the willingness to ask why, until you can find an alternate solution, or, are absolutely convinced that there is no other way to acheive a specific requirement without writing some inefficient code &amp;mdash; then defend rigorously against doing it. well, atleast you have to get a some kind of limits in place.&lt;/p&gt;
 
-&lt;p&gt;Sometimes you have to &lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;stand up to your product manager&lt;/a&gt;, and sometimes you have to take a [sip of warm wine][1], and go write that &amp;ldquo;piece of crap&amp;rdquo; code.&lt;/p&gt;
+&lt;p&gt;Sometimes you have to &lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;stand up to your product manager&lt;/a&gt;, and sometimes you have to take a &lt;a href=&#34;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&#34;&gt;sip of warm wine&lt;/a&gt;, and go write that &amp;ldquo;piece of crap&amp;rdquo; code.&lt;/p&gt;
 
 &lt;p&gt;Happy coding!&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&#34;&gt;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -208,10 +204,10 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
       
         <item>
           <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-          <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
+          <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</link>
           <pubDate>Sat, 25 Oct 2008 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
+          <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</guid>
           <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;
@@ -284,9 +280,7 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
 
 &lt;p&gt;&lt;code&gt;#cvs -n update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Thanks [Jonnay][0] for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;Jonnay&lt;/a&gt; for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
 </description>
         </item>
       
@@ -590,10 +584,10 @@ write byte array to DataOutputStream, and read from corresponding input stream u
       
         <item>
           <title>VC&#43;&#43; Time</title>
-          <link>http://blog.shiv.me/2005/06/08/vc-time/</link>
+          <link>http://blog.shiv.me/2005/06/08/vc&#43;&#43;-time/</link>
           <pubDate>Wed, 08 Jun 2005 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2005/06/08/vc-time/</guid>
+          <guid>http://blog.shiv.me/2005/06/08/vc&#43;&#43;-time/</guid>
           <description>&lt;p&gt;Started working in VC.NET. The Visual Studio 2005 BETA is out! really kewl stuff. I simply love the IDE enhancements&lt;br /&gt;
 I had to port an application from VC6 to VC.NET. It was such a breeze. a little googling and most of the issues are under control&lt;br /&gt;
 Will post an article on it sometime&lt;/p&gt;

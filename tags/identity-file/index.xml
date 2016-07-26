@@ -18,9 +18,7 @@
           <guid>http://blog.shiv.me/2012/08/20/multiple-ssh-profiles-for-multiple-services/</guid>
           <description>&lt;p&gt;I use git &amp;ndash; quite extensively. At work, we have several git repositories, across different organizations. In addition, I also &lt;a href=&#34;http://github.com/shiva&#34;&gt;hack&lt;/a&gt; for pleasure. Interacting with several git servers means that I need to have different roles and identities for them. The solution is to setup up one ssh key for each domain, and use ~/.ssh/config profiles to control them. Based on the host I&amp;rsquo;m connecting to, a different ssh private/public key pair is used &amp;ndash; make life a lot easier!&lt;/p&gt;
 
-&lt;p&gt;Thanks to [Karanbir Singh][1], for this:&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys&#34;&gt;http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to &lt;a href=&#34;http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys&#34;&gt;Karanbir Singh&lt;/a&gt;, for this:&lt;/p&gt;
 </description>
         </item>
       

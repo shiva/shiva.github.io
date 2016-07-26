@@ -3,8 +3,12 @@
   
   <url>
     <loc>http://blog.shiv.me/</loc>
-    <lastmod>2016-02-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2016-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</loc>
+    <lastmod>2016-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -213,7 +217,7 @@
   </url>
   
   <url>
-    <loc>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g.-now/</loc>
+    <loc>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g&#43;.-now/</loc>
     <lastmod>2011-08-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -573,7 +577,7 @@
   </url>
   
   <url>
-    <loc>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</loc>
+    <loc>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</loc>
     <lastmod>2008-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -583,7 +587,7 @@
   </url>
   
   <url>
-    <loc>http://blog.shiv.me/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</loc>
+    <loc>http://blog.shiv.me/2008/10/15/how-i-handle-1000&#43;-emails-and-300&#43;-blog-posts-a-day/</loc>
     <lastmod>2008-10-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -1378,7 +1382,7 @@
   </url>
   
   <url>
-    <loc>http://blog.shiv.me/2005/06/08/vc-time/</loc>
+    <loc>http://blog.shiv.me/2005/06/08/vc&#43;&#43;-time/</loc>
     <lastmod>2005-06-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -1493,11 +1497,6 @@
   </url>
   
   <url>
-    <loc>http://blog.shiv.me/2004/10/17/new-blog-for-my-wife-and-me/</loc>
-    <lastmod>2004-10-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.shiv.me/2004/10/13/%5C-lomographic-society-int.-presents--lc-a--the-lomo-compact-automat-%5C/</loc>
     <lastmod>2004-10-13T00:00:00+00:00</lastmod>
   </url>
@@ -1543,7 +1542,7 @@
   </url>
   
   <url>
-    <loc>http://blog.shiv.me/2004/09/16/working-my-ass-off-on-vc/</loc>
+    <loc>http://blog.shiv.me/2004/09/16/working-my-ass-off-on-vc&#43;&#43;/</loc>
     <lastmod>2004-09-16T00:00:00+00:00</lastmod>
   </url>
   

@@ -67,7 +67,7 @@ In my installation this is the difference between wordpress 2.5 and wordpress 2.
 11,12c11,12&lt;br /&gt;
 &amp;lt; // so make it long and complicated.Â  You can visit &lt;a href=&#34;https://www.grc.com/passwords.htm&#34;&gt;https://www.grc.com/passwords.htm&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;to-get-a-phrase-generated-for-you-or-just-make-something-up:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; // to get a phrase generated for you, or just make something up.&lt;/h2&gt;
+&lt;h2 id=&#34;to-get-a-phrase-generated-for-you-or-just-make-something-up&#34;&gt;&amp;lt; // to get a phrase generated for you, or just make something up.&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;// so make it long and complicated.Â  You can visit &lt;a href=&#34;http://api.wordpress.org/secret-key/1.0/&#34;&gt;http://api.wordpress.org/secret-key/1.0/&lt;/a&gt;&lt;br /&gt;
@@ -77,17 +77,17 @@ Common subdirectories: ../../wpress/wp-includes and ./wordpress/wp-includes&lt;b
 diff ../../wpress/wp-login.php ./wordpress/wp-login.php&lt;br /&gt;
 93c93&lt;/p&gt;
 
-&lt;h2 id=&#34;â-â-â-key-wpdb-get-var-select-user-activation-key-from-wpdb-users-where-user-login-user-login:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  $key = $wpdb-&amp;gt;get_var(&amp;ldquo;SELECT user_activation_key FROM $wpdb-&amp;gt;users WHERE user_login = &amp;lsquo;$user_login&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
+&lt;h2 id=&#34;â-â-â-key-wpdb-get-var-select-user-activation-key-from-wpdb-users-where-user-login-user-login&#34;&gt;&amp;lt; Â Â Â  $key = $wpdb-&amp;gt;get_var(&amp;ldquo;SELECT user_activation_key FROM $wpdb-&amp;gt;users WHERE user_login = &amp;lsquo;$user_login&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
 
 &lt;p&gt;Â Â Â  $key = $wpdb-&amp;gt;get_var($wpdb-&amp;gt;prepare(&amp;ldquo;SELECT user_activation_key FROM $wpdb-&amp;gt;users WHERE user_login = %s&amp;rdquo;, $user_login));&lt;br /&gt;
 99c99&lt;/p&gt;
 
-&lt;h2 id=&#34;â-â-â-â-â-â-wpdb-query-update-wpdb-users-set-user-activation-key-key-where-user-login-user-login:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  Â Â Â  $wpdb-&amp;gt;query(&amp;ldquo;UPDATE $wpdb-&amp;gt;users SET user_activation_key = &amp;lsquo;$key&amp;rsquo; WHERE user_login = &amp;lsquo;$user_login&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
+&lt;h2 id=&#34;â-â-â-â-â-â-wpdb-query-update-wpdb-users-set-user-activation-key-key-where-user-login-user-login&#34;&gt;&amp;lt; Â Â Â  Â Â Â  $wpdb-&amp;gt;query(&amp;ldquo;UPDATE $wpdb-&amp;gt;users SET user_activation_key = &amp;lsquo;$key&amp;rsquo; WHERE user_login = &amp;lsquo;$user_login&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
 
 &lt;p&gt;Â Â Â  Â Â Â  $wpdb-&amp;gt;query($wpdb-&amp;gt;prepare(&amp;ldquo;UPDATE $wpdb-&amp;gt;users SET user_activation_key = %s WHERE user_login = %s&amp;rdquo;, $key, $user_login));&lt;br /&gt;
 121c121&lt;/p&gt;
 
-&lt;h2 id=&#34;â-â-â-user-wpdb-get-row-select-from-wpdb-users-where-user-activation-key-key:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  $user = $wpdb-&amp;gt;get_row(&amp;ldquo;SELECT * FROM $wpdb-&amp;gt;users WHERE user_activation_key = &amp;lsquo;$key&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
+&lt;h2 id=&#34;â-â-â-user-wpdb-get-row-select-from-wpdb-users-where-user-activation-key-key&#34;&gt;&amp;lt; Â Â Â  $user = $wpdb-&amp;gt;get_row(&amp;ldquo;SELECT * FROM $wpdb-&amp;gt;users WHERE user_activation_key = &amp;lsquo;$key&amp;rsquo;&amp;ldquo;);&lt;/h2&gt;
 
 &lt;p&gt;Â Â Â  $user = $wpdb-&amp;gt;get_row($wpdb-&amp;gt;prepare(&amp;ldquo;SELECT * FROM $wpdb-&amp;gt;users WHERE user_activation_key = %s&amp;rdquo;, $key));&lt;br /&gt;
 diff ../../wpress/wp-settings.php ./wordpress/wp-settings.php&lt;br /&gt;
@@ -96,7 +96,7 @@ diff ../../wpress/wp-settings.php ./wordpress/wp-settings.php&lt;br /&gt;
 &amp;lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&amp;lsquo;REQUEST_URI&amp;rsquo;] = $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;];&lt;br /&gt;
 &amp;lt; Â Â Â  Â Â Â  else&lt;/p&gt;
 
-&lt;h2 id=&#34;â-â-â-â-â-â-â-â-â-server-request-uri-server-script-name-server-path-info:9cbf616bdf241ff86e72e386f2c4403a&#34;&gt;&amp;lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&amp;lsquo;REQUEST_URI&amp;rsquo;] = $_SERVER[&amp;lsquo;SCRIPT_NAME&amp;rsquo;] . $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;];&lt;/h2&gt;
+&lt;h2 id=&#34;â-â-â-â-â-â-â-â-â-server-request-uri-server-script-name-server-path-info&#34;&gt;&amp;lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&amp;lsquo;REQUEST_URI&amp;rsquo;] = $_SERVER[&amp;lsquo;SCRIPT_NAME&amp;rsquo;] . $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;];&lt;/h2&gt;
 
 &lt;p&gt;Â Â Â  Â Â Â  if ( isset($_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;]) ) {&lt;br /&gt;
 Â Â Â  Â Â Â  Â Â Â  if ( $_SERVER[&amp;lsquo;PATH_INFO&amp;rsquo;] == $_SERVER[&amp;lsquo;SCRIPT_NAME&amp;rsquo;] )&lt;br /&gt;

@@ -769,7 +769,7 @@ In my installation this is the difference between wordpress 2.5 and wordpress 2.
 11,12c11,12<br />
 &lt; // so make it long and complicated.Â  You can visit <a href="https://www.grc.com/passwords.htm">https://www.grc.com/passwords.htm</a></p>
 
-<h2 id="to-get-a-phrase-generated-for-you-or-just-make-something-up:9cbf616bdf241ff86e72e386f2c4403a">&lt; // to get a phrase generated for you, or just make something up.</h2>
+<h2 id="to-get-a-phrase-generated-for-you-or-just-make-something-up">&lt; // to get a phrase generated for you, or just make something up.</h2>
 
 <blockquote>
 <p>// so make it long and complicated.Â  You can visit <a href="http://api.wordpress.org/secret-key/1.0/">http://api.wordpress.org/secret-key/1.0/</a><br />
@@ -779,17 +779,17 @@ Common subdirectories: ../../wpress/wp-includes and ./wordpress/wp-includes<br /
 diff ../../wpress/wp-login.php ./wordpress/wp-login.php<br />
 93c93</p>
 
-<h2 id="â-â-â-key-wpdb-get-var-select-user-activation-key-from-wpdb-users-where-user-login-user-login:9cbf616bdf241ff86e72e386f2c4403a">&lt; Â Â Â  $key = $wpdb-&gt;get_var(&ldquo;SELECT user_activation_key FROM $wpdb-&gt;users WHERE user_login = &lsquo;$user_login&rsquo;&ldquo;);</h2>
+<h2 id="â-â-â-key-wpdb-get-var-select-user-activation-key-from-wpdb-users-where-user-login-user-login">&lt; Â Â Â  $key = $wpdb-&gt;get_var(&ldquo;SELECT user_activation_key FROM $wpdb-&gt;users WHERE user_login = &lsquo;$user_login&rsquo;&ldquo;);</h2>
 
 <p>Â Â Â  $key = $wpdb-&gt;get_var($wpdb-&gt;prepare(&ldquo;SELECT user_activation_key FROM $wpdb-&gt;users WHERE user_login = %s&rdquo;, $user_login));<br />
 99c99</p>
 
-<h2 id="â-â-â-â-â-â-wpdb-query-update-wpdb-users-set-user-activation-key-key-where-user-login-user-login:9cbf616bdf241ff86e72e386f2c4403a">&lt; Â Â Â  Â Â Â  $wpdb-&gt;query(&ldquo;UPDATE $wpdb-&gt;users SET user_activation_key = &lsquo;$key&rsquo; WHERE user_login = &lsquo;$user_login&rsquo;&ldquo;);</h2>
+<h2 id="â-â-â-â-â-â-wpdb-query-update-wpdb-users-set-user-activation-key-key-where-user-login-user-login">&lt; Â Â Â  Â Â Â  $wpdb-&gt;query(&ldquo;UPDATE $wpdb-&gt;users SET user_activation_key = &lsquo;$key&rsquo; WHERE user_login = &lsquo;$user_login&rsquo;&ldquo;);</h2>
 
 <p>Â Â Â  Â Â Â  $wpdb-&gt;query($wpdb-&gt;prepare(&ldquo;UPDATE $wpdb-&gt;users SET user_activation_key = %s WHERE user_login = %s&rdquo;, $key, $user_login));<br />
 121c121</p>
 
-<h2 id="â-â-â-user-wpdb-get-row-select-from-wpdb-users-where-user-activation-key-key:9cbf616bdf241ff86e72e386f2c4403a">&lt; Â Â Â  $user = $wpdb-&gt;get_row(&ldquo;SELECT * FROM $wpdb-&gt;users WHERE user_activation_key = &lsquo;$key&rsquo;&ldquo;);</h2>
+<h2 id="â-â-â-user-wpdb-get-row-select-from-wpdb-users-where-user-activation-key-key">&lt; Â Â Â  $user = $wpdb-&gt;get_row(&ldquo;SELECT * FROM $wpdb-&gt;users WHERE user_activation_key = &lsquo;$key&rsquo;&ldquo;);</h2>
 
 <p>Â Â Â  $user = $wpdb-&gt;get_row($wpdb-&gt;prepare(&ldquo;SELECT * FROM $wpdb-&gt;users WHERE user_activation_key = %s&rdquo;, $key));<br />
 diff ../../wpress/wp-settings.php ./wordpress/wp-settings.php<br />
@@ -798,7 +798,7 @@ diff ../../wpress/wp-settings.php ./wordpress/wp-settings.php<br />
 &lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&lsquo;REQUEST_URI&rsquo;] = $_SERVER[&lsquo;PATH_INFO&rsquo;];<br />
 &lt; Â Â Â  Â Â Â  else</p>
 
-<h2 id="â-â-â-â-â-â-â-â-â-server-request-uri-server-script-name-server-path-info:9cbf616bdf241ff86e72e386f2c4403a">&lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&lsquo;REQUEST_URI&rsquo;] = $_SERVER[&lsquo;SCRIPT_NAME&rsquo;] . $_SERVER[&lsquo;PATH_INFO&rsquo;];</h2>
+<h2 id="â-â-â-â-â-â-â-â-â-server-request-uri-server-script-name-server-path-info">&lt; Â Â Â  Â Â Â  Â Â Â  $_SERVER[&lsquo;REQUEST_URI&rsquo;] = $_SERVER[&lsquo;SCRIPT_NAME&rsquo;] . $_SERVER[&lsquo;PATH_INFO&rsquo;];</h2>
 
 <p>Â Â Â  Â Â Â  if ( isset($_SERVER[&lsquo;PATH_INFO&rsquo;]) ) {<br />
 Â Â Â  Â Â Â  Â Â Â  if ( $_SERVER[&lsquo;PATH_INFO&rsquo;] == $_SERVER[&lsquo;SCRIPT_NAME&rsquo;] )<br />

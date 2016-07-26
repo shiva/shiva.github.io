@@ -91,7 +91,7 @@
 
 &lt;p&gt;Java is, by no means, a &amp;ldquo;new&amp;rdquo; language for anyone I know. However, we still try to write C/C++ like code using it. We approach it with all of the training of C/C++, and start micro-optimisation much before it is needed, and end up with hard to comprehend complex code.&lt;/p&gt;
 
-&lt;p&gt;I thought I will write a long-winded post about &lt;a href=&#34;http://darksleep.com/player/JavaAndUnsignedTypes.html#why_no_unsigned_types&#34;&gt;why unsigned int is not available in Java&lt;/a&gt;, and [how to emulate it if you really need to][18], but I will leave that to more able hands.&lt;/p&gt;
+&lt;p&gt;I thought I will write a long-winded post about &lt;a href=&#34;http://darksleep.com/player/JavaAndUnsignedTypes.html#why_no_unsigned_types&#34;&gt;why unsigned int is not available in Java&lt;/a&gt;, and &lt;a href=&#34;http://www.javamex.com/java_equivalents/unsigned.shtml&#34;&gt;how to emulate it if you really need to&lt;/a&gt;, but I will leave that to more able hands.&lt;/p&gt;
 
 &lt;p&gt;The reason for lack of unsigned types in Java are:&lt;br /&gt;
 1. The core of the Java language was designed to be simple. This meant leaving out anything that adds complexity that can be done without. unsigned types didn&amp;rsquo;t make the cut&lt;br /&gt;
@@ -116,8 +116,6 @@
 
 &lt;p&gt;Peace.&lt;br /&gt;
 -Shiva&lt;/p&gt;
-
-&lt;p&gt;[18]: &lt;a href=&#34;http://www.javamex.com/java_equivalents/unsigned.shtml&#34;&gt;http://www.javamex.com/java_equivalents/unsigned.shtml&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -180,11 +178,9 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
 
 &lt;p&gt;The &amp;ldquo;how&amp;rdquo; of your design depends the &amp;ldquo;why&amp;rdquo;. The only limiting factor is the willingness to ask why, until you can find an alternate solution, or, are absolutely convinced that there is no other way to acheive a specific requirement without writing some inefficient code &amp;mdash; then defend rigorously against doing it. well, atleast you have to get a some kind of limits in place.&lt;/p&gt;
 
-&lt;p&gt;Sometimes you have to &lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;stand up to your product manager&lt;/a&gt;, and sometimes you have to take a [sip of warm wine][1], and go write that &amp;ldquo;piece of crap&amp;rdquo; code.&lt;/p&gt;
+&lt;p&gt;Sometimes you have to &lt;a href=&#34;http://flickr.com/photos/shvelmur/3262859586/&#34;&gt;stand up to your product manager&lt;/a&gt;, and sometimes you have to take a &lt;a href=&#34;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&#34;&gt;sip of warm wine&lt;/a&gt;, and go write that &amp;ldquo;piece of crap&amp;rdquo; code.&lt;/p&gt;
 
 &lt;p&gt;Happy coding!&lt;/p&gt;
-
-&lt;p&gt;[1]: &lt;a href=&#34;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&#34;&gt;http://blog.shiv.me/2009/01/28/i-recommend-drinking-vin-chaude-when-youre-in-strasbourg-france/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       

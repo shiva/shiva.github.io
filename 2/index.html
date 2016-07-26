@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
   <head>
+	<meta name="generator" content="Hugo 0.17-DEV" />
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
@@ -721,6 +722,29 @@
 <div class="posts">
   
     <div class="post">
+        <h1 class="post-title"><a href="http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/">Git: beautiful git logs and listing files in a commit</a></h1>
+        <span class="post-date">Wed, Sep 26, 2012</span>
+        <p>Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.</p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-config-alias"></script>
+
+<p>For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.</p>
+
+<p>The following is from the latest <a href="https://github.com/torvalds/linux" title="linux by Linus">linux.git</a></p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-log-output-for-linux"></script>
+
+<p>Fortunately, git log has options one can use, that make the output look like this:</p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-lg-output-for-linux"></script>
+
+<p>Another useful command is git show, with the &ndash;name-only option. It displays the list of files in a particular commit.</p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-show-name-only"></script>
+
+    </div>
+  
+    <div class="post">
         <h1 class="post-title"><a href="http://blog.shiv.me/2012/08/27/macports-from-behind-a-proxy/">Macports from behind a proxy</a></h1>
         <span class="post-date">Mon, Aug 27, 2012</span>
         <p>I&rsquo;ve been using my MBP as the main computer at work for a couple of weeks now. It is not officially &ldquo;supported&rdquo;, and I&rsquo;m left to my own devices to figure out any issues that arise.</p>
@@ -746,9 +770,7 @@
 </blockquote>
 
 <p>Well, here&rsquo;s your reward for reading this far:<br />
-[<img src="http://blog.shiv.me/images/20120823-214038.jpg" alt="20120823-214038.jpg" />][3]</p>
-
-<p>[3]: <a href="http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg">http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg</a></p>
+<a href="http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg"><img src="http://blog.shiv.me/images/20120823-214038.jpg" alt="20120823-214038.jpg" /></a></p>
 
     </div>
   
@@ -757,22 +779,18 @@
         <span class="post-date">Mon, Aug 20, 2012</span>
         <p>I use git &ndash; quite extensively. At work, we have several git repositories, across different organizations. In addition, I also <a href="http://github.com/shiva">hack</a> for pleasure. Interacting with several git servers means that I need to have different roles and identities for them. The solution is to setup up one ssh key for each domain, and use ~/.ssh/config profiles to control them. Based on the host I&rsquo;m connecting to, a different ssh private/public key pair is used &ndash; make life a lot easier!</p>
 
-<p>Thanks to [Karanbir Singh][1], for this:</p>
-
-<p>[1]: <a href="http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys">http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys</a></p>
+<p>Thanks to <a href="http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys">Karanbir Singh</a>, for this:</p>
 
     </div>
   
     <div class="post">
         <h1 class="post-title"><a href="http://blog.shiv.me/2012/06/01/i-am-fat-no-more/">I am fat no more</a></h1>
         <span class="post-date">Fri, Jun 1, 2012</span>
-        <p>BMI, is not the best measure of health, or fitness, but &gt;30 is a definite indicator of lack of care about one&rsquo;s health. After several years of exactly that, I&rsquo;m finally within reasonable limits. My BMI is 24.0; It&rsquo;s official, I&rsquo;m [not obese anymore][0].</p>
+        <p>BMI, is not the best measure of health, or fitness, but &gt;30 is a definite indicator of lack of care about one&rsquo;s health. After several years of exactly that, I&rsquo;m finally within reasonable limits. My BMI is 24.0; It&rsquo;s official, I&rsquo;m <a href="http://www.nhlbisupport.com/bmi/">not obese anymore</a>.</p>
 
 <p>In the last 4 years, I have seen my weight go from 230 lbs to 266 lbs, and back to 202 lbs, as of today.</p>
 
 <p>It&rsquo;s a good day!</p>
-
-<p>[0]: <a href="http://www.nhlbisupport.com/bmi/">http://www.nhlbisupport.com/bmi/</a></p>
 
     </div>
   
@@ -794,7 +812,7 @@
 
 <p>After an hour of mucking around with several site-generators, I chose <a href="http://stasis.me/">Stasis</a>, which is a good compromise to the blog-oriented <a href="http://jekyllrb.com/">Jekyll</a>, and options-insanity that is <a href="http://nanoc.stoneship.org/">nanoc</a>. With my new-found fascination for Ruby, I wanted to stay away from <a href="http://ringce.com/hyde">Hyde</a> (which is Python based &ndash; it&rsquo;s time to try the dark-side, a little)</p>
 
-<p>[HAML][6], is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:</p>
+<p><a href="http://haml.info/">HAML</a>, is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:</p>
 
 <p>HTML:</p>
 
@@ -804,8 +822,6 @@
 
 <p>Life&rsquo;s good. I&rsquo;m still learning a few new tricks. What more can one ask for?</p>
 
-<p>[6]: <a href="http://haml.info/">http://haml.info/</a></p>
-
     </div>
   
     <div class="post">
@@ -813,9 +829,7 @@
         <span class="post-date">Wed, Feb 8, 2012</span>
         <p>Note to Self: Get wine. Lot&rsquo;s of it! ;)</p>
 
-<p>[<img src="http://blog.shiv.me/images/206602701625531039_zoKKZhnd_c.jpg" alt="" />][0]</p>
-
-<p>[0]: <a href="http://pinterest.com/pin/206602701625531039/">http://pinterest.com/pin/206602701625531039/</a></p>
+<p><a href="http://pinterest.com/pin/206602701625531039/"><img src="http://blog.shiv.me/images/206602701625531039_zoKKZhnd_c.jpg" alt="" /></a></p>
 
     </div>
   
@@ -850,12 +864,10 @@
 <blockquote>
 <p>I understand their muscle memory in terms of the scarcity business model. But restricting access to content is a bad business model in the age of a global network that costs practically nothing to distribute on.</p>
 
-<p>via [A VC: Scarcity Is A Shitty Business Model][0].</p>
+<p>via <a href="http://www.avc.com/a_vc/2012/01/scarcity-is-a-shitty-business-model.html">A VC: Scarcity Is A Shitty Business Model</a>.</p>
 </blockquote>
 
 <p>We, humans are creative beings, and we will always seek the shortest, fastest, cheapest path to creative content. We can make it illegal, but we can&rsquo;t stop people from reaching out to their fundamental impulses. Perhaps it is time we change the way we have organized how we make money from those impulses.</p>
-
-<p>[0]: <a href="http://www.avc.com/a_vc/2012/01/scarcity-is-a-shitty-business-model.html">http://www.avc.com/a_vc/2012/01/scarcity-is-a-shitty-business-model.html</a></p>
 
     </div>
   
@@ -899,7 +911,7 @@
 என் தலையை துவட்டிக்கொண்டே<br />
 திட்டினாள் அம்மா<br />
 என்னையல்ல; மழையை!<br />
-[source: Joy Junction][1]</p>
+<a href="http://joyjunction.blogspot.com/2010/01/tamil-poem-about-mom.html">source: Joy Junction</a></p>
 </blockquote>
 
 <p>My translation, in the hope that it redeems the &ldquo;theft&rdquo;:</p>
@@ -921,8 +933,6 @@ but with the rain.</p>
 
 <p>Yes. We tamilians are melodramatic and sentimental sometimes &hellip; (well actually, all the time. Some of us, just learn to hide it better) Mom. Dad. Grandma, Shankar and Swetha. There are days where I really miss you guys. Today was one such day.</p>
 
-<p>[1]: <a href="http://joyjunction.blogspot.com/2010/01/tamil-poem-about-mom.html">http://joyjunction.blogspot.com/2010/01/tamil-poem-about-mom.html</a></p>
-
     </div>
   
     <div class="post">
@@ -934,9 +944,7 @@ but with the rain.</p>
 
 <p>Movements 1 &amp; 2: <a href="http://youtu.be/idvduV2I3o0">http://youtu.be/idvduV2I3o0</a></p>
 
-<p>Movements 3 &amp; 4 : [<a href="http://youtu.be/x8AEGLAyMOc][1">http://youtu.be/x8AEGLAyMOc][1</a>]</p>
-
-<p>[1]: <a href="http://youtu.be/x8AEGLAyMOc">http://youtu.be/x8AEGLAyMOc</a></p>
+<p>Movements 3 &amp; 4 : <a href="http://youtu.be/x8AEGLAyMOc">http://youtu.be/x8AEGLAyMOc</a></p>
 
     </div>
   
@@ -975,15 +983,13 @@ refusing me ever and anon, saving me from perils of weak, uncertain desire.</p>
 <a href="http://www.flickr.com/photos/kuram/2719700410/in/gallery-latitudes-72157624844894115/" title="Thirsty Hand"><img src="http://blog.shiv.me/images/2719700410_844e7bcf4a_s.jpg" alt="Thirsty Hand" /></a><a href="http://www.flickr.com/photos/elvispayne/508313402/in/gallery-latitudes-72157624844894115/" title="Rain Drops."><img src="http://blog.shiv.me/images/508313402_75b3794032_s.jpg" alt="Rain Drops." /></a><a href="http://www.flickr.com/photos/blurredfoto/3119404195/in/gallery-latitudes-72157624844894115/" title="The frolic [Explore #1!]"><img src="http://blog.shiv.me/images/3119404195_3592cb4511_s.jpg" alt="The frolic [Explore #1!]" /></a><a href="http://www.flickr.com/photos/mkb31/455588774/in/gallery-latitudes-72157624844894115/" title="rain drops on my window..."><img src="http://blog.shiv.me/images/455588774_b655a648d5_s.jpg" alt="rain drops on my window..." /></a><a href="http://www.flickr.com/photos/stevewall/524803118/in/gallery-latitudes-72157624844894115/" title="drops of spring"><img src="http://blog.shiv.me/images/524803118_99be07a6d1_s.jpg" alt="drops of spring" /></a><a href="http://www.flickr.com/photos/chewie007/4183901837/in/gallery-latitudes-72157624844894115/" title="It's like an addiction..."><img src="http://blog.shiv.me/images/4183901837_1055bbaf0b_s.jpg" alt="It's like an addiction..." /></a><br />
 <a href="http://www.flickr.com/photos/matt_lew/1879101081/in/gallery-latitudes-72157624844894115/" title="Kissing Couple #2"><img src="http://blog.shiv.me/images/1879101081_725dc07d16_s.jpg" alt="Kissing Couple #2" /></a><a href="http://www.flickr.com/photos/camillelacroix/4155740631/in/gallery-latitudes-72157624844894115/" title="Rainy Avenue of the Americas"><img src="http://blog.shiv.me/images/4155740631_684dc10ee6_s.jpg" alt="Rainy Avenue of the Americas" /></a><a href="http://www.flickr.com/photos/cubagallery/4648356455/in/gallery-latitudes-72157624844894115/" title="Nature Macro"><img src="http://blog.shiv.me/images/4648356455_fab0928df1_s.jpg" alt="Nature Macro" /></a><a href="http://www.flickr.com/photos/alfhild/403221490/in/gallery-latitudes-72157624844894115/" title="Vampire Season"><img src="http://blog.shiv.me/images/403221490_0fc4c03532_s.jpg" alt="Vampire Season" /></a><a href="http://www.flickr.com/photos/vevi/2506193740/in/gallery-latitudes-72157624844894115/" title="When the rain comes..."><img src="http://blog.shiv.me/images/2506193740_db231fda17_s.jpg" alt="When the rain comes..." /></a><a href="http://www.flickr.com/photos/galepiccar/3423869209/in/gallery-latitudes-72157624844894115/" title="Weather Bulletin: today waterfall from the clouds"><img src="http://blog.shiv.me/images/3423869209_533348180e_s.jpg" alt="Weather Bulletin: today waterfall from the clouds" /></a></p>
 
-<p><a href="http://www.flickr.com/photos/latitudes/galleries/72157624844894115/">Rain</a>, a gallery by [Todd Klassy][19] on Flickr.</p>
+<p><a href="http://www.flickr.com/photos/latitudes/galleries/72157624844894115/">Rain</a>, a gallery by <a href="http://www.flickr.com/photos/latitudes/">Todd Klassy</a> on Flickr.</p>
 
 <p>It&rsquo;s that time of the year, in Vancouver, when it starts to rain and is expected to do so, incessantly, for the next 6 months (I exaggerate, a little).</p>
 
 <p>It is better to be prepared for it, and enjoy it while it lasts (like so many other things in life &ndash; even the moments, that are not exactly the way one wants them to be)</p>
 
 <p>So here are a few pictures, that show how beautiful and mesmerizing rain can be.</p>
-
-<p>[19]: <a href="http://www.flickr.com/photos/latitudes/">http://www.flickr.com/photos/latitudes/</a></p>
 
     </div>
   
@@ -1091,11 +1097,9 @@ $
 
 <p><a href="http://blog.shiv.me/wp-content/uploads/2011/10/steve-1.jpg"><img src="http://blog.shiv.me/images/steve-1.jpg" alt="" /></a></p>
 
-<p>[<img src="http://blog.shiv.me/images/steve-2.jpg" alt="" />][4]</p>
+<p><a href="http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg"><img src="http://blog.shiv.me/images/steve-2.jpg" alt="" /></a></p>
 
 <p>Me == sad today :(</p>
-
-<p>[4]: <a href="http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg">http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg</a></p>
 
     </div>
   
@@ -1108,22 +1112,7 @@ $
 <a href="http://www.flickr.com/groups/wwpw2011-gastown/">Gastown</a><br />
 <a href="http://www.flickr.com/groups/wwpw4/">Scott Kelby&rsquo;s WWPW4</a></p>
 
-<p>Thanks to Scott Kelby for starting such a wonderful thing, and letting it grow. This was as exciting as [last year&rsquo;s Barcamp][4]</p>
-
-<p>[4]: <a href="http://blog.shiv.me/2010/11/20/bcv2010-roundup.html">http://blog.shiv.me/2010/11/20/bcv2010-roundup.html</a></p>
-
-    </div>
-  
-    <div class="post">
-        <h1 class="post-title"><a href="http://blog.shiv.me/2011/09/25/sometimes-they-are-useful-for-a-lifetime/">Sometimes, they are useful for a lifetime</a></h1>
-        <span class="post-date">Sun, Sep 25, 2011</span>
-        <p>And sometimes, they barely hold your attention. However, the recent acquisition is the former. I got the mammoth of a book, over the weekend; it weighs a ton and I&rsquo;ll be sleeping with it, clutched tight in my hands.</p>
-
-<p>If you already have the tomb by tanenbaum of similar name, the unix programming interface, you probably are not going to glean much value from this one (you can thank POSIX for maintaining a modicum of consistency over the years and some would vehemently contest that). That said, if you write code for *nix systems, it definitely deserves the shelf-space as much as any other programming book.</p>
-
-<p>In the few hours I&rsquo;ve spent with it, I&rsquo;ve already learnt and have had a few concepts made clear. It is definitely not a linear read and there is quite a lot of interesting things to read about. I&rsquo;m currently working through some fun tests of my understanding of pthreads. Watch for those [here][0].</p>
-
-<p>[0]: <a href="https://github.com/shiva/fun">https://github.com/shiva/fun</a></p>
+<p>Thanks to Scott Kelby for starting such a wonderful thing, and letting it grow. This was as exciting as <a href="http://blog.shiv.me/2010/11/20/bcv2010-roundup.html">last year&rsquo;s Barcamp</a></p>
 
     </div>
   

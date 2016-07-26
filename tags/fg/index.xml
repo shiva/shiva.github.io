@@ -39,9 +39,7 @@ $ jobs   [1] ./someprocess
 $ fg 2  
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;via [Job Control on UNIX systems][0].&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;http://acs.ucsd.edu/info/jobctrl.shtml&#34;&gt;http://acs.ucsd.edu/info/jobctrl.shtml&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;via &lt;a href=&#34;http://acs.ucsd.edu/info/jobctrl.shtml&#34;&gt;Job Control on UNIX systems&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       

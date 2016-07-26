@@ -20,7 +20,7 @@
 
 &lt;p&gt;After an hour of mucking around with several site-generators, I chose &lt;a href=&#34;http://stasis.me/&#34;&gt;Stasis&lt;/a&gt;, which is a good compromise to the blog-oriented &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, and options-insanity that is &lt;a href=&#34;http://nanoc.stoneship.org/&#34;&gt;nanoc&lt;/a&gt;. With my new-found fascination for Ruby, I wanted to stay away from &lt;a href=&#34;http://ringce.com/hyde&#34;&gt;Hyde&lt;/a&gt; (which is Python based &amp;ndash; it&amp;rsquo;s time to try the dark-side, a little)&lt;/p&gt;
 
-&lt;p&gt;[HAML][6], is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://haml.info/&#34;&gt;HAML&lt;/a&gt;, is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:&lt;/p&gt;
 
 &lt;p&gt;HTML:&lt;/p&gt;
 
@@ -29,8 +29,6 @@
 &lt;p&gt;Although, the HTML version has intrusive tags, it is easier on the eyes. It is a relief, not have to code, the end tag for every HTML element. It is much faster to type HAML by hand (especially in vim). In the end, it was a quick, painless process to convert the raw HTML code, to HAML, and generate the same html using stasis.&lt;/p&gt;
 
 &lt;p&gt;Life&amp;rsquo;s good. I&amp;rsquo;m still learning a few new tricks. What more can one ask for?&lt;/p&gt;
-
-&lt;p&gt;[6]: &lt;a href=&#34;http://haml.info/&#34;&gt;http://haml.info/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       

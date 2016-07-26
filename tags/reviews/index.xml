@@ -22,9 +22,9 @@
 
 &lt;p&gt;Let me step back a bit.&lt;/p&gt;
 
-&lt;h2 id=&#34;jekyll-is-really-hyde:a995a9a971f135f2b62918ade899bc11&#34;&gt;Jekyll is really Hyde&lt;/h2&gt;
+&lt;h2 id=&#34;jekyll-is-really-hyde&#34;&gt;Jekyll is really Hyde&lt;/h2&gt;
 
-&lt;p&gt;I host my blog on github, using a static site generator - Jekyll. It is written in ruby, has some cool features. Overall, it is a decent solution, but I was never satisfied with options it provided. I have hesistated to hack at it, since ruby isn&amp;rsquo;t my language-du-jour, and most of the changes have been quite minimal. It is also extremely slow&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;I host my blog on github, using a static site generator - Jekyll. It is written in ruby, has some cool features. Overall, it is a decent solution, but I was never satisfied with options it provided. I have hesistated to hack at it, since ruby isn&amp;rsquo;t my language-du-jour, and most of the changes have been quite minimal. It is also extremely slow&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;As any self-respecting programmer is wont to do, instead of writing more posts, and meeting my goal, I delved right into fixing &amp;ldquo;bike-shed&amp;rdquo; &amp;ndash; in this case, research and use a new static-site generator. Why, you ask? To you, non-existent, ever-questioning inquisitive you, I say &amp;ndash; Why not?!&lt;/p&gt;
 
@@ -39,11 +39,11 @@
 &lt;li&gt;Good community support and/or documents&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;the-contenders:a995a9a971f135f2b62918ade899bc11&#34;&gt;The contenders&lt;/h2&gt;
+&lt;h2 id=&#34;the-contenders&#34;&gt;The contenders&lt;/h2&gt;
 
 &lt;p&gt;Scouring the corners of the internet, I narrowed down on two final choices: &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;new-shiny-shiny:a995a9a971f135f2b62918ade899bc11&#34;&gt;New shiny, shiny&lt;/h2&gt;
+&lt;h2 id=&#34;new-shiny-shiny&#34;&gt;New shiny, shiny&lt;/h2&gt;
 
 &lt;p&gt;They
    - are faster at generating 300+ pages.
@@ -52,7 +52,7 @@
    - provide extended markdown support by default.
    - hosted by an active community.&lt;/p&gt;
 
-&lt;h2 id=&#34;hugo-ftw:a995a9a971f135f2b62918ade899bc11&#34;&gt;Hugo FTW!&lt;/h2&gt;
+&lt;h2 id=&#34;hugo-ftw&#34;&gt;Hugo FTW!&lt;/h2&gt;
 
 &lt;p&gt;Both Hugo and Hexo are pretty good. They are fast enough for my use, and are implemented in modern languages that I am actively learning.&lt;/p&gt;
 
@@ -66,8 +66,8 @@
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:a995a9a971f135f2b62918ade899bc11:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -85,9 +85,7 @@
 
 &lt;p&gt;If you already have the tomb by tanenbaum of similar name, the unix programming interface, you probably are not going to glean much value from this one (you can thank POSIX for maintaining a modicum of consistency over the years and some would vehemently contest that). That said, if you write code for *nix systems, it definitely deserves the shelf-space as much as any other programming book.&lt;/p&gt;
 
-&lt;p&gt;In the few hours I&amp;rsquo;ve spent with it, I&amp;rsquo;ve already learnt and have had a few concepts made clear. It is definitely not a linear read and there is quite a lot of interesting things to read about. I&amp;rsquo;m currently working through some fun tests of my understanding of pthreads. Watch for those [here][0].&lt;/p&gt;
-
-&lt;p&gt;[0]: &lt;a href=&#34;https://github.com/shiva/fun&#34;&gt;https://github.com/shiva/fun&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the few hours I&amp;rsquo;ve spent with it, I&amp;rsquo;ve already learnt and have had a few concepts made clear. It is definitely not a linear read and there is quite a lot of interesting things to read about. I&amp;rsquo;m currently working through some fun tests of my understanding of pthreads. Watch for those &lt;a href=&#34;https://github.com/shiva/fun&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
       
@@ -132,9 +130,7 @@ If you are on your way to Paris, or on the way from Paris, or in Paris, or &amp;
 
 &lt;p&gt;(If you are French, read this too, get angry, rebel and then revel in the glory! :) )&lt;/p&gt;
 
-&lt;p&gt;[View all my reviews at goodreads.][2]&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://www.goodreads.com/review/list/856502?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;http://www.goodreads.com/review/list/856502?utm_medium=api&amp;amp;utm_source=blog_review&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.goodreads.com/review/list/856502?utm_medium=api&amp;amp;utm_source=blog_review&#34;&gt;View all my reviews at goodreads.&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -172,11 +168,9 @@ If you are on your way to Paris, or on the way from Paris, or in Paris, or &amp;
 
 &lt;p&gt;3. Two-Face&amp;rsquo;s plot is quite unconvincing, and it&amp;rsquo;s a pity he&amp;rsquo;s killed with such little damage. &lt;a href=&#34;http://www.imdb.com/name/nm0001173/&#34;&gt;Aaron Eckhart&lt;/a&gt; is no match for &lt;a href=&#34;http://www.imdb.com/name/nm0000169/&#34;&gt;Tommy Lee Jones&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;4. I hate the new Batman&amp;rsquo;s voice. What&amp;rsquo;s with the constant growling. I think that&amp;rsquo;s the only flaw with the new Batman. &lt;a href=&#34;http://www.imdb.com/name/nm0000288/&#34;&gt;Christian Bale&lt;/a&gt;, should learn to show some emotion through his eyes (wrath, anger, hatred etc). I liked him much better in the first movie. He has shown good promise, and if he does a couple more, I can see him as one of the better Batmans. I must say, the best one (my opinion) was [Michael Keaton][9]. I always liked the quirky Batman. This more dark Batman, closer to the comic, impresses as well, but yet to prove himself. I think he needs a villian who really pushes him hard.&lt;/p&gt;
+&lt;p&gt;4. I hate the new Batman&amp;rsquo;s voice. What&amp;rsquo;s with the constant growling. I think that&amp;rsquo;s the only flaw with the new Batman. &lt;a href=&#34;http://www.imdb.com/name/nm0000288/&#34;&gt;Christian Bale&lt;/a&gt;, should learn to show some emotion through his eyes (wrath, anger, hatred etc). I liked him much better in the first movie. He has shown good promise, and if he does a couple more, I can see him as one of the better Batmans. I must say, the best one (my opinion) was &lt;a href=&#34;http://www.imdb.com/name/nm0000474/&#34;&gt;Michael Keaton&lt;/a&gt;. I always liked the quirky Batman. This more dark Batman, closer to the comic, impresses as well, but yet to prove himself. I think he needs a villian who really pushes him hard.&lt;/p&gt;
 
 &lt;p&gt;All in all, a very enjoyable 3 hours, if you have the penchant for Batman, and can hold the large Combo in your bladder long enough. Must see movie. Don&amp;rsquo;t miss it! Now, check out the trailer. (Kudos to Warner Bros. for providing an embeddable version).&lt;/p&gt;
-
-&lt;p&gt;[9]: &lt;a href=&#34;http://www.imdb.com/name/nm0000474/&#34;&gt;http://www.imdb.com/name/nm0000474/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -190,9 +184,7 @@ If you are on your way to Paris, or on the way from Paris, or in Paris, or &amp;
           <guid>http://blog.shiv.me/2007/12/18/review-canon-40d/</guid>
           <description>&lt;p&gt;The best thing since .. well a Canon 20D.&lt;/p&gt;
 
-&lt;p&gt;If this video convinced you to buy a &lt;a href=&#34;http://www.amazon.com/gp/product/B000V5P90K?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000V5P90K&#34;&gt;Canon 40D&lt;/a&gt;, or &lt;a href=&#34;http://www.amazon.com/gp/product/B000GFT7H6?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000GFT7H6&#34;&gt;Canon 30D&lt;/a&gt; or [Canon20D][2], use the affiliate links  as provided.&lt;/p&gt;
-
-&lt;p&gt;[2]: &lt;a href=&#34;http://www.amazon.com/gp/product/B0002XQJFA?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B0002XQJFA&#34;&gt;http://www.amazon.com/gp/product/B0002XQJFA?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B0002XQJFA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If this video convinced you to buy a &lt;a href=&#34;http://www.amazon.com/gp/product/B000V5P90K?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000V5P90K&#34;&gt;Canon 40D&lt;/a&gt;, or &lt;a href=&#34;http://www.amazon.com/gp/product/B000GFT7H6?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000GFT7H6&#34;&gt;Canon 30D&lt;/a&gt; or &lt;a href=&#34;http://www.amazon.com/gp/product/B0002XQJFA?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B0002XQJFA&#34;&gt;Canon20D&lt;/a&gt;, use the affiliate links  as provided.&lt;/p&gt;
 </description>
         </item>
       
@@ -204,11 +196,9 @@ If you are on your way to Paris, or on the way from Paris, or in Paris, or &amp;
           <pubDate>Fri, 14 Dec 2007 00:00:00 UTC</pubDate>
           <author>Shiva Velmurugan</author>
           <guid>http://blog.shiv.me/2007/12/14/the-webfaction-experience/</guid>
-          <description>&lt;p&gt;The reason for the respite in my blogging, was my move to a new web-host. After several hours of researching, I decided to go with &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;webfaction.com&lt;/a&gt;. If you haven&amp;rsquo;t already visited webfaction, &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;DO IT right now&lt;/a&gt;! It has been simply amazing. I love the one click installer, and within hours of getting billed, I got access to my account. It comes with shell access, SFTP, enough space, &lt;a href=&#34;http://www.rubyonrails.org/&#34;&gt;rails 2.x&lt;/a&gt; (just days after it was release), &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;django&lt;/a&gt;, [wordpress 2.3.1][3] and a host of other webapps, all of which you can install with a just a few clicks on their web interface.&lt;/p&gt;
+          <description>&lt;p&gt;The reason for the respite in my blogging, was my move to a new web-host. After several hours of researching, I decided to go with &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;webfaction.com&lt;/a&gt;. If you haven&amp;rsquo;t already visited webfaction, &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;DO IT right now&lt;/a&gt;! It has been simply amazing. I love the one click installer, and within hours of getting billed, I got access to my account. It comes with shell access, SFTP, enough space, &lt;a href=&#34;http://www.rubyonrails.org/&#34;&gt;rails 2.x&lt;/a&gt; (just days after it was release), &lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;django&lt;/a&gt;, &lt;a href=&#34;http://wordpress.org/download/&#34;&gt;wordpress 2.3.1&lt;/a&gt; and a host of other webapps, all of which you can install with a just a few clicks on their web interface.&lt;/p&gt;
 
 &lt;p&gt;_Note: links provided to webfaction&amp;rsquo;s website, have my &lt;a href=&#34;http://www.webfaction.com/?affiliate=shvelmur&#34;&gt;affiliate link&lt;/a&gt;.Â Â _&lt;/p&gt;
-
-&lt;p&gt;[3]: &lt;a href=&#34;http://wordpress.org/download/&#34;&gt;http://wordpress.org/download/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
       
