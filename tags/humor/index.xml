@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Humor on shiv.me</title>
     <link>http://blog.shiv.me/tags/humor/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2007-02-16 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Humor on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Fri, 16 Feb 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/humor/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Filmi funda</title>
+      <link>http://blog.shiv.me/2007/02/16/filmi-funda/</link>
+      <pubDate>Fri, 16 Feb 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Filmi funda</title>
-          <link>http://blog.shiv.me/2007/02/16/filmi-funda/</link>
-          <pubDate>Fri, 16 Feb 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/02/16/filmi-funda/</guid>
-          <description>&lt;p&gt;Some news from the Kolloywood.&lt;br /&gt;
+      <guid>http://blog.shiv.me/2007/02/16/filmi-funda/</guid>
+      <description>&lt;p&gt;Some news from the Kolloywood.&lt;br /&gt;
 Check out the latest pictures of &lt;a href=&#34;http://en.wikipedia.org/wiki/Kamal_Haasan&#34;&gt;Kamal Hassan&lt;/a&gt; in Dasa &lt;a href=&#34;http://www.universalherokamal.com/UniversalHeroKamal/others/Magazine/ShowMagazine.aspx?Magazine=kunkumam_04FEB2007#&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;In other news, Vijaykanth is infurious..&lt;/strong&gt;&lt;/p&gt;
@@ -44,9 +44,7 @@ Thondan : Unga latest padam &amp;ldquo;Dharmapuri&amp;rdquo; ya indha vaaram &am
 
 &lt;p&gt;(All the above has been said on a lighter side&amp;hellip; I in fact happen to enjoy watching the films of all of the above mentioned actors.. if you are hurt or have any harsh feelings.. please forward all of that to my sister (who sent me these jokes ) &amp;hellip; no .. better still unkaiyala un kannaye kuthiko! :)&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

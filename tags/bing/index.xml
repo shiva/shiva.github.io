@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Bing on shiv.me</title>
     <link>http://blog.shiv.me/tags/bing/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2009-07-09 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Bing on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Thu, 09 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/bing/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>For the last time, its not an OS!</title>
+      <link>http://blog.shiv.me/2009/07/09/for-the-last-time-its-not-an-os/</link>
+      <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>For the last time, its not an OS!</title>
-          <link>http://blog.shiv.me/2009/07/09/for-the-last-time-its-not-an-os/</link>
-          <pubDate>Thu, 09 Jul 2009 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2009/07/09/for-the-last-time-its-not-an-os/</guid>
-          <description>&lt;p&gt;The last couple of days has been ablaze with news of Google taking over the world, destroying Microsoft and sticking all of humanity on stakes to collect sunlight and convert it to power. Obviously, &lt;a href=&#34;http://www.techcrunch.com/2009/07/08/google-chrome-redefining-the-operating-system/&#34;&gt;some are elated at this proposition&lt;/a&gt;,  &lt;a href=&#34;http://www.crunchgear.com/2009/07/08/a-third-opinion-on-google-chrome/&#34;&gt;some tentative&lt;/a&gt;, and then there are &lt;a href=&#34;http://fakesteve.blogspot.com/2009/07/lets-all-take-deep-breath-and-get-some.html&#34;&gt;some others&lt;/a&gt; &lt;a href=&#34;http://technosailor.com/2009/07/09/google-chrome-os-a-lot-to-do-about-nothing/&#34;&gt;who think all of this is just hogwash.&lt;/a&gt;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2009/07/09/for-the-last-time-its-not-an-os/</guid>
+      <description>&lt;p&gt;The last couple of days has been ablaze with news of Google taking over the world, destroying Microsoft and sticking all of humanity on stakes to collect sunlight and convert it to power. Obviously, &lt;a href=&#34;http://www.techcrunch.com/2009/07/08/google-chrome-redefining-the-operating-system/&#34;&gt;some are elated at this proposition&lt;/a&gt;,  &lt;a href=&#34;http://www.crunchgear.com/2009/07/08/a-third-opinion-on-google-chrome/&#34;&gt;some tentative&lt;/a&gt;, and then there are &lt;a href=&#34;http://fakesteve.blogspot.com/2009/07/lets-all-take-deep-breath-and-get-some.html&#34;&gt;some others&lt;/a&gt; &lt;a href=&#34;http://technosailor.com/2009/07/09/google-chrome-os-a-lot-to-do-about-nothing/&#34;&gt;who think all of this is just hogwash.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I have but one thing to show you today. Presenting article number 1, a video by one of the minions at Google.&lt;/p&gt;
 
@@ -28,9 +28,7 @@
 
 &lt;p&gt;Now, that&amp;rsquo;s it for today&amp;rsquo;s rant. Get off my lawn, I need to go google myself (Damn, this is therapeutic).&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

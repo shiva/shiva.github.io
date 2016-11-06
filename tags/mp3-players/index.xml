@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Mp3 Players on shiv.me</title>
     <link>http://blog.shiv.me/tags/mp3-players/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2005-12-14 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Mp3 Players on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Wed, 14 Dec 2005 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/mp3-players/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Actually I got a Creative Zen Micro instead</title>
+      <link>http://blog.shiv.me/2005/12/14/actually-i-got-a-creative-zen-micro-instead/</link>
+      <pubDate>Wed, 14 Dec 2005 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Actually I got a Creative Zen Micro instead</title>
-          <link>http://blog.shiv.me/2005/12/14/actually-i-got-a-creative-zen-micro-instead/</link>
-          <pubDate>Wed, 14 Dec 2005 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2005/12/14/actually-i-got-a-creative-zen-micro-instead/</guid>
-          <description>&lt;p&gt;I wanted to get the pod nano initially, but I chose to get the Creative Zen Micro instead for reasons listed below:&lt;/p&gt;
+      <guid>http://blog.shiv.me/2005/12/14/actually-i-got-a-creative-zen-micro-instead/</guid>
+      <description>&lt;p&gt;I wanted to get the pod nano initially, but I chose to get the Creative Zen Micro instead for reasons listed below:&lt;/p&gt;
 
 &lt;p&gt;Why the Nano is a piece of junk&lt;br /&gt;
 1. Cracked screens &amp;ndash; heard quite a few reports of that and since I live in India and the Nano cost about 2 as much as it is in the US, I didn&amp;rsquo;t want to risk it&lt;/p&gt;
@@ -29,9 +29,7 @@
 
 &lt;p&gt;See more progress on: &lt;a href=&#34;http://www.43things.com/people/progress/shvelmur?on=471701&#34;&gt;get an ipod&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

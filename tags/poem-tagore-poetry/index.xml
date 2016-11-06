@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Poem Tagore Poetry on shiv.me</title>
     <link>http://blog.shiv.me/tags/poem-tagore-poetry/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2011-12-01 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Poem Tagore Poetry on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Thu, 01 Dec 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/poem-tagore-poetry/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>strong mercy</title>
+      <link>http://blog.shiv.me/2011/12/01/strong-mercy/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>strong mercy</title>
-          <link>http://blog.shiv.me/2011/12/01/strong-mercy/</link>
-          <pubDate>Thu, 01 Dec 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/12/01/strong-mercy/</guid>
-          <description>&lt;p&gt;When in doubt, take a poet&amp;rsquo;s thought to your heart. They are, invariably experienced beings, that have spent a great deal of their lives, exploring the heart through the mind.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2011/12/01/strong-mercy/</guid>
+      <description>&lt;p&gt;When in doubt, take a poet&amp;rsquo;s thought to your heart. They are, invariably experienced beings, that have spent a great deal of their lives, exploring the heart through the mind.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Strong Mercy by Rabindranath Tagore&lt;/strong&gt;&lt;/p&gt;
@@ -39,9 +39,7 @@ refusing me ever and anon, saving me from perils of weak, uncertain desire.&lt;/
 
 &lt;p&gt;This poem, expresses a lot of what&amp;rsquo;s on my mind, at this ungodly hour (its 3:39 am), except for the last couple of lines. I didn&amp;rsquo;t want to editorialize a poem, and hence left it in place.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

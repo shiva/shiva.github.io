@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Twitter on shiv.me</title>
     <link>http://blog.shiv.me/tags/twitter/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2014-01-02 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Twitter on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Thu, 02 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>2013 on twitter - a recap</title>
+      <link>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>2013 on twitter - a recap</title>
-          <link>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</link>
-          <pubDate>Thu, 02 Jan 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://vizify.com/&#34;&gt;Vizify&lt;/a&gt; makes a video out of the posts you have made on twitter in the last year. &lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://vizify.com/&#34;&gt;Vizify&lt;/a&gt; makes a video out of the posts you have made on twitter in the last year. &lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.vizify.com/shivanand/twitter-video&#34;&gt;2013 on twitter&lt;/a&gt;&lt;/p&gt;
 
@@ -28,17 +28,15 @@
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/covivant&#34;&gt;Dave Kell&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Proposed GUI for C&#43;&#43; based twitter client</title>
+      <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</link>
+      <pubDate>Sat, 25 Oct 2008 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-          <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</link>
-          <pubDate>Sat, 25 Oct 2008 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</guid>
-          <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</guid>
+      <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;
 
@@ -48,29 +46,25 @@
 
 &lt;p&gt;Any suggestions?! I will try and post some mock up as I create em. I don&amp;rsquo;t want to be writing my own twitter REST c++ library. Any suggestion are welcome.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>A Thousand Tweets</title>
+      <link>http://blog.shiv.me/2008/10/15/a-thousand-tweets/</link>
+      <pubDate>Wed, 15 Oct 2008 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>A Thousand Tweets</title>
-          <link>http://blog.shiv.me/2008/10/15/a-thousand-tweets/</link>
-          <pubDate>Wed, 15 Oct 2008 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2008/10/15/a-thousand-tweets/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2945141063/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2945141063_1a9e528f86.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2008/10/15/a-thousand-tweets/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2945141063/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2945141063_1a9e528f86.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Welcome new friends from twitter</title>
+      <link>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</link>
+      <pubDate>Wed, 02 Apr 2008 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Welcome new friends from twitter</title>
-          <link>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</link>
-          <pubDate>Wed, 02 Apr 2008 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</guid>
-          <description>&lt;p&gt;I have the very distinct feeling that a bunch of people from India, are going to visit my site today. Maybe, it is too late, but nonetheless, I was compelled to post before I left for work, after staying up the whole night (watching movies). No really - &lt;a href=&#34;http://www.imdb.com/title/tt0338526/&#34;&gt;Van Helsing&lt;/a&gt; followed by &lt;a href=&#34;http://www.imdb.com/title/tt0765429/&#34;&gt;American Gangster&lt;/a&gt; - two very find movies, I might add, but I digress.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</guid>
+      <description>&lt;p&gt;I have the very distinct feeling that a bunch of people from India, are going to visit my site today. Maybe, it is too late, but nonetheless, I was compelled to post before I left for work, after staying up the whole night (watching movies). No really - &lt;a href=&#34;http://www.imdb.com/title/tt0338526/&#34;&gt;Van Helsing&lt;/a&gt; followed by &lt;a href=&#34;http://www.imdb.com/title/tt0765429/&#34;&gt;American Gangster&lt;/a&gt; - two very find movies, I might add, but I digress.&lt;/p&gt;
 
 &lt;p&gt;I got the honour, of being one of the few listed on a fellow &lt;a href=&#34;http://blog.yuvisense.net/&#34;&gt;tech-enthusiast&lt;/a&gt;&amp;rsquo;s list of &lt;a href=&#34;http://blog.yuvisense.net/indians-on-twitter/&#34;&gt;&amp;ldquo;twittering&amp;rdquo; Indians.&lt;/a&gt; It&amp;rsquo;s not everyday that I make someone&amp;rsquo;s list, and hence the compulsion to blog about it. So, thank you Yuvi. Since he described me as a programmer, on his list, it&amp;rsquo;s only fair &amp;ndash;&lt;/p&gt;
 
@@ -86,17 +80,15 @@ send him a tweet, saying hi;
 }  
 &lt;/code&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Google blogs its feature later than I do!</title>
+      <link>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</link>
+      <pubDate>Tue, 18 Dec 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Google blogs its feature later than I do!</title>
-          <link>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</link>
-          <pubDate>Tue, 18 Dec 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</guid>
-          <description>&lt;p&gt;I discovered today, that twitter+zooomr+a small utility called Cropper, now allows us to put new information about some of the products we use often, out into the blogosphere (I hate that word now), faster than ever before.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</guid>
+      <description>&lt;p&gt;I discovered today, that twitter+zooomr+a small utility called Cropper, now allows us to put new information about some of the products we use often, out into the blogosphere (I hate that word now), faster than ever before.&lt;/p&gt;
 
 &lt;p&gt;Check this image that I posted this image on &lt;a href=&#34;http://www.zooomr.com/photos/shiva/3921233/&#34;&gt;zooomr on 12th Dec&lt;/a&gt; and then &lt;a href=&#34;http://twitter.com/shvelmur/statuses/494443532&#34;&gt;twittered it&lt;/a&gt;.&lt;/p&gt;
 
@@ -106,17 +98,15 @@ send him a tweet, saying hi;
 
 &lt;p&gt;Timing is becoming critical these days. Although, I guess more people out there learnt about the feature from his blog entry, it is becoming less relevant from the tech-crowd&amp;rsquo;s perspective. With guys like &lt;a href=&#34;http://scobleizer.com/&#34;&gt;Scoble&lt;/a&gt;, &lt;a href=&#34;http://www.techcrunch.com/about-michael-arrington/&#34;&gt;Mike&lt;/a&gt; and &lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, it is quite tough &lt;a href=&#34;http://www.techcrunch.com/2007/12/12/scoble-to-leave-podtech-heading-for-fast-company/&#34;&gt;keeping an announcement out of the crowds&lt;/a&gt; for long.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Issue with Twitbin, Jing the next-gen screen capture</title>
+      <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
+      <pubDate>Tue, 02 Oct 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Issue with Twitbin, Jing the next-gen screen capture</title>
-          <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
-          <pubDate>Tue, 02 Oct 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -130,17 +120,15 @@ send him a tweet, saying hi;
 
 &lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/Twitbin&#34;&gt;Twitbin&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/Jing&#34;&gt;Jing&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/screencast&#34;&gt;screencast&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter%20clients&#34;&gt;twitter clients&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Issue with Twitbin, Jing the next-gen screen capture</title>
+      <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
+      <pubDate>Tue, 02 Oct 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Issue with Twitbin, Jing the next-gen screen capture</title>
-          <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
-          <pubDate>Tue, 02 Oct 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -154,9 +142,7 @@ send him a tweet, saying hi;
 
 &lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/Twitbin&#34;&gt;Twitbin&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/Jing&#34;&gt;Jing&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/screencast&#34;&gt;screencast&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter%20clients&#34;&gt;twitter clients&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

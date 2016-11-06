@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Quotes on shiv.me</title>
     <link>http://blog.shiv.me/tags/quotes/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2011-11-27 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Quotes on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sun, 27 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>What&#39;s in store for me</title>
+      <link>http://blog.shiv.me/2011/11/27/whats-in-store-for-me/</link>
+      <pubDate>Sun, 27 Nov 2011 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>What&#39;s in store for me</title>
-          <link>http://blog.shiv.me/2011/11/27/whats-in-store-for-me/</link>
-          <pubDate>Sun, 27 Nov 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/11/27/whats-in-store-for-me/</guid>
-          <description>&lt;p&gt;I just watched the last 30 mins of the movie &amp;ldquo;The green mile&amp;rdquo;. What a beautiful movie! The last few lines was particularly well written. &amp;ldquo;we each owe a death; there are no exceptions; but, Oh God, sometimes the Green Mile seems so long. But if he can make a mouse live so long, I wonder what is in store for me&amp;rdquo;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2011/11/27/whats-in-store-for-me/</guid>
+      <description>&lt;p&gt;I just watched the last 30 mins of the movie &amp;ldquo;The green mile&amp;rdquo;. What a beautiful movie! The last few lines was particularly well written. &amp;ldquo;we each owe a death; there are no exceptions; but, Oh God, sometimes the Green Mile seems so long. But if he can make a mouse live so long, I wonder what is in store for me&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Don&amp;rsquo;t we all!&lt;/p&gt;
 
 &lt;p&gt;The sun is out in Vancouver ! Time to get out!&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

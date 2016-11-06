@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Git Show on shiv.me</title>
     <link>http://blog.shiv.me/tags/git-show/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2012-09-26 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Git Show on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Wed, 26 Sep 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/git-show/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Git: beautiful git logs and listing files in a commit</title>
+      <link>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</link>
+      <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Git: beautiful git logs and listing files in a commit</title>
-          <link>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</link>
-          <pubDate>Wed, 26 Sep 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</guid>
-          <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</guid>
+      <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
 
 &lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-config-alias&#34;&gt;&lt;/script&gt;
 
@@ -34,9 +34,7 @@
 
 &lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-show-name-only&#34;&gt;&lt;/script&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

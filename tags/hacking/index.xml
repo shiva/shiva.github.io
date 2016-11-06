@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Hacking on shiv.me</title>
     <link>http://blog.shiv.me/tags/hacking/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2010-08-23 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Hacking on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Mon, 23 Aug 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Unsigned Arithmetic</title>
+      <link>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</link>
+      <pubDate>Mon, 23 Aug 2010 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Unsigned Arithmetic</title>
-          <link>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</link>
-          <pubDate>Mon, 23 Aug 2010 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
-          <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
+      <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
 
 &lt;p&gt;I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.&lt;/p&gt;
 
@@ -37,9 +37,7 @@
 &lt;a href=&#34;http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html&#34;&gt;http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://embeddedgurus.com/stack-overflow/tag/unsigned/&#34;&gt;http://embeddedgurus.com/stack-overflow/tag/unsigned/&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Canon on shiv.me</title>
     <link>http://blog.shiv.me/tags/canon/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2007-10-20 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Canon on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sat, 20 Oct 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/canon/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Loving my Canon 40D</title>
+      <link>http://blog.shiv.me/2007/10/20/loving-my-canon-40d/</link>
+      <pubDate>Sat, 20 Oct 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Loving my Canon 40D</title>
-          <link>http://blog.shiv.me/2007/10/20/loving-my-canon-40d/</link>
-          <pubDate>Sat, 20 Oct 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/10/20/loving-my-canon-40d/</guid>
-          <description>&lt;p&gt;I recently got myself a Canon 40D. After a 3 year wait, I can finally afford to buy myself a DSLR, and have been going crazy with it for the last couple of weeks.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/10/20/loving-my-canon-40d/</guid>
+      <description>&lt;p&gt;I recently got myself a Canon 40D. After a 3 year wait, I can finally afford to buy myself a DSLR, and have been going crazy with it for the last couple of weeks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.zooomr.com/photos/shiva/3534868/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3534868_87dae6bac0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -38,9 +38,7 @@
 
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I have also signed up for &lt;a href=&#34;http://flickr.com/photos/shvelmur&#34;&gt;flickr pro account&lt;/a&gt;, and will be uploading pictures to that too. So do check that out also.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

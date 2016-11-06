@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Fail on shiv.me</title>
     <link>http://blog.shiv.me/tags/fail/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2013-12-28 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Fail on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sat, 28 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/fail/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Malaise of large companies</title>
+      <link>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</link>
+      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Malaise of large companies</title>
-          <link>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</link>
-          <pubDate>Sat, 28 Dec 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://scripting.com/2013/12/28/microsoftAndNetbooks.html&#34;&gt;Another gem&lt;/a&gt; from the always spot-on Dave Winer. Microsoft could have owned netbooks.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://scripting.com/2013/12/28/microsoftAndNetbooks.html&#34;&gt;Another gem&lt;/a&gt; from the always spot-on Dave Winer. Microsoft could have owned netbooks.&lt;/p&gt;
 
 &lt;p&gt;The pathological need for large companies to focus on the wrong, to their own demise never ceases to amaze me. Why do dominant players lose out? Is it the incompetence of people in these companies? Is it the inability to articulate, convince, and move the masses within these companies?&lt;/p&gt;
 
@@ -26,9 +26,7 @@
 
 &lt;p&gt;P.S: I work for a large company. It is a daily struggle, irrespective of the domain of the choice &amp;ndash; design, code or cultural.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

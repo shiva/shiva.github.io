@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Ruby on shiv.me</title>
     <link>http://blog.shiv.me/tags/ruby/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2012-05-20 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Ruby on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sun, 20 May 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>An hour with HAML and Stasis</title>
+      <link>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</link>
+      <pubDate>Sun, 20 May 2012 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>An hour with HAML and Stasis</title>
-          <link>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</link>
-          <pubDate>Sun, 20 May 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</guid>
-          <description>&lt;p&gt;I have been meaning to get into the exciting world of static site-gen. Why, you ask? Well, I will tell you why?! Actually, I&amp;rsquo;m too lazy, and it&amp;rsquo;s late on a Sunday night &amp;ndash; instead, &lt;a href=&#34;http://mickgardner.com/&#34;&gt;Mick Gardner&lt;/a&gt;, can inform you on the &lt;a href=&#34;http://mickgardner.com/2011/04/27/An-Introduction-To-Static-Site-Generators.html&#34;&gt;virtues of static site-generation&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</guid>
+      <description>&lt;p&gt;I have been meaning to get into the exciting world of static site-gen. Why, you ask? Well, I will tell you why?! Actually, I&amp;rsquo;m too lazy, and it&amp;rsquo;s late on a Sunday night &amp;ndash; instead, &lt;a href=&#34;http://mickgardner.com/&#34;&gt;Mick Gardner&lt;/a&gt;, can inform you on the &lt;a href=&#34;http://mickgardner.com/2011/04/27/An-Introduction-To-Static-Site-Generators.html&#34;&gt;virtues of static site-generation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;After an hour of mucking around with several site-generators, I chose &lt;a href=&#34;http://stasis.me/&#34;&gt;Stasis&lt;/a&gt;, which is a good compromise to the blog-oriented &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, and options-insanity that is &lt;a href=&#34;http://nanoc.stoneship.org/&#34;&gt;nanoc&lt;/a&gt;. With my new-found fascination for Ruby, I wanted to stay away from &lt;a href=&#34;http://ringce.com/hyde&#34;&gt;Hyde&lt;/a&gt; (which is Python based &amp;ndash; it&amp;rsquo;s time to try the dark-side, a little)&lt;/p&gt;
 
@@ -30,9 +30,7 @@
 
 &lt;p&gt;Life&amp;rsquo;s good. I&amp;rsquo;m still learning a few new tricks. What more can one ask for?&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

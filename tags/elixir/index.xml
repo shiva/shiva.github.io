@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Elixir on shiv.me</title>
     <link>http://blog.shiv.me/tags/elixir/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-11-06 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Elixir on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sun, 06 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Elixir - Basics</title>
+      <link>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Elixir - Basics</title>
-          <link>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</link>
-          <pubDate>Sun, 06 Nov 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</guid>
-          <description>
+      <guid>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</guid>
+      <description>
 
 &lt;h1 id=&#34;types&#34;&gt;Types&lt;/h1&gt;
 
@@ -72,9 +72,7 @@ iex(5)&amp;gt;
 &lt;li&gt;nil/false == false (everything else is true)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

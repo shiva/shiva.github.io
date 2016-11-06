@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Web on shiv.me</title>
     <link>http://blog.shiv.me/tags/web/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2007-10-01 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Web on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Mon, 01 Oct 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>hmm.. facebook apps and bandwidth</title>
+      <link>http://blog.shiv.me/2007/10/01/hmm..-facebook-apps-and-bandwidth/</link>
+      <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>hmm.. facebook apps and bandwidth</title>
-          <link>http://blog.shiv.me/2007/10/01/hmm..-facebook-apps-and-bandwidth/</link>
-          <pubDate>Mon, 01 Oct 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/10/01/hmm..-facebook-apps-and-bandwidth/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://facebook.com&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2716607_583d962613.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/10/01/hmm..-facebook-apps-and-bandwidth/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://facebook.com&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2716607_583d962613.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I wrote this a few months back, when I had just starting using facebook, but never got around to posting it. With a recent cleaning spee (of my laptop) I found it lying in a neat corner. If you are not already infected by facebook, here it is.&lt;/p&gt;
 
@@ -41,9 +41,7 @@
 
 &lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/facebook&#34;&gt;facebook&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/web%202.0&#34;&gt;web 2.0&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Flaws on shiv.me</title>
     <link>http://blog.shiv.me/tags/flaws/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2008-09-25 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Flaws on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Thu, 25 Sep 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/flaws/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Webified desktop applications</title>
+      <link>http://blog.shiv.me/2008/09/25/webified-desktop-applications/</link>
+      <pubDate>Thu, 25 Sep 2008 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Webified desktop applications</title>
-          <link>http://blog.shiv.me/2008/09/25/webified-desktop-applications/</link>
-          <pubDate>Thu, 25 Sep 2008 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2008/09/25/webified-desktop-applications/</guid>
-          <description>&lt;p&gt;You know something is seriously out of whack, when you download a 12 MB application that is just a step above an ftp application. I know, a rant at such an ungodly hour! Yup! I have been up 2 hours past bed-time trying to upload a few high-resolution photos.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2008/09/25/webified-desktop-applications/</guid>
+      <description>&lt;p&gt;You know something is seriously out of whack, when you download a 12 MB application that is just a step above an ftp application. I know, a rant at such an ungodly hour! Yup! I have been up 2 hours past bed-time trying to upload a few high-resolution photos.&lt;/p&gt;
 
 &lt;p&gt;I found these shots of fireworks that I captured about two months back, and finally managed to sneak in some time to process these shots. I started my attempt at putting &lt;a href=&#34;http://flickr.com/photos/shvelmur/sets/72157607481830420/&#34;&gt;these&lt;/a&gt; on my &lt;a href=&#34;http://flickr.com/photos/shvelmur/&#34;&gt;flickr account&lt;/a&gt;, and &lt;a href=&#34;http://www.stevey.com/2008/01/12/the-new-flickr-uploader/&#34;&gt;the pitiful uploader V3&lt;/a&gt;, has been failing for the last 2 hours! I doesn&amp;rsquo;t seem to be the servers, since the 2.5 version works fine. Although, I must confess, I&amp;rsquo;m uploading files that are more than 5MB, and it&amp;rsquo;s really just timeout issues.&lt;/p&gt;
 
@@ -32,9 +32,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2886495217/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2886495217_9ecd37176b_s.jpg&#34; alt=&#34;So what if the Hadron Collidor is down?!&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2887337666/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2887337666_7e2ced36dd_s.jpg&#34; alt=&#34;The big bang (s)&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2886444569/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2886444569_ded215b944_s.jpg&#34; alt=&#34;Celebration of Light 2008 - US - #1&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2887300174/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2887300174_5ce8258758_s.jpg&#34; alt=&#34;A tree in the sky&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2887314148/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2887314148_7468e98e26_s.jpg&#34; alt=&#34;Celebration of Light 2008 - China - #4&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

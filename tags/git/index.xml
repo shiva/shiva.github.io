@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Git on shiv.me</title>
     <link>http://blog.shiv.me/tags/git/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2014-03-31 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Git on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Mon, 31 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Getting git status on multiple directories</title>
+      <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
+      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Getting git status on multiple directories</title>
-          <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
-          <pubDate>Mon, 31 Mar 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
-          <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
+      <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
+      <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
 The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;for d in `find . -name &amp;quot;.git&amp;quot;`; do 
@@ -25,17 +25,15 @@ git --git-dir=$d --work-tree=$d/.. status;
 done
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Git: beautiful git logs and listing files in a commit</title>
+      <link>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</link>
+      <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Git: beautiful git logs and listing files in a commit</title>
-          <link>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</link>
-          <pubDate>Wed, 26 Sep 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</guid>
-          <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</guid>
+      <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
 
 &lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-config-alias&#34;&gt;&lt;/script&gt;
 
@@ -53,9 +51,7 @@ done
 
 &lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-show-name-only&#34;&gt;&lt;/script&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

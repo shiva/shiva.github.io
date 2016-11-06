@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Development on shiv.me</title>
     <link>http://blog.shiv.me/tags/development/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2011-11-08 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Development on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Badly punctuated parameter list in #define</title>
+      <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
+      <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Badly punctuated parameter list in #define</title>
-          <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
-          <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
-          <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
+      <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
 
@@ -49,17 +49,15 @@ $
 
 &lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Unsigned Arithmetic</title>
+      <link>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</link>
+      <pubDate>Mon, 23 Aug 2010 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Unsigned Arithmetic</title>
-          <link>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</link>
-          <pubDate>Mon, 23 Aug 2010 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
-          <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
+      <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
 
 &lt;p&gt;I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.&lt;/p&gt;
 
@@ -80,17 +78,15 @@ $
 &lt;a href=&#34;http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html&#34;&gt;http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&#34;http://embeddedgurus.com/stack-overflow/tag/unsigned/&#34;&gt;http://embeddedgurus.com/stack-overflow/tag/unsigned/&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>cvs - Getting list of files changed in the current tree</title>
+      <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>cvs - Getting list of files changed in the current tree</title>
-          <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
-          <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
-          <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+      <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
 
@@ -100,17 +96,15 @@ $
 
 &lt;p&gt;Thanks &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;Jonnay&lt;/a&gt; for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>EX-SideRSS</title>
+      <link>http://blog.shiv.me/2007/10/01/ex-siderss/</link>
+      <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>EX-SideRSS</title>
-          <link>http://blog.shiv.me/2007/10/01/ex-siderss/</link>
-          <pubDate>Mon, 01 Oct 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/10/01/ex-siderss/</guid>
-          <description>&lt;p&gt;After several months of keeping away from updating or changing my website, I broke the fast today. I found a wonderful plugin, &lt;a href=&#34;http://www.underjc.com/?q=node/13&#34;&gt;sideRSS&lt;/a&gt;, which allows display of RSS feeds within a blog&amp;rsquo;s sidebar. As usual, I needed a specific functionality that was not supported the way I wanted it. I hacked it a little bit, renamed the plugin, and posted a custom version for download on my website.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/10/01/ex-siderss/</guid>
+      <description>&lt;p&gt;After several months of keeping away from updating or changing my website, I broke the fast today. I found a wonderful plugin, &lt;a href=&#34;http://www.underjc.com/?q=node/13&#34;&gt;sideRSS&lt;/a&gt;, which allows display of RSS feeds within a blog&amp;rsquo;s sidebar. As usual, I needed a specific functionality that was not supported the way I wanted it. I hacked it a little bit, renamed the plugin, and posted a custom version for download on my website.&lt;/p&gt;
 
 &lt;p&gt;If you need to share Google Shared Items, on your blog, but hate to include javascript (like I do), then use this. You can download it &lt;a href=&#34;http://shvelmur.com/downloads/projects/ex-siderss.php&#34;&gt;here&lt;/a&gt; (right-click and use &amp;ldquo;Save Target As&amp;hellip;&amp;rdquo;) and find install information &lt;a href=&#34;http://shvelmur.com/wpress/projects/exsiderss/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -120,17 +114,15 @@ $
 
 &lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/EX-SideRSS&#34;&gt;EXSideRSS&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/SideRSS&#34;&gt;SideRSS&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/wordpress%20plugins&#34;&gt;wordpress plugins&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Common Access Portal</title>
+      <link>http://blog.shiv.me/2007/01/20/common-access-portal/</link>
+      <pubDate>Sat, 20 Jan 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Common Access Portal</title>
-          <link>http://blog.shiv.me/2007/01/20/common-access-portal/</link>
-          <pubDate>Sat, 20 Jan 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/01/20/common-access-portal/</guid>
-          <description>&lt;p&gt;With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/01/20/common-access-portal/</guid>
+      <description>&lt;p&gt;With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;mail, a whole set of accounts, gmail, yahoo, etc&lt;br /&gt;&lt;/li&gt;
@@ -149,9 +141,7 @@ $
 
 &lt;p&gt;I christen it Common Access Portal (Let&amp;rsquo;s put a CAP on things we use!)&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

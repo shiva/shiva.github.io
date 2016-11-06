@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Apps on shiv.me</title>
     <link>http://blog.shiv.me/tags/apps/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2010-05-29 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Apps on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sat, 29 May 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>iCaved</title>
+      <link>http://blog.shiv.me/2010/05/29/icaved/</link>
+      <pubDate>Sat, 29 May 2010 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>iCaved</title>
-          <link>http://blog.shiv.me/2010/05/29/icaved/</link>
-          <pubDate>Sat, 29 May 2010 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2010/05/29/icaved/</guid>
-          <description>&lt;p&gt;I did it. I &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;said&lt;/a&gt; &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition.html&#34;&gt;I&lt;/a&gt; &lt;a href=&#34;http://blog.shiv.me/2010/03/16/so-long-and-thanks-for-the-jailed-iphone.html&#34;&gt;wouldn&amp;rsquo;t&lt;/a&gt;. I said I will hold out for purely &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;ethical reasons&lt;/a&gt;, but it is &lt;a href=&#34;http://twitter.com/shiva/status/14946052410&#34;&gt;very hard to resist the iPad&lt;/a&gt;. The first impression in-store is simply &amp;ndash; awesome. This of course is not a surprise and is something that one can expect from apple these days.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2010/05/29/icaved/</guid>
+      <description>&lt;p&gt;I did it. I &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;said&lt;/a&gt; &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition.html&#34;&gt;I&lt;/a&gt; &lt;a href=&#34;http://blog.shiv.me/2010/03/16/so-long-and-thanks-for-the-jailed-iphone.html&#34;&gt;wouldn&amp;rsquo;t&lt;/a&gt;. I said I will hold out for purely &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;ethical reasons&lt;/a&gt;, but it is &lt;a href=&#34;http://twitter.com/shiva/status/14946052410&#34;&gt;very hard to resist the iPad&lt;/a&gt;. The first impression in-store is simply &amp;ndash; awesome. This of course is not a surprise and is something that one can expect from apple these days.&lt;/p&gt;
 
 &lt;p&gt;Warning: This is a long post ..&lt;/p&gt;
 
@@ -56,9 +56,7 @@
 &lt;li&gt;(Ok. I&amp;rsquo;ll stop with this) &lt;a href=&#34;http://itunes.apple.com/ca/app/dropbox/id327630330?mt=8&#34;&gt;Dropbox&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

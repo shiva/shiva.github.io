@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Cropper on shiv.me</title>
     <link>http://blog.shiv.me/tags/cropper/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2007-12-18 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Cropper on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Tue, 18 Dec 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/cropper/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Google blogs its feature later than I do!</title>
+      <link>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</link>
+      <pubDate>Tue, 18 Dec 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Google blogs its feature later than I do!</title>
-          <link>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</link>
-          <pubDate>Tue, 18 Dec 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</guid>
-          <description>&lt;p&gt;I discovered today, that twitter+zooomr+a small utility called Cropper, now allows us to put new information about some of the products we use often, out into the blogosphere (I hate that word now), faster than ever before.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/12/18/google-blogs-its-feature-later-than-i-do/</guid>
+      <description>&lt;p&gt;I discovered today, that twitter+zooomr+a small utility called Cropper, now allows us to put new information about some of the products we use often, out into the blogosphere (I hate that word now), faster than ever before.&lt;/p&gt;
 
 &lt;p&gt;Check this image that I posted this image on &lt;a href=&#34;http://www.zooomr.com/photos/shiva/3921233/&#34;&gt;zooomr on 12th Dec&lt;/a&gt; and then &lt;a href=&#34;http://twitter.com/shvelmur/statuses/494443532&#34;&gt;twittered it&lt;/a&gt;.&lt;/p&gt;
 
@@ -26,9 +26,7 @@
 
 &lt;p&gt;Timing is becoming critical these days. Although, I guess more people out there learnt about the feature from his blog entry, it is becoming less relevant from the tech-crowd&amp;rsquo;s perspective. With guys like &lt;a href=&#34;http://scobleizer.com/&#34;&gt;Scoble&lt;/a&gt;, &lt;a href=&#34;http://www.techcrunch.com/about-michael-arrington/&#34;&gt;Mike&lt;/a&gt; and &lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, it is quite tough &lt;a href=&#34;http://www.techcrunch.com/2007/12/12/scoble-to-leave-podtech-heading-for-fast-company/&#34;&gt;keeping an announcement out of the crowds&lt;/a&gt; for long.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

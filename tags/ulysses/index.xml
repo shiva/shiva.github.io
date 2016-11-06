@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Ulysses on shiv.me</title>
     <link>http://blog.shiv.me/tags/ulysses/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2011-03-16 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Ulysses on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Wed, 16 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/ulysses/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>To the people of Japan</title>
+      <link>http://blog.shiv.me/2011/03/16/to-the-people-of-japan/</link>
+      <pubDate>Wed, 16 Mar 2011 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>To the people of Japan</title>
-          <link>http://blog.shiv.me/2011/03/16/to-the-people-of-japan/</link>
-          <pubDate>Wed, 16 Mar 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/03/16/to-the-people-of-japan/</guid>
-          <description>&lt;p&gt;To the people of Japan, and the world, Lord Tennyson has these words&lt;/p&gt;
+      <guid>http://blog.shiv.me/2011/03/16/to-the-people-of-japan/</guid>
+      <description>&lt;p&gt;To the people of Japan, and the world, Lord Tennyson has these words&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Tho&amp;rsquo; much is taken, much abides; and tho&amp;rsquo;&lt;/p&gt;
@@ -32,9 +32,7 @@
 &lt;p&gt;To strive, to seek, to find, and not to yield.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>
