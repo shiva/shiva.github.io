@@ -6,8 +6,74 @@
     <language>en-us</language>
     <author>Shiva Velmurugan</author>
     <rights>(C) 2016</rights>
-    <updated>2016-07-10 00:00:00 &#43;0000 UTC</updated>
+    <updated>2016-11-06 00:00:00 &#43;0000 UTC</updated>
 
+    
+      
+        <item>
+          <title>Elixir - Basics</title>
+          <link>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</link>
+          <pubDate>Sun, 06 Nov 2016 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</guid>
+          <description>
+
+&lt;h1 id=&#34;types&#34;&gt;Types&lt;/h1&gt;
+
+&lt;h2 id=&#34;atoms&#34;&gt;Atoms&lt;/h2&gt;
+
+&lt;p&gt;Named contants with a value. &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;false&lt;/code&gt; are atoms.&lt;/p&gt;
+
+&lt;h2 id=&#34;strings&#34;&gt;Strings&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Supports unicode string natively! It&amp;rsquo;s about time.&lt;/li&gt;
+&lt;li&gt;You can concatenate strings using &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;. &lt;code&gt;&amp;quot;hello&amp;quot; &amp;lt;&amp;gt; &amp;quot; world&amp;quot;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;CAUTION&lt;/em&gt;: &lt;code&gt;byte_size(&amp;quot;hellö&amp;quot;) != String.length(&amp;quot;hellö&amp;quot;)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;CAUTION&lt;/em&gt;: (char list) &lt;code&gt;&#39;hello&#39; != &amp;quot;hello&amp;quot;&lt;/code&gt; (string)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;anonymous-functions&#34;&gt;Anonymous functions&lt;/h2&gt;
+
+&lt;p&gt;Native support for closures &amp;ndash; called anonymous functions. Also, functions are first-class aka can be passed as arguments into other functions. Special syntax is required to invoke ananymous functions.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex(1)&amp;gt; add = fn a,b -&amp;gt; a + b end
+#Function&amp;lt;12.52032458/2 in :erl_eval.expr/5&amp;gt;
+iex(2)&amp;gt; add.(1,2)
+3
+iex(3)&amp;gt; mulby2 = fn a -&amp;gt; add.(a,a) end
+#Function&amp;lt;6.52032458/1 in :erl_eval.expr/5&amp;gt;
+iex(4)&amp;gt; mulby2.(4)
+8
+iex(5)&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+
+&lt;p&gt;Native support for lists. hd(list) and tl(list). A list of printable characters will be output as a string. Slower linear access to data, but really fast to prepend elements to the list. eg. &lt;code&gt;[ 0 | list]&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;tuples&#34;&gt;Tuples&lt;/h2&gt;
+
+&lt;p&gt;Native support for associative arrays. Any pair of values, stored contiguously. Indexes start from zero. mutable &lt;code&gt;put_elem(tuple, idx, &amp;quot;value&amp;quot;)&lt;/code&gt;. Fast access, but expensive to add or insert elements&lt;/p&gt;
+
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+
+&lt;p&gt;Port, Reference and PID&lt;/p&gt;
+
+&lt;h1 id=&#34;operations&#34;&gt;Operations&lt;/h1&gt;
+
+&lt;p&gt;Note that ===, and !== use type when comparing (thankfully, the defaults are sensible)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;+, - , ++, &amp;ndash;, &amp;lt;&amp;gt; (concatenate)&lt;/li&gt;
+&lt;li&gt;and, or, not&lt;/li&gt;
+&lt;li&gt;&amp;amp;&amp;amp;, ||, !&lt;/li&gt;
+&lt;li&gt;==, !=, === (more strict), !== (more strict), &amp;lt;=, &amp;gt;=, &amp;lt; and &amp;gt;&lt;/li&gt;
+&lt;li&gt;nil/false == false (everything else is true)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+      
     
       
         <item>
@@ -1296,28 +1362,6 @@ The above is also cross-posted to [google+][9]
 &lt;/ul&gt;
 
 &lt;p&gt;[][11]&lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;Photosmith&lt;/a&gt; looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>You cribbing bunch of morons</title>
-          <link>http://blog.shiv.me/2011/04/27/you-cribbing-bunch-of-morons/</link>
-          <pubDate>Wed, 27 Apr 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/04/27/you-cribbing-bunch-of-morons/</guid>
-          <description>&lt;p&gt;And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-customers-lawsuit-data/&#34;&gt;all&lt;/a&gt; &lt;a href=&#34;http://gigaom.com/2011/04/21/researcher-iphone-location-data-already-used-by-cops/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-location/&#34;&gt;cribbing&lt;/a&gt; around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
-&amp;gt;
-&amp;gt; Sometime in the next few weeks Apple will release a free iOS software update that:
-&amp;gt;
-&amp;gt; reduces the size of the crowd-sourced Wi-Fi hotspot and cell tower database cached on the iPhone,&lt;br /&gt;
-&amp;gt; ceases backing up this cache, and&lt;br /&gt;
-&amp;gt; deletes this cache entirely when Location Services is turned off.&lt;br /&gt;
-&amp;gt; In the next major iOS software release the cache will also be encrypted on the iPhone.
-&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;Wouldn&amp;rsquo;t it be cool, if someone actually wrote an app that does the exact same thing? I bet it would sell like crazy! I&amp;rsquo;d buy it.&lt;/p&gt;
 </description>
         </item>
       
