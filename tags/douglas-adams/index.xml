@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Douglas Adams on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/douglas-adams/</link>
-    <description>Recent content in Douglas Adams on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Fri, 14 May 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/douglas-adams/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2010-05-14 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>The day-after the &#34;big&#34; day</title>
-      <link>http://blog.shiv.me/2010/05/14/the-day-after-the-big-day/</link>
-      <pubDate>Fri, 14 May 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2010/05/14/the-day-after-the-big-day/</guid>
-      <description>&lt;p&gt;I turned 30 yesterday.&lt;/p&gt;
+        <item>
+          <title>The day-after the &#34;big&#34; day</title>
+          <link>http://blog.shiv.me/2010/05/14/the-day-after-the-big-day/</link>
+          <pubDate>Fri, 14 May 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2010/05/14/the-day-after-the-big-day/</guid>
+          <description>&lt;p&gt;I turned 30 yesterday.&lt;/p&gt;
 
 &lt;p&gt;A whole day has passed since I left my 20s. They say it is a big day. They say it is a dreaded day. It was neither. Just busy (which is good).&lt;/p&gt;
 
@@ -35,7 +35,9 @@
 [2]: &lt;a href=&#34;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&#34;&gt;http://blog.shiv.me/2010/02/03/i-too-have-something-to-say-about-the-ipad.html&lt;/a&gt;&lt;br /&gt;
 [3]: &lt;a href=&#34;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition.html&#34;&gt;http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition.html&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

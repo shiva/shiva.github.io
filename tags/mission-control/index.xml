@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mission Control on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/mission-control/</link>
-    <description>Recent content in Mission Control on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 23 Jul 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/mission-control/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-07-23 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>OSX Lion. A first look (at 2 AM)</title>
-      <link>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</link>
-      <pubDate>Sat, 23 Jul 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</guid>
-      <description>&lt;p&gt;Just upgraded to OSX Lion. A very slick interface.&lt;/p&gt;
+        <item>
+          <title>OSX Lion. A first look (at 2 AM)</title>
+          <link>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</link>
+          <pubDate>Sat, 23 Jul 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</guid>
+          <description>&lt;p&gt;Just upgraded to OSX Lion. A very slick interface.&lt;/p&gt;
 
 &lt;p&gt;Quick Review:&lt;/p&gt;
 
@@ -34,7 +34,9 @@
 
 &lt;p&gt;&lt;a href=&#34;https://plus.google.com/111413906991391429946/posts/GicFg4bESty&#34;&gt;https://plus.google.com/111413906991391429946/posts/GicFg4bESty&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fish on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/fish/</link>
-    <description>Recent content in Fish on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 25 Sep 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/fish/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-09-25 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Tandoori spiced fish with cucumber</title>
-      <link>http://blog.shiv.me/2008/09/25/tandoori-spiced-fish-with-cucumber/</link>
-      <pubDate>Thu, 25 Sep 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/09/25/tandoori-spiced-fish-with-cucumber/</guid>
-      <description>&lt;p&gt;One program&amp;ndash;on Food TV&amp;ndash;that I like to watch, is &lt;a href=&#34;http://www.gordonramsay.com/corporate/theman/biography/&#34;&gt;Gordon Ramsey&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;http://www.channel4.com/food/on-tv/ramsays-kitchen-nightmares/&#34;&gt;Kitchen Nightmares&lt;/a&gt;. He is such a powerful person, who is into what he does for a living. He has inspired me to get of my couch and cook decent food.&lt;/p&gt;
+        <item>
+          <title>Tandoori spiced fish with cucumber</title>
+          <link>http://blog.shiv.me/2008/09/25/tandoori-spiced-fish-with-cucumber/</link>
+          <pubDate>Thu, 25 Sep 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/09/25/tandoori-spiced-fish-with-cucumber/</guid>
+          <description>&lt;p&gt;One program&amp;ndash;on Food TV&amp;ndash;that I like to watch, is &lt;a href=&#34;http://www.gordonramsay.com/corporate/theman/biography/&#34;&gt;Gordon Ramsey&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;http://www.channel4.com/food/on-tv/ramsays-kitchen-nightmares/&#34;&gt;Kitchen Nightmares&lt;/a&gt;. He is such a powerful person, who is into what he does for a living. He has inspired me to get of my couch and cook decent food.&lt;/p&gt;
 
 &lt;p&gt;This is a recipe from his book, &lt;a href=&#34;http://www.amazon.com/gp/product/1554700647?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1554700647&#34;&gt;Fast Food.&lt;/a&gt; Every guy who wants to cook decent food should have on his shelf. A simple book, with simple recipes that any idiot (aka me) can follow. Most dishes are less than 30 minutes of cooking time.  I&amp;rsquo;m a very imprecise cook, and subtitute freely when I can&amp;rsquo;t find a specific fish or condiment. I have taken the same liberty with this recipe as well.&lt;/p&gt;
 
@@ -46,7 +46,9 @@
 
 &lt;p&gt;Now, wasn&amp;rsquo;t that simple. Ramsey&amp;rsquo;s a genius in creating simple foods.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

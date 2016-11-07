@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thomas Hawk on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/thomas-hawk/</link>
-    <description>Recent content in Thomas Hawk on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 13 Mar 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/thomas-hawk/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-03-13 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Can we end the Six Years of Fear ?</title>
-      <link>http://blog.shiv.me/2008/03/13/can-we-end-the-six-years-of-fear-/</link>
-      <pubDate>Thu, 13 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/03/13/can-we-end-the-six-years-of-fear-/</guid>
-      <description>&lt;p&gt;&amp;ldquo;This is it! Its the final straw. We need to do something about it!&amp;rdquo;&lt;/p&gt;
+        <item>
+          <title>Can we end the Six Years of Fear ?</title>
+          <link>http://blog.shiv.me/2008/03/13/can-we-end-the-six-years-of-fear-/</link>
+          <pubDate>Thu, 13 Mar 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/03/13/can-we-end-the-six-years-of-fear-/</guid>
+          <description>&lt;p&gt;&amp;ldquo;This is it! Its the final straw. We need to do something about it!&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;What is it?&amp;rdquo;, you ask. I am sick and tired of hearing story after story of crazed authority figures, forcing rules upon the common man, rendering life to a boring, monotonous series of security checks and bans and fines. From security at airports, to self-righteous moderation aimed at photographers in public spaces. I am sick of it.&lt;/p&gt;
 
@@ -80,7 +80,9 @@
 
 &lt;p&gt;Update: Check out this &lt;a href=&#34;http://www.jkontherun.com/2008/03/virgin-america.html&#34;&gt;picture of a Virgin Atlantic Wifi based food ordering system inside a plane&lt;/a&gt;. Aparently, the have &amp;ldquo;shielded&amp;rdquo; the cabin with lead and kryptonite to avoid &amp;ldquo;radio interference&amp;rdquo;. (That&amp;rsquo;s sarcasm btw &amp;ndash; borrowed from the source, just in case :) )&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

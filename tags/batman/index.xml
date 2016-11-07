@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Batman on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/batman/</link>
-    <description>Recent content in Batman on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 21 Jul 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/batman/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-07-21 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Movie Review: The Dark Knight (spoiler alert)</title>
-      <link>http://blog.shiv.me/2008/07/21/movie-review-the-dark-knight-spoiler-alert/</link>
-      <pubDate>Mon, 21 Jul 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/07/21/movie-review-the-dark-knight-spoiler-alert/</guid>
-      <description>&lt;p&gt;In a moment of mild insanity (actually more like boredom), I decided to watch the last show last night. I was plesantly surprised to find that the movie was playing in 2 theatres @ &lt;a href=&#34;http://www.cineplex.com/Theatres/TheatreDetails/C5CEF4DF/SilverCity_Coquitlam.aspx&#34;&gt;Silvercity, Coquitlam&lt;/a&gt;. With all the &lt;a href=&#34;http://news.google.ca/news?hl=en&amp;amp;q=batman&#34;&gt;hype&lt;/a&gt;, and the huge &lt;a href=&#34;http://www.cnn.com/2008/SHOWBIZ/Movies/07/20/boxoffice.ap/index.html&#34;&gt;revenue generation&lt;/a&gt; in the first week, the movie does deliver most of what it promises.&lt;/p&gt;
+        <item>
+          <title>Movie Review: The Dark Knight (spoiler alert)</title>
+          <link>http://blog.shiv.me/2008/07/21/movie-review-the-dark-knight-spoiler-alert/</link>
+          <pubDate>Mon, 21 Jul 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/07/21/movie-review-the-dark-knight-spoiler-alert/</guid>
+          <description>&lt;p&gt;In a moment of mild insanity (actually more like boredom), I decided to watch the last show last night. I was plesantly surprised to find that the movie was playing in 2 theatres @ &lt;a href=&#34;http://www.cineplex.com/Theatres/TheatreDetails/C5CEF4DF/SilverCity_Coquitlam.aspx&#34;&gt;Silvercity, Coquitlam&lt;/a&gt;. With all the &lt;a href=&#34;http://news.google.ca/news?hl=en&amp;amp;q=batman&#34;&gt;hype&lt;/a&gt;, and the huge &lt;a href=&#34;http://www.cnn.com/2008/SHOWBIZ/Movies/07/20/boxoffice.ap/index.html&#34;&gt;revenue generation&lt;/a&gt; in the first week, the movie does deliver most of what it promises.&lt;/p&gt;
 
 &lt;p&gt;Before you start reading the rest of the post, there are few items, that could give away the plot. I wonder if one needs to worry about the plot in Batman. Here&amp;rsquo;s the &lt;strong&gt;short version&lt;/strong&gt; of the review - &lt;strong&gt;watch it if you haven&amp;rsquo;t done so as yet. NOW!&lt;/strong&gt;&lt;/p&gt;
 
@@ -46,7 +46,9 @@
 
 &lt;p&gt;All in all, a very enjoyable 3 hours, if you have the penchant for Batman, and can hold the large Combo in your bladder long enough. Must see movie. Don&amp;rsquo;t miss it! Now, check out the trailer. (Kudos to Warner Bros. for providing an embeddable version).&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

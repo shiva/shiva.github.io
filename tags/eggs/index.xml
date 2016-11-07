@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eggs on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/eggs/</link>
-    <description>Recent content in Eggs on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 04 Aug 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/eggs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-08-04 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Chicken Curry with Eggs served on Rice</title>
-      <link>http://blog.shiv.me/2008/08/04/chicken-curry-with-eggs-served-on-rice/</link>
-      <pubDate>Mon, 04 Aug 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/08/04/chicken-curry-with-eggs-served-on-rice/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2734109966/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2734109966_379e159639.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <item>
+          <title>Chicken Curry with Eggs served on Rice</title>
+          <link>http://blog.shiv.me/2008/08/04/chicken-curry-with-eggs-served-on-rice/</link>
+          <pubDate>Mon, 04 Aug 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/08/04/chicken-curry-with-eggs-served-on-rice/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2734109966/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2734109966_379e159639.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2734109966/&#34;&gt;Chicken Curry with Eggs served on Rice&lt;/a&gt;, originally uploaded by &lt;a href=&#34;http://www.flickr.com/people/shvelmur/&#34;&gt;Shivanand Velmurugan&lt;/a&gt;.&lt;/p&gt;
 
@@ -56,7 +56,9 @@
 
 &lt;p&gt;If you want to buy the book from Amazon.com or Amazon.ca, click below:&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

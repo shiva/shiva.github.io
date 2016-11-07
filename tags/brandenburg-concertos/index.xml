@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brandenburg Concertos on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/brandenburg-concertos/</link>
-    <description>Recent content in Brandenburg Concertos on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 01 Dec 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/brandenburg-concertos/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-12-01 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>music and hearing</title>
-      <link>http://blog.shiv.me/2011/12/01/music-and-hearing/</link>
-      <pubDate>Thu, 01 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/12/01/music-and-hearing/</guid>
-      <description>&lt;p&gt;Forget perfect pitch. I&amp;rsquo;m so thankful that I can experience a large range of frequencies, and that I have enough hearing ability to distinguish timbre, and tone. Watch the video below, especially at 7:00 minutes. We all must be thankful that we can hear as well as we do. I can&amp;rsquo;t imagine what life would be like without the ability to sense the warmth of a viola rising up in the Brandenburg concertos (BWV 1046) movement 1, or the horns in the 3rd movement of the same.&lt;/p&gt;
+        <item>
+          <title>music and hearing</title>
+          <link>http://blog.shiv.me/2011/12/01/music-and-hearing/</link>
+          <pubDate>Thu, 01 Dec 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/12/01/music-and-hearing/</guid>
+          <description>&lt;p&gt;Forget perfect pitch. I&amp;rsquo;m so thankful that I can experience a large range of frequencies, and that I have enough hearing ability to distinguish timbre, and tone. Watch the video below, especially at 7:00 minutes. We all must be thankful that we can hear as well as we do. I can&amp;rsquo;t imagine what life would be like without the ability to sense the warmth of a viola rising up in the Brandenburg concertos (BWV 1046) movement 1, or the horns in the 3rd movement of the same.&lt;/p&gt;
 
 &lt;p&gt;J.S. BACH BWV 1046 Brandenburg Concertos No: 1&lt;/p&gt;
 
@@ -24,7 +24,9 @@
 
 &lt;p&gt;Movements 3 &amp;amp; 4 : &lt;a href=&#34;http://youtu.be/x8AEGLAyMOc&#34;&gt;http://youtu.be/x8AEGLAyMOc&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

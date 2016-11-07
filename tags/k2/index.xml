@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>K2 on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/k2/</link>
-    <description>Recent content in K2 on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 15 Dec 2005 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/k2/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2005-12-15 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Page link in wordpress</title>
-      <link>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</link>
-      <pubDate>Thu, 15 Dec 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</guid>
-      <description>&lt;p&gt;I have been wondering for sometime now, how K2, added an entry in pages, but the content was controlled from the one of the php files in the theme directory.&lt;/p&gt;
+        <item>
+          <title>Page link in wordpress</title>
+          <link>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</link>
+          <pubDate>Thu, 15 Dec 2005 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</guid>
+          <description>&lt;p&gt;I have been wondering for sometime now, how K2, added an entry in pages, but the content was controlled from the one of the php files in the theme directory.&lt;/p&gt;
 
 &lt;p&gt;It turns out that is is very simple (yet elegant &amp;hellip; hat&amp;rsquo;s off to wordpress guys). I used this to integrate FAlbum into K2.&lt;/p&gt;
 
@@ -64,7 +64,9 @@ Template Name: Archives (Do Not Use Manually)&lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;Thing to note:&lt;/strong&gt;&lt;br /&gt;
 Ensure that the entry for the page link in the database does not have the &amp;ldquo;guid&amp;rdquo; field filled. This would cause the page to load the content of the page entry in the final output.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Native Twitter Client on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/native-twitter-client/</link>
-    <description>Recent content in Native Twitter Client on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 25 Oct 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/native-twitter-client/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-10-25 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-      <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</link>
-      <pubDate>Sat, 25 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</guid>
-      <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
+        <item>
+          <title>Proposed GUI for C&#43;&#43; based twitter client</title>
+          <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</link>
+          <pubDate>Sat, 25 Oct 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</guid>
+          <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;
 
@@ -26,7 +26,9 @@
 
 &lt;p&gt;Any suggestions?! I will try and post some mock up as I create em. I don&amp;rsquo;t want to be writing my own twitter REST c++ library. Any suggestion are welcome.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

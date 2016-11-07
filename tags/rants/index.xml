@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rants on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/rants/</link>
-    <description>Recent content in Rants on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 11 Feb 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/rants/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-02-11 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Goldilock&#39;s at my place</title>
-      <link>http://blog.shiv.me/2007/02/11/goldilocks-at-my-place/</link>
-      <pubDate>Sun, 11 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/02/11/goldilocks-at-my-place/</guid>
-      <description>&lt;p&gt;After a long ride from Bangalore, whilst I was sleeping blissfully, some rascal, ran through our house, ate an apple, stole a couple of jars of Pickle (good ones at that), helped himself to the following:&lt;/p&gt;
+        <item>
+          <title>Goldilock&#39;s at my place</title>
+          <link>http://blog.shiv.me/2007/02/11/goldilocks-at-my-place/</link>
+          <pubDate>Sun, 11 Feb 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2007/02/11/goldilocks-at-my-place/</guid>
+          <description>&lt;p&gt;After a long ride from Bangalore, whilst I was sleeping blissfully, some rascal, ran through our house, ate an apple, stole a couple of jars of Pickle (good ones at that), helped himself to the following:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;My Philips DVD player (it was skipping at most DVDs anyway)&lt;/li&gt;
@@ -34,7 +34,9 @@
 
 &lt;p&gt;Update: Apparently, he flicked a pack of cigarettes also!! (He&amp;rsquo;s even helping me quit smoking!!). Also a bottle of after-shave that my wife bought for me!&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

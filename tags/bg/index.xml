@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bg on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/bg/</link>
-    <description>Recent content in Bg on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 31 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/bg/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-01-31 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Job Control on \*NIX systems</title>
-      <link>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</link>
-      <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</guid>
-      <description>&lt;p&gt;If you are not a UNIX user/not a geek, please turn away right now.&lt;/p&gt;
+        <item>
+          <title>Job Control on \*NIX systems</title>
+          <link>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</link>
+          <pubDate>Mon, 31 Jan 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</guid>
+          <description>&lt;p&gt;If you are not a UNIX user/not a geek, please turn away right now.&lt;/p&gt;
 
 &lt;p&gt;Every year, I either chance upon something new, or remind myself of something interesting that I&amp;rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):&lt;/p&gt;
 
@@ -41,7 +41,9 @@ $ fg 2
 
 &lt;p&gt;via &lt;a href=&#34;http://acs.ucsd.edu/info/jobctrl.shtml&#34;&gt;Job Control on UNIX systems&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

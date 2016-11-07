@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Salmon on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/salmon/</link>
-    <description>Recent content in Salmon on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 23 Aug 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/salmon/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2012-08-23 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Two-factor authentication and spicy salmon sashimi don</title>
-      <link>http://blog.shiv.me/2012/08/23/two-factor-authentication-and-spicy-salmon-sashimi-don/</link>
-      <pubDate>Thu, 23 Aug 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2012/08/23/two-factor-authentication-and-spicy-salmon-sashimi-don/</guid>
-      <description>&lt;p&gt;For the last few months I&amp;rsquo;ve been annoyed. Two or three times a week, I get a flurry of emails from Facebook and twitter claiming that I reset my password. Sounds like a first-world problem? It is. However, I have 4 emails linked to my Facebook account and one to my twitter account. I get on average 15-20 mails a week, and I dutifully dis-avow each one of them.&lt;/p&gt;
+        <item>
+          <title>Two-factor authentication and spicy salmon sashimi don</title>
+          <link>http://blog.shiv.me/2012/08/23/two-factor-authentication-and-spicy-salmon-sashimi-don/</link>
+          <pubDate>Thu, 23 Aug 2012 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2012/08/23/two-factor-authentication-and-spicy-salmon-sashimi-don/</guid>
+          <description>&lt;p&gt;For the last few months I&amp;rsquo;ve been annoyed. Two or three times a week, I get a flurry of emails from Facebook and twitter claiming that I reset my password. Sounds like a first-world problem? It is. However, I have 4 emails linked to my Facebook account and one to my twitter account. I get on average 15-20 mails a week, and I dutifully dis-avow each one of them.&lt;/p&gt;
 
 &lt;p&gt;Then, &lt;a href=&#34;http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard&#34;&gt;this happens&lt;/a&gt;. It scares the hell out of me, but I procrastinate. After a good two weeks, and 40 mails later, I&amp;rsquo;ve finally caved, and enabled it. Now, it&amp;rsquo;s practically impossible to hack my account. Password + token to access from any new device, and I can remotely revoke access to any device I lose.&lt;/p&gt;
 
@@ -29,7 +29,9 @@
 &lt;p&gt;Well, here&amp;rsquo;s your reward for reading this far:&lt;br /&gt;
 &lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/20120823-214038.jpg&#34; alt=&#34;20120823-214038.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

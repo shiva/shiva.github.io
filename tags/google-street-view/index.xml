@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google Street View on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/google-street-view/</link>
-    <description>Recent content in Google Street View on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 07 Oct 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/google-street-view/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2009-10-07 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Google&#39;s on Vancouver Streets</title>
-      <link>http://blog.shiv.me/2009/10/07/googles-on-vancouver-streets/</link>
-      <pubDate>Wed, 07 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2009/10/07/googles-on-vancouver-streets/</guid>
-      <description>&lt;p&gt;Google street view is now available for Vancouver, Canada. So, the big G has finally realized that people living outside the US might find use for google&amp;rsquo;s products.&lt;/p&gt;
+        <item>
+          <title>Google&#39;s on Vancouver Streets</title>
+          <link>http://blog.shiv.me/2009/10/07/googles-on-vancouver-streets/</link>
+          <pubDate>Wed, 07 Oct 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2009/10/07/googles-on-vancouver-streets/</guid>
+          <description>&lt;p&gt;Google street view is now available for Vancouver, Canada. So, the big G has finally realized that people living outside the US might find use for google&amp;rsquo;s products.&lt;/p&gt;
 
 &lt;p&gt;I work here&lt;/p&gt;
 
@@ -26,7 +26,9 @@
 
 &lt;p&gt;&lt;a href=&#34;http://maps.google.com/maps?cbp=12,182.7,,0,-10.97&amp;amp;cbll=49.280821,-122.817243&amp;amp;ll=49.280821,-122.817243&amp;amp;layer=c&#34;&gt;View Larger Map&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

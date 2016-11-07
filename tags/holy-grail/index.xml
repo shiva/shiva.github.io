@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Holy Grail on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/holy-grail/</link>
-    <description>Recent content in Holy Grail on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 26 Oct 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/holy-grail/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2009-10-26 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>The Holy Grail and the Programmer&#39;s High</title>
-      <link>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</link>
-      <pubDate>Mon, 26 Oct 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, the inventor of RSS, wrote today about twitter&amp;rsquo;s latest API update for supporting the &lt;a href=&#34;http://blog.twitter.com/2009/09/soon-to-launch-lists.html&#34;&gt;lists feature&lt;/a&gt;&lt;/p&gt;
+        <item>
+          <title>The Holy Grail and the Programmer&#39;s High</title>
+          <link>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</link>
+          <pubDate>Mon, 26 Oct 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, the inventor of RSS, wrote today about twitter&amp;rsquo;s latest API update for supporting the &lt;a href=&#34;http://blog.twitter.com/2009/09/soon-to-launch-lists.html&#34;&gt;lists feature&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;It turns out there&amp;rsquo;s an API call that retrieves the timeline for a list, and it works exactly like the API call that retrieves the timeline for an account. So much so that I didn&amp;rsquo;t even have to change the &lt;a href=&#34;http://listings.opml.org/verbs/apps/twitter/getTimeLine.html&#34;&gt;glue script&lt;/a&gt;, I pass in a &lt;a href=&#34;http://images.scripting.com/archiveScriptingCom/2009/10/25/gluescript.gif&#34;&gt;different URL&lt;/a&gt; and it just worked &amp;gt; &lt;a href=&#34;http://www.scripting.com/stories/2009/10/25/goodApiDesignAtTwitter.html&#34;&gt;orig link&lt;/a&gt;&lt;/p&gt;
@@ -28,7 +28,9 @@
 
 &lt;p&gt;You cannot be a programmer, if you don&amp;rsquo;t live for that!&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

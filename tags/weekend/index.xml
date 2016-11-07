@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Weekend on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/weekend/</link>
-    <description>Recent content in Weekend on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 27 Jan 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/weekend/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2014-01-27 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Bitcoins, new languages, freedom and other things</title>
-      <link>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</link>
-      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</guid>
-      <description>&lt;p&gt;Some interesting links for the weekend:&lt;/p&gt;
+        <item>
+          <title>Bitcoins, new languages, freedom and other things</title>
+          <link>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</link>
+          <pubDate>Mon, 27 Jan 2014 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</guid>
+          <description>&lt;p&gt;Some interesting links for the weekend:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mr.Krugman thinks &lt;a href=&#34;http://krugman.blogs.nytimes.com/2013/12/28/bitcoin-is-evil/&#34;&gt;Bitcoin is evil.&lt;/a&gt;&lt;/li&gt;
@@ -26,7 +26,9 @@
 &lt;li&gt;We don&amp;rsquo;t really change. &lt;a href=&#34;https://medium.com/p/defd9264bf14&#34;&gt;Let&amp;rsquo;s not blame it on tech&lt;/a&gt;! Truth from Gary Vaynerchuk of winelibrary fame.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

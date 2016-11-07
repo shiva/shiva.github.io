@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prawn Curry on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/prawn-curry/</link>
-    <description>Recent content in Prawn Curry on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 14 Dec 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/prawn-curry/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-12-14 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Prawn curry</title>
-      <link>http://blog.shiv.me/2011/12/14/prawn-curry/</link>
-      <pubDate>Wed, 14 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/12/14/prawn-curry/</guid>
-      <description>&lt;p&gt;If you are in a hurry, and need something tasty yet easy to make, this one is for you. The prep time is about 5 minutes, and the cooking time around 10-15 minutes. If you have a small rice cooker &amp;ndash; the kind that plugs into a wall sockets &amp;ndash; you should be able to get the rice done in about the same time.&lt;/p&gt;
+        <item>
+          <title>Prawn curry</title>
+          <link>http://blog.shiv.me/2011/12/14/prawn-curry/</link>
+          <pubDate>Wed, 14 Dec 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/12/14/prawn-curry/</guid>
+          <description>&lt;p&gt;If you are in a hurry, and need something tasty yet easy to make, this one is for you. The prep time is about 5 minutes, and the cooking time around 10-15 minutes. If you have a small rice cooker &amp;ndash; the kind that plugs into a wall sockets &amp;ndash; you should be able to get the rice done in about the same time.&lt;/p&gt;
 
 &lt;p&gt;It is also the perfect curry to cook for smaller portions. If you are like me, and have to cook for 1 person, aka me,  all the time, it is a no-frills and no-freezer required recipe.&lt;/p&gt;
 
@@ -33,7 +33,9 @@
 
 &lt;p&gt;[gallery link=&amp;ldquo;file&amp;rdquo;]&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

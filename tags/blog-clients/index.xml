@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Clients on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/blog-clients/</link>
-    <description>Recent content in Blog Clients on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 09 Apr 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/blog-clients/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-04-09 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Jott - a voice-based blog client!</title>
-      <link>http://blog.shiv.me/2008/04/09/jott---a-voice-based-blog-client/</link>
-      <pubDate>Wed, 09 Apr 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/04/09/jott---a-voice-based-blog-client/</guid>
-      <description>&lt;p&gt;Well, this is a first post to my blog using Jott, which is a very cool service. It allows you to call a number and talk what you want to post, and post it to your blog. I think it&amp;rsquo;s one of the new tools that really enable blogging. I&amp;rsquo;m just going to try it and see how it works out. &lt;a href=&#34;http://www.jott.com/show.aspx?id=d6549201-5361-44c4-adf3-ef43abf8488c&#34;&gt;listen&lt;/a&gt;&lt;/p&gt;
+        <item>
+          <title>Jott - a voice-based blog client!</title>
+          <link>http://blog.shiv.me/2008/04/09/jott---a-voice-based-blog-client/</link>
+          <pubDate>Wed, 09 Apr 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/04/09/jott---a-voice-based-blog-client/</guid>
+          <description>&lt;p&gt;Well, this is a first post to my blog using Jott, which is a very cool service. It allows you to call a number and talk what you want to post, and post it to your blog. I think it&amp;rsquo;s one of the new tools that really enable blogging. I&amp;rsquo;m just going to try it and see how it works out. &lt;a href=&#34;http://www.jott.com/show.aspx?id=d6549201-5361-44c4-adf3-ef43abf8488c&#34;&gt;listen&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Powered by &lt;a href=&#34;http://jott.com&#34;&gt;Jott&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

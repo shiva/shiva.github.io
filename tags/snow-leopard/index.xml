@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Snow Leopard on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/snow-leopard/</link>
-    <description>Recent content in Snow Leopard on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Fri, 28 Aug 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/snow-leopard/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2009-08-28 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>I&#39;m getting an os upgrade for 10 bucks!</title>
-      <link>http://blog.shiv.me/2009/08/28/im-getting-an-os-upgrade-for-10-bucks/</link>
-      <pubDate>Fri, 28 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2009/08/28/im-getting-an-os-upgrade-for-10-bucks/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://posterous.com/getfile/files.posterous.com/shiva/2EiqdhTMMjrTssWgP12TLzHFa9iDVALtnP6qCqgRwK1dfzuTVD0UlLlDsAIA/snow-leopard-shipment.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/snow-leopard-shipment.jpg.scaled.500.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <item>
+          <title>I&#39;m getting an os upgrade for 10 bucks!</title>
+          <link>http://blog.shiv.me/2009/08/28/im-getting-an-os-upgrade-for-10-bucks/</link>
+          <pubDate>Fri, 28 Aug 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2009/08/28/im-getting-an-os-upgrade-for-10-bucks/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://posterous.com/getfile/files.posterous.com/shiva/2EiqdhTMMjrTssWgP12TLzHFa9iDVALtnP6qCqgRwK1dfzuTVD0UlLlDsAIA/snow-leopard-shipment.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/snow-leopard-shipment.jpg.scaled.500.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;With Snow Leopard, Apple has the first time done something that has made me go wow! An almost free OS upgrade. This kinda beats the crap out of paying a couple hundred for Win7.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://posterous.com&#34;&gt;Posted via email&lt;/a&gt; from &lt;a href=&#34;http://shiva.posterous.com/im-getting-an-os-upgrade-for-10-bucks&#34;&gt;shiva&amp;rsquo;s posterous&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

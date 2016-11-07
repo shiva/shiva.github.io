@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Akismet on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/akismet/</link>
-    <description>Recent content in Akismet on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 11 Apr 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/akismet/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-04-11 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Wordpress commended for lack of spam</title>
-      <link>http://blog.shiv.me/2007/04/11/wordpress-commended-for-lack-of-spam/</link>
-      <pubDate>Wed, 11 Apr 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/04/11/wordpress-commended-for-lack-of-spam/</guid>
-      <description>&lt;p&gt;Me and thousands of other people, continue to use wordpress, one of the leading blog management systems (sounds kewl, eh? ;) ), and proof that is it in fact leading is &lt;a href=&#34;http://www.plagiarismtoday.com/2007/04/09/why-wordpresscom-is-virtually-spam-free/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+        <item>
+          <title>Wordpress commended for lack of spam</title>
+          <link>http://blog.shiv.me/2007/04/11/wordpress-commended-for-lack-of-spam/</link>
+          <pubDate>Wed, 11 Apr 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2007/04/11/wordpress-commended-for-lack-of-spam/</guid>
+          <description>&lt;p&gt;Me and thousands of other people, continue to use wordpress, one of the leading blog management systems (sounds kewl, eh? ;) ), and proof that is it in fact leading is &lt;a href=&#34;http://www.plagiarismtoday.com/2007/04/09/why-wordpresscom-is-virtually-spam-free/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Apparently, &lt;a href=&#34;http://wordpress.com&#34;&gt;Wordpress.com&lt;/a&gt;, has the least spam, compared to other free blog-hosting services. The honored list of competitors, include the likes of google, myspace and AOL, each one of them goliaths! &lt;a href=&#34;http://en.wikipedia.org/wiki/Matt_Mullenweg&#34;&gt;Matt Mullenweg&lt;/a&gt;, the creator of &lt;a href=&#34;http://wordpress.org&#34;&gt;Wordpress&lt;/a&gt;, associates the success of wordpress.com spam protection to Akismet. This is something that I use now. I used spam-karma before this, which was pretty good, but with Akismet, it is almost zero-management.&lt;/p&gt;
 
 &lt;p&gt;Google, with its wonderful, spam filter on gmail, should be able to do much better, but then, comment spam is a very different ball game.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

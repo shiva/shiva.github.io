@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scoble Proof on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/scoble-proof/</link>
-    <description>Recent content in Scoble Proof on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 10 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/scoble-proof/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2010-02-10 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>And another thing about Google Buzz</title>
-      <link>http://blog.shiv.me/2010/02/10/and-another-thing-about-google-buzz/</link>
-      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2010/02/10/and-another-thing-about-google-buzz/</guid>
-      <description>&lt;p&gt;There are several issues that people have uncovered in the last 2 days that it has existed. For me, of all the features that Buzz lacks, one thing really stands out. There is no way to just see a &lt;strong&gt;list of the conversations&lt;/strong&gt; (without the whole list of comments expanded by default). This is the main reason that I &lt;strong&gt;*had*&lt;/strong&gt; to unfollow Scoble, Michael Arrington, Louis Gray and a bunch of others. Take a look at &lt;a href=&#34;http://www.google.com/buzz/scobleizer/NE7yRrwbhbH/This-is-already-WAY-BETTER-than-FriendFeed-Why-Not&#34;&gt;this conversation&lt;/a&gt;, and you would understand why.&lt;/p&gt;
+        <item>
+          <title>And another thing about Google Buzz</title>
+          <link>http://blog.shiv.me/2010/02/10/and-another-thing-about-google-buzz/</link>
+          <pubDate>Wed, 10 Feb 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2010/02/10/and-another-thing-about-google-buzz/</guid>
+          <description>&lt;p&gt;There are several issues that people have uncovered in the last 2 days that it has existed. For me, of all the features that Buzz lacks, one thing really stands out. There is no way to just see a &lt;strong&gt;list of the conversations&lt;/strong&gt; (without the whole list of comments expanded by default). This is the main reason that I &lt;strong&gt;*had*&lt;/strong&gt; to unfollow Scoble, Michael Arrington, Louis Gray and a bunch of others. Take a look at &lt;a href=&#34;http://www.google.com/buzz/scobleizer/NE7yRrwbhbH/This-is-already-WAY-BETTER-than-FriendFeed-Why-Not&#34;&gt;this conversation&lt;/a&gt;, and you would understand why.&lt;/p&gt;
 
 &lt;p&gt;Every time, anyone, replied to that thread (which incidently has been at the top of scoble&amp;rsquo;s buzz list all day), it would become the top post on my buzz view as well.  Now you are thinking, &amp;ldquo;Well, Buzz was not meant for long conversations&amp;rdquo;. Go back and read the comments on that conversation .. all 350+ of them, and come back here.&lt;/p&gt;
 
@@ -30,7 +30,9 @@
 
 &lt;p&gt;Iterate guys! Iterate! Fast and hard.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

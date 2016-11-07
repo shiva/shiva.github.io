@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Snmp on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/snmp/</link>
-    <description>Recent content in Snmp on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 06 Oct 2005 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/snmp/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2005-10-06 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>SNMP tutorials</title>
-      <link>http://blog.shiv.me/2005/10/06/snmp-tutorials/</link>
-      <pubDate>Thu, 06 Oct 2005 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2005/10/06/snmp-tutorials/</guid>
-      <description>&lt;p&gt;SNMP being the bread and butter for me, I decided to dig up some tutorials and links regarding the same.&lt;br /&gt;
+        <item>
+          <title>SNMP tutorials</title>
+          <link>http://blog.shiv.me/2005/10/06/snmp-tutorials/</link>
+          <pubDate>Thu, 06 Oct 2005 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2005/10/06/snmp-tutorials/</guid>
+          <description>&lt;p&gt;SNMP being the bread and butter for me, I decided to dig up some tutorials and links regarding the same.&lt;br /&gt;
 For the uninitiated, SNMP is short for Simple Network Management Protocol, and is a protocol used to manage network devices such as routers, switches etc.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -27,7 +27,9 @@ For the uninitiated, SNMP is short for Simple Network Management Protocol, and i
 &lt;li&gt;&lt;a href=&#34;http://www.snmplink.org/&#34;&gt;SnmpLink&lt;/a&gt; - Links to almost every possible SNMP resource&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

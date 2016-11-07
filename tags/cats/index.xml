@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cats on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/cats/</link>
-    <description>Recent content in Cats on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 10 Jun 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/cats/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-06-10 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Whaddup Mister?!</title>
-      <link>http://blog.shiv.me/2008/06/10/whaddup-mister/</link>
-      <pubDate>Tue, 10 Jun 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/06/10/whaddup-mister/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2567730043/&#34; title=&#34;Whaddup mister?! by shivanandv, on Flickr&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2567730043_da7faab448.jpg&#34; alt=&#34;Whaddup mister?!&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <item>
+          <title>Whaddup Mister?!</title>
+          <link>http://blog.shiv.me/2008/06/10/whaddup-mister/</link>
+          <pubDate>Tue, 10 Jun 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/06/10/whaddup-mister/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2567730043/&#34; title=&#34;Whaddup mister?! by shivanandv, on Flickr&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2567730043_da7faab448.jpg&#34; alt=&#34;Whaddup mister?!&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I am at the fag end of my trip to India, and I will miss this fella sorely!&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

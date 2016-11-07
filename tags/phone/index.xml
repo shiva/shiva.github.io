@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Phone on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/phone/</link>
-    <description>Recent content in Phone on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 25 Jan 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/phone/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-01-25 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Trouble with Sony Ericsson W800i - Phone not detected.</title>
-      <link>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i---phone-not-detected./</link>
-      <pubDate>Thu, 25 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i---phone-not-detected./</guid>
-      <description>&lt;p&gt;Trying to get the Sony Ericsson W800i has been by far the most traumatic experience of my life. I tried everything possible, but still was unable to get it recognised on my home PC!&lt;/p&gt;
+        <item>
+          <title>Trouble with Sony Ericsson W800i - Phone not detected.</title>
+          <link>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i---phone-not-detected./</link>
+          <pubDate>Thu, 25 Jan 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i---phone-not-detected./</guid>
+          <description>&lt;p&gt;Trying to get the Sony Ericsson W800i has been by far the most traumatic experience of my life. I tried everything possible, but still was unable to get it recognised on my home PC!&lt;/p&gt;
 
 &lt;p&gt;So, finally I decided to resort to the most reliable way to get anything to work with a PC. Do a google search!!!&lt;/p&gt;
 
@@ -39,7 +39,9 @@
 
 &lt;p&gt;Link to the orginal post can be found &lt;a href=&#34;http://www.expansys.com/ft.aspx?i=125173&amp;amp;thread=827&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

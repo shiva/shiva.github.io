@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2016 on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/2016/</link>
-    <description>Recent content in 2016 on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 31 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/2016/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-01-31 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>A month flies by</title>
-      <link>http://blog.shiv.me/2016/01/31/jan-goal-update/</link>
-      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2016/01/31/jan-goal-update/</guid>
-      <description>
+        <item>
+          <title>A month flies by</title>
+          <link>http://blog.shiv.me/2016/01/31/jan-goal-update/</link>
+          <pubDate>Sun, 31 Jan 2016 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2016/01/31/jan-goal-update/</guid>
+          <description>
 
 &lt;p&gt;It has not been a great start. It, however, has been a busy one.&lt;/p&gt;
 
@@ -44,15 +44,17 @@
 
 &lt;p&gt;As this post illustrates, I have procrastinated all month long. I guess two posts a month is still better than none.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Goals for 2016</title>
-      <link>http://blog.shiv.me/2016/01/05/goals-for-2016/</link>
-      <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2016/01/05/goals-for-2016/</guid>
-      <description>&lt;p&gt;The word &amp;ldquo;resolutions&amp;rdquo;, feels forced. It feels like a ritual declaration of intent, followed immediately by inaction, and eventually concession that it was all in jest. This year, I am going to have some goals.&lt;/p&gt;
+    
+      
+        <item>
+          <title>Goals for 2016</title>
+          <link>http://blog.shiv.me/2016/01/05/goals-for-2016/</link>
+          <pubDate>Tue, 05 Jan 2016 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2016/01/05/goals-for-2016/</guid>
+          <description>&lt;p&gt;The word &amp;ldquo;resolutions&amp;rdquo;, feels forced. It feels like a ritual declaration of intent, followed immediately by inaction, and eventually concession that it was all in jest. This year, I am going to have some goals.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Don’t smoke (Stay quit!!)&lt;/li&gt;
@@ -64,7 +66,9 @@
 
 &lt;p&gt;Goals, feels more friendly, reachable, inviting almost.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

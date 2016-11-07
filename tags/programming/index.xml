@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/programming/</link>
-    <description>Recent content in Programming on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Fri, 14 Feb 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2014-02-14 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Somethings should be obvious, but are not, obviously</title>
-      <link>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
-      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+        <item>
+          <title>Somethings should be obvious, but are not, obviously</title>
+          <link>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
+          <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
+          <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It&amp;rsquo;s the &amp;ldquo;duh&amp;rdquo; moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.&lt;/p&gt;
 
@@ -72,29 +72,33 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
     /home/shiva/.local/share/virtualenvs/test/bin:/home/shiva/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>More unix goodness</title>
-      <link>http://blog.shiv.me/2012/05/21/more-unix-goodness/</link>
-      <pubDate>Mon, 21 May 2012 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
-      <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
+    
+      
+        <item>
+          <title>More unix goodness</title>
+          <link>http://blog.shiv.me/2012/05/21/more-unix-goodness/</link>
+          <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
+          <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
 # find . -name &amp;lt;regex&amp;gt; -delete  
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Badly punctuated parameter list in #define</title>
-      <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
-      <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
-      <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
+    
+      
+        <item>
+          <title>Badly punctuated parameter list in #define</title>
+          <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
+          <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
+          <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
 
@@ -127,15 +131,17 @@ $
 
 &lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Power of 2</title>
-      <link>http://blog.shiv.me/2010/11/03/power-of-2/</link>
-      <pubDate>Wed, 03 Nov 2010 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2010/11/03/power-of-2/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
+    
+      
+        <item>
+          <title>Power of 2</title>
+          <link>http://blog.shiv.me/2010/11/03/power-of-2/</link>
+          <pubDate>Wed, 03 Nov 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2010/11/03/power-of-2/</guid>
+          <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
 
 &lt;p&gt;As he writes, there is the simpleton O(n) solution (&lt;a href=&#34;http://veechand.wordpress.com/2009/12/19/is-a-number-power-of-two/&#34;&gt;you will have to click-through for that&lt;/a&gt;), and the most elegant (yet) bitwise solution:&lt;/p&gt;
 
@@ -176,15 +182,17 @@ is_power_of_2_pure_math_baby(int n) {
 
 &lt;p&gt;Of course, t&lt;a href=&#34;http://www.artima.com/wbc/interprogP.html&#34;&gt;he point Josh Bloch was making &lt;/a&gt;in interviewing engineers, was that he is interested in knowing the &lt;strong&gt;WHY&lt;/strong&gt; of a solution. It does not matter if the algorithm is marginally less optimal or different. If you are an interviewer in your organisation, and you catch yourself asking a question like this, remember that if an engineer can reduce O(n) to O(1), stop with similar micro-skills test. Find out why she coded it the way she did. It will tell you a lot more about her skills than some algorithms/tricks that can be picked up in a&lt;a href=&#34;http://www.amazon.com/gp/product/047012167X?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=047012167X&#34;&gt;couple a days&lt;/a&gt;, if not &lt;a href=&#34;http://wiki.allegro.cc/index.php?title=Bitwise_operator#Power_of_two_check&#34;&gt;overnight&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Why does Java not support unsigned int? - Part 1</title>
-      <link>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
-      <pubDate>Tue, 13 Jul 2010 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
-      <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
+    
+      
+        <item>
+          <title>Why does Java not support unsigned int? - Part 1</title>
+          <link>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
+          <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;ol&gt;
@@ -254,15 +262,17 @@ is_power_of_2_pure_math_baby(int n) {
 &lt;p&gt;Peace.&lt;br /&gt;
 -Shiva&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>The Holy Grail and the Programmer&#39;s High</title>
-      <link>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</link>
-      <pubDate>Mon, 26 Oct 2009 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, the inventor of RSS, wrote today about twitter&amp;rsquo;s latest API update for supporting the &lt;a href=&#34;http://blog.twitter.com/2009/09/soon-to-launch-lists.html&#34;&gt;lists feature&lt;/a&gt;&lt;/p&gt;
+    
+      
+        <item>
+          <title>The Holy Grail and the Programmer&#39;s High</title>
+          <link>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</link>
+          <pubDate>Mon, 26 Oct 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2009/10/26/the-holy-grail-and-the-programmers-high/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;, the inventor of RSS, wrote today about twitter&amp;rsquo;s latest API update for supporting the &lt;a href=&#34;http://blog.twitter.com/2009/09/soon-to-launch-lists.html&#34;&gt;lists feature&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;It turns out there&amp;rsquo;s an API call that retrieves the timeline for a list, and it works exactly like the API call that retrieves the timeline for an account. So much so that I didn&amp;rsquo;t even have to change the &lt;a href=&#34;http://listings.opml.org/verbs/apps/twitter/getTimeLine.html&#34;&gt;glue script&lt;/a&gt;, I pass in a &lt;a href=&#34;http://images.scripting.com/archiveScriptingCom/2009/10/25/gluescript.gif&#34;&gt;different URL&lt;/a&gt; and it just worked &amp;gt; &lt;a href=&#34;http://www.scripting.com/stories/2009/10/25/goodApiDesignAtTwitter.html&#34;&gt;orig link&lt;/a&gt;&lt;/p&gt;
@@ -274,15 +284,17 @@ is_power_of_2_pure_math_baby(int n) {
 
 &lt;p&gt;You cannot be a programmer, if you don&amp;rsquo;t live for that!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>The devil is in the why?</title>
-      <link>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</link>
-      <pubDate>Sat, 14 Feb 2009 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</guid>
-      <description>&lt;p&gt;Recently I got asked, what the best way to do a join between two large lists,  into another list was? I always tend to answer that question with: it depends.&lt;/p&gt;
+    
+      
+        <item>
+          <title>The devil is in the why?</title>
+          <link>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</link>
+          <pubDate>Sat, 14 Feb 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2009/02/14/the-devil-is-in-the-why/</guid>
+          <description>&lt;p&gt;Recently I got asked, what the best way to do a join between two large lists,  into another list was? I always tend to answer that question with: it depends.&lt;/p&gt;
 
 &lt;p&gt;Just like any other algorithm, there is no silver bullet. It is a trade off  between CPU and memory utilisation. Sometimes, we do have to think about these  things (this is code in c++ on a device with scarce resources, to say the  least).&lt;/p&gt;
 
@@ -337,7 +349,9 @@ Conventional wisdom says, that version 2 is much better than version 1. Right? W
 
 &lt;p&gt;Happy coding!&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

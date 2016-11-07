@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Screencast on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/screencast/</link>
-    <description>Recent content in Screencast on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 02 Oct 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/screencast/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-10-02 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Issue with Twitbin, Jing the next-gen screen capture</title>
-      <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
-      <pubDate>Tue, 02 Oct 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
+        <item>
+          <title>Issue with Twitbin, Jing the next-gen screen capture</title>
+          <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
+          <pubDate>Tue, 02 Oct 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -30,7 +30,9 @@
 
 &lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/Twitbin&#34;&gt;Twitbin&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/Jing&#34;&gt;Jing&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/screencast&#34;&gt;screencast&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter%20clients&#34;&gt;twitter clients&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Utilities on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/utilities/</link>
-    <description>Recent content in Utilities on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 23 Apr 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/utilities/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-04-23 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Blogsy - a ray of hope</title>
-      <link>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</link>
-      <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</guid>
-      <description>&lt;p&gt;This is a test post from &lt;a href=&#34;http://blogsyapp.com/&#34;&gt;blogsy&lt;/a&gt;, an iPad blogging tool.&lt;/p&gt;
+        <item>
+          <title>Blogsy - a ray of hope</title>
+          <link>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</link>
+          <pubDate>Sat, 23 Apr 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</guid>
+          <description>&lt;p&gt;This is a test post from &lt;a href=&#34;http://blogsyapp.com/&#34;&gt;blogsy&lt;/a&gt;, an iPad blogging tool.&lt;/p&gt;
 
 &lt;p&gt;The interface design looks thoughtful &amp;ndash; drag &amp;amp; drop of images from flickr and picasa, videos from YouTube, a built it google search and browser to get at other content. Although there is a bit of a learning curve, it makes the iPad a true content generation device.&lt;/p&gt;
 
@@ -24,7 +24,9 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/5603436835/&#34; title=&#34;Hey you by Shivanand Velmurugan, on Flickr&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/5603436835_900566038c.jpg&#34; alt=&#34;Hey you&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

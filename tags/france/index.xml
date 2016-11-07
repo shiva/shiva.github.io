@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>France on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/france/</link>
-    <description>Recent content in France on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 25 Jan 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/france/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2009-01-25 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>A Week in Strasbourg</title>
-      <link>http://blog.shiv.me/2009/01/25/a-week-in-strasbourg/</link>
-      <pubDate>Sun, 25 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2009/01/25/a-week-in-strasbourg/</guid>
-      <description>&lt;p&gt;After several no-vacation years, I ended 2008 with a (short) trip to Strasbourg, France. For much of the last year, I have started  doing things that I have abandoned in the last 8 years. The year has been quite eventful, much of it not evident from the lack of posts (which I hope to correct this year).&lt;/p&gt;
+        <item>
+          <title>A Week in Strasbourg</title>
+          <link>http://blog.shiv.me/2009/01/25/a-week-in-strasbourg/</link>
+          <pubDate>Sun, 25 Jan 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2009/01/25/a-week-in-strasbourg/</guid>
+          <description>&lt;p&gt;After several no-vacation years, I ended 2008 with a (short) trip to Strasbourg, France. For much of the last year, I have started  doing things that I have abandoned in the last 8 years. The year has been quite eventful, much of it not evident from the lack of posts (which I hope to correct this year).&lt;/p&gt;
 
 &lt;p&gt;After a frantic last-minute scramble for the visa, I managed to get to Strasbourg. I managed to escape the &lt;a href=&#34;http://mybootsnme.blogspot.com/2009/01/snowfall-record-for-vancouver-british.html&#34;&gt;record-breaking snowfall&lt;/a&gt; in Vancouver. Strasbourg was cold, really cold, but is quite beautiful during the Christmas week.&lt;/p&gt;
 
@@ -34,7 +34,9 @@
 
 &lt;p&gt;It was an interesting experience, to see the places through eyes that are a few years older (and possibly a little wiser). The only thing I regretted was not spending more than one week there. Something that I found interesting is that as I grow older, things excite me lesser (quite obvious, I know), but somehow, I think allows me to enjoy the present more, and truly live the experience. I guess life is akin to listening to good music. The highs are not as enjoyable, when there are no lows.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

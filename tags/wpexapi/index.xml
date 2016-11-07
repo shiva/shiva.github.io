@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wpexapi on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/wpexapi/</link>
-    <description>Recent content in Wpexapi on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 07 Mar 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/wpexapi/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-03-07 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Website clean up</title>
-      <link>http://blog.shiv.me/2007/03/07/website-clean-up/</link>
-      <pubDate>Wed, 07 Mar 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/03/07/website-clean-up/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
+        <item>
+          <title>Website clean up</title>
+          <link>http://blog.shiv.me/2007/03/07/website-clean-up/</link>
+          <pubDate>Wed, 07 Mar 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2007/03/07/website-clean-up/</guid>
+          <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.&lt;/p&gt;
 
@@ -49,7 +49,9 @@
 
 &lt;p&gt;Ok. No more talk. Pressing Publish!!&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/code/</link>
-    <description>Recent content in Code on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-11-08 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Badly punctuated parameter list in #define</title>
-      <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
-      <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
-      <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
+        <item>
+          <title>Badly punctuated parameter list in #define</title>
+          <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
+          <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
+          <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
 
@@ -49,15 +49,17 @@ $
 
 &lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Power of 2</title>
-      <link>http://blog.shiv.me/2010/11/03/power-of-2/</link>
-      <pubDate>Wed, 03 Nov 2010 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2010/11/03/power-of-2/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
+    
+      
+        <item>
+          <title>Power of 2</title>
+          <link>http://blog.shiv.me/2010/11/03/power-of-2/</link>
+          <pubDate>Wed, 03 Nov 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2010/11/03/power-of-2/</guid>
+          <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
 
 &lt;p&gt;As he writes, there is the simpleton O(n) solution (&lt;a href=&#34;http://veechand.wordpress.com/2009/12/19/is-a-number-power-of-two/&#34;&gt;you will have to click-through for that&lt;/a&gt;), and the most elegant (yet) bitwise solution:&lt;/p&gt;
 
@@ -98,15 +100,17 @@ is_power_of_2_pure_math_baby(int n) {
 
 &lt;p&gt;Of course, t&lt;a href=&#34;http://www.artima.com/wbc/interprogP.html&#34;&gt;he point Josh Bloch was making &lt;/a&gt;in interviewing engineers, was that he is interested in knowing the &lt;strong&gt;WHY&lt;/strong&gt; of a solution. It does not matter if the algorithm is marginally less optimal or different. If you are an interviewer in your organisation, and you catch yourself asking a question like this, remember that if an engineer can reduce O(n) to O(1), stop with similar micro-skills test. Find out why she coded it the way she did. It will tell you a lot more about her skills than some algorithms/tricks that can be picked up in a&lt;a href=&#34;http://www.amazon.com/gp/product/047012167X?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=047012167X&#34;&gt;couple a days&lt;/a&gt;, if not &lt;a href=&#34;http://wiki.allegro.cc/index.php?title=Bitwise_operator#Power_of_two_check&#34;&gt;overnight&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>cvs - Getting list of files changed in the current tree</title>
-      <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
-      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
+        </item>
       
-      <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
-      <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
+    
+      
+        <item>
+          <title>cvs - Getting list of files changed in the current tree</title>
+          <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+          <pubDate>Mon, 23 Jun 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
+          <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
 
@@ -116,7 +120,9 @@ is_power_of_2_pure_math_baby(int n) {
 
 &lt;p&gt;Thanks &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;Jonnay&lt;/a&gt; for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

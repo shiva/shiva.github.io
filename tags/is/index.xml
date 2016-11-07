@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Is on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/is/</link>
-    <description>Recent content in Is on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 29 Mar 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/is/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-03-29 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>News?! Why buy</title>
-      <link>http://blog.shiv.me/2007/03/29/news-why-buy/</link>
-      <pubDate>Thu, 29 Mar 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/03/29/news-why-buy/</guid>
-      <description>&lt;p&gt;I ought to resist the temptation of writing posts full of only links to other blogs .. but this one is good&lt;/p&gt;
+        <item>
+          <title>News?! Why buy</title>
+          <link>http://blog.shiv.me/2007/03/29/news-why-buy/</link>
+          <pubDate>Thu, 29 Mar 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2007/03/29/news-why-buy/</guid>
+          <description>&lt;p&gt;I ought to resist the temptation of writing posts full of only links to other blogs .. but this one is good&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.douglaskarr.com/2007/03/25/selling-news-is-dead/&#34; title=&#34;http://www.douglaskarr.com/2007/03/25/selling-news-is-dead/&#34;&gt;http://www.douglaskarr.com/2007/03/25/selling-news-is-dead/&lt;/a&gt;&lt;/p&gt;
 
@@ -24,7 +24,9 @@
 
 &lt;p&gt;I can hardly remember the time, I needed to pick a newspaper, let alone buy one. Well, I do read a couple of articles once a week, on the papers that lie around in my office reception.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

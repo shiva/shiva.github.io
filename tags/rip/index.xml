@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rip on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/rip/</link>
-    <description>Recent content in Rip on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 05 Oct 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/rip/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-10-05 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>RIP Steve Jobs</title>
-      <link>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</link>
-      <pubDate>Wed, 05 Oct 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://plus.google.com/117377434815709898403/posts&#34;&gt;DeWitt Clinton&lt;/a&gt; once &lt;a href=&#34;http://blog.unto.net/on_great_engineers_part_2/&#34;&gt;wrote&lt;/a&gt;&lt;/p&gt;
+        <item>
+          <title>RIP Steve Jobs</title>
+          <link>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</link>
+          <pubDate>Wed, 05 Oct 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;https://plus.google.com/117377434815709898403/posts&#34;&gt;DeWitt Clinton&lt;/a&gt; once &lt;a href=&#34;http://blog.unto.net/on_great_engineers_part_2/&#34;&gt;wrote&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;What are the hallmarks of a great engineer? A great engineer is characterized by their intelligence, versatility, creativity, loyalty, passion, experience, vision, dedication, composure, humility, and ability.&lt;/p&gt;
@@ -32,7 +32,9 @@
 
 &lt;p&gt;Me == sad today :(&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unisigned Int on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/unisigned-int/</link>
-    <description>Recent content in Unisigned Int on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 13 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/unisigned-int/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2010-07-13 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Why does Java not support unsigned int? - Part 1</title>
-      <link>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
-      <pubDate>Tue, 13 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
-      <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
+        <item>
+          <title>Why does Java not support unsigned int? - Part 1</title>
+          <link>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</link>
+          <pubDate>Tue, 13 Jul 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2010/07/13/why-does-java-not-support-unsigned-int---part-1/</guid>
+          <description>&lt;p&gt;An interesting thing for me, is that if I am active on twitter during daytime in India (now that I&amp;rsquo;m here on vacation), I get to have some interesting conversations about design and development. Today, I chanced to talk about the lack of unsigned values support in Java.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;ol&gt;
@@ -86,7 +86,9 @@
 &lt;p&gt;Peace.&lt;br /&gt;
 -Shiva&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

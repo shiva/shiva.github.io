@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Digital Slr on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/digital-slr/</link>
-    <description>Recent content in Digital Slr on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 18 Dec 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/digital-slr/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2007-12-18 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Review: Canon 40D</title>
-      <link>http://blog.shiv.me/2007/12/18/review-canon-40d/</link>
-      <pubDate>Tue, 18 Dec 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/12/18/review-canon-40d/</guid>
-      <description>&lt;p&gt;The best thing since .. well a Canon 20D.&lt;/p&gt;
+        <item>
+          <title>Review: Canon 40D</title>
+          <link>http://blog.shiv.me/2007/12/18/review-canon-40d/</link>
+          <pubDate>Tue, 18 Dec 2007 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2007/12/18/review-canon-40d/</guid>
+          <description>&lt;p&gt;The best thing since .. well a Canon 20D.&lt;/p&gt;
 
 &lt;p&gt;If this video convinced you to buy a &lt;a href=&#34;http://www.amazon.com/gp/product/B000V5P90K?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000V5P90K&#34;&gt;Canon 40D&lt;/a&gt;, or &lt;a href=&#34;http://www.amazon.com/gp/product/B000GFT7H6?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B000GFT7H6&#34;&gt;Canon 30D&lt;/a&gt; or &lt;a href=&#34;http://www.amazon.com/gp/product/B0002XQJFA?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=B0002XQJFA&#34;&gt;Canon20D&lt;/a&gt;, use the affiliate links  as provided.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

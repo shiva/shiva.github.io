@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>List Contents Of Rpm on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/list-contents-of-rpm/</link>
-    <description>Recent content in List Contents Of Rpm on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 17 Feb 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/list-contents-of-rpm/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2013-02-17 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Working with rpms (extract, list contents)</title>
-      <link>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</link>
-      <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</guid>
-      <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
+        <item>
+          <title>Working with rpms (extract, list contents)</title>
+          <link>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</link>
+          <pubDate>Sun, 17 Feb 2013 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</guid>
+          <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
 
 &lt;p&gt;Extract an rpm without installing in to the current directory (really, the rpm command should support this):&lt;/p&gt;
 
@@ -39,7 +39,9 @@ $ rpm -qlp myrpmfile.rpm
 
 &lt;p&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

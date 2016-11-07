@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yuvi on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/yuvi/</link>
-    <description>Recent content in Yuvi on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 02 Apr 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/yuvi/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-04-02 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Welcome new friends from twitter</title>
-      <link>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</link>
-      <pubDate>Wed, 02 Apr 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</guid>
-      <description>&lt;p&gt;I have the very distinct feeling that a bunch of people from India, are going to visit my site today. Maybe, it is too late, but nonetheless, I was compelled to post before I left for work, after staying up the whole night (watching movies). No really - &lt;a href=&#34;http://www.imdb.com/title/tt0338526/&#34;&gt;Van Helsing&lt;/a&gt; followed by &lt;a href=&#34;http://www.imdb.com/title/tt0765429/&#34;&gt;American Gangster&lt;/a&gt; - two very find movies, I might add, but I digress.&lt;/p&gt;
+        <item>
+          <title>Welcome new friends from twitter</title>
+          <link>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</link>
+          <pubDate>Wed, 02 Apr 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/04/02/welcome-new-friends-from-twitter/</guid>
+          <description>&lt;p&gt;I have the very distinct feeling that a bunch of people from India, are going to visit my site today. Maybe, it is too late, but nonetheless, I was compelled to post before I left for work, after staying up the whole night (watching movies). No really - &lt;a href=&#34;http://www.imdb.com/title/tt0338526/&#34;&gt;Van Helsing&lt;/a&gt; followed by &lt;a href=&#34;http://www.imdb.com/title/tt0765429/&#34;&gt;American Gangster&lt;/a&gt; - two very find movies, I might add, but I digress.&lt;/p&gt;
 
 &lt;p&gt;I got the honour, of being one of the few listed on a fellow &lt;a href=&#34;http://blog.yuvisense.net/&#34;&gt;tech-enthusiast&lt;/a&gt;&amp;rsquo;s list of &lt;a href=&#34;http://blog.yuvisense.net/indians-on-twitter/&#34;&gt;&amp;ldquo;twittering&amp;rdquo; Indians.&lt;/a&gt; It&amp;rsquo;s not everyday that I make someone&amp;rsquo;s list, and hence the compulsion to blog about it. So, thank you Yuvi. Since he described me as a programmer, on his list, it&amp;rsquo;s only fair &amp;ndash;&lt;/p&gt;
 
@@ -32,7 +32,9 @@ send him a tweet, saying hi;
 }  
 &lt;/code&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

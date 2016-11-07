@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Features on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/features/</link>
-    <description>Recent content in Features on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 10 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/features/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2010-02-10 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Google likes RSS .. a lot</title>
-      <link>http://blog.shiv.me/2010/02/10/google-likes-rss-..-a-lot/</link>
-      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2010/02/10/google-likes-rss-..-a-lot/</guid>
-      <description>&lt;p&gt;Did anyone else notice that buzz has an RSS feed for everything!!&lt;/p&gt;
+        <item>
+          <title>Google likes RSS .. a lot</title>
+          <link>http://blog.shiv.me/2010/02/10/google-likes-rss-..-a-lot/</link>
+          <pubDate>Wed, 10 Feb 2010 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2010/02/10/google-likes-rss-..-a-lot/</guid>
+          <description>&lt;p&gt;Did anyone else notice that buzz has an RSS feed for everything!!&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s a &lt;a href=&#34;http://www.google.com/buzz/thomashawk22/Swv6u36BGC2/Buzz-should-let-you-post-inline-images-like-you&#34;&gt;conversation&lt;/a&gt; that @&lt;a href=&#34;http://www.google.com/profiles/thomashawk22#buzz&#34;&gt;Thomashawk&lt;/a&gt; started&lt;/p&gt;
 
@@ -32,7 +32,9 @@
 
 &lt;p&gt;The power is endless, so be cautious when exercising it&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

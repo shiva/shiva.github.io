@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>India on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/india/</link>
-    <description>Recent content in India on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Fri, 06 Nov 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/india/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2009-11-06 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Kindle for the rest of us .. well, almost</title>
-      <link>http://blog.shiv.me/2009/11/06/kindle-for-the-rest-of-us-..-well-almost/</link>
-      <pubDate>Fri, 06 Nov 2009 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2009/11/06/kindle-for-the-rest-of-us-..-well-almost/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve lived in India for 27 of the 29 years of my life (moved to Canada in 2007) For almost every year for the last 15 years (that&amp;rsquo;s how long I&amp;rsquo;ve been a gadget/tech fanatic), I have lamented the availability or lack thereof of any newly released shiny thingies. Amazon has finally figured out that people outside the US, read books too. Imagine my delight when I heard that there a new version of the&lt;a href=&#34;http://www.amazon.com/gp/product/B0015T963C?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B0015T963C&#34;&gt;Kindle (The global wireless edition - no less)&lt;/a&gt; (Disclosure: affiliate link).&lt;/p&gt;
+        <item>
+          <title>Kindle for the rest of us .. well, almost</title>
+          <link>http://blog.shiv.me/2009/11/06/kindle-for-the-rest-of-us-..-well-almost/</link>
+          <pubDate>Fri, 06 Nov 2009 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2009/11/06/kindle-for-the-rest-of-us-..-well-almost/</guid>
+          <description>&lt;p&gt;I&amp;rsquo;ve lived in India for 27 of the 29 years of my life (moved to Canada in 2007) For almost every year for the last 15 years (that&amp;rsquo;s how long I&amp;rsquo;ve been a gadget/tech fanatic), I have lamented the availability or lack thereof of any newly released shiny thingies. Amazon has finally figured out that people outside the US, read books too. Imagine my delight when I heard that there a new version of the&lt;a href=&#34;http://www.amazon.com/gp/product/B0015T963C?ie=UTF8&amp;amp;tag=shvelmurcom-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B0015T963C&#34;&gt;Kindle (The global wireless edition - no less)&lt;/a&gt; (Disclosure: affiliate link).&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s what I get when I checked to see if it available in India&lt;/p&gt;
 
@@ -32,7 +32,9 @@
 
 &lt;p&gt;If you are in the UK or India, you can still buy the Kindle, using the link below.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

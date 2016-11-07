@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Install on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/install/</link>
-    <description>Recent content in Install on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 06 May 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-05-06 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Hey wordpress guys, have you heard of diff?!</title>
-      <link>http://blog.shiv.me/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</link>
-      <pubDate>Tue, 06 May 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</guid>
-      <description>
+        <item>
+          <title>Hey wordpress guys, have you heard of diff?!</title>
+          <link>http://blog.shiv.me/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</link>
+          <pubDate>Tue, 06 May 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/05/06/hey-wordpress-guys-have-you-heard-of-diff/</guid>
+          <description>
 
 &lt;p&gt;I hate having to upgrade software. I truly do. I release a version every 3 months, and it try to make the upgrade as painless as possible. For an application like wordpress, that has been around for such a long, I would expect that they would do something to make it a little easier to upgrade.&lt;/p&gt;
 
@@ -123,7 +123,9 @@ As you can see, the only change is in wp-login.php. Just copy the wp-login.php f
 
 &lt;p&gt;&lt;strong&gt;P.S:&lt;/strong&gt; If you are by any chance involved with wordpress, please get an auto-installer done and built into wordpress, atleast for just minor changes, which can be easily done using some script on the server.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

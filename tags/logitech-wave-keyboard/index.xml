@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Logitech Wave Keyboard on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/logitech-wave-keyboard/</link>
-    <description>Recent content in Logitech Wave Keyboard on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 01 May 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/logitech-wave-keyboard/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2011-05-01 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>iPad and friends</title>
-      <link>http://blog.shiv.me/2011/05/01/ipad-and-friends/</link>
-      <pubDate>Sun, 01 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/05/01/ipad-and-friends/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/05/20110501-112322.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/20110501-112322.jpg&#34; alt=&#34;20110501-112322.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <item>
+          <title>iPad and friends</title>
+          <link>http://blog.shiv.me/2011/05/01/ipad-and-friends/</link>
+          <pubDate>Sun, 01 May 2011 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2011/05/01/ipad-and-friends/</guid>
+          <description>&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/05/20110501-112322.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/20110501-112322.jpg&#34; alt=&#34;20110501-112322.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s been a year since I &lt;a href=&#34;http://blog.shiv.me/2010/05/29/icaved.html&#34;&gt;sold my kidneys for an iPad&lt;/a&gt;. It&amp;rsquo;s been fun. It has replaced every other device I own (ie, a couple of PCs and the nexus one). It&amp;rsquo;s an outright winner, when it comes to reading, especially long-form articles, and books alike. It has become my go-to machine for everyday news, twitter/facebook, and even for browsing my favorite photographers.&lt;/p&gt;
 
@@ -39,7 +39,9 @@
 
 &lt;p&gt;[][11]&lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;Photosmith&lt;/a&gt; looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

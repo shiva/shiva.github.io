@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>In A Day on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/in-a-day/</link>
-    <description>Recent content in In A Day on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 06 Nov 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/in-a-day/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-11-06 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Elixir - Basics</title>
-      <link>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</link>
-      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2016/11/06/elixir-types-and-operators/</guid>
-      <description>
+        <item>
+          <title>Elixir - A crash course</title>
+          <link>http://blog.shiv.me/2016/11/06/elixir-crash-course/</link>
+          <pubDate>Sun, 06 Nov 2016 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2016/11/06/elixir-crash-course/</guid>
+          <description>
 
-&lt;h1 id=&#34;types&#34;&gt;Types&lt;/h1&gt;
+&lt;h2 id=&#34;types&#34;&gt;Types&lt;/h2&gt;
 
-&lt;h2 id=&#34;atoms&#34;&gt;Atoms&lt;/h2&gt;
+&lt;h3 id=&#34;atoms&#34;&gt;Atoms&lt;/h3&gt;
 
 &lt;p&gt;Named contants with a value. &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;false&lt;/code&gt; are atoms.&lt;/p&gt;
 
-&lt;h2 id=&#34;strings&#34;&gt;Strings&lt;/h2&gt;
+&lt;h3 id=&#34;strings&#34;&gt;Strings&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Supports unicode string natively! It&amp;rsquo;s about time.&lt;/li&gt;
@@ -33,7 +33,7 @@
 &lt;li&gt;&lt;em&gt;CAUTION&lt;/em&gt;: (char list) &lt;code&gt;&#39;hello&#39; != &amp;quot;hello&amp;quot;&lt;/code&gt; (string)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;anonymous-functions&#34;&gt;Anonymous functions&lt;/h2&gt;
+&lt;h3 id=&#34;anonymous-functions&#34;&gt;Anonymous functions&lt;/h3&gt;
 
 &lt;p&gt;Native support for closures &amp;ndash; called anonymous functions. Also, functions are first-class aka can be passed as arguments into other functions. Special syntax is required to invoke ananymous functions.&lt;/p&gt;
 
@@ -48,19 +48,19 @@ iex(4)&amp;gt; mulby2.(4)
 iex(5)&amp;gt; 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
 
 &lt;p&gt;Native support for lists. hd(list) and tl(list). A list of printable characters will be output as a string. Slower linear access to data, but really fast to prepend elements to the list. eg. &lt;code&gt;[ 0 | list]&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;tuples&#34;&gt;Tuples&lt;/h2&gt;
+&lt;h3 id=&#34;tuples&#34;&gt;Tuples&lt;/h3&gt;
 
 &lt;p&gt;Native support for associative arrays. Any pair of values, stored contiguously. Indexes start from zero. mutable &lt;code&gt;put_elem(tuple, idx, &amp;quot;value&amp;quot;)&lt;/code&gt;. Fast access, but expensive to add or insert elements&lt;/p&gt;
 
-&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;h3 id=&#34;other-types&#34;&gt;Other types&lt;/h3&gt;
 
 &lt;p&gt;Port, Reference and PID&lt;/p&gt;
 
-&lt;h1 id=&#34;operations&#34;&gt;Operations&lt;/h1&gt;
+&lt;h2 id=&#34;operations&#34;&gt;Operations&lt;/h2&gt;
 
 &lt;p&gt;Note that ===, and !== use type when comparing (thankfully, the defaults are sensible)&lt;/p&gt;
 
@@ -71,8 +71,12 @@ iex(5)&amp;gt;
 &lt;li&gt;==, !=, === (more strict), !== (more strict), &amp;lt;=, &amp;gt;=, &amp;lt; and &amp;gt;&lt;/li&gt;
 &lt;li&gt;nil/false == false (everything else is true)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;## The match operator&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

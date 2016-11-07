@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mac Book on shiv.me</title>
+    <title>shiv.me </title>
     <link>http://blog.shiv.me/tags/mac-book/</link>
-    <description>Recent content in Mac Book on shiv.me</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 15 Mar 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/mac-book/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <author>Shiva Velmurugan</author>
+    <rights>(C) 2016</rights>
+    <updated>2008-03-15 00:00:00 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Biting the &#34;Mac&#34; Bullet</title>
-      <link>http://blog.shiv.me/2008/03/15/biting-the-mac-bullet/</link>
-      <pubDate>Sat, 15 Mar 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/03/15/biting-the-mac-bullet/</guid>
-      <description>&lt;p&gt;I did it! I finally went out and bought myself a mac. I didn&amp;rsquo;t waver. No! Not this time.Â I knew exactly what I wanted, and I was going to get it, come what may!&lt;/p&gt;
+        <item>
+          <title>Biting the &#34;Mac&#34; Bullet</title>
+          <link>http://blog.shiv.me/2008/03/15/biting-the-mac-bullet/</link>
+          <pubDate>Sat, 15 Mar 2008 00:00:00 UTC</pubDate>
+          <author>Shiva Velmurugan</author>
+          <guid>http://blog.shiv.me/2008/03/15/biting-the-mac-bullet/</guid>
+          <description>&lt;p&gt;I did it! I finally went out and bought myself a mac. I didn&amp;rsquo;t waver. No! Not this time.Â I knew exactly what I wanted, and I was going to get it, come what may!&lt;/p&gt;
 
 &lt;p&gt;I have to confess that I have been pretty &lt;a href=&#34;http://shvelmur.com/2008/01/29/that-queasy-feeling/&#34;&gt;critical of Apple&lt;/a&gt; and&lt;a href=&#34;http://shvelmur.com/2008/01/18/bye-bye-ipod/&#34;&gt;its policies&lt;/a&gt;. I still am. Nothing has changed my opinion of Apple as a company, in particular, it&amp;rsquo;s marketing team. The ipod touch price changes lead me to those conclusions.I liked the ipod touch&amp;rsquo;s interface and engineering, but when I first booted up my MacBook (Penryn-based) I was completely taken aback. The first time I booted my laptop, it was completely usable. Within a few hours, I had a few applications installed (open source ones), tweeted, seesmiced my first video, and was having fun, in general. The Mac experience was very very close to the ideal computing experience ever. (Yeah, it is that big a deal).&lt;/p&gt;
 
@@ -36,7 +36,9 @@
 
 &lt;p&gt;I know I will get used to the quirks, but they still are exactly that - quirks that are forced on the user (like any other OS out there - to be fair).&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>
