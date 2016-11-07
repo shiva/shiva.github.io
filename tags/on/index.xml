@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>On on shiv.me</title>
     <link>http://blog.shiv.me/tags/on/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2007-02-01 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in On on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Thu, 01 Feb 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/on/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Crap on TV - Is that even news?!</title>
+      <link>http://blog.shiv.me/2007/02/01/crap-on-tv---is-that-even-news/</link>
+      <pubDate>Thu, 01 Feb 2007 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Crap on TV - Is that even news?!</title>
-          <link>http://blog.shiv.me/2007/02/01/crap-on-tv---is-that-even-news/</link>
-          <pubDate>Thu, 01 Feb 2007 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2007/02/01/crap-on-tv---is-that-even-news/</guid>
-          <description>&lt;p&gt;Yesterday, I was watching an interview with &lt;a href=&#34;http://www.hackingmobilephones.com/&#34;&gt;Mr Ankit Wadia&lt;/a&gt; (His website describes him as &amp;ldquo;The Computer Security guru. The Ethical Hacker. The Author. The Intelligence Consultant. The Entrepreneur.&amp;rdquo;)&lt;/p&gt;
+      <guid>http://blog.shiv.me/2007/02/01/crap-on-tv---is-that-even-news/</guid>
+      <description>&lt;p&gt;Yesterday, I was watching an interview with &lt;a href=&#34;http://www.hackingmobilephones.com/&#34;&gt;Mr Ankit Wadia&lt;/a&gt; (His website describes him as &amp;ldquo;The Computer Security guru. The Ethical Hacker. The Author. The Intelligence Consultant. The Entrepreneur.&amp;rdquo;)&lt;/p&gt;
 
 &lt;p&gt;He was talking about how the web is unsecure today and how easy it is to crack passwords. Whilst, I was eagerly awaiting in anticipation to see how he hack into a yahoo password, he pulled a bluff on me, when he asked the presenter to enter his password and then he went about using Revelation to read the password from it!&lt;/p&gt;
 
@@ -35,9 +35,7 @@
 
 &lt;p&gt;I wish that apart from getting on air to promote stuff that you do, you can also give some real examples of lack of common security practices, so that people really do benefit (so that they feel a little bit more justified in acknowleding you as India&amp;rsquo;s only security guru - a wee bit self-proclaiming, wouldn&amp;rsquo;t you say so?!)&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

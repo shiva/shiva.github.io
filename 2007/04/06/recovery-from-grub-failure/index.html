@@ -1,726 +1,69 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<html lang="en-US">
   <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.16" />
+
+
+<title>Recovery from GRUB Failure - shiv.me</title>
+<meta property="og:title" content="Recovery from GRUB Failure - shiv.me">
+
+
 
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
-    
-      Recovery from GRUB Failure &middot; 
-    
-  </title>
-
+  <meta property="description" content="Recovery from GRUB Failure">
   
-  <link rel="stylesheet" href="http://blog.shiv.me/css/poole.css">
-  <link rel="stylesheet" href="http://blog.shiv.me/css/syntax.css">
-  <link rel="stylesheet" href="http://blog.shiv.me/css/lanyon.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
-
-  
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.shiv.me/assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="http://blog.shiv.me/assets/favicon.ico">
-
-  
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.shiv.me/atom.xml">
-</head>
 
 
+
+
+
+
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
   <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="http://blog.shiv.me/" class="nav-logo">
+    <img src="http://blog.shiv.me/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="shiv.me">
+  </a>
 
+  <ul class="nav-links">
     
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    <li><a href="http://shiv.me/#about">About</a></li>
+    
+    <li><a href="http://github.com/shiva">GitHub</a></li>
+    
+    <li><a href="http://twitter.com/shiva">Twitter</a></li>
+    
+  </ul>
+</nav>
 
-
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-      
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="http://blog.shiv.me/">Home</a>
-    <a class="sidebar-nav-item " href="http://blog.shiv.me/post">Archives</a>
-
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-
-  </nav>
-
-  <div class="sidebar-item">
-      <p>&copy; Shiva. 2016. All rights reserved.</p>
-  </div>
-</div>
+      </header>
 
 
+<main class="content" role="main">
+
+  <article class="article">
     
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="http://blog.shiv.me/" title="Home">shiv.me</a>
-            <small></small>
-          </h3>
-        </div>
-      </div>
+    <span class="article-duration">1 min read</span>
+    
 
-      <div class="container content">
+    <h1 class="article-title">Recovery from GRUB Failure</h1>
 
+    
+    <span class="article-date">April 6, 2007</span>
+    
 
-<div class="post">
-  <h1 class="post-title">Recovery from GRUB Failure</h1>
-  <span class="post-date">Fri, Apr 6, 2007</span>
-  <p>I have a dual-boot PC at home, which boots to OpenSUSE and Windows. After a very tiring 7 hour journey, I came home to a GRUB failure. After searching for help all over the web, I found some help <a href="http://orgs.man.ac.uk/documentation/grub/grub_3.html">here</a>, <a href="http://orgs.man.ac.uk/documentation/grub/grub_12.html#SEC38">here</a>, <a href="http://orgs.man.ac.uk/documentation/grub/grub_4.html#SEC12">here</a>, <a href="http://orgs.man.ac.uk/documentation/grub/grub_13.html#SEC78">here</a>, <a href="http://www.troubleshooters.com/linux/grub/grub.htm">here</a> and <a href="http://www.geocities.com/epark/linux/grub-w2k-HOWTO.html">here</a>. :)</p>
+    <div class="article-content">
+      <p>I have a dual-boot PC at home, which boots to OpenSUSE and Windows. After a very tiring 7 hour journey, I came home to a GRUB failure. After searching for help all over the web, I found some help <a href="http://orgs.man.ac.uk/documentation/grub/grub_3.html">here</a>, <a href="http://orgs.man.ac.uk/documentation/grub/grub_12.html#SEC38">here</a>, <a href="http://orgs.man.ac.uk/documentation/grub/grub_4.html#SEC12">here</a>, <a href="http://orgs.man.ac.uk/documentation/grub/grub_13.html#SEC78">here</a>, <a href="http://www.troubleshooters.com/linux/grub/grub.htm">here</a> and <a href="http://www.geocities.com/epark/linux/grub-w2k-HOWTO.html">here</a>. :)</p>
 
 <p>It turns out, that GRUB stage 2 was not being loaded. So here&rsquo;s what I did.</p>
 
@@ -743,13 +86,27 @@ grub&gt;chainloader +1</code></p>
 
 <p>[tags]boot problem, GRUB failure, GRUB, GRUB corrupted[/tags]</p>
 
-</div>
+    </div>
+  </article>
 
-      </div>
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
+    
   </body>
 </html>
 

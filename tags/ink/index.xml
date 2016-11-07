@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Ink on shiv.me</title>
     <link>http://blog.shiv.me/tags/ink/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2013-05-13 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Ink on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Mon, 13 May 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/ink/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Inky obsessions</title>
+      <link>http://blog.shiv.me/2013/05/13/inky-obsessions/</link>
+      <pubDate>Mon, 13 May 2013 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Inky obsessions</title>
-          <link>http://blog.shiv.me/2013/05/13/inky-obsessions/</link>
-          <pubDate>Mon, 13 May 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/05/13/inky-obsessions/</guid>
-          <description>&lt;p&gt;Have I mentioned the long-standing obsession with stationery, especially, fountain pens? Well, it is a bit of problem, really. In the last few months, I have started hoarding them. It started with one&amp;ndash; a Lamy. Once I discovered how one can procure junk on eBay for very little money, I quickly ended up with a selection. As these things go, I suddenly had the increased &amp;ldquo;need&amp;rdquo; for inks that are not blue, or black. Nay, simple colours won&amp;rsquo;t do for the truly obsessed.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2013/05/13/inky-obsessions/</guid>
+      <description>&lt;p&gt;Have I mentioned the long-standing obsession with stationery, especially, fountain pens? Well, it is a bit of problem, really. In the last few months, I have started hoarding them. It started with one&amp;ndash; a Lamy. Once I discovered how one can procure junk on eBay for very little money, I quickly ended up with a selection. As these things go, I suddenly had the increased &amp;ldquo;need&amp;rdquo; for inks that are not blue, or black. Nay, simple colours won&amp;rsquo;t do for the truly obsessed.&lt;/p&gt;
 
 &lt;p&gt;Here is the result of the latest rotation of inks and pens.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/Photo-2013-05-12-5-40-53-PM-e1368499228747-225x300.jpg&#34; alt=&#34;Ink Rotation - May 12th&#34; /&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

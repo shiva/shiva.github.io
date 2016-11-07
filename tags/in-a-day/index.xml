@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>In A Day on shiv.me</title>
     <link>http://blog.shiv.me/tags/in-a-day/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-11-06 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in In A Day on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sun, 06 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/in-a-day/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Elixir - A crash course</title>
+      <link>http://blog.shiv.me/2016/11/06/elixir-crash-course/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Elixir - A crash course</title>
-          <link>http://blog.shiv.me/2016/11/06/elixir-crash-course/</link>
-          <pubDate>Sun, 06 Nov 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/11/06/elixir-crash-course/</guid>
-          <description>
+      <guid>http://blog.shiv.me/2016/11/06/elixir-crash-course/</guid>
+      <description>
+
+&lt;p&gt;This post is a set of points I noted down, as I read through the Elixir documentation. This is by no means comprehensive. This is meant to be a crash course for someone coming from years of C.&lt;/p&gt;
+
+&lt;p&gt;All of the content here, is simply a parsed summary of what is available as part of the &lt;a href=&#34;http://elixir-lang.org/getting-started/&#34;&gt;official documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;types&#34;&gt;Types&lt;/h2&gt;
 
@@ -60,7 +64,7 @@ iex(5)&amp;gt;
 
 &lt;p&gt;Port, Reference and PID&lt;/p&gt;
 
-&lt;h2 id=&#34;operations&#34;&gt;Operations&lt;/h2&gt;
+&lt;h2 id=&#34;operators&#34;&gt;Operators&lt;/h2&gt;
 
 &lt;p&gt;Note that ===, and !== use type when comparing (thankfully, the defaults are sensible)&lt;/p&gt;
 
@@ -72,11 +76,50 @@ iex(5)&amp;gt;
 &lt;li&gt;nil/false == false (everything else is true)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;## The match operator&lt;/p&gt;
-</description>
-        </item>
-      
-    
+&lt;h3 id=&#34;the-match-operator&#34;&gt;The match operator (&lt;code&gt;=&lt;/code&gt;)&lt;/h3&gt;
 
+&lt;p&gt;Used to assign result of an operation to a variable. Can also be used to assign a tuple or list to a set of variables.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{a, b, c} = {:hello, &amp;quot;world&amp;quot;, 42}
+[a, b, c] = [1, 2, 3]
+[head | tail] = [1, 2, 3]   # head = [1], tail = [2, 3]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;the-pin-operator&#34;&gt;The pin operator (&lt;code&gt;^&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;p&gt;Useful when there is a need to check one of the values of list, but assign another.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; x = 1
+1
+iex&amp;gt; x = 2
+2
+iex&amp;gt; x = 1
+1
+iex&amp;gt; ^x = 2
+** (MatchError) no match of right hand side value: 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;the-operator&#34;&gt;The _ operator&lt;/h3&gt;
+
+&lt;p&gt;Ignore the rest, or assign the rest to _&lt;/p&gt;
+
+&lt;p&gt;iex&amp;gt; [h | _] = [1, 2, 3]
+[1, 2, 3]
+iex&amp;gt; h
+1&lt;/p&gt;
+
+&lt;h2 id=&#34;control-structures-conditionals-and-loops&#34;&gt;Control Structures (conditionals and loops)&lt;/h2&gt;
+
+&lt;p&gt;case - check for multiple matches
+cond - check for multiple conditions
+if - check for specific condition
+unless - check for a specific match&lt;/p&gt;
+
+&lt;p&gt;Note: if and unless are macros and not first class constructs that are part of the language&lt;/p&gt;
+
+&lt;p&gt;Elixir allows a lot of variations of guards that are used in conditional to express conditions. See &lt;a href=&#34;http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses&#34;&gt;here&lt;/a&gt; for more information.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

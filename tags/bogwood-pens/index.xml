@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Bogwood Pens on shiv.me</title>
     <link>http://blog.shiv.me/tags/bogwood-pens/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2014-04-23 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Bogwood Pens on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Wed, 23 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/bogwood-pens/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Ink rotation - April 2014</title>
+      <link>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</link>
+      <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Ink rotation - April 2014</title>
-          <link>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</link>
-          <pubDate>Wed, 23 Apr 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</guid>
-          <description>&lt;p&gt;I haven&amp;rsquo;t been very good with rotating the inks in the last year. Having accumulated more than my share of inks, it is time to have fewer pens inked and rotate colors.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t been very good with rotating the inks in the last year. Having accumulated more than my share of inks, it is time to have fewer pens inked and rotate colors.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/20140423-085227.jpg&#34; alt=&#34;20140423-085227.jpg&#34; /&gt;&lt;/p&gt;
 
@@ -24,9 +24,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/20140423-085350.jpg&#34; alt=&#34;20140423-085350.jpg&#34; /&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

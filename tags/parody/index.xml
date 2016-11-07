@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Parody on shiv.me</title>
     <link>http://blog.shiv.me/tags/parody/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2011-03-21 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Parody on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Mon, 21 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/parody/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Cthulhu is your god</title>
+      <link>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</link>
+      <pubDate>Mon, 21 Mar 2011 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Cthulhu is your god</title>
-          <link>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</link>
-          <pubDate>Mon, 21 Mar 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</guid>
-          <description>&lt;p&gt;&amp;lsquo;Nuf said!&lt;/p&gt;
+      <guid>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</guid>
+      <description>&lt;p&gt;&amp;lsquo;Nuf said!&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>No matter what we say</title>
+      <link>http://blog.shiv.me/2011/03/04/no-matter-what-we-say/</link>
+      <pubDate>Fri, 04 Mar 2011 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>No matter what we say</title>
-          <link>http://blog.shiv.me/2011/03/04/no-matter-what-we-say/</link>
-          <pubDate>Fri, 04 Mar 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/03/04/no-matter-what-we-say/</guid>
-          <description>&lt;p&gt;If you weren&amp;rsquo;t in a hole the past few days, you would have heard about the iPad 2 launch. Here&amp;rsquo;s Conan&amp;rsquo;s take on it.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2011/03/04/no-matter-what-we-say/</guid>
+      <description>&lt;p&gt;If you weren&amp;rsquo;t in a hole the past few days, you would have heard about the iPad 2 launch. Here&amp;rsquo;s Conan&amp;rsquo;s take on it.&lt;/p&gt;
 
 &lt;p&gt;I must say, the cover is a thing of engineering beauty. Kudos on that, Apple, and thanks for screwing over several thousands of your iPad 1 customers, who forked up 9.5 Billion in revenue in 9 months.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

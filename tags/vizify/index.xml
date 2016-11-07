@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Vizify on shiv.me</title>
     <link>http://blog.shiv.me/tags/vizify/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2014-01-02 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Vizify on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Thu, 02 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/vizify/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>2013 on twitter - a recap</title>
+      <link>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>2013 on twitter - a recap</title>
-          <link>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</link>
-          <pubDate>Thu, 02 Jan 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://vizify.com/&#34;&gt;Vizify&lt;/a&gt; makes a video out of the posts you have made on twitter in the last year. &lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://vizify.com/&#34;&gt;Vizify&lt;/a&gt; makes a video out of the posts you have made on twitter in the last year. &lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.vizify.com/shivanand/twitter-video&#34;&gt;2013 on twitter&lt;/a&gt;&lt;/p&gt;
 
@@ -28,9 +28,7 @@
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/covivant&#34;&gt;Dave Kell&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

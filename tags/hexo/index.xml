@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Hexo on shiv.me</title>
     <link>http://blog.shiv.me/tags/hexo/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-02-10 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Hexo on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Wed, 10 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Battle of the static site generators - part 1</title>
+      <link>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Battle of the static site generators - part 1</title>
-          <link>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</link>
-          <pubDate>Wed, 10 Feb 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</guid>
-          <description>
+      <guid>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</guid>
+      <description>
 
 &lt;p&gt;I set myself a goal to write more this year - in fact, I attempted to do so once every week. This required me to look at my blog, which led to the inevitable: small changes in what it looked like, led to general dis-satisfcation with the current solution I have to publish my blog, which quickly ballooned into a whole host of activities.&lt;/p&gt;
 
@@ -71,9 +71,7 @@
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

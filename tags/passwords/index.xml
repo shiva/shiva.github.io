@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Passwords on shiv.me</title>
     <link>http://blog.shiv.me/tags/passwords/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2014-07-14 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Passwords on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Mon, 14 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/passwords/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Getting rid of passwords</title>
+      <link>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</link>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Getting rid of passwords</title>
-          <link>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</link>
-          <pubDate>Mon, 14 Jul 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</guid>
-          <description>&lt;p&gt;I hate passwords. Seems like several smart people are on the case of getting rid of the &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</guid>
+      <description>&lt;p&gt;I hate passwords. Seems like several smart people are on the case of getting rid of the &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Lucas Gonze, argues the &lt;a href=&#34;https://medium.com/@lucas_gonze/authentication-cargo-cults-ae98d8e359&#34;&gt;loss of meaning&lt;/a&gt; around design of user authentication mechanisms.&lt;/li&gt;
@@ -27,9 +27,7 @@
 &lt;li&gt;Eran Hammer &amp;mdash; OAuth founder &amp;mdash; &lt;a href=&#34;http://hueniverse.com/2012/07/26/oauth-2-0-and-the-road-to-hell/&#34;&gt;gave up on OAuth 2.0&lt;/a&gt;. (An old link). Tim Bray &lt;a href=&#34;http://www.tbray.org/ongoing/When/201x/2012/07/28/Oauth2-dead&#34;&gt;didn&amp;rsquo;t take kindly&lt;/a&gt; to that post. Ahh IETF! You can grind the smartest minds to pulp. :)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

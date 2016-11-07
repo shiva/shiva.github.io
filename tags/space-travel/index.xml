@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Space Travel on shiv.me</title>
     <link>http://blog.shiv.me/tags/space-travel/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2009-08-04 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Space Travel on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Tue, 04 Aug 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/space-travel/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>We Choose the Moon: Launch</title>
+      <link>http://blog.shiv.me/2009/08/04/we-choose-the-moon-launch/</link>
+      <pubDate>Tue, 04 Aug 2009 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>We Choose the Moon: Launch</title>
-          <link>http://blog.shiv.me/2009/08/04/we-choose-the-moon-launch/</link>
-          <pubDate>Tue, 04 Aug 2009 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2009/08/04/we-choose-the-moon-launch/</guid>
-          <description>&lt;p&gt;via &lt;a href=&#34;http://www.wechoosethemoon.org/&#34;&gt;wechoosethemoon.org&lt;/a&gt;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2009/08/04/we-choose-the-moon-launch/</guid>
+      <description>&lt;p&gt;via &lt;a href=&#34;http://www.wechoosethemoon.org/&#34;&gt;wechoosethemoon.org&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This is awesome. I was born a few years after the race to the moon. What a great time it would have been for all those that got to see/hear this live! In the four decades, life on earth has changed so much &amp;ndash; we&amp;rsquo;ve been de-sensitized to the miracle of flight and technology , and yet the spectacle of space travel is exhilarating as ever.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://posterous.com&#34;&gt;Posted via web&lt;/a&gt; from &lt;a href=&#34;http://shiva.posterous.com/we-choose-the-moon-launch&#34;&gt;shiva&amp;rsquo;s posterous&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

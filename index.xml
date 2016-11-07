@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>shiv.me</title>
     <link>http://blog.shiv.me/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-11-06 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sun, 06 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Elixir - A crash course</title>
+      <link>http://blog.shiv.me/2016/11/06/elixir-crash-course/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Elixir - A crash course</title>
-          <link>http://blog.shiv.me/2016/11/06/elixir-crash-course/</link>
-          <pubDate>Sun, 06 Nov 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/11/06/elixir-crash-course/</guid>
-          <description>
+      <guid>http://blog.shiv.me/2016/11/06/elixir-crash-course/</guid>
+      <description>
+
+&lt;p&gt;This post is a set of points I noted down, as I read through the Elixir documentation. This is by no means comprehensive. This is meant to be a crash course for someone coming from years of C.&lt;/p&gt;
+
+&lt;p&gt;All of the content here, is simply a parsed summary of what is available as part of the &lt;a href=&#34;http://elixir-lang.org/getting-started/&#34;&gt;official documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;types&#34;&gt;Types&lt;/h2&gt;
 
@@ -60,7 +64,7 @@ iex(5)&amp;gt;
 
 &lt;p&gt;Port, Reference and PID&lt;/p&gt;
 
-&lt;h2 id=&#34;operations&#34;&gt;Operations&lt;/h2&gt;
+&lt;h2 id=&#34;operators&#34;&gt;Operators&lt;/h2&gt;
 
 &lt;p&gt;Note that ===, and !== use type when comparing (thankfully, the defaults are sensible)&lt;/p&gt;
 
@@ -72,36 +76,73 @@ iex(5)&amp;gt;
 &lt;li&gt;nil/false == false (everything else is true)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;## The match operator&lt;/p&gt;
+&lt;h3 id=&#34;the-match-operator&#34;&gt;The match operator (&lt;code&gt;=&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;p&gt;Used to assign result of an operation to a variable. Can also be used to assign a tuple or list to a set of variables.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{a, b, c} = {:hello, &amp;quot;world&amp;quot;, 42}
+[a, b, c] = [1, 2, 3]
+[head | tail] = [1, 2, 3]   # head = [1], tail = [2, 3]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;the-pin-operator&#34;&gt;The pin operator (&lt;code&gt;^&lt;/code&gt;)&lt;/h3&gt;
+
+&lt;p&gt;Useful when there is a need to check one of the values of list, but assign another.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; x = 1
+1
+iex&amp;gt; x = 2
+2
+iex&amp;gt; x = 1
+1
+iex&amp;gt; ^x = 2
+** (MatchError) no match of right hand side value: 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;the-operator&#34;&gt;The _ operator&lt;/h3&gt;
+
+&lt;p&gt;Ignore the rest, or assign the rest to _&lt;/p&gt;
+
+&lt;p&gt;iex&amp;gt; [h | _] = [1, 2, 3]
+[1, 2, 3]
+iex&amp;gt; h
+1&lt;/p&gt;
+
+&lt;h2 id=&#34;control-structures-conditionals-and-loops&#34;&gt;Control Structures (conditionals and loops)&lt;/h2&gt;
+
+&lt;p&gt;case - check for multiple matches
+cond - check for multiple conditions
+if - check for specific condition
+unless - check for a specific match&lt;/p&gt;
+
+&lt;p&gt;Note: if and unless are macros and not first class constructs that are part of the language&lt;/p&gt;
+
+&lt;p&gt;Elixir allows a lot of variations of guards that are used in conditional to express conditions. See &lt;a href=&#34;http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses&#34;&gt;here&lt;/a&gt; for more information.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Use Linux, learn new things</title>
+      <link>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Use Linux, learn new things</title>
-          <link>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</link>
-          <pubDate>Sun, 10 Jul 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</guid>
-          <description>&lt;p&gt;After 12+ years, I built a &lt;a href=&#34;https://ca.pcpartpicker.com/b/j6Cypg&#34;&gt;workstation from scratch&lt;/a&gt;. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked &lt;a href=&#34;https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions&#34;&gt;Arch Linux&lt;/a&gt;, on the recommendation of several colleagues. It&amp;rsquo;s been fun. &lt;a href=&#34;https://wiki.archlinux.org/index.php/pacman&#34;&gt;Pacman&lt;/a&gt; and &lt;a href=&#34;https://archlinux.fr/yaourt-en&#34;&gt;Yaourt&lt;/a&gt; are great package managers, and the &lt;a href=&#34;https://en.wikipedia.org/wiki/Rolling_release&#34;&gt;rolling release&lt;/a&gt; model ensures access to the bleeding edge all the time.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</guid>
+      <description>&lt;p&gt;After 12+ years, I built a &lt;a href=&#34;https://ca.pcpartpicker.com/b/j6Cypg&#34;&gt;workstation from scratch&lt;/a&gt;. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked &lt;a href=&#34;https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions&#34;&gt;Arch Linux&lt;/a&gt;, on the recommendation of several colleagues. It&amp;rsquo;s been fun. &lt;a href=&#34;https://wiki.archlinux.org/index.php/pacman&#34;&gt;Pacman&lt;/a&gt; and &lt;a href=&#34;https://archlinux.fr/yaourt-en&#34;&gt;Yaourt&lt;/a&gt; are great package managers, and the &lt;a href=&#34;https://en.wikipedia.org/wiki/Rolling_release&#34;&gt;rolling release&lt;/a&gt; model ensures access to the bleeding edge all the time.&lt;/p&gt;
 
 &lt;p&gt;Working in linux always makes you learn something new. Today, I found out a simple way to shutdown KDE gracefully.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# qdbus org.kde.ksmserver /KSMServer logout 0 0 0
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Battle of the static site generators - part 1</title>
+      <link>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Battle of the static site generators - part 1</title>
-          <link>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</link>
-          <pubDate>Wed, 10 Feb 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</guid>
-          <description>
+      <guid>http://blog.shiv.me/2016/02/10/battle-of-the-static-site-generators-1/</guid>
+      <description>
 
 &lt;p&gt;I set myself a goal to write more this year - in fact, I attempted to do so once every week. This required me to look at my blog, which led to the inevitable: small changes in what it looked like, led to general dis-satisfcation with the current solution I have to publish my blog, which quickly ballooned into a whole host of activities.&lt;/p&gt;
 
@@ -156,17 +197,15 @@ iex(5)&amp;gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>A month flies by</title>
+      <link>http://blog.shiv.me/2016/01/31/jan-goal-update/</link>
+      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>A month flies by</title>
-          <link>http://blog.shiv.me/2016/01/31/jan-goal-update/</link>
-          <pubDate>Sun, 31 Jan 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/01/31/jan-goal-update/</guid>
-          <description>
+      <guid>http://blog.shiv.me/2016/01/31/jan-goal-update/</guid>
+      <description>
 
 &lt;p&gt;It has not been a great start. It, however, has been a busy one.&lt;/p&gt;
 
@@ -194,17 +233,15 @@ iex(5)&amp;gt;
 
 &lt;p&gt;As this post illustrates, I have procrastinated all month long. I guess two posts a month is still better than none.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Goals for 2016</title>
+      <link>http://blog.shiv.me/2016/01/05/goals-for-2016/</link>
+      <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Goals for 2016</title>
-          <link>http://blog.shiv.me/2016/01/05/goals-for-2016/</link>
-          <pubDate>Tue, 05 Jan 2016 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2016/01/05/goals-for-2016/</guid>
-          <description>&lt;p&gt;The word &amp;ldquo;resolutions&amp;rdquo;, feels forced. It feels like a ritual declaration of intent, followed immediately by inaction, and eventually concession that it was all in jest. This year, I am going to have some goals.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2016/01/05/goals-for-2016/</guid>
+      <description>&lt;p&gt;The word &amp;ldquo;resolutions&amp;rdquo;, feels forced. It feels like a ritual declaration of intent, followed immediately by inaction, and eventually concession that it was all in jest. This year, I am going to have some goals.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Don’t smoke (Stay quit!!)&lt;/li&gt;
@@ -216,17 +253,15 @@ iex(5)&amp;gt;
 
 &lt;p&gt;Goals, feels more friendly, reachable, inviting almost.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Thoughts on ello</title>
+      <link>http://blog.shiv.me/2014/09/30/thoughts-on-ello/</link>
+      <pubDate>Tue, 30 Sep 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Thoughts on ello</title>
-          <link>http://blog.shiv.me/2014/09/30/thoughts-on-ello/</link>
-          <pubDate>Tue, 30 Sep 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/09/30/thoughts-on-ello/</guid>
-          <description>&lt;p&gt;In the tradition of joining new social tools on the interwebs, here some thoughts on my experience.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/09/30/thoughts-on-ello/</guid>
+      <description>&lt;p&gt;In the tradition of joining new social tools on the interwebs, here some thoughts on my experience.&lt;/p&gt;
 
 &lt;p&gt;The usual steps are:&lt;/p&gt;
 
@@ -268,29 +303,25 @@ iex(5)&amp;gt;
 
 &lt;p&gt;&lt;a href=&#34;https://ello.co/shivanand/post/y7Kwrh64mViqEgRNg_OV2g&#34;&gt;Cross-posted on Ello&lt;/a&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>My Eiffel Tower</title>
+      <link>http://blog.shiv.me/2014/07/15/my-eiffel-tower/</link>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>My Eiffel Tower</title>
-          <link>http://blog.shiv.me/2014/07/15/my-eiffel-tower/</link>
-          <pubDate>Tue, 15 Jul 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/07/15/my-eiffel-tower/</guid>
-          <description>&lt;p&gt;Today&amp;rsquo;s &lt;a href=&#34;http://sethgodin.typepad.com/seths_blog/2014/07/lessons-from-the-eiffel-tower.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+typepad%2Fsethsmainblog+%28Seth%27s+Blog%29&#34;&gt;post by Seth Godin&lt;/a&gt;, struck a cord. I am fortunate enough to get an opportunity to build &amp;ldquo;my Eiffel Tower&amp;rdquo;. I&amp;rsquo;m building two DSLs and associated infrastructure to allow storing lots of data in an in-memory database running in an embedded system. Wish me luck! Very excited, I might add!&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/07/15/my-eiffel-tower/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s &lt;a href=&#34;http://sethgodin.typepad.com/seths_blog/2014/07/lessons-from-the-eiffel-tower.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+typepad%2Fsethsmainblog+%28Seth%27s+Blog%29&#34;&gt;post by Seth Godin&lt;/a&gt;, struck a cord. I am fortunate enough to get an opportunity to build &amp;ldquo;my Eiffel Tower&amp;rdquo;. I&amp;rsquo;m building two DSLs and associated infrastructure to allow storing lots of data in an in-memory database running in an embedded system. Wish me luck! Very excited, I might add!&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Getting rid of passwords</title>
+      <link>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</link>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Getting rid of passwords</title>
-          <link>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</link>
-          <pubDate>Mon, 14 Jul 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</guid>
-          <description>&lt;p&gt;I hate passwords. Seems like several smart people are on the case of getting rid of the &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</guid>
+      <description>&lt;p&gt;I hate passwords. Seems like several smart people are on the case of getting rid of the &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Lucas Gonze, argues the &lt;a href=&#34;https://medium.com/@lucas_gonze/authentication-cargo-cults-ae98d8e359&#34;&gt;loss of meaning&lt;/a&gt; around design of user authentication mechanisms.&lt;/li&gt;
@@ -301,17 +332,15 @@ iex(5)&amp;gt;
 &lt;li&gt;Eran Hammer &amp;mdash; OAuth founder &amp;mdash; &lt;a href=&#34;http://hueniverse.com/2012/07/26/oauth-2-0-and-the-road-to-hell/&#34;&gt;gave up on OAuth 2.0&lt;/a&gt;. (An old link). Tim Bray &lt;a href=&#34;http://www.tbray.org/ongoing/When/201x/2012/07/28/Oauth2-dead&#34;&gt;didn&amp;rsquo;t take kindly&lt;/a&gt; to that post. Ahh IETF! You can grind the smartest minds to pulp. :)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Ink rotation - April 2014</title>
+      <link>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</link>
+      <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Ink rotation - April 2014</title>
-          <link>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</link>
-          <pubDate>Wed, 23 Apr 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</guid>
-          <description>&lt;p&gt;I haven&amp;rsquo;t been very good with rotating the inks in the last year. Having accumulated more than my share of inks, it is time to have fewer pens inked and rotate colors.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/04/23/ink-rotation-april-2014/</guid>
+      <description>&lt;p&gt;I haven&amp;rsquo;t been very good with rotating the inks in the last year. Having accumulated more than my share of inks, it is time to have fewer pens inked and rotate colors.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/20140423-085227.jpg&#34; alt=&#34;20140423-085227.jpg&#34; /&gt;&lt;/p&gt;
 
@@ -319,17 +348,15 @@ iex(5)&amp;gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/20140423-085350.jpg&#34; alt=&#34;20140423-085350.jpg&#34; /&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Getting git status on multiple directories</title>
+      <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
+      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Getting git status on multiple directories</title>
-          <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
-          <pubDate>Mon, 31 Mar 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
-          <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
+      <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
+      <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
 The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;for d in `find . -name &amp;quot;.git&amp;quot;`; do 
@@ -338,17 +365,15 @@ git --git-dir=$d --work-tree=$d/.. status;
 done
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Somethings should be obvious, but are not, obviously</title>
+      <link>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Somethings should be obvious, but are not, obviously</title>
-          <link>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</link>
-          <pubDate>Fri, 14 Feb 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
-          <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/02/14/somethings-should-be-obvious-but-are-not-obviously/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Update: Apparently, I had accidentally hit a minor bug in pew. This has now been &lt;a href=&#34;https://github.com/berdario/invewrapper/issues/21&#34;&gt;fixed&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Every so often, we spend several hours battling an issue, fighting linux or python or people or thoughts. The solution, often, leaps out when there has been a respite in the constant search for the solution. It&amp;rsquo;s the &amp;ldquo;duh&amp;rdquo; moment, that all of us feel. There is a little self-loathing, and relief at having arrived at solution. It is a moment of great pleasure, that I have learned to relish.&lt;/p&gt;
 
@@ -404,17 +429,15 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
     /home/shiva/.local/share/virtualenvs/test/bin:/home/shiva/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Bitcoins, new languages, freedom and other things</title>
+      <link>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Bitcoins, new languages, freedom and other things</title>
-          <link>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</link>
-          <pubDate>Mon, 27 Jan 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</guid>
-          <description>&lt;p&gt;Some interesting links for the weekend:&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/01/27/bitcoins-new-languages-freedom-and-other-things/</guid>
+      <description>&lt;p&gt;Some interesting links for the weekend:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mr.Krugman thinks &lt;a href=&#34;http://krugman.blogs.nytimes.com/2013/12/28/bitcoin-is-evil/&#34;&gt;Bitcoin is evil.&lt;/a&gt;&lt;/li&gt;
@@ -424,17 +447,15 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 &lt;li&gt;We don&amp;rsquo;t really change. &lt;a href=&#34;https://medium.com/p/defd9264bf14&#34;&gt;Let&amp;rsquo;s not blame it on tech&lt;/a&gt;! Truth from Gary Vaynerchuk of winelibrary fame.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Those wonderful tele-conference meetings</title>
+      <link>http://blog.shiv.me/2014/01/25/those-wonderful-tele-conference-meetings/</link>
+      <pubDate>Sat, 25 Jan 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Those wonderful tele-conference meetings</title>
-          <link>http://blog.shiv.me/2014/01/25/those-wonderful-tele-conference-meetings/</link>
-          <pubDate>Sat, 25 Jan 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/01/25/those-wonderful-tele-conference-meetings/</guid>
-          <description>&lt;p&gt;If you have worked for a large company, you know you have been here. Hilarious&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/01/25/those-wonderful-tele-conference-meetings/</guid>
+      <description>&lt;p&gt;If you have worked for a large company, you know you have been here. Hilarious&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -442,17 +463,15 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
  &lt;/div&gt;
 
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>2013 on twitter - a recap</title>
+      <link>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</link>
+      <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>2013 on twitter - a recap</title>
-          <link>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</link>
-          <pubDate>Thu, 02 Jan 2014 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://vizify.com/&#34;&gt;Vizify&lt;/a&gt; makes a video out of the posts you have made on twitter in the last year. &lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!&lt;/p&gt;
+      <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://vizify.com/&#34;&gt;Vizify&lt;/a&gt; makes a video out of the posts you have made on twitter in the last year. &lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.vizify.com/shivanand/twitter-video&#34;&gt;2013 on twitter&lt;/a&gt;&lt;/p&gt;
 
@@ -464,17 +483,15 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/covivant&#34;&gt;Dave Kell&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Malaise of large companies</title>
+      <link>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</link>
+      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>Malaise of large companies</title>
-          <link>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</link>
-          <pubDate>Sat, 28 Dec 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://scripting.com/2013/12/28/microsoftAndNetbooks.html&#34;&gt;Another gem&lt;/a&gt; from the always spot-on Dave Winer. Microsoft could have owned netbooks.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://scripting.com/2013/12/28/microsoftAndNetbooks.html&#34;&gt;Another gem&lt;/a&gt; from the always spot-on Dave Winer. Microsoft could have owned netbooks.&lt;/p&gt;
 
 &lt;p&gt;The pathological need for large companies to focus on the wrong, to their own demise never ceases to amaze me. Why do dominant players lose out? Is it the incompetence of people in these companies? Is it the inability to articulate, convince, and move the masses within these companies?&lt;/p&gt;
 
@@ -484,890 +501,7 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 
 &lt;p&gt;P.S: I work for a large company. It is a daily struggle, irrespective of the domain of the choice &amp;ndash; design, code or cultural.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-      
-        <item>
-          <title>How to apologize to your users</title>
-          <link>http://blog.shiv.me/2013/07/21/how-to-apologize-to-your-users/</link>
-          <pubDate>Sun, 21 Jul 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/07/21/how-to-apologize-to-your-users/</guid>
-          <description>&lt;p&gt;There has been an &lt;a href=&#34;http://www.osaware.com/2013/05/03/a-timeline-of-companies-that-have-been-hacked-in-2013/&#34;&gt;increase&lt;/a&gt; in &lt;a href=&#34;http://www.forbes.com/sites/ericbasu/2013/06/26/help-my-yahoo-account-was-hacked-forensic-on-the-latest-yahoo-attack/&#34;&gt;security&lt;/a&gt; &lt;a href=&#34;http://www.pcgamer.com/2013/07/03/ubisoft-accounts-hacked-email-addresses-and-passwords-compromised/&#34;&gt;breaches&lt;/a&gt; this year. This past week, two services I use were compromised - &lt;a href=&#34;http://staff.tumblr.com/post/55648373578/important-security-update-for-iphone-ipad-users&#34;&gt;Tumblr&lt;/a&gt; and &lt;a href=&#34;http://www.loopinsight.com/2013/07/21/apple-comments-on-developer-site-hack/&#34;&gt;Apple Developer Connection&lt;/a&gt;. Both services informed me of the security breach, and one made me feel like they cared, and the other one didn&amp;rsquo;t. Perhaps I am reading too much into this, but at the very least, it illustrates how important language is, in conveying how much we care.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/apple-sec-mail-468x300.jpg&#34; alt=&#34;Apple Security Mail&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple&amp;rsquo;s mail is clear, concise and inspires confidence in their ability to take care of my information. They state the purpose of this communication, tell me what they did about it, and what they were going to do to fix it in the future. &lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;: Apparently, it was a &lt;a href=&#34;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&#34;&gt;whitehat security guy doing his thing&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/tumblr-sec-mail-423x300.jpg&#34; alt=&#34;Tumblr Security Mail&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tumblr on the other hand, makes a whole bunch of assumptions (NO! I don&amp;rsquo;t read your staff blog), trivializes the security issue that was in their software (by ignoring to tell what it actually is), makes more work for me (change my passwords &amp;ndash; for my own good, but none-the-less), insinuates that I should be doing things to take care of my passwords by buying other apps, and finally, throws a completely insincere apology.&lt;/p&gt;
-
-&lt;p&gt;Nowhere do they bother to mention:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Why they are getting in touch now&lt;/li&gt;
-&lt;li&gt;What the actual issue is (Some searching online explains why, but they should have mentioned it in the email)&lt;/li&gt;
-&lt;li&gt;That it was a Tumblr&amp;rsquo;s fault (&lt;a href=&#34;http://staff.tumblr.com/post/55648373578/important-security-update-for-iphone-ipad-users&#34;&gt;Sniffed in transit&lt;/a&gt; .. who sends un-encoded password over http anymore?!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The nonchalance of it all, really bothers me. Another small detail that Apple does well.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Inky obsessions</title>
-          <link>http://blog.shiv.me/2013/05/13/inky-obsessions/</link>
-          <pubDate>Mon, 13 May 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/05/13/inky-obsessions/</guid>
-          <description>&lt;p&gt;Have I mentioned the long-standing obsession with stationery, especially, fountain pens? Well, it is a bit of problem, really. In the last few months, I have started hoarding them. It started with one&amp;ndash; a Lamy. Once I discovered how one can procure junk on eBay for very little money, I quickly ended up with a selection. As these things go, I suddenly had the increased &amp;ldquo;need&amp;rdquo; for inks that are not blue, or black. Nay, simple colours won&amp;rsquo;t do for the truly obsessed.&lt;/p&gt;
-
-&lt;p&gt;Here is the result of the latest rotation of inks and pens.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/Photo-2013-05-12-5-40-53-PM-e1368499228747-225x300.jpg&#34; alt=&#34;Ink Rotation - May 12th&#34; /&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Reclining airplane seats : work of the Devil!</title>
-          <link>http://blog.shiv.me/2013/03/13/reclining-airplane-seats--work-of-the-devil/</link>
-          <pubDate>Wed, 13 Mar 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/03/13/reclining-airplane-seats--work-of-the-devil/</guid>
-          <description>&lt;p&gt;Reclining airplane seats!! I shake my fist at thee. This one feature on airplanes has caused me untold miseries. Ok! I exaggerate .. a little. I live Vancouver, which is one the other side of the planet with respect to my hometown. As a result, I spend at least 30 hours on an plane, once a year. To compound, my 6&amp;rsquo; 5&amp;rdquo; (196 cm) frame does not mix well with cramped spaces.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.slate.com/articles/life/a_fine_whine/2013/02/reclining_airplane_seats_are_a_terrible_idea_and_should_be_banned.single.html&#34;&gt;Dan Kois on Slate&lt;/a&gt;, says&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;everyone on the plane would be better off if no one reclined; the minor gain in comfort when you tilt your seat back 5 degrees is certainly offset by the discomfort when the person in front of you does the same. But of course someone always will recline her seat, like the people in the first row, or the woman in front of me, whom I hate. (At least we&amp;rsquo;re not in the middle seat. People who recline middle seats are history&amp;rsquo;s greatest monsters.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.marco.org/2013/02/19/reclining-airplane-seats&#34;&gt;Macro&lt;/a&gt; and &lt;a href=&#34;http://www.kungfugrippe.com/post/43501810543/tilting-your-seat-back-on-an-airplane-is-pure&#34;&gt;Merlin&lt;/a&gt; agree.&lt;/p&gt;
-
-&lt;p&gt;Usually the conversation goes like this:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Me: &amp;ldquo;Sir/Ma&amp;rsquo;am, would you mind letting me know before you recline? My legs are up against the back of your seat, and if you do, my knees will be crushed.&amp;rdquo;&lt;br /&gt;
-Potential Recliner: &amp;ldquo;Sure!&amp;rdquo;&lt;br /&gt;
-&amp;hellip;&lt;br /&gt;
-&amp;hellip;&lt;br /&gt;
-*[2 hours later]: The seat reclines *&lt;br /&gt;
-Me: &amp;ldquo;Gaaaa!!!&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In the four legs of the journey, if I get one &amp;ldquo;recliner&amp;rdquo; in the seat in front of me, I usually spend about 10 hours standing. Yes, I used to pay for my seat, and stand all the way through.&lt;/p&gt;
-
-&lt;p&gt;For the love of god, next time, maybe a quick check might be a good idea before you decide to recline. This way, you will help save crushed knees of some poor-souls.&lt;/p&gt;
-
-&lt;p&gt;Note: Cathay Pacific has an &lt;a href=&#34;http://www.terminalu.com/travel-blog/the-end-of-reclining-economy-seats-ana-removes-them-from-the-dreamliner/16703/&#34;&gt;interesting solution&lt;/a&gt;. Their shell seats mean no reclining!.&lt;/p&gt;
-
-&lt;p&gt;Later: I spoke too soon! Cathay has reverted to their &lt;a href=&#34;http://www.terminalu.com/travel-blog/the-end-of-reclining-economy-seats-ana-removes-them-from-the-dreamliner/16703/&#34;&gt;reclining seats&lt;/a&gt;. Who cares about numb butts. Just get up and walk!&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Congrats Thomashawk!</title>
-          <link>http://blog.shiv.me/2013/02/27/congrats-thomashawk/</link>
-          <pubDate>Wed, 27 Feb 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/02/27/congrats-thomashawk/</guid>
-          <description>&lt;p&gt;Congrats to Thomashawk on the &lt;a href=&#34;http://blog.flickr.net/2013/02/22/thomas-hawk-im-trying-to-capture-1-million-photos-before-i-die/&#34;&gt;flickr interview&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Why? Who?&amp;rdquo;, you ask. &lt;a href=&#34;http://thomashawk.com&#34;&gt;Thomashawk&lt;/a&gt;, photographer extraordinaire, has taught me a lot about photography. I&amp;rsquo;ve never met him, or gone on a photo-walk (to be fixed some day), but have learnt from his work, nonetheless.&lt;/p&gt;
-
-&lt;p&gt;I am compelled to write this, because, in some ways, there is a certain vindication to Flickr doing an article on him. He has been Flickr&amp;rsquo;s ardent fan, and critic. It&amp;rsquo;s been a long road! From the fun insanity of DMU(s), Zooomr, and flickr censorship to getting some well reserved recognition. Kudos!&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Working with rpms (extract, list contents)</title>
-          <link>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</link>
-          <pubDate>Sun, 17 Feb 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</guid>
-          <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
-
-&lt;p&gt;Extract an rpm without installing in to the current directory (really, the rpm command should support this):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ rpm2cpio myrpmfile.rpm | cpio -idmv&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;*i: Restore archive&lt;/p&gt;
-
-&lt;p&gt;*d: Create leading directories where needed&lt;/p&gt;
-
-&lt;p&gt;*m: Retain previous file modification times when creating files&lt;/p&gt;
-
-&lt;p&gt;*v: Verbose i.e. display progress&lt;/p&gt;
-
-&lt;p&gt;List contents of an rpm:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ rpm -qlp myrpmfile.rpm  
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>A weekend of culinary delights</title>
-          <link>http://blog.shiv.me/2013/01/14/a-weekend-of-culinary-delights/</link>
-          <pubDate>Mon, 14 Jan 2013 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2013/01/14/a-weekend-of-culinary-delights/</guid>
-          <description>&lt;p&gt;The great G.B Shaw, in &amp;ldquo;Man and Superman&amp;rdquo; (not that Superman), quipped, &amp;ldquo;&lt;em&gt;There is no love sincerer than the love of food&lt;/em&gt;.&amp;rdquo; I had a weekend, that reminded me how much I love being fed. It also, reminded me of my wayward ways, in keeping the waistline in check, but I diverge. For this Christmas, I got the most amazing gift &amp;ndash; the gift of an evening out trying out food that tasted, as good as it sounds and looks. Without much ado, here is the spread:&lt;/p&gt;
-
-&lt;p&gt;[gallery ids=&amp;ldquo;13701,13702,13704,13703,13705,13706,13707,13708,13709,13710,13711,13712&amp;rdquo;]&lt;/p&gt;
-
-&lt;p&gt;Thanks to all the hobby chefs for the wonderful delights, and the hospitality. I aspire to such skills in the kitchen, and perhaps I shall be able to pay it forward. Thanks to Christina for the most-awesomest gift ever (yes, we invent words here), and Sophie for &amp;ldquo;subbing&amp;rdquo; for the sick Tina (I owe you one, Sophie!)&lt;/p&gt;
-
-&lt;p&gt;If you want to know more about &lt;a href=&#34;http://www.socialbites.ca/&#34;&gt;Social Bites&lt;/a&gt; (and you should), get in touch with the wonderful bundle of energy that is Annika! (&lt;a href=&#34;https://twitter.com/SocialBites&#34;&gt;@socialbites&lt;/a&gt;, &lt;a href=&#34;https://www.facebook.com/socialbites.ca&#34;&gt;Social bites on FB&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;And the chefs: &lt;a href=&#34;https://twitter.com/wontongirljojo&#34;&gt;@wontongirljojo&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/jonesboy&#34;&gt;@jonesboy&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Git: beautiful git logs and listing files in a commit</title>
-          <link>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</link>
-          <pubDate>Wed, 26 Sep 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</guid>
-          <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-config-alias&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.&lt;/p&gt;
-
-&lt;p&gt;The following is from the latest &lt;a href=&#34;https://github.com/torvalds/linux&#34; title=&#34;linux by Linus&#34;&gt;linux.git&lt;/a&gt;&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-log-output-for-linux&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Fortunately, git log has options one can use, that make the output look like this:&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-lg-output-for-linux&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Another useful command is git show, with the &amp;ndash;name-only option. It displays the list of files in a particular commit.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-show-name-only&#34;&gt;&lt;/script&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Macports from behind a proxy</title>
-          <link>http://blog.shiv.me/2012/08/27/macports-from-behind-a-proxy/</link>
-          <pubDate>Mon, 27 Aug 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/08/27/macports-from-behind-a-proxy/</guid>
-          <description>&lt;p&gt;I&amp;rsquo;ve been using my MBP as the main computer at work for a couple of weeks now. It is not officially &amp;ldquo;supported&amp;rdquo;, and I&amp;rsquo;m left to my own devices to figure out any issues that arise.&lt;/p&gt;
-
-&lt;p&gt;Configuring proxies on the mac for all GUI applications is quite simple. However, most of the *nix tools have trouble with it. Macports, which I love to hate, should read it from the environment&amp;rsquo;s $http_proxy and $rsync_proxy, but for some reason doesn&amp;rsquo;t really do so. The simplest fix, is to override system env variables, and use the macport configuration file to provide the proxy. It works like a charm (one of reason to like macports, I suppose)&lt;/p&gt;
-
-&lt;p&gt;Edit $HOME/macports/etc/macports/macports.conf, and add the following.&lt;br /&gt;
-(I prefer installing macports in its own directory .. if it ever gets too big, I can delete the directory, and go back to using standard tools that come with the mac)&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Two-factor authentication and spicy salmon sashimi don</title>
-          <link>http://blog.shiv.me/2012/08/23/two-factor-authentication-and-spicy-salmon-sashimi-don/</link>
-          <pubDate>Thu, 23 Aug 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/08/23/two-factor-authentication-and-spicy-salmon-sashimi-don/</guid>
-          <description>&lt;p&gt;For the last few months I&amp;rsquo;ve been annoyed. Two or three times a week, I get a flurry of emails from Facebook and twitter claiming that I reset my password. Sounds like a first-world problem? It is. However, I have 4 emails linked to my Facebook account and one to my twitter account. I get on average 15-20 mails a week, and I dutifully dis-avow each one of them.&lt;/p&gt;
-
-&lt;p&gt;Then, &lt;a href=&#34;http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard&#34;&gt;this happens&lt;/a&gt;. It scares the hell out of me, but I procrastinate. After a good two weeks, and 40 mails later, I&amp;rsquo;ve finally caved, and enabled it. Now, it&amp;rsquo;s practically impossible to hack my account. Password + token to access from any new device, and I can remotely revoke access to any device I lose.&lt;/p&gt;
-
-&lt;p&gt;Now, what does it have to do with sashimi, you ask? Well, nothing really! That&amp;rsquo;s just the bait to get you to read this most important thing. Don&amp;rsquo;t be like me, and procrastinate forever. Enable two-factor authentication on both &lt;a href=&#34;http://support.google.com/accounts/bin/answer.py?hl=en&amp;amp;answer=180744&#34;&gt;google&lt;/a&gt; and &lt;a href=&#34;http://m.facebook.com/note.php?note_id=10150172618258920&amp;amp;_rdr&#34;&gt;Facebook&lt;/a&gt;! You&amp;rsquo;ll be glad you did. Both have very compelling implementations that are easy to configure and use.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Security is like good sushi &amp;ndash; once you&amp;rsquo;ve tasted the good kind, it&amp;rsquo;s hard to go back to just good enough.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Well, here&amp;rsquo;s your reward for reading this far:&lt;br /&gt;
-&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/20120823-214038.jpg&#34; alt=&#34;20120823-214038.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Multiple ssh profiles for multiple services</title>
-          <link>http://blog.shiv.me/2012/08/20/multiple-ssh-profiles-for-multiple-services/</link>
-          <pubDate>Mon, 20 Aug 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/08/20/multiple-ssh-profiles-for-multiple-services/</guid>
-          <description>&lt;p&gt;I use git &amp;ndash; quite extensively. At work, we have several git repositories, across different organizations. In addition, I also &lt;a href=&#34;http://github.com/shiva&#34;&gt;hack&lt;/a&gt; for pleasure. Interacting with several git servers means that I need to have different roles and identities for them. The solution is to setup up one ssh key for each domain, and use ~/.ssh/config profiles to control them. Based on the host I&amp;rsquo;m connecting to, a different ssh private/public key pair is used &amp;ndash; make life a lot easier!&lt;/p&gt;
-
-&lt;p&gt;Thanks to &lt;a href=&#34;http://www.karan.org/index.php/2009/08/25/multiple-ssh-private-keys&#34;&gt;Karanbir Singh&lt;/a&gt;, for this:&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>I am fat no more</title>
-          <link>http://blog.shiv.me/2012/06/01/i-am-fat-no-more/</link>
-          <pubDate>Fri, 01 Jun 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/06/01/i-am-fat-no-more/</guid>
-          <description>&lt;p&gt;BMI, is not the best measure of health, or fitness, but &amp;gt;30 is a definite indicator of lack of care about one&amp;rsquo;s health. After several years of exactly that, I&amp;rsquo;m finally within reasonable limits. My BMI is 24.0; It&amp;rsquo;s official, I&amp;rsquo;m &lt;a href=&#34;http://www.nhlbisupport.com/bmi/&#34;&gt;not obese anymore&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the last 4 years, I have seen my weight go from 230 lbs to 266 lbs, and back to 202 lbs, as of today.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s a good day!&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>More unix goodness</title>
-          <link>http://blog.shiv.me/2012/05/21/more-unix-goodness/</link>
-          <pubDate>Mon, 21 May 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
-          <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
-# find . -name &amp;lt;regex&amp;gt; -delete  
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>An hour with HAML and Stasis</title>
-          <link>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</link>
-          <pubDate>Sun, 20 May 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</guid>
-          <description>&lt;p&gt;I have been meaning to get into the exciting world of static site-gen. Why, you ask? Well, I will tell you why?! Actually, I&amp;rsquo;m too lazy, and it&amp;rsquo;s late on a Sunday night &amp;ndash; instead, &lt;a href=&#34;http://mickgardner.com/&#34;&gt;Mick Gardner&lt;/a&gt;, can inform you on the &lt;a href=&#34;http://mickgardner.com/2011/04/27/An-Introduction-To-Static-Site-Generators.html&#34;&gt;virtues of static site-generation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After an hour of mucking around with several site-generators, I chose &lt;a href=&#34;http://stasis.me/&#34;&gt;Stasis&lt;/a&gt;, which is a good compromise to the blog-oriented &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, and options-insanity that is &lt;a href=&#34;http://nanoc.stoneship.org/&#34;&gt;nanoc&lt;/a&gt;. With my new-found fascination for Ruby, I wanted to stay away from &lt;a href=&#34;http://ringce.com/hyde&#34;&gt;Hyde&lt;/a&gt; (which is Python based &amp;ndash; it&amp;rsquo;s time to try the dark-side, a little)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://haml.info/&#34;&gt;HAML&lt;/a&gt;, is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:&lt;/p&gt;
-
-&lt;p&gt;HTML:&lt;/p&gt;
-
-&lt;p&gt;HAML:&lt;/p&gt;
-
-&lt;p&gt;Although, the HTML version has intrusive tags, it is easier on the eyes. It is a relief, not have to code, the end tag for every HTML element. It is much faster to type HAML by hand (especially in vim). In the end, it was a quick, painless process to convert the raw HTML code, to HAML, and generate the same html using stasis.&lt;/p&gt;
-
-&lt;p&gt;Life&amp;rsquo;s good. I&amp;rsquo;m still learning a few new tricks. What more can one ask for?&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Here, have some wine</title>
-          <link>http://blog.shiv.me/2012/02/08/here-have-some-wine/</link>
-          <pubDate>Wed, 08 Feb 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/02/08/here-have-some-wine/</guid>
-          <description>&lt;p&gt;Note to Self: Get wine. Lot&amp;rsquo;s of it! ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://pinterest.com/pin/206602701625531039/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/206602701625531039_zoKKZhnd_c.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>My bags are packed</title>
-          <link>http://blog.shiv.me/2012/02/08/my-bags-are-packed/</link>
-          <pubDate>Wed, 08 Feb 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/02/08/my-bags-are-packed/</guid>
-          <description>&lt;p&gt;This saturday, I will be leaving to Sweden for work. It will be an exciting two months! Hopefully, I will have some time to enjoy and experience a new country, and chronicle the (mis)adventures there!&lt;/p&gt;
-
-&lt;p&gt;For now, here&amp;rsquo;s some music. This song has followed me around for the last 12 years, and when it is time for me to go away, I hear this song playing somwhere. It&amp;rsquo;s corny, but its nice.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Piracy for convenience</title>
-          <link>http://blog.shiv.me/2012/01/16/piracy-for-convenience/</link>
-          <pubDate>Mon, 16 Jan 2012 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2012/01/16/piracy-for-convenience/</guid>
-          <description>&lt;p&gt;In the wild days of 1996, when I got my hands on a computer (it cost about a year&amp;rsquo;s worth of my Dad&amp;rsquo;s salary, and nothing that I am would have been possible but for that sacrifice he made), I was enamored by the ease of content consumption on a computer.&lt;/p&gt;
-
-&lt;p&gt;In one year, I went from knowing nothing about the world, to interacting with hundreds of other people across the world, talking about different things, and experiencing new content every day. Ideas in the form of text, video (granted there wasn&amp;rsquo;t much back then), music. That desire to learn new things, and to &amp;ldquo;consume&amp;rdquo; content has not abated in the last decade and a half.&lt;/p&gt;
-
-&lt;p&gt;Last week, I was mentioning to a colleague that I had to &amp;ldquo;download&amp;rdquo; a particular album by a new artist since it was unavailable in the US (both iTunes, and in store), and the conversation moved to the ethics of doing such a thing.&lt;/p&gt;
-
-&lt;p&gt;How can one, in the world today, justify &amp;ldquo;pirating&amp;rdquo; a song, when there is so many ways of getting, said product?&lt;/p&gt;
-
-&lt;p&gt;In my opinion, the cost of virtual goods (videos, movies, music,  pod-casts, articles) are higher than their perceived value by the consumer.&lt;/p&gt;
-
-&lt;p&gt;With these images on the internet, the cost of storage, distribution, and revenue generation is almost zero. Yet an album is still priced around $10-$20. In such an environment, scarcity is pre-dominantly artificial, whether it created by DRM or regional restrictions or pricing schemes, only serve to fuel piracy.&lt;/p&gt;
-
-&lt;p&gt;In my case, I would have gladly paid for it on iTunes, but it wasn&amp;rsquo;t available there. It was available on Spotify, but of course, that is not available in Canada (it&amp;rsquo;s only been 3 years since the rest of the world has access to it). So my choice is between being denied access to content I&amp;rsquo;m willing to pay for, or fire up a browser, find the torrent, and download it. Guess which one I chose?&lt;/p&gt;
-
-&lt;p&gt;Fred Wilson, says it better than I can ever hope to (seems like he had a similar problem, and found the same solution):&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I understand their muscle memory in terms of the scarcity business model. But restricting access to content is a bad business model in the age of a global network that costs practically nothing to distribute on.&lt;/p&gt;
-
-&lt;p&gt;via &lt;a href=&#34;http://www.avc.com/a_vc/2012/01/scarcity-is-a-shitty-business-model.html&#34;&gt;A VC: Scarcity Is A Shitty Business Model&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We, humans are creative beings, and we will always seek the shortest, fastest, cheapest path to creative content. We can make it illegal, but we can&amp;rsquo;t stop people from reaching out to their fundamental impulses. Perhaps it is time we change the way we have organized how we make money from those impulses.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Prawn curry</title>
-          <link>http://blog.shiv.me/2011/12/14/prawn-curry/</link>
-          <pubDate>Wed, 14 Dec 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/12/14/prawn-curry/</guid>
-          <description>&lt;p&gt;If you are in a hurry, and need something tasty yet easy to make, this one is for you. The prep time is about 5 minutes, and the cooking time around 10-15 minutes. If you have a small rice cooker &amp;ndash; the kind that plugs into a wall sockets &amp;ndash; you should be able to get the rice done in about the same time.&lt;/p&gt;
-
-&lt;p&gt;It is also the perfect curry to cook for smaller portions. If you are like me, and have to cook for 1 person, aka me,  all the time, it is a no-frills and no-freezer required recipe.&lt;/p&gt;
-
-&lt;p&gt;1. Fry all the onions until soft (5-6 mins) in high heat&lt;br /&gt;
-2. add mined garlic, 1 tsp jeera, 1 tsp dania powder, and salt to taste, some tumeric powder (1 tsp for each handful of prawns), and chilli powder to taste (I use very little)&lt;br /&gt;
-3. add some salt (increases the temp and allows everything to sear nicely)&lt;br /&gt;
-4. cook for 4 mins or until the prawns are half-cooked&lt;br /&gt;
-5. add diced tomatoes, and salt to taste (remember to taste the sauce before adding the salt)&lt;br /&gt;
-6. sear for 1 min and then add &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; cup of water (not too much or you will over cook the prawns), and reduce heat, and simmer until the above consistency is reached.&lt;/p&gt;
-
-&lt;p&gt;cook some rice, and you have a decent meal!&lt;/p&gt;
-
-&lt;p&gt;Some pictures:&lt;/p&gt;
-
-&lt;p&gt;[gallery link=&amp;ldquo;file&amp;rdquo;]&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Happy birthday, Mom</title>
-          <link>http://blog.shiv.me/2011/12/02/happy-birthday-mom/</link>
-          <pubDate>Fri, 02 Dec 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/12/02/happy-birthday-mom/</guid>
-          <description>&lt;p&gt;It&amp;rsquo;s my mom&amp;rsquo;s birthday today, and as I scoured the recesses of the internets for something nice to say, I came across this most beautiful poem by the author of  &amp;ldquo;&lt;a href=&#34;http://joyjunction.blogspot.com/&#34;&gt;Joy Junction&lt;/a&gt;&amp;rdquo; about his mom. As most of you who know me know, I&amp;rsquo;m not much of a poet, but I am enough of a romantic to steal &amp;ldquo;borrow&amp;rdquo; someone-else work to express what I feel (I know &amp;ndash; lame, right?)&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;மழையில் நனைந்துகொண்டே&lt;br /&gt;
-வீட்டுக்கு வந்தேன்&lt;br /&gt;
-&amp;lsquo;குடை எடுத்துட்டுப் போக வேண்டியதுதானே!&amp;rsquo;&lt;br /&gt;
-என்றான் அண்ணன்&amp;rsquo;&lt;br /&gt;
-எங்கேயாச்சும் ஒதுங்கி நிக்கவேண்டியதுதானே&amp;rsquo;&lt;br /&gt;
-என்றாள் அக்கா&lt;br /&gt;
-&amp;lsquo;சளி பிடிச்சுக்கிட்டு செலவு வைக்கப்போற பாரு&amp;rsquo;&lt;br /&gt;
-என்றார் அப்பா&lt;br /&gt;
-தன் முந்தானையால்&lt;br /&gt;
-என் தலையை துவட்டிக்கொண்டே&lt;br /&gt;
-திட்டினாள் அம்மா&lt;br /&gt;
-என்னையல்ல; மழையை!&lt;br /&gt;
-&lt;a href=&#34;http://joyjunction.blogspot.com/2010/01/tamil-poem-about-mom.html&#34;&gt;source: Joy Junction&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;My translation, in the hope that it redeems the &amp;ldquo;theft&amp;rdquo;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I came home drenched in the rain&lt;br /&gt;
-&amp;lsquo;Why didn&amp;rsquo;t you take the umbrella&amp;rsquo;&lt;br /&gt;
-said my brother&lt;br /&gt;
-&amp;lsquo;You could have waited somewhere until there was a respite in the rain&amp;rsquo;&lt;br /&gt;
-said my sister&lt;br /&gt;
-&amp;lsquo;you are going to catch a cold and cost us money&amp;rsquo;&lt;br /&gt;
-said my father&lt;br /&gt;
-With the tip of her sari,&lt;br /&gt;
-as she dried off my head,&lt;br /&gt;
-my mom was cross&lt;br /&gt;
-not with me;&lt;br /&gt;
-but with the rain.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Yes. We tamilians are melodramatic and sentimental sometimes &amp;hellip; (well actually, all the time. Some of us, just learn to hide it better) Mom. Dad. Grandma, Shankar and Swetha. There are days where I really miss you guys. Today was one such day.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>music and hearing</title>
-          <link>http://blog.shiv.me/2011/12/01/music-and-hearing/</link>
-          <pubDate>Thu, 01 Dec 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/12/01/music-and-hearing/</guid>
-          <description>&lt;p&gt;Forget perfect pitch. I&amp;rsquo;m so thankful that I can experience a large range of frequencies, and that I have enough hearing ability to distinguish timbre, and tone. Watch the video below, especially at 7:00 minutes. We all must be thankful that we can hear as well as we do. I can&amp;rsquo;t imagine what life would be like without the ability to sense the warmth of a viola rising up in the Brandenburg concertos (BWV 1046) movement 1, or the horns in the 3rd movement of the same.&lt;/p&gt;
-
-&lt;p&gt;J.S. BACH BWV 1046 Brandenburg Concertos No: 1&lt;/p&gt;
-
-&lt;p&gt;Movements 1 &amp;amp; 2: &lt;a href=&#34;http://youtu.be/idvduV2I3o0&#34;&gt;http://youtu.be/idvduV2I3o0&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Movements 3 &amp;amp; 4 : &lt;a href=&#34;http://youtu.be/x8AEGLAyMOc&#34;&gt;http://youtu.be/x8AEGLAyMOc&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>strong mercy</title>
-          <link>http://blog.shiv.me/2011/12/01/strong-mercy/</link>
-          <pubDate>Thu, 01 Dec 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/12/01/strong-mercy/</guid>
-          <description>&lt;p&gt;When in doubt, take a poet&amp;rsquo;s thought to your heart. They are, invariably experienced beings, that have spent a great deal of their lives, exploring the heart through the mind.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Strong Mercy by Rabindranath Tagore&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;My desires are many and my cry is pitiful,&lt;br /&gt;
-but ever didst thou save me by hard refusals;&lt;br /&gt;
-and this strong mercy has been wrought into my life through and through.&lt;/p&gt;
-
-&lt;p&gt;Day by day thou art making me worthy of the simple,&lt;br /&gt;
-great gifts that thou gavest to me unasked&amp;mdash;this sky and the light, this body and the&lt;br /&gt;
-life and the mind&amp;mdash;saving me from perils of overmuch desire.&lt;/p&gt;
-
-&lt;p&gt;There are times when I languidly linger&lt;br /&gt;
-and times when I awaken and hurry in search of my goal;&lt;br /&gt;
-but cruelly thou hidest thyself from before me.&lt;/p&gt;
-
-&lt;p&gt;Day by day thou art making me worthy of thy full acceptance by&lt;br /&gt;
-refusing me ever and anon, saving me from perils of weak, uncertain desire.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This poem, expresses a lot of what&amp;rsquo;s on my mind, at this ungodly hour (its 3:39 am), except for the last couple of lines. I didn&amp;rsquo;t want to editorialize a poem, and hence left it in place.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>That time of the year</title>
-          <link>http://blog.shiv.me/2011/11/29/that-time-of-the-year/</link>
-          <pubDate>Tue, 29 Nov 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/11/29/that-time-of-the-year/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/kayodeok/3468196219/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Rain Song&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3468196219_dabfe07a8e_s.jpg&#34; alt=&#34;Rain Song&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/23472122@N04/3118614238/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Splash!!&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3118614238_df7d2a07db_s.jpg&#34; alt=&#34;Splash!!&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/cubagallery/4252864737/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Rain / Umbrella / Lightroom Preset&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/4252864737_f118a4746d_s.jpg&#34; alt=&#34;Rain / Umbrella / Lightroom Preset&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/sibemolle99/3346431158/in/gallery-latitudes-72157624844894115/&#34; title=&#34;(18) - Points   of View&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3346431158_8e773ea9c4_s.jpg&#34; alt=&#34;(18) - Points   of View&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/samgellman/3745733679/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Roppongi Rain&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3745733679_c0d1fea58e_s.jpg&#34; alt=&#34;Roppongi Rain&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/nightdriver/3031272211/in/gallery-latitudes-72157624844894115/&#34; title=&#34;..e ancora Qali&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3031272211_740224f813_s.jpg&#34; alt=&#34;..e ancora Qali&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/kuram/2719700410/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Thirsty Hand&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2719700410_844e7bcf4a_s.jpg&#34; alt=&#34;Thirsty Hand&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/elvispayne/508313402/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Rain Drops.&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/508313402_75b3794032_s.jpg&#34; alt=&#34;Rain Drops.&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/blurredfoto/3119404195/in/gallery-latitudes-72157624844894115/&#34; title=&#34;The frolic [Explore #1!]&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3119404195_3592cb4511_s.jpg&#34; alt=&#34;The frolic [Explore #1!]&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/mkb31/455588774/in/gallery-latitudes-72157624844894115/&#34; title=&#34;rain drops on my window...&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/455588774_b655a648d5_s.jpg&#34; alt=&#34;rain drops on my window...&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/stevewall/524803118/in/gallery-latitudes-72157624844894115/&#34; title=&#34;drops of spring&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/524803118_99be07a6d1_s.jpg&#34; alt=&#34;drops of spring&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/chewie007/4183901837/in/gallery-latitudes-72157624844894115/&#34; title=&#34;It&#39;s like an addiction...&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/4183901837_1055bbaf0b_s.jpg&#34; alt=&#34;It&#39;s like an addiction...&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/photos/matt_lew/1879101081/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Kissing Couple #2&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/1879101081_725dc07d16_s.jpg&#34; alt=&#34;Kissing Couple #2&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/camillelacroix/4155740631/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Rainy Avenue of the Americas&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/4155740631_684dc10ee6_s.jpg&#34; alt=&#34;Rainy Avenue of the Americas&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/cubagallery/4648356455/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Nature Macro&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/4648356455_fab0928df1_s.jpg&#34; alt=&#34;Nature Macro&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/alfhild/403221490/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Vampire Season&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/403221490_0fc4c03532_s.jpg&#34; alt=&#34;Vampire Season&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/vevi/2506193740/in/gallery-latitudes-72157624844894115/&#34; title=&#34;When the rain comes...&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2506193740_db231fda17_s.jpg&#34; alt=&#34;When the rain comes...&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;http://www.flickr.com/photos/galepiccar/3423869209/in/gallery-latitudes-72157624844894115/&#34; title=&#34;Weather Bulletin: today waterfall from the clouds&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3423869209_533348180e_s.jpg&#34; alt=&#34;Weather Bulletin: today waterfall from the clouds&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/latitudes/galleries/72157624844894115/&#34;&gt;Rain&lt;/a&gt;, a gallery by &lt;a href=&#34;http://www.flickr.com/photos/latitudes/&#34;&gt;Todd Klassy&lt;/a&gt; on Flickr.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s that time of the year, in Vancouver, when it starts to rain and is expected to do so, incessantly, for the next 6 months (I exaggerate, a little).&lt;/p&gt;
-
-&lt;p&gt;It is better to be prepared for it, and enjoy it while it lasts (like so many other things in life &amp;ndash; even the moments, that are not exactly the way one wants them to be)&lt;/p&gt;
-
-&lt;p&gt;So here are a few pictures, that show how beautiful and mesmerizing rain can be.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>What&#39;s in store for me</title>
-          <link>http://blog.shiv.me/2011/11/27/whats-in-store-for-me/</link>
-          <pubDate>Sun, 27 Nov 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/11/27/whats-in-store-for-me/</guid>
-          <description>&lt;p&gt;I just watched the last 30 mins of the movie &amp;ldquo;The green mile&amp;rdquo;. What a beautiful movie! The last few lines was particularly well written. &amp;ldquo;we each owe a death; there are no exceptions; but, Oh God, sometimes the Green Mile seems so long. But if he can make a mouse live so long, I wonder what is in store for me&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Don&amp;rsquo;t we all!&lt;/p&gt;
-
-&lt;p&gt;The sun is out in Vancouver ! Time to get out!&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Moving a car using magnets</title>
-          <link>http://blog.shiv.me/2011/11/09/moving-a-car-using-magnets/</link>
-          <pubDate>Wed, 09 Nov 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/11/09/moving-a-car-using-magnets/</guid>
-          <description>&lt;p&gt;1. Assuming an &lt;a href=&#34;http://wiki.answers.com/Q/How_much_does_an_average_car_weigh&#34;&gt;average car weighs around 4000 pounds&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2. Force required to move such a car (neglecting friction):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;F = ma&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;As per the above,&lt;br /&gt;
-&lt;code&gt;
-m = 4000 /2.2 kg [approx. 1800 kg]  
-a = 1 m/sec^2&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;=&amp;gt; F = 1800 N&lt;/p&gt;
-
-&lt;p&gt;3. Since it would be next to impossible to get a rare earth magnet that produced that kind of force, we would be, better served trying to use a solenoid. The formula to get the force generated by a &lt;a href=&#34;http://www.daycounter.com/Calculators/Magnets/Solenoid-Force-Calculator.phtml&#34;&gt;solenoid is given by&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;F = ((N * I) ^ 2 * k * A) / 2 * g ^ 2&lt;/p&gt;
-
-&lt;p&gt;Where,&lt;/p&gt;
-
-&lt;p&gt;N - No of turns&lt;/p&gt;
-
-&lt;p&gt;I - Current in Amps&lt;/p&gt;
-
-&lt;p&gt;k = 4 * pi * 10 ^ -7 (constant)&lt;/p&gt;
-
-&lt;p&gt;A - Cross-section of the solenoid&lt;/p&gt;
-
-&lt;p&gt;g - distance between solenoid and the metal that needs to be attracted&lt;/p&gt;
-
-&lt;p&gt;From the above, assuming a cross section of 0.5 sq m (A), current of 10 A (I), and a distance of 1 m from the solenoid (g), the number of turns required to produce 1 m/sec^2 acceleration on a 1800 Kg car is,&lt;/p&gt;
-
-&lt;p&gt;N ~= 7.568 * 10 ^ 3 ~= 7000 turns&lt;/p&gt;
-
-&lt;p&gt;Now, Density of Copper is &lt;strong&gt;8.92 gm/cm3. We can guesstimate the weight by guessing the length of such a solenoid.&lt;/strong&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Badly punctuated parameter list in #define</title>
-          <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
-          <pubDate>Tue, 08 Nov 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
-          <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ gmake  
-...  
-...  
-some_file.h:42: badly punctuated parameter list in \`#define&#39;  
-some_file.h:64: badly punctuated parameter list in \`#define&#39;  
-Failed to compile  
-$  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This was caused by the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(...) { printf (##__VA_ARGS__); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This works in most modern C compilers. However, if you happen to use one from the 80s (I exaggerate a little - not by much), it throws the error as above. You can fix this as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(ARGS...) { printf (##ARGS); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>RIP Steve Jobs</title>
-          <link>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</link>
-          <pubDate>Wed, 05 Oct 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;https://plus.google.com/117377434815709898403/posts&#34;&gt;DeWitt Clinton&lt;/a&gt; once &lt;a href=&#34;http://blog.unto.net/on_great_engineers_part_2/&#34;&gt;wrote&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;What are the hallmarks of a great engineer? A great engineer is characterized by their intelligence, versatility, creativity, loyalty, passion, experience, vision, dedication, composure, humility, and ability.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Apart from the &amp;ldquo;humility&amp;rdquo; part, which he never cared for, Steve Jobs was the epitome of that description. We shall miss you Mr. Jobs, especially for that keen sense of doing something perfectly.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.apple.com/stevejobs/&#34;&gt;RIP Steve Jobs&lt;/a&gt;, the maker of beautiful things.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-1.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Me == sad today :(&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Worldwide Photowalk 2011</title>
-          <link>http://blog.shiv.me/2011/10/05/worldwide-photowalk-2011/</link>
-          <pubDate>Wed, 05 Oct 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/10/05/worldwide-photowalk-2011/</guid>
-          <description>&lt;p&gt;Last weekend, I went to my first photo-walk in Vancouver. This one is a yearly affair, organized by Scott Kelby. It&amp;rsquo;s called the &lt;a href=&#34;http://worldwidephotowalk.com/&#34;&gt;Worldwide Photowalk&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/#!/search/%23WWPW&#34;&gt;#WWPW&lt;/a&gt;), and it was quite exciting. This was the fourth such event (and my first). I met a lot of very interesting people of varied backgrounds. Can&amp;rsquo;t wait for the next one.&lt;/p&gt;
-
-&lt;p&gt;Flickr groups for the photo-walk are:&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/groups/wwpw2011-gastown/&#34;&gt;Gastown&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.flickr.com/groups/wwpw4/&#34;&gt;Scott Kelby&amp;rsquo;s WWPW4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks to Scott Kelby for starting such a wonderful thing, and letting it grow. This was as exciting as &lt;a href=&#34;http://blog.shiv.me/2010/11/20/bcv2010-roundup.html&#34;&gt;last year&amp;rsquo;s Barcamp&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Sometimes, they are useful for a lifetime</title>
-          <link>http://blog.shiv.me/2011/09/25/sometimes-they-are-useful-for-a-lifetime/</link>
-          <pubDate>Sun, 25 Sep 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/09/25/sometimes-they-are-useful-for-a-lifetime/</guid>
-          <description>&lt;p&gt;And sometimes, they barely hold your attention. However, the recent acquisition is the former. I got the mammoth of a book, over the weekend; it weighs a ton and I&amp;rsquo;ll be sleeping with it, clutched tight in my hands.&lt;/p&gt;
-
-&lt;p&gt;If you already have the tomb by tanenbaum of similar name, the unix programming interface, you probably are not going to glean much value from this one (you can thank POSIX for maintaining a modicum of consistency over the years and some would vehemently contest that). That said, if you write code for *nix systems, it definitely deserves the shelf-space as much as any other programming book.&lt;/p&gt;
-
-&lt;p&gt;In the few hours I&amp;rsquo;ve spent with it, I&amp;rsquo;ve already learnt and have had a few concepts made clear. It is definitely not a linear read and there is quite a lot of interesting things to read about. I&amp;rsquo;m currently working through some fun tests of my understanding of pthreads. Watch for those &lt;a href=&#34;https://github.com/shiva/fun&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>OSX Lion and jumping through a few hoops</title>
-          <link>http://blog.shiv.me/2011/08/30/osx-lion-and-jumping-through-a-few-hoops/</link>
-          <pubDate>Tue, 30 Aug 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/08/30/osx-lion-and-jumping-through-a-few-hoops/</guid>
-          <description>&lt;p&gt;If you haven&amp;rsquo;t yet upgraded to Lion (slow-coach you !), you might want to read these:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;How to &lt;a href=&#34;http://lifehacker.com/5823096/how-to-burn-your-own-lion-install-dvd-or-flash-drive&#34;&gt;burn your own install dvd&lt;/a&gt; for OSX Lion&lt;/li&gt;
-&lt;li&gt;You didn&amp;rsquo;t read this before you installed lion, did you? Then, &lt;a href=&#34;https://discussions.apple.com/thread/3191518?start=0&amp;amp;tstart=0&#34;&gt;follow this thread&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>10 reasons to dump Facebook for G&#43;. Now!</title>
-          <link>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g&#43;.-now/</link>
-          <pubDate>Sun, 28 Aug 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/08/28/10-reasons-to-dump-facebook-for-g&#43;.-now/</guid>
-          <description>&lt;p&gt;A friend asked what I like about google+, and as I started posting a reply , I noticed there were enough to make a blog post. So here goes&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s a quick list:&lt;br /&gt;
-1. Mobile app on android and iphone are awesome!&lt;br /&gt;
-2. Automatic upload of pics on phone/picasa&lt;br /&gt;
-3. Non-crappy photos (allows 2400+px, and g+ renders pictures better, since they don&amp;rsquo;t mess with the image, if it is smaller than the max size)&lt;br /&gt;
-4. Easier to mention specific people in a conversation. (auto-completes ppl&amp;rsquo;s profile name)&lt;br /&gt;
-5. hangouts (free video conferencing)&lt;br /&gt;
-6. Group messaging done right (huddle) on the mobile phone&lt;br /&gt;
-7. decent integration with email (I guess this is just coz I use Gmail)&lt;br /&gt;
-8. Privacy - predictable and manageable (not that it matters to me)&lt;br /&gt;
-9. Much less noise (a - mostly used by techies for now, b - allows asymmetric relationships à la twitter)&lt;br /&gt;
-10. Keyboard shortcuts (J, K work. Someone at google like vi &amp;ndash; a lot)&lt;/p&gt;
-
-&lt;p&gt;So, there&amp;rsquo;s 10 reasons to dump Facebook for G+. There is a lot more in terms of features (new ones are added all the time), but mostly the community is awesome, and the engagement is better!&lt;/p&gt;
-
-&lt;p&gt;11. (bonus). I was going to say games, but they have that here too, but I&amp;rsquo;m not bothered by it, and don&amp;rsquo;t have to see someone&amp;rsquo;s update on buying sheep&lt;/p&gt;
-
-&lt;p&gt;Having said the above, I miss a couple of FB &amp;ldquo;features&amp;rdquo;. Really, its the of the same: 1. There is no way to start a conversation with someone, unless, you address it specifically to that person (in which case nobody else see it). Facebook does this simply, by providing a &amp;ldquo;wall&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;2. There are no &amp;ldquo;Groups&amp;rdquo;. Ie each circle is local to me, and hence, if I want to have a group for all my friends from university, I will have to add them to a circle. In order to simulate Facebook &amp;ldquo;groups&amp;rdquo;, everyone in that circle, has to add everyone else to a group of the same name. Adding one more person to that group, now means that everyone has to add that person manually.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m sure, google will come up with something to address the above two. We&amp;rsquo;ll have to wait and see how it goes!&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Life in the BASH universe</title>
-          <link>http://blog.shiv.me/2011/08/28/life-in-the-bash-universe/</link>
-          <pubDate>Sun, 28 Aug 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/08/28/life-in-the-bash-universe/</guid>
-          <description>&lt;p&gt;If you write a lot of scripts to automate tasks, you probably already know this. However, if you don&amp;rsquo;t, and you are still reading, you are probably a programmer, in which case, you really should be learning how to script in BASH!&lt;/p&gt;
-
-&lt;p&gt;A couple of pointers for you:&lt;br /&gt;
-1. Using a -x, in the shebang line &amp;ldquo;echo&amp;rdquo;s every line before executing. This turns out to be quite useful for debugging shell scripts&lt;br /&gt;
-2. It&amp;rsquo;s quite easy to make BASH print a countdown.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>People of GVRD - a photographic experiment</title>
-          <link>http://blog.shiv.me/2011/07/24/people-of-gvrd---a-photographic-experiment/</link>
-          <pubDate>Sun, 24 Jul 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/07/24/people-of-gvrd---a-photographic-experiment/</guid>
-          <description>&lt;p&gt;A couple of weeks ago I started a new project - to shoot random strangers in the streets of GVRD (Greater Vancouver Regional Districts - for those of you that are not from here). I wanted to see if I had the guts to walk up to random strangers, and ask their permission to shoot a picture of them. I was also curious to know how they would react to it, and what my success rate would be.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve asked around 14, and 8 said yes. Some of them were not comfortable with their pictures on the internets. I offered them 3 options.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Pictures don&amp;rsquo;t end up on the internet (emailed to them if they send me an email)&lt;/li&gt;
-&lt;li&gt;On the internet for non-commercial purposes.&lt;/li&gt;
-&lt;li&gt;On the internet in public domain.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Only 2 were ok with public domain. The rest opted for option 2. One didn&amp;rsquo;t want it on the internet at all.&lt;/p&gt;
-
-&lt;p&gt;It was an interesting experience, and I&amp;rsquo;m looking forward to more such excursions. For the lack of a better name, I chose to call this project : &lt;a href=&#34;http://blog.shiv.me/projects/people-of-gvrd/&#34;&gt;People of GVRD&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Suggestions are welcome. Do you have a better name for the project? Perhaps, thoughts on how I should approach people. Do you think I&amp;rsquo;m insane? Apart from photos, would you be interested in a short blurb about the person? What would you like to know?&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[![Sue &amp;amp; Family - 5](/images/5972190618_0931941b96_m.jpg)][1][![Sue &amp;amp; Family - 3](/images/5971630139_b1262ef3c0_m.jpg)][2]
-
-[![Sue &amp;amp; Family - 2](/images/5972181714_13ffb69f1a_m.jpg)][3][![Sue &amp;amp; Family - 1](/images/5972176262_b86c7d580c_m.jpg)][4]
-
-[![Louis](/images/5971615123_ba1a058817_m.jpg)][5][![Louis](/images/5972166850_2a95820ef3_m.jpg)][6]
-
-[![Ben](/images/5972162270_e6be65d5dd_m.jpg)][7][![Sol](/images/5971599871_0482b24987_m.jpg)][8]
-
-The above is also cross-posted to [google+][9]
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>OSX Lion. A first look (at 2 AM)</title>
-          <link>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</link>
-          <pubDate>Sat, 23 Jul 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/07/23/osx-lion.-a-first-look-at-2-am/</guid>
-          <description>&lt;p&gt;Just upgraded to OSX Lion. A very slick interface.&lt;/p&gt;
-
-&lt;p&gt;Quick Review:&lt;/p&gt;
-
-&lt;p&gt;1. Launchpad. Solved previously by Alfred in the GUI, and bash aliases on the command line.&lt;/p&gt;
-
-&lt;p&gt;2. Mission Control. Eye-candy. Will probably use it until I get tired of all the moving windows, and stick to Cmd+arrow keys to switch desktops. Maybe normal users will find it useful. But then, most people don&amp;rsquo;t want anything that increases their workflow complexity. Most of them have trouble keeping track of more than a couple of windows, let alone, 10s of them (which I think is what features like Mission Control will promote)&lt;/p&gt;
-
-&lt;p&gt;3. I&amp;rsquo;ll probably never use gestures (keyboard shortcuts solved that probably elegantly, some 40 years ago).&lt;/p&gt;
-
-&lt;p&gt;4. First real annoyance: the default mouse-axis configuration is inverted. I don&amp;rsquo;t get why this was changed?! (refer image)&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s way too late to go into other cool and annoying things. I&amp;rsquo;m not sure how I really feel about Lauchpad. Maybe it&amp;rsquo;s not a bad idea to have a full screen view of all the apps - ipad style.&lt;/p&gt;
-
-&lt;p&gt;P.S: Until I figure out how to get all of my posts on Google+ as full content, I&amp;rsquo;m going to double post them.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://plus.google.com/111413906991391429946/posts/GicFg4bESty&#34;&gt;https://plus.google.com/111413906991391429946/posts/GicFg4bESty&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Some major site updates!</title>
-          <link>http://blog.shiv.me/2011/07/07/some-major-site-updates/</link>
-          <pubDate>Thu, 07 Jul 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/07/07/some-major-site-updates/</guid>
-          <description>&lt;ul&gt;
-&lt;li&gt;New wordpress theme&lt;/li&gt;
-&lt;li&gt;Optimized website load time (articles about this are to be expected in the offing). P.S CSS sprites are awfkinsome!&lt;/li&gt;
-&lt;li&gt;Upgraded to the latest greatest version&lt;/li&gt;
-&lt;li&gt;Finally, started writing something for the blog!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Exporting XDisplay</title>
-          <link>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</link>
-          <pubDate>Tue, 21 Jun 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</guid>
-          <description>&lt;p&gt;In *nix systems, you can make the display, the GUI of an application, appear on another machine.  This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.&lt;/p&gt;
-
-&lt;p&gt;You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details. By default, the XServer instance on your desktop disallows communication from all machines except localhost. Thus, you will need to add the host in the allowed list using the xhost command.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On your machine&lt;/strong&gt;,  to disable security checks:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ xhost +&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To allow connections from a single  host:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ xhost +&amp;lt;hostname/ip&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On the client machine&lt;/strong&gt; where the application is run, set the X Server to display to (for bash shell):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:&amp;lt;displaynumber&amp;gt;.&amp;lt;screennumber&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If you haven&amp;rsquo;t changed the display-number or screen-number :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:0.0&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;For a more detailed description of the&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.hungry.com/~jamie/xexport.html&#34;&gt;How to export your X Display&lt;/a&gt;.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>iPad and friends</title>
-          <link>http://blog.shiv.me/2011/05/01/ipad-and-friends/</link>
-          <pubDate>Sun, 01 May 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/05/01/ipad-and-friends/</guid>
-          <description>&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/05/20110501-112322.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/20110501-112322.jpg&#34; alt=&#34;20110501-112322.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s been a year since I &lt;a href=&#34;http://blog.shiv.me/2010/05/29/icaved.html&#34;&gt;sold my kidneys for an iPad&lt;/a&gt;. It&amp;rsquo;s been fun. It has replaced every other device I own (ie, a couple of PCs and the nexus one). It&amp;rsquo;s an outright winner, when it comes to reading, especially long-form articles, and books alike. It has become my go-to machine for everyday news, twitter/facebook, and even for browsing my favorite photographers.&lt;/p&gt;
-
-&lt;p&gt;It have however remained strictly in the realm of content consumption &amp;ndash; until now. In the last few days, I&amp;rsquo;ve added a stylus - the &lt;a href=&#34;http://www.amazon.com/gp/product/B003ZSHKIY/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399349&amp;amp;creativeASIN=B003ZSHKIY&#34;&gt;Targus iPad stylus&lt;/a&gt; (available quite readily at most &amp;lsquo;best-buy&amp;rsquo;s, and on &lt;a href=&#34;http://www.amazon.com/gp/product/B003ZSHKIY/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399349&amp;amp;creativeASIN=B003ZSHKIY&#34;&gt;Amazon&lt;/a&gt;), and the &lt;a href=&#34;http://www.amazon.com/gp/product/B003K1EYM6/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=keepinintouch-20&amp;amp;linkCode=as2&amp;amp;camp=217145&amp;amp;creative=399353&amp;amp;creativeASIN=B003K1EYM6&#34;&gt;iPad&amp;rsquo;s camera connect kit&lt;/a&gt;. If you own an iPad (v1 or v2) I would recommend that you fork out the moolah for these two. It will be the best $50 you&amp;rsquo;ll ever spend on accessories for the iPad. Forget the cool looking &lt;a href=&#34;http://store.apple.com/us/product/MC942?mco=MTM3NjE5ODE&#34;&gt;smart cover&lt;/a&gt;. These will be more rewarding than the 2 hours of thrill of watching the smart cover turn off the ipad when you close it.&lt;/p&gt;
-
-&lt;p&gt;The targus stylus is without doubt the best one in the market yet. It&amp;rsquo;s got good heft to it. Feels comfortable to hold. The only gripe I have with the Targus is the length. I can&amp;rsquo;t but wonder why they didn&amp;rsquo;t make it same as a standard pencil.&lt;/p&gt;
-
-&lt;p&gt;There is no contest between this, and the &lt;a href=&#34;http://tenonedesign.com/sketch.php&#34;&gt;Pogo Sketch&lt;/a&gt;. (Ten-one design could be the next Wacom, if they get their [][6]&lt;a href=&#34;http://thetechjournal.com/electronics/tablet/pressure-sensitive-drawing-headed-to-ipad.xhtml&#34;&gt;pressure sensitive stylus&lt;/a&gt; right. Wacom should buy them out, now, before they get too big). The targus has an air-filled bubble for the tip, which slides with less resistance against the iPad&amp;rsquo;s screen, than the spongy one of the pogo sketch. The tip is still fairly large, and the level of control you get varies by the app. If you use [][7]&lt;a href=&#34;itms-apps://itunes.apple.com/ca/app/penultimate/id354098826?mt=8&#34;&gt;Penultimate&lt;/a&gt;, this stylus will provide much better control. The iPad can now actually replace paper &amp;amp; pen (somewhat). I can&amp;rsquo;t wait to see how good the &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/wacom-stylus-for-ipad-is-not-what-youre-hoping-for/&#34;&gt;Wacom&lt;/a&gt; &lt;a href=&#34;http://www.geeky-gadgets.com/wacom-ipad-stylus-looks-ugly-but-works-beautiful-18-04-2011/&#34;&gt;stylus&lt;/a&gt; &lt;a href=&#34;http://reviews.cnet.com/8301-31747_7-20055024-243.html&#34;&gt;is going to be&lt;/a&gt;. It will definitely cost more (around $40 if I&amp;rsquo;m right), but for $20, this is the best stylus (that is also readily available) right now.&lt;/p&gt;
-
-&lt;p&gt;The camera connect kit, is a thing of marvel. It is not like Apple to allow such a wide range of applications for a single piece of plastic (even if it is over-priced for something that should be part of the iPad purchase). I just found out that it works quite well with my camera (a Canon 7D). Importing RAW images onto the iPad are faster than importing them on my MacbookPro (something seriously out-of-whack here &amp;ndash; I&amp;rsquo;ll need to investigate, to confirm this). It also allows connecting any &amp;ldquo;Mac&amp;rdquo; supported keyboard (I&amp;rsquo;m typing this post on my logitech USB Wave keyboard, which I must say kicks the pants off any keyboard Apple currently sells). Of course, carrying a keyboard around is out of question, but it&amp;rsquo;s nice to know it works without any special drivers.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tip&lt;/strong&gt;: Both &lt;em&gt;Ctrl+shift+arrows&lt;/em&gt; (begin/end of line), and &lt;em&gt;Cmd+shift+arrows&lt;/em&gt; (1-word at a time) allow you to select text on iPad. of course, you can navigate around the text, if you don&amp;rsquo;t use shift. No, someone needs to port vim to iOS. That would be awesome.&lt;/p&gt;
-
-&lt;p&gt;The killer combo of the week, was a little hard to choose. Here are two:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Targus Stylus + Penultimate&lt;/li&gt;
-&lt;li&gt;Blogsy + iPad Camera connect kit + Logitech Wave keyboard&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;[][11]&lt;a href=&#34;http://blog.photosmithapp.com/&#34;&gt;Photosmith&lt;/a&gt; looks like a promising app. Currently, it is metadata management and import app, that syncs with Lightroom via Wifi. $20 is quite reasonable for an app that will allow automatic import into lightroom. However, I&amp;rsquo;m unconvinced with the design. I wish they would provide better selection capabilities. I&amp;rsquo;d buy it in a heartbeat, if they allowed multi-select+tagging or some kind of paint interface that can apply a group of tag+collection info that I define.&lt;/p&gt;
-</description>
-        </item>
-      
-    
-
   </channel>
 </rss>

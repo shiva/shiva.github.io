@@ -1,726 +1,73 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
+<html lang="en-US">
   <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.16" />
+
+
+<title>Elixir - A crash course - shiv.me</title>
+<meta property="og:title" content="Elixir - A crash course - shiv.me">
+
+
 
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
-    
-      Elixir - A crash course &middot; 
-    
-  </title>
-
+  <meta property="description" content="Basics in Elixir, especially the deviations from the norm">
   
-  <link rel="stylesheet" href="http://blog.shiv.me/css/poole.css">
-  <link rel="stylesheet" href="http://blog.shiv.me/css/syntax.css">
-  <link rel="stylesheet" href="http://blog.shiv.me/css/lanyon.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
-
-  
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.shiv.me/assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="http://blog.shiv.me/assets/favicon.ico">
-
-  
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.shiv.me/atom.xml">
-</head>
 
 
+
+
+
+
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
   <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="http://blog.shiv.me/" class="nav-logo">
+    <img src="http://blog.shiv.me/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="shiv.me">
+  </a>
 
+  <ul class="nav-links">
     
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+    <li><a href="http://shiv.me/#about">About</a></li>
+    
+    <li><a href="http://github.com/shiva">GitHub</a></li>
+    
+    <li><a href="http://twitter.com/shiva">Twitter</a></li>
+    
+  </ul>
+</nav>
 
-
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-      
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="http://blog.shiv.me/">Home</a>
-    <a class="sidebar-nav-item " href="http://blog.shiv.me/post">Archives</a>
-
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-
-  </nav>
-
-  <div class="sidebar-item">
-      <p>&copy; Shiva. 2016. All rights reserved.</p>
-  </div>
-</div>
+      </header>
 
 
+<main class="content" role="main">
+
+  <article class="article">
     
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="http://blog.shiv.me/" title="Home">shiv.me</a>
-            <small></small>
-          </h3>
-        </div>
-      </div>
+    <span class="article-duration">3 min read</span>
+    
 
-      <div class="container content">
+    <h1 class="article-title">Elixir - A crash course</h1>
 
+    
+    <span class="article-date">November 6, 2016</span>
+    
 
-<div class="post">
-  <h1 class="post-title">Elixir - A crash course</h1>
-  <span class="post-date">Sun, Nov 6, 2016</span>
-  
+    <div class="article-content">
+      
+
+<p>This post is a set of points I noted down, as I read through the Elixir documentation. This is by no means comprehensive. This is meant to be a crash course for someone coming from years of C.</p>
+
+<p>All of the content here, is simply a parsed summary of what is available as part of the <a href="http://elixir-lang.org/getting-started/">official documentation</a>.</p>
 
 <h2 id="types">Types</h2>
 
@@ -764,7 +111,7 @@ iex(5)&gt;
 
 <p>Port, Reference and PID</p>
 
-<h2 id="operations">Operations</h2>
+<h2 id="operators">Operators</h2>
 
 <p>Note that ===, and !== use type when comparing (thankfully, the defaults are sensible)</p>
 
@@ -776,15 +123,70 @@ iex(5)&gt;
 <li>nil/false == false (everything else is true)</li>
 </ul>
 
-<p>## The match operator</p>
+<h3 id="the-match-operator">The match operator (<code>=</code>)</h3>
 
-</div>
+<p>Used to assign result of an operation to a variable. Can also be used to assign a tuple or list to a set of variables.</p>
 
-      </div>
+<pre><code>{a, b, c} = {:hello, &quot;world&quot;, 42}
+[a, b, c] = [1, 2, 3]
+[head | tail] = [1, 2, 3]   # head = [1], tail = [2, 3]
+</code></pre>
+
+<h3 id="the-pin-operator">The pin operator (<code>^</code>)</h3>
+
+<p>Useful when there is a need to check one of the values of list, but assign another.</p>
+
+<pre><code>iex&gt; x = 1
+1
+iex&gt; x = 2
+2
+iex&gt; x = 1
+1
+iex&gt; ^x = 2
+** (MatchError) no match of right hand side value: 2
+</code></pre>
+
+<h3 id="the-operator">The _ operator</h3>
+
+<p>Ignore the rest, or assign the rest to _</p>
+
+<p>iex&gt; [h | _] = [1, 2, 3]
+[1, 2, 3]
+iex&gt; h
+1</p>
+
+<h2 id="control-structures-conditionals-and-loops">Control Structures (conditionals and loops)</h2>
+
+<p>case - check for multiple matches
+cond - check for multiple conditions
+if - check for specific condition
+unless - check for a specific match</p>
+
+<p>Note: if and unless are macros and not first class constructs that are part of the language</p>
+
+<p>Elixir allows a lot of variations of guards that are used in conditional to express conditions. See <a href="http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses">here</a> for more information.</p>
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
+    
   </body>
 </html>
 

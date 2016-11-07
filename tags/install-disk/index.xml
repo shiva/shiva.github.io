@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Install Disk on shiv.me</title>
     <link>http://blog.shiv.me/tags/install-disk/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2011-08-30 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Install Disk on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Tue, 30 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/install-disk/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>OSX Lion and jumping through a few hoops</title>
+      <link>http://blog.shiv.me/2011/08/30/osx-lion-and-jumping-through-a-few-hoops/</link>
+      <pubDate>Tue, 30 Aug 2011 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>OSX Lion and jumping through a few hoops</title>
-          <link>http://blog.shiv.me/2011/08/30/osx-lion-and-jumping-through-a-few-hoops/</link>
-          <pubDate>Tue, 30 Aug 2011 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2011/08/30/osx-lion-and-jumping-through-a-few-hoops/</guid>
-          <description>&lt;p&gt;If you haven&amp;rsquo;t yet upgraded to Lion (slow-coach you !), you might want to read these:&lt;/p&gt;
+      <guid>http://blog.shiv.me/2011/08/30/osx-lion-and-jumping-through-a-few-hoops/</guid>
+      <description>&lt;p&gt;If you haven&amp;rsquo;t yet upgraded to Lion (slow-coach you !), you might want to read these:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;How to &lt;a href=&#34;http://lifehacker.com/5823096/how-to-burn-your-own-lion-install-dvd-or-flash-drive&#34;&gt;burn your own install dvd&lt;/a&gt; for OSX Lion&lt;/li&gt;
 &lt;li&gt;You didn&amp;rsquo;t read this before you installed lion, did you? Then, &lt;a href=&#34;https://discussions.apple.com/thread/3191518?start=0&amp;amp;tstart=0&#34;&gt;follow this thread&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

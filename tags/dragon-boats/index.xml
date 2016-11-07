@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shiv.me </title>
+    <title>Dragon Boats on shiv.me</title>
     <link>http://blog.shiv.me/tags/dragon-boats/</link>
-    <language>en-us</language>
-    <author>Shiva Velmurugan</author>
-    <rights>(C) 2016</rights>
-    <updated>2010-09-09 00:00:00 &#43;0000 UTC</updated>
-
+    <description>Recent content in Dragon Boats on shiv.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Thu, 09 Sep 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://blog.shiv.me/tags/dragon-boats/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>You know it is time ..</title>
+      <link>http://blog.shiv.me/2010/09/09/you-know-it-is-time-../</link>
+      <pubDate>Thu, 09 Sep 2010 00:00:00 +0000</pubDate>
       
-        <item>
-          <title>You know it is time ..</title>
-          <link>http://blog.shiv.me/2010/09/09/you-know-it-is-time-../</link>
-          <pubDate>Thu, 09 Sep 2010 00:00:00 UTC</pubDate>
-          <author>Shiva Velmurugan</author>
-          <guid>http://blog.shiv.me/2010/09/09/you-know-it-is-time-../</guid>
-          <description>&lt;p&gt;to write a blog post, when someone calls you to tell you that they checked your blog, and there was nothing of interest. Ofcourse, being lazy, I just chose to put some pictures, which have been languishing in the netherworld of pictures on the internet &amp;ndash; Picasa.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2010/09/09/you-know-it-is-time-../</guid>
+      <description>&lt;p&gt;to write a blog post, when someone calls you to tell you that they checked your blog, and there was nothing of interest. Ofcourse, being lazy, I just chose to put some pictures, which have been languishing in the netherworld of pictures on the internet &amp;ndash; Picasa.&lt;/p&gt;
 
 &lt;p&gt;Looks like, Google has improved picasaweb to be almost usable. It is still void of comments, or any real social aspect. I&amp;rsquo;m still well within the free quota, and I&amp;rsquo;m not forking out money for yet another storage provider, until they provide a way to export all of the content that I generate in a &amp;ldquo;parseable&amp;rdquo; form (That&amp;rsquo;s right, we invent words here). Anyway, I will shut up with the review of another techy thingy, and put some pictures on.&lt;/p&gt;
 
@@ -108,9 +108,7 @@
 
 &lt;hr /&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>
