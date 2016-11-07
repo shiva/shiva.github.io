@@ -110,14 +110,56 @@ iex&amp;gt; h
 
 &lt;h2 id=&#34;control-structures-conditionals-and-loops&#34;&gt;Control Structures (conditionals and loops)&lt;/h2&gt;
 
-&lt;p&gt;case - check for multiple matches
-cond - check for multiple conditions
-if - check for specific condition
-unless - check for a specific match&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;case - check for multiple matches&lt;/li&gt;
+&lt;li&gt;cond - check for multiple conditions&lt;/li&gt;
+&lt;li&gt;if, else, end - check for specific condition&lt;/li&gt;
+&lt;li&gt;unless - check for a specific match&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Note: if and unless are macros and not first class constructs that are part of the language&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: if and unless are macros and not first class constructs that are part of the language&lt;/p&gt;
 
 &lt;p&gt;Elixir allows a lot of variations of guards that are used in conditional to express conditions. See &lt;a href=&#34;http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses&#34;&gt;here&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;do/end - the syntax is a bit weird, but quite similar to do..while in C&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; if true, do: 1 + 2
+3
+iex&amp;gt; if false, do: :this, else: :that
+:that
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following are equivalent aka &lt;code&gt;end&lt;/code&gt; doesn&amp;rsquo;t really matter&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; if true do
+...&amp;gt;   a = 1 + 2
+...&amp;gt;   a + 10
+...&amp;gt; end
+13
+iex&amp;gt; if true, do: (
+...&amp;gt;   a = 1 + 2
+...&amp;gt;   a + 10
+...&amp;gt; )
+13
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The following would result in a parsing error (is_number that takes two args &lt;code&gt;if&lt;/code&gt; and &lt;code&gt;true&lt;/code&gt; is not found)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; is_number if true do
+...&amp;gt;  1 + 2
+...&amp;gt; end
+** (CompileError) undefined function: is_number/2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This would be the correct way to acheive the normally &amp;ldquo;expected&amp;rdquo; behaviour&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; is_number(if true do
+...&amp;gt;  1 + 2
+...&amp;gt; end)
+true
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

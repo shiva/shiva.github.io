@@ -157,14 +157,56 @@ iex&gt; h
 
 <h2 id="control-structures-conditionals-and-loops">Control Structures (conditionals and loops)</h2>
 
-<p>case - check for multiple matches
-cond - check for multiple conditions
-if - check for specific condition
-unless - check for a specific match</p>
+<ul>
+<li>case - check for multiple matches</li>
+<li>cond - check for multiple conditions</li>
+<li>if, else, end - check for specific condition</li>
+<li>unless - check for a specific match</li>
+</ul>
 
-<p>Note: if and unless are macros and not first class constructs that are part of the language</p>
+<p><em>Note</em>: if and unless are macros and not first class constructs that are part of the language</p>
 
 <p>Elixir allows a lot of variations of guards that are used in conditional to express conditions. See <a href="http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses">here</a> for more information.</p>
+
+<ul>
+<li><p>do/end - the syntax is a bit weird, but quite similar to do..while in C</p>
+
+<pre><code>iex&gt; if true, do: 1 + 2
+3
+iex&gt; if false, do: :this, else: :that
+:that
+</code></pre>
+
+<p>The following are equivalent aka <code>end</code> doesn&rsquo;t really matter</p>
+
+<pre><code>iex&gt; if true do
+...&gt;   a = 1 + 2
+...&gt;   a + 10
+...&gt; end
+13
+iex&gt; if true, do: (
+...&gt;   a = 1 + 2
+...&gt;   a + 10
+...&gt; )
+13
+</code></pre>
+
+<p>The following would result in a parsing error (is_number that takes two args <code>if</code> and <code>true</code> is not found)</p>
+
+<pre><code>iex&gt; is_number if true do
+...&gt;  1 + 2
+...&gt; end
+** (CompileError) undefined function: is_number/2
+</code></pre>
+
+<p>This would be the correct way to acheive the normally &ldquo;expected&rdquo; behaviour</p>
+
+<pre><code>iex&gt; is_number(if true do
+...&gt;  1 + 2
+...&gt; end)
+true
+</code></pre></li>
+</ul>
 
     </div>
   </article>
