@@ -65,7 +65,7 @@
     <div class="article-content">
       
 
-<p>These are notes from the <a href="1" title="string length != string's byte size
+<p>These are notes from the <a href="1" title="`byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)`. Also, (char list) `'hello' != &quot;hello&quot;` (string)
 ">official Elixir documentation</a>. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &ndash; a way for me to remember and use as a reference.</p>
 
 <h2 id="types">Types</h2>
@@ -203,17 +203,13 @@ iex&gt; if true, do: (
 ...&gt; end)
 true
 </code></pre></li>
-
-<li><p><em>CAUTION</em>: <code>byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)</code>.</p></li>
-
-<li><p><em>CAUTION</em>: (char list) <code>'hello' != &quot;hello&quot;</code> (string)</p></li>
 </ul>
 <div class="footnotes">
 
 <hr />
 
 <ol>
-<li id="fn:1">string length != string&rsquo;s byte size
+<li id="fn:1"><code>byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)</code>. Also, (char list) <code>'hello' != &quot;hello&quot;</code> (string)
  <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
 </ol>
 </div>
