@@ -18,9 +18,9 @@
       <guid>http://blog.shiv.me/2016/11/06/elixir-crash-course/</guid>
       <description>
 
-&lt;p&gt;This post is a set of points I noted down, as I read through the Elixir documentation. This is by no means comprehensive. This is meant to be a crash course for someone coming from years of C.&lt;/p&gt;
+&lt;p&gt;These are notes from the Elixir documentation. This is by no means comprehensive. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &amp;ndash; a way for me to remember and use as a reference.&lt;/p&gt;
 
-&lt;p&gt;All of the content here, is simply a parsed summary of what is available as part of the &lt;a href=&#34;http://elixir-lang.org/getting-started/&#34;&gt;official documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If the content here is incorrect, refer to the &lt;a href=&#34;http://elixir-lang.org/getting-started/&#34;&gt;official Elixir documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;types&#34;&gt;Types&lt;/h2&gt;
 
