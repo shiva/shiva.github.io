@@ -65,11 +65,8 @@
     <div class="article-content">
       
 
-<p>These are notes from the Elixir documentation. This is by no means comprehensive. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &ndash; a way for me to remember and use as a reference.</p>
-
-<p>If the content here is incorrect, refer to the <a href="http://elixir-lang.org/getting-started/">official Elixir documentation</a>.</p>
-
-<p>test <a href="#types">anchor</a></p>
+<p>These are notes from the <a href="1" title="string length != string's byte size
+">official Elixir documentation</a>. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &ndash; a way for me to remember and use as a reference.</p>
 
 <h2 id="types">Types</h2>
 
@@ -81,9 +78,7 @@
 
 <ul>
 <li>Supports unicode string natively! It&rsquo;s about time.</li>
-<li>You can concatenate strings using <code>&lt;&gt;</code>. <code>&quot;hello&quot; &lt;&gt; &quot; world&quot;</code>.</li>
-<li><em>CAUTION</em>: <code>byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)</code>.</li>
-<li><em>CAUTION</em>: (char list) <code>'hello' != &quot;hello&quot;</code> (string)</li>
+<li>You can concatenate strings using <code>&lt;&gt;</code>. <code>&quot;hello&quot; &lt;&gt; &quot; world&quot;</code>. <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup></li>
 </ul>
 
 <h3 id="anonymous-functions">Anonymous functions</h3>
@@ -208,7 +203,20 @@ iex&gt; if true, do: (
 ...&gt; end)
 true
 </code></pre></li>
+
+<li><p><em>CAUTION</em>: <code>byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)</code>.</p></li>
+
+<li><p><em>CAUTION</em>: (char list) <code>'hello' != &quot;hello&quot;</code> (string)</p></li>
 </ul>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">string length != string&rsquo;s byte size
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
 
     </div>
   </article>
