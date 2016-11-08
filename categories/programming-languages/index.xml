@@ -22,6 +22,8 @@
 
 &lt;p&gt;If the content here is incorrect, refer to the &lt;a href=&#34;http://elixir-lang.org/getting-started/&#34;&gt;official Elixir documentation&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;test &lt;a href=&#34;#types&#34;&gt;anchor&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;types&#34;&gt;Types&lt;/h2&gt;
 
 &lt;h3 id=&#34;atoms&#34;&gt;Atoms&lt;/h3&gt;
