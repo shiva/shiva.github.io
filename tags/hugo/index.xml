@@ -67,7 +67,7 @@
 
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;Slow is relative. I have about 300+ posts, and rendering them into HTML using jekyll, takes a few minutes.
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩︎︎&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

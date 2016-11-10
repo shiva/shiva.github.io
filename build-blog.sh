@@ -39,9 +39,9 @@ git clone --depth=1 --single-branch -b ${GITHUB_PUBLISH_BRANCH} ${GITHUB_PUBLISH
 
 echo "Checkout blog theme ..."
 cd ${BLOG_DIR}
-git submodule update --init themes/lanyon
+git submodule update --init themes/lithium
 
 echo "Re-generate blog ..."
-${CHECKOUT_DIR}/binaries/hugo -t lanyon
+${CHECKOUT_DIR}/binaries/hugo -t lithium
 
 echo "Done."
