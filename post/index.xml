@@ -190,10 +190,11 @@ iex&amp;gt; ^x = 2
 
 &lt;p&gt;Ignore the rest, or assign the rest to _&lt;/p&gt;
 
-&lt;p&gt;iex&amp;gt; [h | _] = [1, 2, 3]
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; [h | _] = [1, 2, 3]
 [1, 2, 3]
 iex&amp;gt; h
-1&lt;/p&gt;
+1
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;control-structures-conditionals-and-loops&#34;&gt;Control Structures (conditionals and loops)&lt;/h2&gt;
 
