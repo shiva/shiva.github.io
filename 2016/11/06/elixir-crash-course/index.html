@@ -53,7 +53,7 @@
 
   <article class="article">
     
-    <span class="article-duration">3 min read</span>
+    <span class="article-duration">5 min read</span>
     
 
     <h1 class="article-title">Elixir - A crash course</h1>
@@ -65,8 +65,7 @@
     <div class="article-content">
       
 
-<p>These are notes from the <a href="1" title="`byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)`. Also, (char list) `'hello' != &quot;hello&quot;` (string)
-">official Elixir documentation</a>. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &ndash; a way for me to remember and use as a reference.</p>
+<p>These are notes from the <a href="http://elixir-lang.org/getting-started/">official Elixir documentation</a>. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &ndash; a way for me to remember and use as a reference.</p>
 
 <h2 id="types">Types</h2>
 
@@ -78,7 +77,7 @@
 
 <ul>
 <li>Supports unicode string natively! It&rsquo;s about time.</li>
-<li>You can concatenate strings using <code>&lt;&gt;</code>. <code>&quot;hello&quot; &lt;&gt; &quot; world&quot;</code>. <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup></li>
+<li>You can concatenate strings using <code>&lt;&gt;</code>. <code>&quot;hello&quot; &lt;&gt; &quot; world&quot;</code>. <sup class="footnote-ref" id="fnref:http-elixir-lang-org-getting-started"><a rel="footnote" href="#fn:http-elixir-lang-org-getting-started">1</a></sup></li>
 </ul>
 
 <h3 id="anonymous-functions">Anonymous functions</h3>
@@ -103,6 +102,97 @@ iex(5)&gt;
 <h3 id="tuples">Tuples</h3>
 
 <p>Native support for associative arrays. Any pair of values, stored contiguously. Indexes start from zero. mutable <code>put_elem(tuple, idx, &quot;value&quot;)</code>. Fast access, but expensive to add or insert elements</p>
+
+<h3 id="keyword-lists">Keyword Lists</h3>
+
+<p>Lists of tuples where
+ - Keys must be atoms.
+ - Keys are ordered, as specified by the developer.
+ - Keys can be given more than once.</p>
+
+<p>Useful for making DSLs.</p>
+
+<p>Elixir has special syntax for keyword lists</p>
+
+<pre><code>iex&gt; list = [{:a, 1}, {:b, 2}]
+[a: 1, b: 2]
+iex&gt; list ++ [c: 3]
+[a: 1, b: 2, c: 3]
+
+</code></pre>
+
+<p>the <a href="http://elixir-lang.org/docs/stable/elixir/Keyword.html">Keyword</a> module provides methods to manipulate keyword lists.</p>
+
+<h3 id="maps-3">Maps <sup class="footnote-ref" id="fnref:http-elixir-lang-org-docs-stable-elixir-Keyword-html"><a rel="footnote" href="#fn:http-elixir-lang-org-docs-stable-elixir-Keyword-html">2</a></sup></h3>
+
+<p>For a key-value store, maps are the “go to” data structure in Elixir. A map is created using the %{} syntax:</p>
+
+<ul>
+<li>Maps allow any value as a key.</li>
+<li>Maps’ keys do not follow any ordering.</li>
+<li>Matches a subset of a given value.</li>
+</ul>
+
+<pre><code> iex&gt; map = %{:a =&gt; 1, 2 =&gt; :b}
+ %{2 =&gt; :b, :a =&gt; 1}
+ iex&gt; map[:a]
+ 1
+</code></pre>
+
+<ul>
+<li>Matches as long as a key is found in the map.</li>
+</ul>
+
+<pre><code> iex&gt; %{:a =&gt; a} = %{:a =&gt; 1, 2 =&gt; :b}
+ %{2 =&gt; :b, :a =&gt; 1}
+ iex&gt; a
+ 1
+ iex&gt; n = 1
+ 1
+</code></pre>
+
+<ul>
+<li>Variables can be used when accessing, matching and adding keys</li>
+</ul>
+
+<pre><code> iex&gt; map = %{n =&gt; :one}
+ %{1 =&gt; :one}
+ iex&gt; map[n]
+ :one
+ iex&gt; %{^n =&gt; :one} = %{1 =&gt; :one, 2 =&gt; :two, 3 =&gt; :three}
+ %{1 =&gt; :one, 2 =&gt; :two, 3 =&gt; :three}
+</code></pre>
+
+<ul>
+<li>If all the keys are atoms, convienience syntax may be used.</li>
+</ul>
+
+<pre><code> iex&gt; map = %{:a =&gt; 1, 2 =&gt; :b}
+ %{2 =&gt; :b, :a =&gt; 1}
+
+ iex&gt; map.a
+ 1
+</code></pre>
+
+<p>The <a href="http://elixir-lang.org/docs/stable/elixir/Map.html">Map</a> module provides a very similar API to the Keyword module with convenience functions to manipulate maps.</p>
+
+<h3 id="nested-data-structures">Nested data structures</h3>
+
+<p>Elixir supported special functions for working with nested structures. xpath like addressing into a specific level in a nested struct</p>
+
+<ul>
+<li>[put_in/2][<a href="http://elixir-lang.org/docs/stable/elixir/Kernel.html#put_in/2">http://elixir-lang.org/docs/stable/elixir/Kernel.html#put_in/2</a>]</li>
+<li>[update_in/2][<a href="http://elixir-lang.org/docs/stable/elixir/Kernel.html#update_in/2">http://elixir-lang.org/docs/stable/elixir/Kernel.html#update_in/2</a>]</li>
+<li>[get_update_in/2][<a href="http://elixir-lang.org/docs/stable/elixir/Kernel.html#get_update_in/2">http://elixir-lang.org/docs/stable/elixir/Kernel.html#get_update_in/2</a>]</li>
+</ul>
+
+<p>Dynamic variants of the above:</p>
+
+<ul>
+<li>[put_in/3][<a href="http://elixir-lang.org/docs/stable/elixir/Kernel.html#put_in/3">http://elixir-lang.org/docs/stable/elixir/Kernel.html#put_in/3</a>]</li>
+<li>[update_in/3][<a href="http://elixir-lang.org/docs/stable/elixir/Kernel.html#update_in/3">http://elixir-lang.org/docs/stable/elixir/Kernel.html#update_in/3</a>]</li>
+<li>[get_update_in/3][<a href="http://elixir-lang.org/docs/stable/elixir/Kernel.html#get_update_in/3">http://elixir-lang.org/docs/stable/elixir/Kernel.html#get_update_in/3</a>]</li>
+</ul>
 
 <h3 id="other-types">Other types</h3>
 
@@ -155,18 +245,16 @@ iex&gt; h
 <h2 id="control-structures-conditionals-and-loops">Control Structures (conditionals and loops)</h2>
 
 <ul>
-<li>case - check for multiple matches</li>
-<li>cond - check for multiple conditions</li>
-<li>if, else, end - check for specific condition</li>
-<li>unless - check for a specific match</li>
+<li>case - check for multiple matches.</li>
+<li>cond - check for multiple conditions.</li>
+<li>if, else, end - check for specific condition.</li>
+<li>unless - check for a specific match. <sup class="footnote-ref" id="fnref:http-elixir-lang-org-getting-started-case-cond-and-if-html-expressions-in-guard-clauses"><a rel="footnote" href="#fn:http-elixir-lang-org-getting-started-case-cond-and-if-html-expressions-in-guard-clauses">3</a></sup></li>
 </ul>
-
-<p><em>Note</em>: if and unless are macros and not first class constructs that are part of the language</p>
 
 <p>Elixir allows a lot of variations of guards that are used in conditional to express conditions. See <a href="http://elixir-lang.org/getting-started/case-cond-and-if.html#expressions-in-guard-clauses">here</a> for more information.</p>
 
 <ul>
-<li><p>do/end - the syntax is a bit weird, but quite similar to do..while in C</p>
+<li><p>do/end - the syntax is a bit weird, but quite similar to do..while in C. They are just keyword lists.</p>
 
 <pre><code>iex&gt; if true, do: 1 + 2
 3
@@ -209,8 +297,9 @@ true
 <hr />
 
 <ol>
-<li id="fn:1"><code>byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)</code>. Also, (char list) <code>'hello' != &quot;hello&quot;</code> (string)
- <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:http-elixir-lang-org-getting-started"> <a class="footnote-return" href="#fnref:http-elixir-lang-org-getting-started"><sup>[return]</sup></a></li>
+<li id="fn:http-elixir-lang-org-docs-stable-elixir-Keyword-html"> <a class="footnote-return" href="#fnref:http-elixir-lang-org-docs-stable-elixir-Keyword-html"><sup>[return]</sup></a></li>
+<li id="fn:http-elixir-lang-org-getting-started-case-cond-and-if-html-expressions-in-guard-clauses"> <a class="footnote-return" href="#fnref:http-elixir-lang-org-getting-started-case-cond-and-if-html-expressions-in-guard-clauses"><sup>[return]</sup></a></li>
 </ol>
 </div>
 
