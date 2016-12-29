@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bash on shiv.me</title>
-    <link>http://blog.shiv.me/tags/bash/</link>
-    <description>Recent content in Bash on shiv.me</description>
+    <title>Aliases on shiv.me</title>
+    <link>http://blog.shiv.me/tags/aliases/</link>
+    <description>Recent content in Aliases on shiv.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
     <lastBuildDate>Thu, 29 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://blog.shiv.me/tags/aliases/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Useful bash aliases</title>
@@ -26,23 +26,6 @@ Both cscope and ctags (integrated into vim), allow me to quickly move between fi
 &lt;script src=&#34;https://gist.github.com/shiva/89240cdece79f84867f0feeb9d73f1f5.js&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;In addition, the most awesome &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&gt;Ctrl+p plugin&lt;/a&gt;, make vim a pleasure to work in.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Getting git status on multiple directories</title>
-      <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
-      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
-      <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
-The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;for d in `find . -name &amp;quot;.git&amp;quot;`; do 
-echo &amp;quot;processing $d ...&amp;quot;; 
-git --git-dir=$d --work-tree=$d/.. status; 
-done
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

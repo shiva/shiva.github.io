@@ -7,8 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 06 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Dec 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://blog.shiv.me/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Useful bash aliases</title>
+      <link>http://blog.shiv.me/2016/12/29/useful-bash-aliases/</link>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2016/12/29/useful-bash-aliases/</guid>
+      <description>&lt;p&gt;For the past 9 years, I have written C code almost every working day. I primarily use vim as my editor of choice (for about 20 years now). I product that I work on has over 22 million lines of source &amp;ndash; most of it a nightmare.
+Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understand the challenge at hand.&lt;/p&gt;
+
+&lt;p&gt;In such large code bases, indexing the entire codebase is quite impossible. A fully indexed ctags files is several gigabytes, and search across such large code-bases slows operation of vim quite substantially. It is essential to be able to isolate and index a controlled portion of the source.&lt;/p&gt;
+
+&lt;p&gt;I use the following aliases to build tags files and cscope databases as I need.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/shiva/89240cdece79f84867f0feeb9d73f1f5.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;In addition, the most awesome &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&gt;Ctrl+p plugin&lt;/a&gt;, make vim a pleasure to work in.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Elixir - A crash course</title>
@@ -634,24 +653,6 @@ The version of setup-tools that comes default with python2.7 and crunchbang seem
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/ray_lian&#34;&gt;Ray Lian&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://twitter.com/covivant&#34;&gt;Dave Kell&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Malaise of large companies</title>
-      <link>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</link>
-      <pubDate>Sat, 28 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.shiv.me/2013/12/28/malaise-of-large-companies/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://scripting.com/2013/12/28/microsoftAndNetbooks.html&#34;&gt;Another gem&lt;/a&gt; from the always spot-on Dave Winer. Microsoft could have owned netbooks.&lt;/p&gt;
-
-&lt;p&gt;The pathological need for large companies to focus on the wrong, to their own demise never ceases to amaze me. Why do dominant players lose out? Is it the incompetence of people in these companies? Is it the inability to articulate, convince, and move the masses within these companies?&lt;/p&gt;
-
-&lt;p&gt;Most often, it is the later. Perhaps, the collective, is bound to make safer choices and very often, the simple or obvious option is not the safe one.&lt;/p&gt;
-
-&lt;p&gt;It always comes down to doing the &lt;a href=&#34;http://blog.ulrichsossou.com/2012/07/13/easy-vs-simple/&#34;&gt;simple vs the easy&lt;/a&gt;. Simple is hard!&lt;/p&gt;
-
-&lt;p&gt;P.S: I work for a large company. It is a daily struggle, irrespective of the domain of the choice &amp;ndash; design, code or cultural.&lt;/p&gt;
 </description>
     </item>
     
