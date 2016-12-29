@@ -53,7 +53,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">Useful bash aliases</h1>
@@ -73,6 +73,11 @@ Both cscope and ctags (integrated into vim), allow me to quickly move between fi
 <script src="https://gist.github.com/shiva/89240cdece79f84867f0feeb9d73f1f5.js"></script>
 
 <p>In addition, the most awesome <a href="https://github.com/kien/ctrlp.vim">Ctrl+p plugin</a>, make vim a pleasure to work in.</p>
+
+<p>Another frequently used command is remove-whitespace. I like to strip trailing whitespace, since it is quite ugly, off-putting when viewing diffs between two versions of a file, or when reading git-diffs and patches. It is a lot more powerful when combined with the ability to list all files that were changed in the last commit. The following command, fixes trailing white-spaces in all of the files that were changes in the last commit.</p>
+
+<pre><code>for f in `git show --name-only --pretty=&quot;&quot;`; do echo $f; remove-whitespace $f;  done
+</code></pre>
 
     </div>
   </article>
