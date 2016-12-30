@@ -67,7 +67,9 @@
 
 <h3 id="searching-for-symbols">Searching for symbols</h3>
 
-<p>The product that I work on, has over 22 million lines of source &ndash; most of it a nightmare. I use vim as my editor of choice <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understand the challenge at hand. Throw is the fuzzy find capabilities of the most awesome <a href="1" title="Don't even think of using eclipse or another IDE. A code-base this size, is simply too large for anything except simple text-based tools
+<p>The product that I work on, has over 22 million lines of source &ndash; most of it a nightmare. I use vim as my editor of choice <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understanding the challenge-du-jour.</p>
+
+<p>Throw in fuzzy find capabilities of the most awesome <a href="1" title="Don't even think of using eclipse or another IDE. A code-base this size, is simply too large for anything except simple text-based tools
 ">Ctrl+p plugin</a>, and vim becomes the best &lsquo;IDE&rsquo; out there!</p>
 
 <p>However, large code bases result in very large indexes. A fully indexed ctags file for the product I work is several gigabytes. At this scale, searching for a symbols slows vim down substantially. It is vital to isolate and index a portion of the source &ndash; the part that I am interested in on a given day.</p>
