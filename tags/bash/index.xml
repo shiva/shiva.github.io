@@ -11,22 +11,22 @@
     <atom:link href="http://blog.shiv.me/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Useful bash aliases</title>
-      <link>http://blog.shiv.me/2016/12/29/useful-bash-aliases/</link>
+      <title>Working with large C codebases</title>
+      <link>http://blog.shiv.me/2016/12/29/working-with-large-c-codebases/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2016/12/29/useful-bash-aliases/</guid>
-      <description>&lt;p&gt;For the past 9 years, I have written C code almost every working day. I primarily use vim as my editor of choice (for about 20 years now). The product that I work on has over 22 million lines of source &amp;ndash; most of it a nightmare. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understand the challenge at hand.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2016/12/29/working-with-large-c-codebases/</guid>
+      <description>&lt;p&gt;The product that I work on, has over 22 million lines of source &amp;ndash; most of it a nightmare. I use vim as my editor of choice. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understand the challenge at hand. Throw is the fuzzy find capabilities of the most awesome &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&gt;Ctrl+p plugin&lt;/a&gt;, and vim becomes the best &amp;lsquo;IDE&amp;rsquo; out there!&lt;/p&gt;
 
-&lt;p&gt;However, such large code bases result in very large indexes. A fully indexed ctags file is several gigabytes. Searching for a symbols definition in such situations slows vim down quite substantially. It is vital to isolate and index a controlled portion of the source &amp;ndash; the part that I am interested in today.&lt;/p&gt;
+&lt;p&gt;However, large code bases result in very large indexes. A fully indexed ctags file for the product I work is several gigabytes. At this scale, searching for a symbols slows vim down substantially. It is vital to isolate and index a portion of the source &amp;ndash; the part that I am interested in on a given day.&lt;/p&gt;
 
 &lt;p&gt;I use the following aliases to build tags files and cscope databases as I need.&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/shiva/89240cdece79f84867f0feeb9d73f1f5.js&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;Throw is the fuzzy find capabilities of the most awesome &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&gt;Ctrl+p plugin&lt;/a&gt;, and vim becomes the best &amp;lsquo;IDE&amp;rsquo; out there!&lt;/p&gt;
+&lt;p&gt;I like to strip trailing whitespace. Trailing whitespace, results in confusing diffs between two versions of a file. It increases the congnitive dissonance when reading git-diffs and patches &amp;ndash; it is quite tiresome when reviewing 20-30 commits a day.&lt;/p&gt;
 
-&lt;p&gt;Another frequently used command is remove-whitespace. I like to strip trailing whitespace, since it is quite ugly, off-putting when viewing diffs between two versions of a file, or when reading git-diffs and patches. It is a lot more powerful when combined with the ability to list all files that were changed in the last commit. The following command, fixes trailing white-spaces in all of the files that were changes in the last commit.&lt;/p&gt;
+&lt;p&gt;The following aliases help strip trailing whitespace given a file and keep commits deltas devoid of un-necessary whitespace changes.&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/shiva/7f5ab9dbc7ed5bea59a4ce03aa2c9fb8.js&#34;&gt;&lt;/script&gt;
 </description>

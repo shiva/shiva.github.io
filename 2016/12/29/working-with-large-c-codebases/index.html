@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.16" />
+
+
+<title>Working with large C codebases - shiv.me</title>
+<meta property="og:title" content="Working with large C codebases - shiv.me">
+
+
+
+  
+  <meta property="description" content="frequently used bash aliases that save time for a developer">
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="http://blog.shiv.me/" class="nav-logo">
+    <img src="http://blog.shiv.me/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="shiv.me">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="http://shiv.me/#about">About</a></li>
+    
+    <li><a href="http://github.com/shiva">GitHub</a></li>
+    
+    <li><a href="http://twitter.com/shiva">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Working with large C codebases</h1>
+
+    
+    <span class="article-date">December 29, 2016</span>
+    
+
+    <div class="article-content">
+      <p>The product that I work on, has over 22 million lines of source &ndash; most of it a nightmare. I use vim as my editor of choice. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understand the challenge at hand. Throw is the fuzzy find capabilities of the most awesome <a href="https://github.com/kien/ctrlp.vim">Ctrl+p plugin</a>, and vim becomes the best &lsquo;IDE&rsquo; out there!</p>
+
+<p>However, large code bases result in very large indexes. A fully indexed ctags file for the product I work is several gigabytes. At this scale, searching for a symbols slows vim down substantially. It is vital to isolate and index a portion of the source &ndash; the part that I am interested in on a given day.</p>
+
+<p>I use the following aliases to build tags files and cscope databases as I need.</p>
+
+<script src="https://gist.github.com/shiva/89240cdece79f84867f0feeb9d73f1f5.js"></script>
+
+<p>I like to strip trailing whitespace. Trailing whitespace, results in confusing diffs between two versions of a file. It increases the congnitive dissonance when reading git-diffs and patches &ndash; it is quite tiresome when reviewing 20-30 commits a day.</p>
+
+<p>The following aliases help strip trailing whitespace given a file and keep commits deltas devoid of un-necessary whitespace changes.</p>
+
+<script src="https://gist.github.com/shiva/7f5ab9dbc7ed5bea59a4ce03aa2c9fb8.js"></script>
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+

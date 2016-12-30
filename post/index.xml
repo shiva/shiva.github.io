@@ -11,22 +11,22 @@
     <atom:link href="http://blog.shiv.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Useful bash aliases</title>
-      <link>http://blog.shiv.me/2016/12/29/useful-bash-aliases/</link>
+      <title>Working with large C codebases</title>
+      <link>http://blog.shiv.me/2016/12/29/working-with-large-c-codebases/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2016/12/29/useful-bash-aliases/</guid>
-      <description>&lt;p&gt;For the past 9 years, I have written C code almost every working day. I primarily use vim as my editor of choice (for about 20 years now). The product that I work on has over 22 million lines of source &amp;ndash; most of it a nightmare. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understand the challenge at hand.&lt;/p&gt;
+      <guid>http://blog.shiv.me/2016/12/29/working-with-large-c-codebases/</guid>
+      <description>&lt;p&gt;The product that I work on, has over 22 million lines of source &amp;ndash; most of it a nightmare. I use vim as my editor of choice. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understand the challenge at hand. Throw is the fuzzy find capabilities of the most awesome &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&gt;Ctrl+p plugin&lt;/a&gt;, and vim becomes the best &amp;lsquo;IDE&amp;rsquo; out there!&lt;/p&gt;
 
-&lt;p&gt;However, such large code bases result in very large indexes. A fully indexed ctags file is several gigabytes. Searching for a symbols definition in such situations slows vim down quite substantially. It is vital to isolate and index a controlled portion of the source &amp;ndash; the part that I am interested in today.&lt;/p&gt;
+&lt;p&gt;However, large code bases result in very large indexes. A fully indexed ctags file for the product I work is several gigabytes. At this scale, searching for a symbols slows vim down substantially. It is vital to isolate and index a portion of the source &amp;ndash; the part that I am interested in on a given day.&lt;/p&gt;
 
 &lt;p&gt;I use the following aliases to build tags files and cscope databases as I need.&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/shiva/89240cdece79f84867f0feeb9d73f1f5.js&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;Throw is the fuzzy find capabilities of the most awesome &lt;a href=&#34;https://github.com/kien/ctrlp.vim&#34;&gt;Ctrl+p plugin&lt;/a&gt;, and vim becomes the best &amp;lsquo;IDE&amp;rsquo; out there!&lt;/p&gt;
+&lt;p&gt;I like to strip trailing whitespace. Trailing whitespace, results in confusing diffs between two versions of a file. It increases the congnitive dissonance when reading git-diffs and patches &amp;ndash; it is quite tiresome when reviewing 20-30 commits a day.&lt;/p&gt;
 
-&lt;p&gt;Another frequently used command is remove-whitespace. I like to strip trailing whitespace, since it is quite ugly, off-putting when viewing diffs between two versions of a file, or when reading git-diffs and patches. It is a lot more powerful when combined with the ability to list all files that were changed in the last commit. The following command, fixes trailing white-spaces in all of the files that were changes in the last commit.&lt;/p&gt;
+&lt;p&gt;The following aliases help strip trailing whitespace given a file and keep commits deltas devoid of un-necessary whitespace changes.&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/shiva/7f5ab9dbc7ed5bea59a4ce03aa2c9fb8.js&#34;&gt;&lt;/script&gt;
 </description>
@@ -41,7 +41,7 @@
       <description>
 
 &lt;p&gt;These are notes from the &lt;a href=&#34;1&#34; title=&#34;`byte_size(&amp;quot;hellö&amp;quot;) != String.length(&amp;quot;hellö&amp;quot;)`. Also, (char list) `&#39;hello&#39; != &amp;quot;hello&amp;quot;` (string)
-&#34;&gt;official Elixir documentation&lt;/a&gt;. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &amp;ndash; a way for me to remember and use as a reference.&lt;/p&gt;
+&#34;&gt;official Elixir documentation&lt;/a&gt;. It a quick walk-through of the unique features in Elixir for someone coming from years of C &amp;mdash; a way for me to remember and use as a reference.&lt;/p&gt;
 
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
@@ -60,13 +60,13 @@
 &lt;h3 id=&#34;strings&#34;&gt;Strings&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Supports unicode string natively! It&amp;rsquo;s about time.&lt;/li&gt;
-&lt;li&gt;You can concatenate strings using &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;. &lt;code&gt;&amp;quot;hello&amp;quot; &amp;lt;&amp;gt; &amp;quot; world&amp;quot;&lt;/code&gt;. &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Supports unicode string natively! It&amp;rsquo;s about time. &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;You can concatenate strings using &lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;. &lt;code&gt;&amp;quot;hello&amp;quot; &amp;lt;&amp;gt; &amp;quot; world&amp;quot;&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;anonymous-functions&#34;&gt;Anonymous functions&lt;/h3&gt;
 
-&lt;p&gt;Native support for closures &amp;ndash; called anonymous functions. Also, functions are first-class aka can be passed as arguments into other functions. Special syntax is required to invoke ananymous functions.&lt;/p&gt;
+&lt;p&gt;Native support for closures &amp;ndash; called anonymous functions. Also, functions are first-class, i.e. can be passed as arguments into other functions. Special syntax is required to invoke ananymous functions.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;iex(1)&amp;gt; add = fn a,b -&amp;gt; a + b end
 #Function&amp;lt;12.52032458/2 in :erl_eval.expr/5&amp;gt;
@@ -226,6 +226,17 @@ iex&amp;gt; ^x = 2
 [1, 2, 3]
 iex&amp;gt; h
 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;the-pipe-operator&#34;&gt;The pipe operator&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;left |&amp;gt; right&lt;/code&gt;, passes left as a parameter to the right. It is useful to re-write code be easier to read. The following are the same:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;iex&amp;gt; Enum.sum(Enum.filter(Enum.map(1..100_000, &amp;amp;(&amp;amp;1 * 3)), odd?))
+7500000000
+
+iex&amp;gt; 1..100_000 |&amp;gt; Enum.map(&amp;amp;(&amp;amp;1 * 3)) |&amp;gt; Enum.filter(odd?) |&amp;gt; Enum.sum
+7500000000
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;control-structures&#34;&gt;Control Structures&lt;/h2&gt;

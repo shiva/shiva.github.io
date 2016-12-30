@@ -66,7 +66,7 @@
       
 
 <p>These are notes from the <a href="1" title="`byte_size(&quot;hellö&quot;) != String.length(&quot;hellö&quot;)`. Also, (char list) `'hello' != &quot;hello&quot;` (string)
-">official Elixir documentation</a>. It a quick walk-through of features in Elixir that are different than C (or C like languages), for someone coming from years of C &ndash; a way for me to remember and use as a reference.</p>
+">official Elixir documentation</a>. It a quick walk-through of the unique features in Elixir for someone coming from years of C &mdash; a way for me to remember and use as a reference.</p>
 
 <h2 id="summary">Summary</h2>
 
@@ -85,13 +85,13 @@
 <h3 id="strings">Strings</h3>
 
 <ul>
-<li>Supports unicode string natively! It&rsquo;s about time.</li>
-<li>You can concatenate strings using <code>&lt;&gt;</code>. <code>&quot;hello&quot; &lt;&gt; &quot; world&quot;</code>. <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup></li>
+<li>Supports unicode string natively! It&rsquo;s about time. <sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup></li>
+<li>You can concatenate strings using <code>&lt;&gt;</code>. <code>&quot;hello&quot; &lt;&gt; &quot; world&quot;</code>.</li>
 </ul>
 
 <h3 id="anonymous-functions">Anonymous functions</h3>
 
-<p>Native support for closures &ndash; called anonymous functions. Also, functions are first-class aka can be passed as arguments into other functions. Special syntax is required to invoke ananymous functions.</p>
+<p>Native support for closures &ndash; called anonymous functions. Also, functions are first-class, i.e. can be passed as arguments into other functions. Special syntax is required to invoke ananymous functions.</p>
 
 <pre><code>iex(1)&gt; add = fn a,b -&gt; a + b end
 #Function&lt;12.52032458/2 in :erl_eval.expr/5&gt;
@@ -251,6 +251,17 @@ iex&gt; ^x = 2
 [1, 2, 3]
 iex&gt; h
 1
+</code></pre>
+
+<h3 id="the-pipe-operator">The pipe operator</h3>
+
+<p><code>left |&gt; right</code>, passes left as a parameter to the right. It is useful to re-write code be easier to read. The following are the same:</p>
+
+<pre><code>iex&gt; Enum.sum(Enum.filter(Enum.map(1..100_000, &amp;(&amp;1 * 3)), odd?))
+7500000000
+
+iex&gt; 1..100_000 |&gt; Enum.map(&amp;(&amp;1 * 3)) |&gt; Enum.filter(odd?) |&gt; Enum.sum
+7500000000
 </code></pre>
 
 <h2 id="control-structures">Control Structures</h2>
