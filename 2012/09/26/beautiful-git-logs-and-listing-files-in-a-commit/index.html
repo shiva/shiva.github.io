@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.16" />
+
+
+<title>Beautiful git logs and listing files in a commit - shiv.me</title>
+<meta property="og:title" content="Beautiful git logs and listing files in a commit - shiv.me">
+
+
+
+  
+  <meta property="description" content="Git: beautiful git logs and listing files in a commit">
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="http://blog.shiv.me/" class="nav-logo">
+    <img src="http://blog.shiv.me/images/logo.png" 
+         width="50" 
+         height="50" 
+         alt="shiv.me">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="http://shiv.me/#about">About</a></li>
+    
+    <li><a href="http://github.com/shiva">GitHub</a></li>
+    
+    <li><a href="http://twitter.com/shiva">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Beautiful git logs and listing files in a commit</h1>
+
+    
+    <span class="article-date">September 26, 2012</span>
+    
+
+    <div class="article-content">
+      <p>Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.</p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-config-alias"></script>
+
+<p>For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.</p>
+
+<p>The following is from the latest <a href="https://github.com/torvalds/linux" title="linux by Linus">linux.git</a></p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-log-output-for-linux"></script>
+
+<p>Fortunately, git log has options one can use, that make the output look like this:</p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-lg-output-for-linux"></script>
+
+<p>Another useful command is git show, with the &ndash;name-only option. It displays the list of files in a particular commit.</p>
+
+<script src="//gist.github.com/shiva/3791502.js?file=file-git-show-name-only"></script>
+
+    </div>
+  </article>
+
+  
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+

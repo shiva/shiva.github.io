@@ -11,11 +11,11 @@
     <atom:link href="http://blog.shiv.me/tags/git-log/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Git: beautiful git logs and listing files in a commit</title>
-      <link>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</link>
+      <title>Beautiful git logs and listing files in a commit</title>
+      <link>http://blog.shiv.me/2012/09/26/beautiful-git-logs-and-listing-files-in-a-commit/</link>
       <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2012/09/26/git-beautiful-git-logs-and-listing-files-in-a-commit/</guid>
+      <guid>http://blog.shiv.me/2012/09/26/beautiful-git-logs-and-listing-files-in-a-commit/</guid>
       <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
 
 &lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-config-alias&#34;&gt;&lt;/script&gt;
