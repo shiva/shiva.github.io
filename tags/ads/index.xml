@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ads on shiv.me</title>
+    <title>ads on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/ads/</link>
-    <description>Recent content in Ads on shiv.me</description>
+    <description>Recent content in ads on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 31 Aug 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/ads/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 31 Aug 2010 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/ads/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awesome cricket ads</title>
       <link>http://blog.shiv.me/2010/08/31/awesome-cricket-ads/</link>
       <pubDate>Tue, 31 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2010/08/31/awesome-cricket-ads/</guid>
-      <description>&lt;p&gt;Everything you need to know about cricket, in a series of awesome ads for Adidas.&lt;/p&gt;
-
-&lt;p&gt;and let&amp;rsquo;s see all of them mixed into one beautiful ad (that might make you want to watch this game, after all)&lt;/p&gt;
-</description>
+      <description>Everything you need to know about cricket, in a series of awesome ads for Adidas.
+and let&amp;rsquo;s see all of them mixed into one beautiful ad (that might make you want to watch this game, after all)</description>
     </item>
     
   </channel>

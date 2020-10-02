@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips &amp; Tricks on Rabble-rousing Rambling</title>
+    <link>http://blog.shiv.me/tags/tips-tricks/</link>
+    <description>Recent content in Tips &amp; Tricks on Rabble-rousing Rambling</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
+    <lastBuildDate>Sun, 10 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/tips-tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Linux, learn new things</title>
+      <link>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</guid>
+      <description>After 12+ years, I built a workstation from scratch. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked Arch Linux, on the recommendation of several colleagues. It&amp;rsquo;s been fun. Pacman and Yaourt are great package managers, and the rolling release model ensures access to the bleeding edge all the time.</description>
+    </item>
+    
+    <item>
+      <title>Exporting XDisplay</title>
+      <link>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</link>
+      <pubDate>Tue, 21 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</guid>
+      <description>In *nix systems, you can make the display, the GUI of an application, appear on another machine. This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.
+You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details.</description>
+    </item>
+    
+    <item>
+      <title>How I handle 1000&#43; emails and 300&#43; blog posts a day</title>
+      <link>http://blog.shiv.me/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</link>
+      <pubDate>Wed, 15 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</guid>
+      <description>Several people are shocked to hear that I read 1000+ emails and several hundred blog posts a day. Ofcourse, when I say that, all I mean is that, I process that much content. I read around 30-40% (That is really the signal-to-noise ratio of web content these days&amp;ndash;and that is, if you are subscribed to high quality feeds)
+[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;google reader trends&amp;rdquo;][/caption]
+One of friends was curious how I can handle all that data flow, and I emailed her this:</description>
+    </item>
+    
+    <item>
+      <title>cvs - Getting list of files changed in the current tree</title>
+      <link>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</link>
+      <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</guid>
+      <description>The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.
+#cvs update . &amp;gt; filelist.dat
+The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make 2/3 checkins.</description>
+    </item>
+    
+    <item>
+      <title>IPOD touch: Downgrade from 1.1.3 to 1.1.1</title>
+      <link>http://blog.shiv.me/2008/01/16/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</link>
+      <pubDate>Wed, 16 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2008/01/16/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</guid>
+      <description>My ipod touch was upgraded to 1.1.3, after connecting to my computer, and I wanted to downgrade to 1.1.1, so I could jailbreak it and put any app I want on it.
+ipodtouchmaster found a way to downgrade it using iPhuc.</description>
+    </item>
+    
+    <item>
+      <title>Recovery from GRUB Failure</title>
+      <link>http://blog.shiv.me/2007/04/06/recovery-from-grub-failure/</link>
+      <pubDate>Fri, 06 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2007/04/06/recovery-from-grub-failure/</guid>
+      <description>I have a dual-boot PC at home, which boots to OpenSUSE and Windows. After a very tiring 7 hour journey, I came home to a GRUB failure. After searching for help all over the web, I found some help here, here, here, here, here and here. :)
+It turns out, that GRUB stage 2 was not being loaded. So here&amp;rsquo;s what I did.
+1. set the root partition
+2. run GRUB setup on the MBR.</description>
+    </item>
+    
+    <item>
+      <title>Bangalore Hangouts</title>
+      <link>http://blog.shiv.me/2007/03/04/bangalore-hangouts/</link>
+      <pubDate>Sun, 04 Mar 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2007/03/04/bangalore-hangouts/</guid>
+      <description>Thanks to the person who has compiled this huge list of addresses of establishements in bangalore. I have no clue how currrent this list is, but here it is.
+Bangalore Hangouts - excel, ods, pdf
+Usual disclaimers apply. DO NOT get in touch if your dog dies because of an error in this
+document.
+[tags]bangalore, bangalore hangouts, restaurants, blore, pubs, clubs[/tags]</description>
+    </item>
+    
+    <item>
+      <title>Hacking Wordpress - An extended XML-RPC API</title>
+      <link>http://blog.shiv.me/2007/01/15/hacking-wordpress-an-extended-xml-rpc-api/</link>
+      <pubDate>Mon, 15 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2007/01/15/hacking-wordpress-an-extended-xml-rpc-api/</guid>
+      <description>Having broken my elbow, I have spent the last two weeks typing away with a single hand. With nothing much to do, I went about looking at ways to improve the capabilities of blog editors. I use BlogDesk for my blogging needs. It is a wonderful editor, that let you do all operations provided by MetaWeblog API. However I wanted to do more than what was provided there. I wanted to add some features for plugins that I used.</description>
+    </item>
+    
+    <item>
+      <title>Return of Javascript!</title>
+      <link>http://blog.shiv.me/2006/08/10/return-of-javascript/</link>
+      <pubDate>Thu, 10 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2006/08/10/return-of-javascript/</guid>
+      <description>After what has been ages, I have returned. Not that many are reading this, but I intend to use this for future reference in any case
+I have wanted to learn javascript, and this time I found a sustainable way. Learn a language by implementing something very huge in it. I&amp;rsquo;m writing, what I must say a very kewl application at work, and am learning quite a few tricks in javascript.</description>
+    </item>
+    
+    <item>
+      <title>Learn HTML and Javascript</title>
+      <link>http://blog.shiv.me/2005/11/25/learn-html-and-javascript/</link>
+      <pubDate>Fri, 25 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2005/11/25/learn-html-and-javascript/</guid>
+      <description>HTMLSource: HTML Tutorials
+I know I need to refrain from this incessant habit of link-blogging, but hey, somethin&#39; better than nothin&#39;. A lot has been happening lately, but no time for that now!
+This is a wonderful site, by far the most useful and easy-to-find-info site for HTML and Javascript. They don&amp;rsquo;t assume that you have a PHD in web-develeopment before talking about some of these kewl technologies. Check it out!</description>
+    </item>
+    
+    <item>
+      <title>getting batch categories to work with Word press 1.5.1.1</title>
+      <link>http://blog.shiv.me/2005/05/27/getting-batch-categories-to-work-with-word-press-1.5.1.1/</link>
+      <pubDate>Fri, 27 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2005/05/27/getting-batch-categories-to-work-with-word-press-1.5.1.1/</guid>
+      <description>I simply love that plugin - Batch categories, like a myriad of other wordpress users. (A thousand thanks to Stephanie Booth wouldn&amp;rsquo;t suffice ;) ), but I had problems getting it to work in 1.5.1
+Lots of results out there, that explain how to fix it, but none that lets a newbie get it up quickly. I know this is a repetition, but it still took my more than a day to get it fixed (mebbe it&amp;rsquo;s my dull head.</description>
+    </item>
+    
+  </channel>
+</rss>

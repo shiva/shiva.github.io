@@ -1,38 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Usb Mics on shiv.me</title>
+    <title>usb mics on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/usb-mics/</link>
-    <description>Recent content in Usb Mics on shiv.me</description>
+    <description>Recent content in usb mics on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 09 Mar 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/usb-mics/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 09 Mar 2009 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/usb-mics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Recording Equipment</title>
       <link>http://blog.shiv.me/2009/03/09/computer-recording-equipment/</link>
       <pubDate>Mon, 09 Mar 2009 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2009/03/09/computer-recording-equipment/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a bit of a stickler, when it comes to audio recording. I hate using the mics that come with laptops or the standard desktop mic. Recently, a co-worker asked me about my setup (I record a piano, strictly for my listening pleasure, and NO, MIDI doesn&amp;rsquo;t count).&lt;/p&gt;
-
-&lt;p&gt;I couldn&amp;rsquo;t find the links for my version of the mic, but here are some equivalents.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;USB Mics&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.samedaymusic.com/mc--2677101/product--MSEMXLUSB&#34; title=&#34;MXL .006 USB Mic&#34;&gt;MXL .006 USB Mic&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.samedaymusic.com/mc--2677101/product--MXLUSB007&#34;&gt;MXL .007 USB Mic&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mixers&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.samedaymusic.com/mc--2677101/product--BEHXENTX502&#34;&gt;Berhinger 502&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.samedaymusic.com/mc--2677101/product--BEHXENTX802&#34;&gt;Berhinger 802&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.samedaymusic.com/mc--2677101/product--BEHXENYX1202&#34;&gt;Berhinger 1202&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Once you start using a condenser mic, and hear the richness of the output, you&amp;rsquo;ll never want to go back to the crappy on-board mics.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m a bit of a stickler, when it comes to audio recording. I hate using the mics that come with laptops or the standard desktop mic. Recently, a co-worker asked me about my setup (I record a piano, strictly for my listening pleasure, and NO, MIDI doesn&amp;rsquo;t count).
+I couldn&amp;rsquo;t find the links for my version of the mic, but here are some equivalents.
+USB Mics
+MXL .006 USB Mic</description>
     </item>
     
   </channel>

@@ -1,32 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Security on shiv.me</title>
+    <title>security on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/security/</link>
-    <description>Recent content in Security on shiv.me</description>
+    <description>Recent content in security on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 14 Jul 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/security/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 14 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting rid of passwords</title>
       <link>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</link>
       <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2014/07/14/getting-rid-of-passwords/</guid>
-      <description>&lt;p&gt;I hate passwords. Seems like several smart people are on the case of getting rid of the &amp;ldquo;password&amp;rdquo;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lucas Gonze, argues the &lt;a href=&#34;https://medium.com/@lucas_gonze/authentication-cargo-cults-ae98d8e359&#34;&gt;loss of meaning&lt;/a&gt; around design of user authentication mechanisms.&lt;/li&gt;
-&lt;li&gt;A world without passwords! How will we identify each other? &lt;a href=&#34;https://medium.com/@ninjudd/passwords-are-obsolete-9ed56d483eb&#34;&gt;Exchange tokens&lt;/a&gt;. &lt;a href=&#34;https://blog.cotap.com/forget-passwords-passwordless-authentication/&#34;&gt;Make &amp;ldquo;forgot password&amp;rdquo; the default&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/@gwestr/trust-without-passwords-c91146a96cef&#34;&gt;Passwords are the new pay-wall&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;A non-violent protest against the cruel overlord &amp;mdash; the &amp;ldquo;password&amp;rdquo;. Justin Balthrop, &lt;a href=&#34;https://medium.com/@ninjudd/lets-boycott-passwords-680d97eddb01&#34;&gt;calls for a boycott&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://notes.xoxco.com/post/27999787765/is-it-time-for-password-less-login&#34;&gt;Several&lt;/a&gt; &lt;a href=&#34;http://notes.xoxco.com/post/28288684632/more-on-password-less-login&#34;&gt;alternatives&lt;/a&gt; to identify users &amp;mdash; promoting password-less login in your apps.&lt;/li&gt;
-&lt;li&gt;Eran Hammer &amp;mdash; OAuth founder &amp;mdash; &lt;a href=&#34;http://hueniverse.com/2012/07/26/oauth-2-0-and-the-road-to-hell/&#34;&gt;gave up on OAuth 2.0&lt;/a&gt;. (An old link). Tim Bray &lt;a href=&#34;http://www.tbray.org/ongoing/When/201x/2012/07/28/Oauth2-dead&#34;&gt;didn&amp;rsquo;t take kindly&lt;/a&gt; to that post. Ahh IETF! You can grind the smartest minds to pulp. :)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>I hate passwords. Seems like several smart people are on the case of getting rid of the &amp;ldquo;password&amp;rdquo;
+ Lucas Gonze, argues the loss of meaning around design of user authentication mechanisms. A world without passwords! How will we identify each other? Exchange tokens. Make &amp;ldquo;forgot password&amp;rdquo; the default. Passwords are the new pay-wall. A non-violent protest against the cruel overlord &amp;mdash; the &amp;ldquo;password&amp;rdquo;. Justin Balthrop, calls for a boycott .</description>
     </item>
     
     <item>
@@ -35,26 +24,7 @@
       <pubDate>Sun, 21 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2013/07/21/how-to-apologize-to-your-users/</guid>
-      <description>&lt;p&gt;There has been an &lt;a href=&#34;http://www.osaware.com/2013/05/03/a-timeline-of-companies-that-have-been-hacked-in-2013/&#34;&gt;increase&lt;/a&gt; in &lt;a href=&#34;http://www.forbes.com/sites/ericbasu/2013/06/26/help-my-yahoo-account-was-hacked-forensic-on-the-latest-yahoo-attack/&#34;&gt;security&lt;/a&gt; &lt;a href=&#34;http://www.pcgamer.com/2013/07/03/ubisoft-accounts-hacked-email-addresses-and-passwords-compromised/&#34;&gt;breaches&lt;/a&gt; this year. This past week, two services I use were compromised - &lt;a href=&#34;http://staff.tumblr.com/post/55648373578/important-security-update-for-iphone-ipad-users&#34;&gt;Tumblr&lt;/a&gt; and &lt;a href=&#34;http://www.loopinsight.com/2013/07/21/apple-comments-on-developer-site-hack/&#34;&gt;Apple Developer Connection&lt;/a&gt;. Both services informed me of the security breach, and one made me feel like they cared, and the other one didn&amp;rsquo;t. Perhaps I am reading too much into this, but at the very least, it illustrates how important language is, in conveying how much we care.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/apple-sec-mail-468x300.jpg&#34; alt=&#34;Apple Security Mail&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple&amp;rsquo;s mail is clear, concise and inspires confidence in their ability to take care of my information. They state the purpose of this communication, tell me what they did about it, and what they were going to do to fix it in the future. &lt;em&gt;&lt;strong&gt;Update&lt;/strong&gt;: Apparently, it was a &lt;a href=&#34;http://techcrunch.com/2013/07/21/apple-confirms-that-the-dev-center-has-potentially-been-breached-by-hackers/?hubRefSrc=permalink#lf_comment=87472293&#34;&gt;whitehat security guy doing his thing&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/tumblr-sec-mail-423x300.jpg&#34; alt=&#34;Tumblr Security Mail&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tumblr on the other hand, makes a whole bunch of assumptions (NO! I don&amp;rsquo;t read your staff blog), trivializes the security issue that was in their software (by ignoring to tell what it actually is), makes more work for me (change my passwords &amp;ndash; for my own good, but none-the-less), insinuates that I should be doing things to take care of my passwords by buying other apps, and finally, throws a completely insincere apology.&lt;/p&gt;
-
-&lt;p&gt;Nowhere do they bother to mention:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Why they are getting in touch now&lt;/li&gt;
-&lt;li&gt;What the actual issue is (Some searching online explains why, but they should have mentioned it in the email)&lt;/li&gt;
-&lt;li&gt;That it was a Tumblr&amp;rsquo;s fault (&lt;a href=&#34;http://staff.tumblr.com/post/55648373578/important-security-update-for-iphone-ipad-users&#34;&gt;Sniffed in transit&lt;/a&gt; .. who sends un-encoded password over http anymore?!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The nonchalance of it all, really bothers me. Another small detail that Apple does well.&lt;/p&gt;
-</description>
+      <description>There has been an increase in security breaches this year. This past week, two services I use were compromised - Tumblr and Apple Developer Connection. Both services informed me of the security breach, and one made me feel like they cared, and the other one didn&amp;rsquo;t. Perhaps I am reading too much into this, but at the very least, it illustrates how important language is, in conveying how much we care.</description>
     </item>
     
     <item>
@@ -63,19 +33,8 @@
       <pubDate>Thu, 23 Aug 2012 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2012/08/23/two-factor-authentication-and-spicy-salmon-sashimi-don/</guid>
-      <description>&lt;p&gt;For the last few months I&amp;rsquo;ve been annoyed. Two or three times a week, I get a flurry of emails from Facebook and twitter claiming that I reset my password. Sounds like a first-world problem? It is. However, I have 4 emails linked to my Facebook account and one to my twitter account. I get on average 15-20 mails a week, and I dutifully dis-avow each one of them.&lt;/p&gt;
-
-&lt;p&gt;Then, &lt;a href=&#34;http://www.emptyage.com/post/28679875595/yes-i-was-hacked-hard&#34;&gt;this happens&lt;/a&gt;. It scares the hell out of me, but I procrastinate. After a good two weeks, and 40 mails later, I&amp;rsquo;ve finally caved, and enabled it. Now, it&amp;rsquo;s practically impossible to hack my account. Password + token to access from any new device, and I can remotely revoke access to any device I lose.&lt;/p&gt;
-
-&lt;p&gt;Now, what does it have to do with sashimi, you ask? Well, nothing really! That&amp;rsquo;s just the bait to get you to read this most important thing. Don&amp;rsquo;t be like me, and procrastinate forever. Enable two-factor authentication on both &lt;a href=&#34;http://support.google.com/accounts/bin/answer.py?hl=en&amp;amp;answer=180744&#34;&gt;google&lt;/a&gt; and &lt;a href=&#34;http://m.facebook.com/note.php?note_id=10150172618258920&amp;amp;_rdr&#34;&gt;Facebook&lt;/a&gt;! You&amp;rsquo;ll be glad you did. Both have very compelling implementations that are easy to configure and use.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Security is like good sushi &amp;ndash; once you&amp;rsquo;ve tasted the good kind, it&amp;rsquo;s hard to go back to just good enough.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Well, here&amp;rsquo;s your reward for reading this far:&lt;br /&gt;
-&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2012/08/20120823-214038.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/20120823-214038.jpg&#34; alt=&#34;20120823-214038.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>For the last few months I&amp;rsquo;ve been annoyed. Two or three times a week, I get a flurry of emails from Facebook and twitter claiming that I reset my password. Sounds like a first-world problem? It is. However, I have 4 emails linked to my Facebook account and one to my twitter account. I get on average 15-20 mails a week, and I dutifully dis-avow each one of them.
+Then, this happens.</description>
     </item>
     
     <item>
@@ -84,39 +43,18 @@
       <pubDate>Sat, 17 Mar 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/03/17/ms-vs-apple-which-is-more-secure/</guid>
-      <description>&lt;p&gt;Marius Oiaga of &lt;a href=&#34;http://www.softpedia.com/&#34;&gt;Softpedia&lt;/a&gt; News argues that &lt;a href=&#34;http://news.softpedia.com/news/Windows-Vista-More-Secure-than-Mac-OS-X-49487.shtml&#34;&gt;Windows Vista is more secure than MAC OSX&lt;/a&gt;, on the grounds that there are more security patches for MACOSX in a 1 month period. Now, how naive is that?!! Developers at Microsoft are probably just catching their breaths after years of trying to get Windows Vista out of the &amp;ldquo;window&amp;rdquo; (excuse the pun).&lt;/p&gt;
-
-&lt;p&gt;Now, why is Mac OSX more secure that Windows. Well, you never need to run as administrator (root, in unix speak) to get all applications to work efficiently. Since it is based on BSD unix (FreeBSD), Mac OSX&amp;rsquo; architecture is definetely much more secure. Also, take into account, the fact, that there are only 6% of users on Mac OSX, and hence proves to be a very unlikely target for security breaches.&lt;/p&gt;
-
-&lt;p&gt;I guess the answer to your security woes, go use an absolutely obscure OS. No one will ever trouble you or you can switch to almost any linux platform (Think &lt;a href=&#34;http://www.google.co.in/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fwww.freebsd.org%2F&amp;amp;ei=ucr7ReSADZqksALhi8jsDg&amp;amp;usg=__gClc_OV6MQNpLPeQPoqlxj0nj50=&amp;amp;sig2=RNJPU0swzl7A-WS-wWRzaQ&#34;&gt;FreeBSD&lt;/a&gt;, &lt;a href=&#34;http://www.google.co.in/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fwww.opensuse.org%2F&amp;amp;ei=tcr7RYS-D6i0sAL3zYXnDg&amp;amp;usg=__86AC-jrJroIybeDdZDNvQU0Ja4I=&amp;amp;sig2=XrYt_ab6348sdmt8dJPqkw&#34;&gt;OpenSuse&lt;/a&gt; or &lt;a href=&#34;http://www.google.co.in/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fwww.ubuntu.com%2F&amp;amp;ei=v8r7RbmsJJWisALssP3lDg&amp;amp;usg=__4QTMs1DXM_6D16Pjwdd35LWEgwg=&amp;amp;sig2=3AQ5XUC8wVNjpZ41UXqzVg&#34;&gt;Ubuntu&lt;/a&gt;)&lt;/p&gt;
-</description>
+      <description>Marius Oiaga of Softpedia News argues that Windows Vista is more secure than MAC OSX, on the grounds that there are more security patches for MACOSX in a 1 month period. Now, how naive is that?!! Developers at Microsoft are probably just catching their breaths after years of trying to get Windows Vista out of the &amp;ldquo;window&amp;rdquo; (excuse the pun).
+Now, why is Mac OSX more secure that Windows. Well, you never need to run as administrator (root, in unix speak) to get all applications to work efficiently.</description>
     </item>
     
     <item>
       <title>Crap on TV - Is that even news?!</title>
-      <link>http://blog.shiv.me/2007/02/01/crap-on-tv---is-that-even-news/</link>
+      <link>http://blog.shiv.me/2007/02/01/crap-on-tv-is-that-even-news/</link>
       <pubDate>Thu, 01 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/02/01/crap-on-tv---is-that-even-news/</guid>
-      <description>&lt;p&gt;Yesterday, I was watching an interview with &lt;a href=&#34;http://www.hackingmobilephones.com/&#34;&gt;Mr Ankit Wadia&lt;/a&gt; (His website describes him as &amp;ldquo;The Computer Security guru. The Ethical Hacker. The Author. The Intelligence Consultant. The Entrepreneur.&amp;rdquo;)&lt;/p&gt;
-
-&lt;p&gt;He was talking about how the web is unsecure today and how easy it is to crack passwords. Whilst, I was eagerly awaiting in anticipation to see how he hack into a yahoo password, he pulled a bluff on me, when he asked the presenter to enter his password and then he went about using Revelation to read the password from it!&lt;/p&gt;
-
-&lt;p&gt;Now, Mr Wadia, do you really think that the Indian IT guys are so very dumb that you have to show how to use revelation?! I agree that most users in India are blissfully oblivious to the potential hazards and lack of privacy on the net, but come on! Can&amp;rsquo;t you find any oft repeated behaviour that people use that you can show case?!&lt;/p&gt;
-
-&lt;p&gt;I am no security guru or even an ethical hacker or author of a book, but I can think of a few things that people often do that can be avoided.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Using low strength passwords (children names, wife&amp;rsquo;s name, dog&amp;rsquo;s name etc)&lt;/li&gt;
-&lt;li&gt;Using the save password option in web-cafes&lt;/li&gt;
-&lt;li&gt;Using the same password across all accounts&lt;/li&gt;
-&lt;li&gt;reply to spam and phishing attacks with sensitive information&lt;/li&gt;
-&lt;li&gt;Giving away CVV numbers freely on the net&lt;/li&gt;
-&lt;li&gt;Publishing phone numbers and address on social networking sites like orkut/gazzag/yahoo profile etc.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I wish that apart from getting on air to promote stuff that you do, you can also give some real examples of lack of common security practices, so that people really do benefit (so that they feel a little bit more justified in acknowleding you as India&amp;rsquo;s only security guru - a wee bit self-proclaiming, wouldn&amp;rsquo;t you say so?!)&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2007/02/01/crap-on-tv-is-that-even-news/</guid>
+      <description>Yesterday, I was watching an interview with Mr Ankit Wadia (His website describes him as &amp;ldquo;The Computer Security guru. The Ethical Hacker. The Author. The Intelligence Consultant. The Entrepreneur.&amp;quot;)
+He was talking about how the web is unsecure today and how easy it is to crack passwords. Whilst, I was eagerly awaiting in anticipation to see how he hack into a yahoo password, he pulled a bluff on me, when he asked the presenter to enter his password and then he went about using Revelation to read the password from it!</description>
     </item>
     
   </channel>

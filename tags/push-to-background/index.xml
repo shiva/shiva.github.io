@@ -1,46 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Push To Background on shiv.me</title>
+    <title>push to background on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/push-to-background/</link>
-    <description>Recent content in Push To Background on shiv.me</description>
+    <description>Recent content in push to background on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 31 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/push-to-background/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 31 Jan 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/push-to-background/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Job Control on \*NIX systems</title>
       <link>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</link>
       <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</guid>
-      <description>&lt;p&gt;If you are not a UNIX user/not a geek, please turn away right now.&lt;/p&gt;
-
-&lt;p&gt;Every year, I either chance upon something new, or remind myself of something interesting that I&amp;rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ ./someprocess  
-...  
-...  
-...  
-Ctrl-Z  
-[1]+ Stopped   ./someprocess  
-$ bg  
-[1]+ ./someprocess &amp;amp;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To bring the process into foreground:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ fg     &amp;lt; -- last process pushed into bkgnd  
-$ jobs   [1] ./someprocess  
-[2] ./someotherprocess  
-$ fg 2  
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;via &lt;a href=&#34;http://acs.ucsd.edu/info/jobctrl.shtml&#34;&gt;Job Control on UNIX systems&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>If you are not a UNIX user/not a geek, please turn away right now.
+Every year, I either chance upon something new, or remind myself of something interesting that I&amp;rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):
+$ ./someprocess ... ... ... Ctrl-Z [1]+ Stopped ./someprocess $ bg [1]+ ./someprocess &amp;amp;
+To bring the process into foreground:</description>
     </item>
     
   </channel>

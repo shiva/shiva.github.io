@@ -1,37 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eulogy on shiv.me</title>
+    <title>eulogy on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/eulogy/</link>
-    <description>Recent content in Eulogy on shiv.me</description>
+    <description>Recent content in eulogy on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 05 Oct 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/eulogy/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 05 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/eulogy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RIP Steve Jobs</title>
       <link>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</link>
       <pubDate>Wed, 05 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/10/05/rip-steve-jobs/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://plus.google.com/117377434815709898403/posts&#34;&gt;DeWitt Clinton&lt;/a&gt; once &lt;a href=&#34;http://blog.unto.net/on_great_engineers_part_2/&#34;&gt;wrote&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;What are the hallmarks of a great engineer? A great engineer is characterized by their intelligence, versatility, creativity, loyalty, passion, experience, vision, dedication, composure, humility, and ability.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Apart from the &amp;ldquo;humility&amp;rdquo; part, which he never cared for, Steve Jobs was the epitome of that description. We shall miss you Mr. Jobs, especially for that keen sense of doing something perfectly.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.apple.com/stevejobs/&#34;&gt;RIP Steve Jobs&lt;/a&gt;, the maker of beautiful things.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-1.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2011/10/steve-2.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/steve-2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Me == sad today :(&lt;/p&gt;
-</description>
+      <description>DeWitt Clinton once wrote
+ What are the hallmarks of a great engineer? A great engineer is characterized by their intelligence, versatility, creativity, loyalty, passion, experience, vision, dedication, composure, humility, and ability.
+ Apart from the &amp;ldquo;humility&amp;rdquo; part, which he never cared for, Steve Jobs was the epitome of that description. We shall miss you Mr. Jobs, especially for that keen sense of doing something perfectly.
+RIP Steve Jobs, the maker of beautiful things.</description>
     </item>
     
   </channel>

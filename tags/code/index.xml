@@ -1,54 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on shiv.me</title>
+    <title>code on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/code/</link>
-    <description>Recent content in Code on shiv.me</description>
+    <description>Recent content in code on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/code/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Badly punctuated parameter list in #define</title>
       <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
       <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
-      <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ gmake  
-...  
-...  
-some_file.h:42: badly punctuated parameter list in \`#define&#39;  
-some_file.h:64: badly punctuated parameter list in \`#define&#39;  
-Failed to compile  
-$  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This was caused by the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(...) { printf (##__VA_ARGS__); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This works in most modern C compilers. However, if you happen to use one from the 80s (I exaggerate a little - not by much), it throws the error as above. You can fix this as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(ARGS...) { printf (##ARGS); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;
+I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.
+$ gmake ... ... some_file.h:42: badly punctuated parameter list in \`#define&amp;#39;  some_file.h:64: badly punctuated parameter list in \`#define&amp;#39;  Failed to compile $ This was caused by the following:</description>
     </item>
     
     <item>
@@ -57,65 +25,18 @@ $
       <pubDate>Wed, 03 Nov 2010 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2010/11/03/power-of-2/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by &lt;a href=&#34;http://veechand.wordpress.com/about/&#34;&gt;Veerabahu&lt;/a&gt;, on finding if a number is a power of 2 (or not).&lt;/p&gt;
-
-&lt;p&gt;As he writes, there is the simpleton O(n) solution (&lt;a href=&#34;http://veechand.wordpress.com/2009/12/19/is-a-number-power-of-two/&#34;&gt;you will have to click-through for that&lt;/a&gt;), and the most elegant (yet) bitwise solution:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/*
- */
-bool
-is_power_of_2(int n) {
-   return ((n &amp;amp; -n) == n);
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The bitwise way to calculate the power of 2 is probably the most efficient in c like languages. Ofcourse for that, your language of choice needs to support it and should be more efficient that common math functions. The other way is to use some simple math.&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s say N, is the value, and you need to check if it is a power of two. Compute n = log N / log 2. If floor(n) == n, then N was a power of 2.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;/*
- */
-bool
-is_power_of_2_pure_math_baby(int n) {
-    /* address -ve numbers */
-    if (n &amp;lt; 0)
-        n = -n;
-
-    double i = log(n)/log(2);      /* i = power of 2 */
-    return (lower(i) == i);        /* check if perfect power of 2 */
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is obviously, a less efficient way of checking if a number is a power of 2, than using the bitwise method. However, it has a few advantages:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;It works exactly the same way for all values of n.&lt;/li&gt;
-&lt;li&gt;It works exactly the same way for all integers (ie, n can be int8/16/32/64, long, signed or unsigned, and the same logic would work&lt;/li&gt;
-&lt;li&gt;It is O(1) like the bitwise solution&lt;/li&gt;
-&lt;li&gt;It is less cryptic (ie just basic understanding of math is reqd for grokking this solution)&lt;/li&gt;
-&lt;li&gt;Finally, it can be extended in future to calculate if n is a power of *any value*, not just 2&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Of course, t&lt;a href=&#34;http://www.artima.com/wbc/interprogP.html&#34;&gt;he point Josh Bloch was making &lt;/a&gt;in interviewing engineers, was that he is interested in knowing the &lt;strong&gt;WHY&lt;/strong&gt; of a solution. It does not matter if the algorithm is marginally less optimal or different. If you are an interviewer in your organisation, and you catch yourself asking a question like this, remember that if an engineer can reduce O(n) to O(1), stop with similar micro-skills test. Find out why she coded it the way she did. It will tell you a lot more about her skills than some algorithms/tricks that can be picked up in a&lt;a href=&#34;http://www.amazon.com/gp/product/047012167X?ie=UTF8&amp;amp;tag=shivanand-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=047012167X&#34;&gt;couple a days&lt;/a&gt;, if not &lt;a href=&#34;http://wiki.allegro.cc/index.php?title=Bitwise_operator#Power_of_two_check&#34;&gt;overnight&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve done anything except write code &amp;ndash; lots of it. The last 20 days have been insane, and ofcourse to a take a break from writing code, I like to read code that others write. (You DO know that I&amp;rsquo;m crazy, right?!). In one of my futile attempts at clearing my google-reader reading list, I chanced upon a post by Veerabahu, on finding if a number is a power of 2 (or not).</description>
     </item>
     
     <item>
       <title>cvs - Getting list of files changed in the current tree</title>
-      <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+      <link>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</link>
       <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
-      <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; checkins. I did some googling today, and found how to find the list of files changed without updating your tree.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;#cvs -n update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;Jonnay&lt;/a&gt; for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</guid>
+      <description>The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.
+#cvs update . &amp;gt; filelist.dat
+The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make 2/3 checkins.</description>
     </item>
     
   </channel>

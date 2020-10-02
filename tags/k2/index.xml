@@ -1,69 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>K2 on shiv.me</title>
+    <title>k2 on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/k2/</link>
-    <description>Recent content in K2 on shiv.me</description>
+    <description>Recent content in k2 on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 15 Dec 2005 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/k2/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 15 Dec 2005 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/k2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Page link in wordpress</title>
       <link>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</link>
       <pubDate>Thu, 15 Dec 2005 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2005/12/15/page-link-in-wordpress/</guid>
-      <description>&lt;p&gt;I have been wondering for sometime now, how K2, added an entry in pages, but the content was controlled from the one of the php files in the theme directory.&lt;/p&gt;
-
-&lt;p&gt;It turns out that is is very simple (yet elegant &amp;hellip; hat&amp;rsquo;s off to wordpress guys). I used this to integrate FAlbum into K2.&lt;/p&gt;
-
-&lt;p&gt;Okay, let&amp;rsquo;s get on with the tutorial:&lt;br /&gt;
-*WARNING*: Take a backup of your database before you proceed with the following&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1&lt;/strong&gt; : Open the wordpress database in phpMyAdmin&lt;br /&gt;
-&lt;strong&gt;Step 2&lt;/strong&gt; : Add an entry in the &amp;ldquo;wp_posts&amp;rdquo; table, ensuring that the &amp;ldquo;guid_id&amp;rdquo; field is empty.&lt;/p&gt;
-
-&lt;p&gt;INSERT INTO `wp_posts` VALUES (&lt;br /&gt;
-123,&lt;br /&gt;
-1,&lt;br /&gt;
-&amp;lsquo;2005-11-16 15:27:21&amp;rsquo;,&lt;br /&gt;
-&amp;lsquo;2005-11-16 10:27:21&amp;rsquo;,&lt;br /&gt;
-&amp;lsquo;Do not edit this page&amp;rsquo;,&lt;br /&gt;
-&amp;lsquo;Photos&amp;rsquo;,&lt;br /&gt;
-0,&lt;br /&gt;
-&amp;rdquo;,&lt;br /&gt;
-&amp;lsquo;static&amp;rsquo;,&lt;br /&gt;
-&amp;lsquo;open&amp;rsquo;,&lt;br /&gt;
-&amp;lsquo;open&amp;rsquo;,&lt;br /&gt;
-&amp;rdquo;,&lt;br /&gt;
-&amp;lsquo;photos&amp;rsquo;,&lt;br /&gt;
-&amp;rdquo;,&lt;br /&gt;
-&amp;rdquo;,&lt;br /&gt;
-&amp;lsquo;2005-12-15 02:29:33&amp;rsquo;,&lt;br /&gt;
-&amp;lsquo;2005-12-14 21:29:33&amp;rsquo;,&lt;br /&gt;
-&amp;rdquo;,&lt;br /&gt;
-0,&lt;br /&gt;
-&amp;rdquo;,&lt;br /&gt;
-0);&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 3&lt;/strong&gt; : Now create a php template file in your theme&amp;rsquo;s directory.&lt;/p&gt;
-
-&lt;p&gt;This is easily acheived by adding the following at the begining of the new php file&lt;/p&gt;
-
-&lt;p&gt;&amp;lt; ?php /*&lt;br /&gt;
-Template Name: Archives (Do Not Use Manually)&lt;br /&gt;
-*/ ?&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 4&lt;/strong&gt; : Add code to display whatever content when the page link is clicked.&lt;br /&gt;
-&lt;strong&gt;Step 5&lt;/strong&gt; : Go to Manage&amp;gt;Pages, and edit the page entry for the newly added page.&lt;br /&gt;
-&lt;strong&gt;Step 6&lt;/strong&gt; : Change the page template to the newly created template.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thing to note:&lt;/strong&gt;&lt;br /&gt;
-Ensure that the entry for the page link in the database does not have the &amp;ldquo;guid&amp;rdquo; field filled. This would cause the page to load the content of the page entry in the final output.&lt;/p&gt;
-</description>
+      <description>I have been wondering for sometime now, how K2, added an entry in pages, but the content was controlled from the one of the php files in the theme directory.
+It turns out that is is very simple (yet elegant &amp;hellip; hat&amp;rsquo;s off to wordpress guys). I used this to integrate FAlbum into K2.
+Okay, let&amp;rsquo;s get on with the tutorial:
+*WARNING*: Take a backup of your database before you proceed with the following</description>
     </item>
     
   </channel>

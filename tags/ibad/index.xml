@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ibad on shiv.me</title>
+    <title>iBad on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/ibad/</link>
-    <description>Recent content in Ibad on shiv.me</description>
+    <description>Recent content in iBad on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 04 Feb 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/ibad/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 04 Feb 2010 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/ibad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iPad is iBad petition</title>
       <link>http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition/</link>
       <pubDate>Thu, 04 Feb 2010 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2010/02/04/ipad-is-ibad-petition/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.defectivebydesign.org/ipad&#34;&gt;http://www.defectivebydesign.org/ipad&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you think that the iPad is promoting DRM of apps that will lead computing in a direction that will undermine the freedom that we currently are enjoying, freedom the seeds of which have been sown over the last few decades, the visit the link above and sign the petition.&lt;/p&gt;
-</description>
+      <description>http://www.defectivebydesign.org/ipad
+If you think that the iPad is promoting DRM of apps that will lead computing in a direction that will undermine the freedom that we currently are enjoying, freedom the seeds of which have been sown over the last few decades, the visit the link above and sign the petition.</description>
     </item>
     
   </channel>

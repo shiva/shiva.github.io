@@ -1,33 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Morons on shiv.me</title>
+    <title>morons on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/morons/</link>
-    <description>Recent content in Morons on shiv.me</description>
+    <description>Recent content in morons on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 27 Apr 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/morons/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 27 Apr 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/morons/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>You cribbing bunch of morons</title>
       <link>http://blog.shiv.me/2011/04/27/you-cribbing-bunch-of-morons/</link>
       <pubDate>Wed, 27 Apr 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/04/27/you-cribbing-bunch-of-morons/</guid>
-      <description>&lt;p&gt;And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-customers-lawsuit-data/&#34;&gt;all&lt;/a&gt; &lt;a href=&#34;http://gigaom.com/2011/04/21/researcher-iphone-location-data-already-used-by-cops/&#34;&gt;the&lt;/a&gt; &lt;a href=&#34;http://www.wired.com/gadgetlab/2011/04/iphone-location/&#34;&gt;cribbing&lt;/a&gt; around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
-&amp;gt;
-&amp;gt; Sometime in the next few weeks Apple will release a free iOS software update that:
-&amp;gt;
-&amp;gt; reduces the size of the crowd-sourced Wi-Fi hotspot and cell tower database cached on the iPhone,&lt;br /&gt;
-&amp;gt; ceases backing up this cache, and&lt;br /&gt;
-&amp;gt; deletes this cache entirely when Location Services is turned off.&lt;br /&gt;
-&amp;gt; In the next major iOS software release the cache will also be encrypted on the iPhone.
-&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;Wouldn&amp;rsquo;t it be cool, if someone actually wrote an app that does the exact same thing? I bet it would sell like crazy! I&amp;rsquo;d buy it.&lt;/p&gt;
-</description>
+      <description>And now you&amp;rsquo;ve done it!! Bah! I thought it was so cool that I could plot of heat map of my location for a full year. With all the cribbing around the internets about how the iphone is not secure because it stores data (ie a cache of your location data), Apple has decided to squash this wonderful &amp;ldquo;easter egg&amp;rdquo;.
+ Sometime in the next few weeks Apple will release a free iOS software update that:</description>
     </item>
     
   </channel>

@@ -1,61 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Editors on shiv.me</title>
+    <title>blog editors on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/blog-editors/</link>
-    <description>Recent content in Blog Editors on shiv.me</description>
+    <description>Recent content in blog editors on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 04 Jun 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/blog-editors/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 04 Jun 2008 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/blog-editors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A web based writer for writing to a blog?!</title>
       <link>http://blog.shiv.me/2008/06/04/a-web-based-writer-for-writing-to-a-blog/</link>
       <pubDate>Wed, 04 Jun 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/06/04/a-web-based-writer-for-writing-to-a-blog/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://writetomyblog.com/&#34;&gt;WriteToMyBlog.com&lt;/a&gt;, is a web-based editor (with a lot of formatting options), that allows you to write to your blog (from another website?!).&lt;/p&gt;
+      <description>WriteToMyBlog.com, is a web-based editor (with a lot of formatting options), that allows you to write to your blog (from another website?!).
+First thoughts go like,
+&amp;ldquo;wtf?!&amp;rdquo;, &amp;hellip; &amp;ldquo;hmmm.. interesting&amp;rdquo;&amp;hellip; &amp;ldquo;I am a web 2.0 junkie?!
 
-&lt;p&gt;First thoughts go like,&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;wtf?!&amp;rdquo;, &amp;hellip; &amp;ldquo;hmmm.. interesting&amp;rdquo;&amp;hellip; &amp;ldquo;I am a web 2.0 junkie?!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/22535384@N00/2551244392&#34; title=&#34;writetomyblog-dot-com&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2551244392_1822e5a281.jpg&#34; alt=&#34;writetomyblog-dot-com&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The likes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1. Simplicity of the UI interface - neat, allows lots of space for text&lt;/p&gt;
-
-&lt;p&gt;2. Integration of Flickr and Youtube (although I would love to see more such services)&lt;/p&gt;
-
-&lt;p&gt;3. Zero account creation overhead. (I wrote this post, before I created the account to publish it, and is a 1-click process.)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The dislikes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1. No keyboard shortcuts.&lt;/p&gt;
-
-&lt;p&gt;2. Too many formatting options. I would rather have more external services (quote pownce or twitter conversations, facebook, vimeo and other photo and video sites)&lt;/p&gt;
-
-&lt;p&gt;3. popups (need I say more.. in this day and age.. popups for functionality is a sin &amp;hellip; almost).&lt;/p&gt;
-
-&lt;p&gt;4. A few irksome bugs. (undo doesn&amp;rsquo;t work in-order, flickr requires login name, cursor disappears after including a picture.. etc)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The service offers what should be part of any good bloggingsoftware. With recent improvements in Wordpress Dashboard and Editor, I doubt if this tool will be able to keep my attention for long. The whole concept of logging into one site for writing to another, seems a little weird. I don&amp;rsquo;t really understand the use-case.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update: I found a few more bugs&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Editing an existing post, ignore all previous indentation (white-space).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tags set are technocrati tags, and not wordpress tags (I guess this is more like a feature request than a bug)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I couldn&amp;rsquo;t find a getsatifaction account for this tool, and hence have sent a traceback to their blog. Mark, if you come this way, do create and account for your product/company at &lt;a href=&#34;http://getsatisfaction.com&#34;&gt;getsatisfaction.com&lt;/a&gt;, and do set up some form of bug tracking system, so that your users can be your testers :). Btw, you are welcome for the bugs mentioned here. Ohh.. btw.. I&amp;rsquo;m using Firefox on Mac OSX.&lt;/p&gt;
-</description>
+The likes
+1. Simplicity of the UI interface - neat, allows lots of space for text
+2. Integration of Flickr and Youtube (although I would love to see more such services)
+3. Zero account creation overhead.</description>
     </item>
     
   </channel>

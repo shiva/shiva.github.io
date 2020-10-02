@@ -1,54 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Odf on shiv.me</title>
+    <title>ODF on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/odf/</link>
-    <description>Recent content in Odf on shiv.me</description>
+    <description>Recent content in ODF on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 07 Mar 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/odf/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 07 Mar 2007 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/odf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website clean up</title>
       <link>http://blog.shiv.me/2007/03/07/website-clean-up/</link>
       <pubDate>Wed, 07 Mar 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/03/07/website-clean-up/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m attempting to clean up my online junkyard, yet again, just as &lt;a href=&#34;http://www.sscnet.ucla.edu/southasia/History/Mughals/mahmud_mughals.html&#34;&gt;Mahmud of Ghazni invaded the Indian sub-continent 17 times&lt;/a&gt;. Here are few things that I&amp;rsquo;m doing, which are keeping me from posting, not to mention a 1000 entries in my google reader, loads of work at office, the &lt;a href=&#34;http://shvelmur.com/wpress/sharpalbum/&#34;&gt;impending release of #Album&lt;/a&gt; and not to mention &lt;a href=&#34;http://www.google.com/reader/shared/14480565058256660224&#34;&gt;Mr. Scoble, who doesn&amp;rsquo;t let me sleep&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Remove all static html files&lt;/li&gt;
-&lt;li&gt;Separate tech items from normal blog. (I&amp;rsquo;m thinking of using wordpress categories to do this)&lt;/li&gt;
-&lt;li&gt;Install &lt;a href=&#34;http://www.google.com/a/&#34;&gt;google-apps&lt;/a&gt; on a sub-domain.&lt;/li&gt;
-&lt;li&gt;Uninstall all tools (photoblog etc)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Apart from those, here are a few ideas that continue to crowd my mind.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Gadgets for google desktop to connect with google notebook&lt;/li&gt;
-&lt;li&gt;Plugin to publish google notebook to blog (think WLW and Wordpress)&lt;/li&gt;
-&lt;li&gt;Extend &lt;a href=&#34;http://shvelmur.com/wpress/projects/wpexapi/&#34;&gt;wordpress extended RPC&lt;/a&gt; to support getTagSuggestions()&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.feedmap.net/&#34;&gt;Feedmap&lt;/a&gt; plugin for wordpress.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So If you are interested in working on any of the ideas listed above or listed &lt;a href=&#34;http://shvelmur.com/wpress/2007/01/30/plugin-ideas-for-windows-live-writer/&#34;&gt;here&lt;/a&gt;, or if you have a solution that solves some of the stuff I&amp;rsquo;m trying to do, do get in touch with me.&lt;/p&gt;
-
-&lt;p&gt;In other news&amp;hellip;.&lt;/p&gt;
-
-&lt;p&gt;Also, in my online surfing adventures (on Google reader), I came across &lt;a href=&#34;http://bink.nu/Article9664.bink&#34;&gt;this gem&lt;/a&gt;. Finally, there seems to be some sanity out there. Product Manager(s) of Ms Office have realised that it is not enough if they make good products, but also keep customers happy in doing so. OpenXML is now finally &amp;ldquo;open&amp;rdquo;, thanks to &lt;a href=&#34;http://novell.com&#34;&gt;Novell&lt;/a&gt; (&amp;lt;&amp;ndash; I work here :) ), which has created a &lt;a href=&#34;http://odf-converter.sourceforge.net/&#34;&gt;OOXML plugin for open office&lt;/a&gt; (I guess I&amp;rsquo;m a little late to the game here).&lt;/p&gt;
-
-&lt;p&gt;As usual, the &lt;a href=&#34;http://boycottnovell.com/category/open-xml/&#34;&gt;nay&lt;/a&gt;-sayers, who now seem to be persistent upon the idea that companies need to be charitable organisations instead of making money for their shareholders. To them , I say, &amp;ldquo;Go buy some Novell or Microsoft shares, hold them for 2 years and then talk of product strategy. They will listen to you then :) &amp;ldquo;&lt;/p&gt;
-
-&lt;p&gt;Ok. No more talk. Pressing Publish!!&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.
+Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.</description>
     </item>
     
   </channel>

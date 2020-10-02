@@ -1,30 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unix on shiv.me</title>
+    <title>unix on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/unix/</link>
-    <description>Recent content in Unix on shiv.me</description>
+    <description>Recent content in unix on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 31 Mar 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/unix/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 31 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting git status on multiple directories</title>
       <link>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</link>
       <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
-      <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
-The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;for d in `find . -name &amp;quot;.git&amp;quot;`; do 
-echo &amp;quot;processing $d ...&amp;quot;; 
-git --git-dir=$d --work-tree=$d/.. status; 
-done
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue. The following command, executes git status in every subdirectory that is a git repository.</description>
     </item>
     
     <item>
@@ -33,29 +23,16 @@ done
       <pubDate>Sun, 17 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2013/02/17/working-with-rpms-extract-list-contents/</guid>
-      <description>&lt;p&gt;Unix. I love thee!&lt;/p&gt;
-
-&lt;p&gt;Extract an rpm without installing in to the current directory (really, the rpm command should support this):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ rpm2cpio myrpmfile.rpm | cpio -idmv&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;*i: Restore archive&lt;/p&gt;
-
-&lt;p&gt;*d: Create leading directories where needed&lt;/p&gt;
-
-&lt;p&gt;*m: Retain previous file modification times when creating files&lt;/p&gt;
-
-&lt;p&gt;*v: Verbose i.e. display progress&lt;/p&gt;
-
-&lt;p&gt;List contents of an rpm:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ rpm -qlp myrpmfile.rpm  
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cyberciti.biz/tips/how-to-extract-an-rpm-package-without-installing-it.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Unix. I love thee!
+Extract an rpm without installing in to the current directory (really, the rpm command should support this):
+$ rpm2cpio myrpmfile.rpm | cpio -idmv
+*i: Restore archive
+*d: Create leading directories where needed
+*m: Retain previous file modification times when creating files
+*v: Verbose i.e. display progress
+List contents of an rpm:
+$ rpm -qlp myrpmfile.rpm 
+source</description>
     </item>
     
     <item>
@@ -64,12 +41,8 @@ $ rpm -qlp myrpmfile.rpm
       <pubDate>Mon, 21 May 2012 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2012/05/21/more-unix-goodness/</guid>
-      <description>&lt;p&gt;Ohh the unix command prompt, I love thee! Can you guess what these commands do?&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# grep -l &amp;lt;regex&amp;gt;  
-# find . -name &amp;lt;regex&amp;gt; -delete  
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Ohh the unix command prompt, I love thee! Can you guess what these commands do?
+# grep -l &amp;lt;regex&amp;gt;  # find . -name &amp;lt;regex&amp;gt; -delete  </description>
     </item>
     
     <item>
@@ -78,12 +51,9 @@ $ rpm -qlp myrpmfile.rpm
       <pubDate>Sun, 28 Aug 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/08/28/life-in-the-bash-universe/</guid>
-      <description>&lt;p&gt;If you write a lot of scripts to automate tasks, you probably already know this. However, if you don&amp;rsquo;t, and you are still reading, you are probably a programmer, in which case, you really should be learning how to script in BASH!&lt;/p&gt;
-
-&lt;p&gt;A couple of pointers for you:&lt;br /&gt;
-1. Using a -x, in the shebang line &amp;ldquo;echo&amp;rdquo;s every line before executing. This turns out to be quite useful for debugging shell scripts&lt;br /&gt;
-2. It&amp;rsquo;s quite easy to make BASH print a countdown.&lt;/p&gt;
-</description>
+      <description>If you write a lot of scripts to automate tasks, you probably already know this. However, if you don&amp;rsquo;t, and you are still reading, you are probably a programmer, in which case, you really should be learning how to script in BASH!
+A couple of pointers for you:
+1. Using a -x, in the shebang line &amp;ldquo;echo&amp;quot;s every line before executing. This turns out to be quite useful for debugging shell scripts</description>
     </item>
     
     <item>
@@ -92,30 +62,8 @@ $ rpm -qlp myrpmfile.rpm
       <pubDate>Tue, 21 Jun 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</guid>
-      <description>&lt;p&gt;In *nix systems, you can make the display, the GUI of an application, appear on another machine.  This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.&lt;/p&gt;
-
-&lt;p&gt;You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details. By default, the XServer instance on your desktop disallows communication from all machines except localhost. Thus, you will need to add the host in the allowed list using the xhost command.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On your machine&lt;/strong&gt;,  to disable security checks:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ xhost +&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To allow connections from a single  host:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ xhost +&amp;lt;hostname/ip&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On the client machine&lt;/strong&gt; where the application is run, set the X Server to display to (for bash shell):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:&amp;lt;displaynumber&amp;gt;.&amp;lt;screennumber&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If you haven&amp;rsquo;t changed the display-number or screen-number :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:0.0&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;For a more detailed description of the&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.hungry.com/~jamie/xexport.html&#34;&gt;How to export your X Display&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>In *nix systems, you can make the display, the GUI of an application, appear on another machine. This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.
+You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details.</description>
     </item>
     
     <item>
@@ -124,31 +72,10 @@ $ rpm -qlp myrpmfile.rpm
       <pubDate>Mon, 31 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/</guid>
-      <description>&lt;p&gt;If you are not a UNIX user/not a geek, please turn away right now.&lt;/p&gt;
-
-&lt;p&gt;Every year, I either chance upon something new, or remind myself of something interesting that I&amp;rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ ./someprocess  
-...  
-...  
-...  
-Ctrl-Z  
-[1]+ Stopped   ./someprocess  
-$ bg  
-[1]+ ./someprocess &amp;amp;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To bring the process into foreground:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-$ fg     &amp;lt; -- last process pushed into bkgnd  
-$ jobs   [1] ./someprocess  
-[2] ./someotherprocess  
-$ fg 2  
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;via &lt;a href=&#34;http://acs.ucsd.edu/info/jobctrl.shtml&#34;&gt;Job Control on UNIX systems&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>If you are not a UNIX user/not a geek, please turn away right now.
+Every year, I either chance upon something new, or remind myself of something interesting that I&amp;rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):
+$ ./someprocess ... ... ... Ctrl-Z [1]+ Stopped ./someprocess $ bg [1]+ ./someprocess &amp;amp;
+To bring the process into foreground:</description>
     </item>
     
     <item>
@@ -157,58 +84,22 @@ $ fg 2
       <pubDate>Tue, 09 Sep 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/</guid>
-      <description>&lt;p&gt;Over the last few months, I have re-discovered some unix commands (it&amp;rsquo;s been such a long time)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Eliminate duplicate lines from a file&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;#sort -u filename &amp;gt; filename.new&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;List all lines that do not match a condition&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;#grep -v ajsk filename&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Copy contents of two files to one&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;#cat file1 file2 &amp;gt; file3&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Append output of a command to a file&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;#cat file1 &amp;gt;&amp;gt; file2&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Over the last few months, I have re-discovered some unix commands (it&amp;rsquo;s been such a long time)
+ Eliminate duplicate lines from a file   #sort -u filename &amp;gt; filename.new
+  List all lines that do not match a condition   #grep -v ajsk filename
+  Copy contents of two files to one   #cat file1 file2 &amp;gt; file3
+  Append output of a command to a file   #cat file1 &amp;gt;&amp;gt; file2</description>
     </item>
     
     <item>
       <title>cvs - Getting list of files changed in the current tree</title>
-      <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+      <link>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</link>
       <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
-      <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; checkins. I did some googling today, and found how to find the list of files changed without updating your tree.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;#cvs -n update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;Jonnay&lt;/a&gt; for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</guid>
+      <description>The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.
+#cvs update . &amp;gt; filelist.dat
+The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make 2/3 checkins.</description>
     </item>
     
     <item>
@@ -217,24 +108,12 @@ $ fg 2
       <pubDate>Sat, 08 Sep 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
-      <description>&lt;p&gt;I had to compare machine hardware today, and found information on that &lt;a href=&#34;http://esofthub.blogspot.com/2006/10/view-processor-speed-and-ram-size.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>I had to compare machine hardware today, and found information on that here.
+**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.
+Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output
 
-&lt;p&gt;**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.&lt;/p&gt;
-
-&lt;p&gt;Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#psrinfo -p&lt;/strong&gt; - lists number of physical processors .&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#psrinfo -p -v&lt;/strong&gt; - list number of virtual processors (cores) per physical processor.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#psrinfo -v&lt;/strong&gt; - detailed information for each virtual processor.&lt;/p&gt;
-
-&lt;p&gt;**#prtconf | grep Memory **- displays total amount of RAM.&lt;/p&gt;
-
-&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/unix%20commands&#34;&gt;unix commands&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/solaris%20commands&#34;&gt;solaris commands&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/system%20configuration&#34;&gt;system configuration&lt;/a&gt;&lt;/p&gt;
-</description>
+#psrinfo -p - lists number of physical processors .
+#psrinfo -p -v - list number of virtual processors (cores) per physical processor.</description>
     </item>
     
   </channel>

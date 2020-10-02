@@ -1,39 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ipod Touch on shiv.me</title>
+    <title>ipod touch on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/ipod-touch/</link>
-    <description>Recent content in Ipod Touch on shiv.me</description>
+    <description>Recent content in ipod touch on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 29 Jan 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/ipod-touch/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 29 Jan 2008 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/ipod-touch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>That queasy feeling</title>
       <link>http://blog.shiv.me/2008/01/29/that-queasy-feeling/</link>
       <pubDate>Tue, 29 Jan 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/01/29/that-queasy-feeling/</guid>
-      <description>&lt;p&gt;A few days ago, I returned the Ipod touch that I had for exactly 11 days, coz Apple chose to charge me $20. Apart from me being a cheap bas***d, I had this queasy feeling in my gut, about apple products. I felt an unexplainable rage towards Apple, Jobs and the fanboys. I am usually a very moderate person, and it really surprised me that I could harbor such crazy extremism and frustration. I could never place a finger on the source, until I read &lt;a href=&#34;http://www.codinghorror.com/archives/001044.html&#34;&gt;this article&lt;/a&gt; on Coding Horror by Jeff Atwood.&lt;/p&gt;
-
-&lt;p&gt;He hits the nail on the head with this one:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;So let&amp;rsquo;s be completely clear: &lt;strong&gt;when you buy a new Mac, you&amp;rsquo;re buying a giant hardware dongle&lt;/strong&gt; that allows you to run OS X software.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;and goes on to state something, that threw the spotlight on that source that I was trying to find within myself&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Maybe I&amp;rsquo;m a hypocrite. Maybe the issue cuts philosophically deeper than mere dongles. Maybe it&amp;rsquo;s not only about the freedom to run your operating system on whatever hardware you wish, but also the freedom to run whatever software you want for whatever purpose you need, in perpetuity. That&amp;rsquo;s &lt;a href=&#34;http://diveintomark.org/archives/2004/05/14/freedom-0&#34;&gt;Freedom Zero&lt;/a&gt;:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There are two kinds of us: those who put conviction above convenience, and those who don&amp;rsquo;t. There is nothing right or wrong about being on either of the sides. All that matters is that, one needs to understand, which &amp;ldquo;club&amp;rdquo; one belongs to. Through all this, I realized one thing - I will never be content with a Mac, until I convince myself to give up expecting my computer to do everything I want it to do. Do I want to do that? I have no idea. Do I want an ipod touch that allows me to run linux on it? I sure as hell do.&lt;/p&gt;
-
-&lt;p&gt;I hope, for the sake of computing, that Apple realizes that it has a platform in the Ipod Touch, get off its proud ass,Â  and open-up the touch to third party. However, with Apple, I just know that it will never happen. Why? It takes genius to build something like the iPhone or the iPod and a vision to make that into a platform.&lt;/p&gt;
-</description>
+      <description>A few days ago, I returned the Ipod touch that I had for exactly 11 days, coz Apple chose to charge me $20. Apart from me being a cheap bas***d, I had this queasy feeling in my gut, about apple products. I felt an unexplainable rage towards Apple, Jobs and the fanboys. I am usually a very moderate person, and it really surprised me that I could harbor such crazy extremism and frustration.</description>
     </item>
     
     <item>
@@ -42,8 +23,7 @@
       <pubDate>Fri, 18 Jan 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/01/18/bye-bye-ipod/</guid>
-      <description>&lt;p&gt;Since &lt;a href=&#34;http://www.apple.com/pr/library/2008/01/15touch.html&#34;&gt;I don&amp;rsquo;t enjoyed being screwed over when I buy a $500 product&lt;/a&gt;, I said buh-bye to my ipod touch today. One thing that I enjoyed, was the sharpness of the display. I will definetly buy this device again, if I knew for sure that, Apple will not pull another stunt like that with the &lt;a href=&#34;http://www.downloadsquad.com/2007/10/17/iphone-and-ipod-touch-sdk-coming-in-february/&#34;&gt;imminent&lt;/a&gt; &lt;a href=&#34;http://www.tuaw.com/2007/10/17/apple-we-plan-to-have-an-iphone-sdk-in-developers-hands-in-fe/&#34;&gt;release &lt;/a&gt;of IPOD touch SDK. So until then, I commute for 2 hours everyday with no music to listen, no podcast from CNN to watch :(&lt;/p&gt;
-</description>
+      <description>Since I don&amp;rsquo;t enjoyed being screwed over when I buy a $500 product, I said buh-bye to my ipod touch today. One thing that I enjoyed, was the sharpness of the display. I will definetly buy this device again, if I knew for sure that, Apple will not pull another stunt like that with the imminent release of IPOD touch SDK. So until then, I commute for 2 hours everyday with no music to listen, no podcast from CNN to watch :(</description>
     </item>
     
     <item>
@@ -52,10 +32,8 @@
       <pubDate>Wed, 16 Jan 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/01/16/ipod-touch-downgrade-from-1.1.3-to-1.1.1/</guid>
-      <description>&lt;p&gt;My ipod touch was upgraded to 1.1.3, after connecting to my computer, and I wanted to downgrade to 1.1.1, so I could jailbreak it and put any app I want on it.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://ipodtouchmaster.com/&#34;&gt;ipodtouchmaster &lt;/a&gt;found &lt;a href=&#34;http://www.youtube.com/v/YakjwxB3nQU&#34;&gt;a way to downgrade&lt;/a&gt; it using iPhuc.&lt;/p&gt;
-</description>
+      <description>My ipod touch was upgraded to 1.1.3, after connecting to my computer, and I wanted to downgrade to 1.1.1, so I could jailbreak it and put any app I want on it.
+ipodtouchmaster found a way to downgrade it using iPhuc.</description>
     </item>
     
     <item>
@@ -64,13 +42,8 @@
       <pubDate>Tue, 15 Jan 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/01/15/ipod-touch-1.1.1-firmware-link/</guid>
-      <description>&lt;p&gt;Since Apple&amp;rsquo;s is so bent upon &lt;a href=&#34;http://news.google.com/news/url?sa=t&amp;amp;ct=:ePkh8BM9g5ucBze5BG5yqhADkgWZeQBzjQYG/0-1&amp;amp;fp=478d8859dc34a86c&amp;amp;ei=vFuNR_i1EoOErQPTnYCHAg&amp;amp;url=http%3A//lifehacker.com/345114/iphone-ipod-touch-firmware-update-adds-faux%2bgps-multi%2bsms-and-more&amp;amp;cid=1126385834&amp;amp;sig2=kF9GGYFfNYp9px-jCahoww&#34;&gt;disappointing &lt;/a&gt;&lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fwww.apple.com%2Fhotnews%2Fopeniphoneletter%2F&amp;amp;ei=-VuNR_LbH5vCgAP97MXfBg&amp;amp;usg=AFQjCNFD-104d-f8j6eMkH4FtIXQnPei7w&amp;amp;sig2=47vb7ATncfgGpDWP79PQgA&#34;&gt;their &lt;/a&gt;customers, by introducing paid firmware upgrades, I needed to ensure that I have the option to jail break, my new ipod touch (if need be). (update: the firmware upgrade itself is not paid. Only the newapps are paid). I am going to wait until they &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;ct=res&amp;amp;cd=3&amp;amp;url=http%3A%2F%2Fwww.tuaw.com%2F2007%2F10%2F17%2Fapple-we-plan-to-have-an-iphone-sdk-in-developers-hands-in-fe%2F&amp;amp;ei=b1yNR-yLLYuQgwPzybHfBg&amp;amp;usg=AFQjCNEU4lvFx4EHi5SZE2s06qT7lNiBGg&amp;amp;sig2=Wi1NE6pO4ZjVXzyIje6FAw&#34;&gt;release their SDK in February&lt;/a&gt; before I jailbreak mine.&lt;/p&gt;
-
-&lt;p&gt;I found a link to the &lt;a href=&#34;http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iPod/SBML/osx/bundles/061-3932.20070927.p23dD/iPod1,1_1.1.1_3A110a_Restore.ipsw&#34;&gt;1.1.1 firmware&lt;/a&gt; (thanks to &lt;a href=&#34;http://rupertgee.wordpress.com/2007/12/02/downgraderestore-ipod-touch-firmware-to-version-111-using-os-x/&#34;&gt;Rupert&lt;/a&gt; and who-ever posted &lt;a href=&#34;http://forums.hardwarezone.com/showpost.php?p=26755502&amp;amp;postcount=40&#34;&gt;this&lt;/a&gt;).&lt;br /&gt;
-I have a copy on my hard-drive (just in case).&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s see how the whole thing works out. Just when I thought, Apple has a killer product, they have to limit the scope of a platform and make it a device. A very sad day for computing.&lt;/p&gt;
-</description>
+      <description>Since Apple&amp;rsquo;s is so bent upon disappointing their customers, by introducing paid firmware upgrades, I needed to ensure that I have the option to jail break, my new ipod touch (if need be). (update: the firmware upgrade itself is not paid. Only the newapps are paid). I am going to wait until they release their SDK in February before I jailbreak mine.
+I found a link to the 1.1.1 firmware (thanks to Rupert and who-ever posted this).</description>
     </item>
     
     <item>
@@ -79,8 +52,7 @@ I have a copy on my hard-drive (just in case).&lt;/p&gt;
       <pubDate>Tue, 15 Jan 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/01/15/ipod-touch/iphone-support/</guid>
-      <description>&lt;p&gt;This website, now supports a special interface for viewing usingÂ  ipod touch/iphone. I&amp;rsquo;m using the &lt;a href=&#34;http://iwphone.contentrobot.com/&#34;&gt;iWPhone plugin&lt;/a&gt; at &lt;a href=&#34;http://contentrobot.com/&#34;&gt;contentrobot.com&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>This website, now supports a special interface for viewing usingÂ ipod touch/iphone. I&amp;rsquo;m using the iWPhone plugin at contentrobot.com</description>
     </item>
     
   </channel>

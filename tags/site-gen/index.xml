@@ -1,35 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Site Gen on shiv.me</title>
+    <title>site-gen on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/site-gen/</link>
-    <description>Recent content in Site Gen on shiv.me</description>
+    <description>Recent content in site-gen on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 20 May 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/site-gen/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 20 May 2012 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/site-gen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An hour with HAML and Stasis</title>
       <link>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</link>
       <pubDate>Sun, 20 May 2012 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2012/05/20/an-hour-with-haml-and-stasis/</guid>
-      <description>&lt;p&gt;I have been meaning to get into the exciting world of static site-gen. Why, you ask? Well, I will tell you why?! Actually, I&amp;rsquo;m too lazy, and it&amp;rsquo;s late on a Sunday night &amp;ndash; instead, &lt;a href=&#34;http://mickgardner.com/&#34;&gt;Mick Gardner&lt;/a&gt;, can inform you on the &lt;a href=&#34;http://mickgardner.com/2011/04/27/An-Introduction-To-Static-Site-Generators.html&#34;&gt;virtues of static site-generation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After an hour of mucking around with several site-generators, I chose &lt;a href=&#34;http://stasis.me/&#34;&gt;Stasis&lt;/a&gt;, which is a good compromise to the blog-oriented &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;, and options-insanity that is &lt;a href=&#34;http://nanoc.stoneship.org/&#34;&gt;nanoc&lt;/a&gt;. With my new-found fascination for Ruby, I wanted to stay away from &lt;a href=&#34;http://ringce.com/hyde&#34;&gt;Hyde&lt;/a&gt; (which is Python based &amp;ndash; it&amp;rsquo;s time to try the dark-side, a little)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://haml.info/&#34;&gt;HAML&lt;/a&gt;, is an interesting markup language. Although it cleanups some of the clutter of html, there are still things that are annoying. For example:&lt;/p&gt;
-
-&lt;p&gt;HTML:&lt;/p&gt;
-
-&lt;p&gt;HAML:&lt;/p&gt;
-
-&lt;p&gt;Although, the HTML version has intrusive tags, it is easier on the eyes. It is a relief, not have to code, the end tag for every HTML element. It is much faster to type HAML by hand (especially in vim). In the end, it was a quick, painless process to convert the raw HTML code, to HAML, and generate the same html using stasis.&lt;/p&gt;
-
-&lt;p&gt;Life&amp;rsquo;s good. I&amp;rsquo;m still learning a few new tricks. What more can one ask for?&lt;/p&gt;
-</description>
+      <description>I have been meaning to get into the exciting world of static site-gen. Why, you ask? Well, I will tell you why?! Actually, I&amp;rsquo;m too lazy, and it&amp;rsquo;s late on a Sunday night &amp;ndash; instead, Mick Gardner, can inform you on the virtues of static site-generation.
+After an hour of mucking around with several site-generators, I chose Stasis, which is a good compromise to the blog-oriented Jekyll, and options-insanity that is nanoc.</description>
     </item>
     
   </channel>

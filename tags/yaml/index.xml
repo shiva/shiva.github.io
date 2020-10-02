@@ -1,64 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yaml on shiv.me</title>
+    <title>YAML on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/yaml/</link>
-    <description>Recent content in Yaml on shiv.me</description>
+    <description>Recent content in YAML on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 20 Nov 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 20 Nov 2010 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Barcamp Vancouver 2010 - Roundup</title>
-      <link>http://blog.shiv.me/2010/11/20/barcamp-vancouver-2010---roundup/</link>
+      <link>http://blog.shiv.me/2010/11/20/barcamp-vancouver-2010-roundup/</link>
       <pubDate>Sat, 20 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2010/11/20/barcamp-vancouver-2010---roundup/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://blog.shiv.me/wp-content/uploads/2010/11/barcamp-yvr-10.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/barcamp-yvr-10.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Phew! What an awesome 23 hours! I&amp;rsquo;m just back from &lt;a href=&#34;http://barcamp.org/w/page/29849528/BarCampVancouver2010&#34;&gt;Barcamp Vancouver 2010&lt;/a&gt; &lt;a href=&#34;http://twitter.com/#!/search?q=%23BCV10&#34;&gt;#bcv10&lt;/a&gt;. (Check out some &lt;a href=&#34;http://www.flickr.com/groups/barcampvancouver/&#34;&gt;pictures from the event&lt;/a&gt;). It&amp;rsquo;s been a while, since I have been this tired and excited at the same time. There are a thousand threads competing for the processor(s) in my head right now. I met a lot of very interesting people, and learnt about some great ideas. It has been a very educational weekend, in general. For all the great folks I met, I&amp;rsquo;m sure there were many more that I couldn&amp;rsquo;t chat with. To you, I say, &amp;ldquo;&lt;a href=&#34;http://www.google.com/profiles/shvelmur&#34;&gt;Let&amp;rsquo;s meet on the internets&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;A few great projects/ideas:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.arduino.cc/&#34;&gt;Arduino&lt;/a&gt; - Open hardware platform for very building very cool things. A very inexpensive way to build your very own robot army.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.plumtreeportfolios.com/&#34;&gt;Plumtree Portfolios&lt;/a&gt; - Vancouver-based wedding photographer platform. This wasn&amp;rsquo;t a talk, but I wish it had been. A very interesting, clean product. Shawn Taylor is the founder, and he is getting geared up. This is has the potential to be huge, especially in Vancouver.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://johnboxall.github.com/master-class/&#34;&gt;HTML5&lt;/a&gt; - a great talk by John Baxall, CEO @ Mobify. One of the best talks, and a great intro into the world of feature detection on browsers.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://openrestaurants.org/&#34;&gt;OpenRestaurants&lt;/a&gt; - a vision to make restaurant websites suck less. Fingers crossed that this will happen sooner. We can all use better access to data (and not keep it behind walls .. I&amp;rsquo;m looking at you Facebook)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/mcantelon/fashion-quest&#34;&gt;FashionQuest&lt;/a&gt; - Text-only adventure game engine. Aahh this brought back some memories. A very interesting use of YAML (In my world, it&amp;rsquo;s used as modelling language for NETCONF)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://mirametrix.com/&#34;&gt;Freaking Eyes&lt;/a&gt; &lt;a href=&#34;http://jonchui.wordpress.com/2010/11/21/492/&#34;&gt;EyePong&lt;/a&gt;- Control an ipad app with your eyes (This stuff just blew my mind. Playing pong with just your eyes is incredible, not to mention the zillion possibilities)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://symphony-cms.com/&#34;&gt;Symphony CMS&lt;/a&gt; - an XSLT based open source wiki. Another hallway demo. If you work for a large company, and your current CMS sucks, give this a looksie.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some people that I got a chance to chat with. Friend &amp;lsquo;em up on twitter. Check out their projects/websites. It will widen your world, and will make you think.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Stephen Bau: &lt;a href=&#34;http://bauhouse.ca/&#34;&gt;website&lt;/a&gt;,  &lt;a href=&#34;http://twitter.com/bauhouse&#34;&gt;@bauhouse&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;John Boxall: &lt;a href=&#34;http://mobify.me/&#34;&gt;website&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/johnboxall&#34;&gt;@johnboxall&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Shawn Taylor: &lt;a href=&#34;http://www.shawntaylorphoto.com/&#34;&gt;website&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/stphotos&#34;&gt;@stphotos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reilly &amp;lsquo;thejerk&amp;rsquo; Lievers: &lt;a href=&#34;http://www.jerkwithacamera.com/&#34;&gt;website&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/thejerk&#34;&gt;@thejerk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Cam Cavers: &lt;a href=&#34;http://reactionlab.com/&#34;&gt;website&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/camcavers&#34;&gt;@camcavers&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Mike Cantelon: &lt;a href=&#34;http://mikecantelon.com/&#34;&gt;website&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/mcantelon&#34;&gt;@mcantelon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Craig Hennessey: &lt;a href=&#34;http://www.hcigroup.org/&#34;&gt;personal&lt;/a&gt;, &lt;a href=&#34;http://mirametrix.com/&#34;&gt;company&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Robin H. Johnson: &lt;a href=&#34;http://robbat2.livejournal.com/&#34;&gt;website&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/robbat2&#34;&gt;@robbat2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lastly, thanks to everyone who helped put up an wonderful event (and make my first one an incredible experience)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://twitter.com/RobertShaer&#34;&gt;@RobertShaer&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/AGladders&#34;&gt;@AGladders&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/NickMolnar&#34;&gt;@NickMolnar&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/DDrucker&#34;&gt;@DDrucker&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/kk&#34;&gt;@KK&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://twitter.com/MattFriesen&#34;&gt;@MattFriesen&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The one thing I missed out on is meeting more designers. If you are in Vancouver, and want to meet for a chat on designing interfaces (which I suck at, with a vengeance), give me a shout &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;@shiva&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Update: Found the video for &lt;a href=&#34;http://jonchui.wordpress.com/2010/11/21/492/&#34;&gt;eyePong&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The incredible cool hackers behind this are&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;_&lt;a href=&#34;http://twitter.com/#!/jonchui&#34;&gt;Jon Chui&lt;/a&gt;, __&lt;a href=&#34;http://twitter.com/#!/appskicker&#34;&gt;Tom Schultz&lt;/a&gt; __and Craig Hennessey (founder of &lt;a href=&#34;http://www.mirametrix.com/&#34;&gt;mirametrix&lt;/a&gt;). _&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Jon Chui has &lt;a href=&#34;http://jonchui.wordpress.com/2010/11/21/492/&#34;&gt;written about his experience&lt;/a&gt; in hacking eyePong. Check it out.&lt;/em&gt;&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2010/11/20/barcamp-vancouver-2010-roundup/</guid>
+      <description>Phew! What an awesome 23 hours! I&amp;rsquo;m just back from Barcamp Vancouver 2010 #bcv10. (Check out some pictures from the event). It&amp;rsquo;s been a while, since I have been this tired and excited at the same time. There are a thousand threads competing for the processor(s) in my head right now. I met a lot of very interesting people, and learnt about some great ideas. It has been a very educational weekend, in general.</description>
     </item>
     
   </channel>

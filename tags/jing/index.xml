@@ -1,35 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jing on shiv.me</title>
+    <title>Jing on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/jing/</link>
-    <description>Recent content in Jing on shiv.me</description>
+    <description>Recent content in Jing on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 02 Oct 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/jing/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 02 Oct 2007 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/jing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Issue with Twitbin, Jing the next-gen screen capture</title>
       <link>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</link>
       <pubDate>Tue, 02 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
+      <description>Twitbin has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.
 
-&lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I realized how much it mean to my twittering experience, when it went down sometime last week. I presumed, it was due to the upgrades that the twitter team was planning, and want to see if the problem persists. Well, looks like twitter is working fine now, through the web-interface, and I guess twitbin should be operational now, but.. well NO.. I still have to use the web interface and it suck big time.&lt;/p&gt;
-
-&lt;p&gt;Just click on the image, on the side, to see a screencast of how I try to use twit-bin and the errors.&lt;/p&gt;
-
-&lt;p&gt;that brings us to the next very cool tool I have been using. It&amp;rsquo;s called &lt;a href=&#34;http://www.jingproject.com/&#34;&gt;Jing&lt;/a&gt;, and it does screen captures. If you are a screen capture addict like myself, you need this tool. Another very neat thing with this tool, is that it allows you to capture only a small portion of the screen (you can select it), and do, either an image capture or a screencast recording on that selected area. Very nice for showing your users, how to use your software or to help your mom do something.&lt;/p&gt;
-
-&lt;p&gt;They also provide a &lt;a href=&#34;http://www.screencast.com/&#34;&gt;service, where you can host your screencast&lt;/a&gt;, and it is free for 200MB storage and 1 GB bandwidth.&lt;/p&gt;
-
-&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/Twitbin&#34;&gt;Twitbin&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/Jing&#34;&gt;Jing&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/screencast&#34;&gt;screencast&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter%20clients&#34;&gt;twitter clients&lt;/a&gt;&lt;/p&gt;
-</description>
+I realized how much it mean to my twittering experience, when it went down sometime last week. I presumed, it was due to the upgrades that the twitter team was planning, and want to see if the problem persists.</description>
     </item>
     
   </channel>

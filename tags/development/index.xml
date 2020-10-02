@@ -1,54 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on shiv.me</title>
+    <title>development on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/development/</link>
-    <description>Recent content in Development on shiv.me</description>
+    <description>Recent content in development on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/development/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Badly punctuated parameter list in #define</title>
       <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
       <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
-      <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ gmake  
-...  
-...  
-some_file.h:42: badly punctuated parameter list in \`#define&#39;  
-some_file.h:64: badly punctuated parameter list in \`#define&#39;  
-Failed to compile  
-$  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This was caused by the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(...) { printf (##__VA_ARGS__); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This works in most modern C compilers. However, if you happen to use one from the 80s (I exaggerate a little - not by much), it throws the error as above. You can fix this as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(ARGS...) { printf (##ARGS); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;
+I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.
+$ gmake ... ... some_file.h:42: badly punctuated parameter list in \`#define&amp;#39;  some_file.h:64: badly punctuated parameter list in \`#define&amp;#39;  Failed to compile $ This was caused by the following:</description>
     </item>
     
     <item>
@@ -57,45 +25,19 @@ $
       <pubDate>Mon, 23 Aug 2010 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2010/08/23/unsigned-arithmetic/</guid>
-      <description>&lt;p&gt;Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.&lt;/p&gt;
-
-&lt;p&gt;I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://skeletoncoder.blogspot.com/2006/09/java-tutorials-why-no-unsigned.html&#34;&gt;http://skeletoncoder.blogspot.com/2006/09/java-tutorials-why-no-unsigned.html&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://publications.gbdirect.co.uk/c_book/chapter2/integral_types.html&#34;&gt;http://publications.gbdirect.co.uk/c_book/chapter2/integral_types.html&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://docs.google.com/fileview?id=1hIxg1EAi2QbxLqA-X4kAnQGHpQ1I4B2mIF9db4kk4WLzqnzU42ODeG1Zlm8Z&amp;amp;hl=en&#34;&gt;http://docs.google.com/fileview?id=1hIxg1EAi2QbxLqA-X4kAnQGHpQ1I4B2mIF9db4kk4WLzqnzU42ODeG1Zlm8Z&amp;amp;hl=en&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://teneo.wordpress.com/2008/12/23/java-ip-address-to-integer-and-back/&#34;&gt;http://teneo.wordpress.com/2008/12/23/java-ip-address-to-integer-and-back/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://embeddedgurus.com/stack-overflow/2009/05/signed-versus-unsigned-integers/&#34;&gt;http://embeddedgurus.com/stack-overflow/2009/05/signed-versus-unsigned-integers/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://embeddedgurus.com/stack-overflow/2009/08/a-tutorial-on-signed-and-unsigned-integers/&#34;&gt;http://embeddedgurus.com/stack-overflow/2009/08/a-tutorial-on-signed-and-unsigned-integers/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://embeddedgurus.com/stack-overflow/2009/02/effective-c-tips-2-defining-buffer-sizes/&#34;&gt;http://embeddedgurus.com/stack-overflow/2009/02/effective-c-tips-2-defining-buffer-sizes/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://en.wikipedia.org/wiki/Signed_number_representations&#34;&gt;http://en.wikipedia.org/wiki/Signed_number_representations&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://eli.thegreenplace.net/2010/06/11/the-perils-of-unsigned-iteration-in-cc/&#34;&gt;http://eli.thegreenplace.net/2010/06/11/the-perils-of-unsigned-iteration-in-cc/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://eli.thegreenplace.net/2004/07/18/cc-annoynace-unsigned-iteration/&#34;&gt;http://eli.thegreenplace.net/2004/07/18/cc-annoynace-unsigned-iteration/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.informit.com/articles/article.aspx?p=686170&amp;amp;seqNum=4&#34;&gt;http://www.informit.com/articles/article.aspx?p=686170&amp;amp;seqNum=4&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.gotw.ca/publications/c_family_interview.htm&#34;&gt;http://www.gotw.ca/publications/c_family_interview.htm&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://anteru.net/2010/05/17/736/&#34;&gt;http://anteru.net/2010/05/17/736/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://docs.google.com/fileview?id=1W-geK8nWnRfLLwEP00VYNsgVbWLawdRLbV-cEGFuktj6ZL5qTSbI8_3-WC3M&amp;amp;hl=en&#34;&gt;http://docs.google.com/fileview?id=1W-geK8nWnRfLLwEP00VYNsgVbWLawdRLbV-cEGFuktj6ZL5qTSbI8_3-WC3M&amp;amp;hl=en&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html&#34;&gt;http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://embeddedgurus.com/stack-overflow/tag/unsigned/&#34;&gt;http://embeddedgurus.com/stack-overflow/tag/unsigned/&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Since my last post, I&amp;rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&amp;rsquo;t support them.
+I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.</description>
     </item>
     
     <item>
       <title>cvs - Getting list of files changed in the current tree</title>
-      <link>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</link>
+      <link>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</link>
       <pubDate>Mon, 23 Jun 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/06/23/cvs---getting-list-of-files-changed-in-the-current-tree/</guid>
-      <description>&lt;p&gt;The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;#cvs update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make &lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;3&lt;/sub&gt; checkins. I did some googling today, and found how to find the list of files changed without updating your tree.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;#cvs -n update . &amp;gt; filelist.dat&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks &lt;a href=&#34;http://blog.jonnay.net/archives/181-Getting-a-list-of-changed-files-in-CVS-without-updating.html&#34;&gt;Jonnay&lt;/a&gt; for this. I should used man before I googled, but hey, I&amp;rsquo;m lazy today :)&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/</guid>
+      <description>The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.
+#cvs update . &amp;gt; filelist.dat
+The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&amp;rsquo;t want to risk updating your tree everyday, but still have to make 2/3 checkins.</description>
     </item>
     
     <item>
@@ -104,16 +46,8 @@ $
       <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/10/01/ex-siderss/</guid>
-      <description>&lt;p&gt;After several months of keeping away from updating or changing my website, I broke the fast today. I found a wonderful plugin, &lt;a href=&#34;http://www.underjc.com/?q=node/13&#34;&gt;sideRSS&lt;/a&gt;, which allows display of RSS feeds within a blog&amp;rsquo;s sidebar. As usual, I needed a specific functionality that was not supported the way I wanted it. I hacked it a little bit, renamed the plugin, and posted a custom version for download on my website.&lt;/p&gt;
-
-&lt;p&gt;If you need to share Google Shared Items, on your blog, but hate to include javascript (like I do), then use this. You can download it &lt;a href=&#34;http://shvelmur.com/downloads/projects/ex-siderss.php&#34;&gt;here&lt;/a&gt; (right-click and use &amp;ldquo;Save Target As&amp;hellip;&amp;rdquo;) and find install information &lt;a href=&#34;http://shvelmur.com/wpress/projects/exsiderss/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Also, if you like this version, and would like me to add a few more features (I have some in mind though, like ATOM parsing), do suggest them in the comments section.&lt;/p&gt;
-
-&lt;p&gt;P.S: If you are &lt;a href=&#34;http://www.underjc.com/&#34;&gt;Chris Hatcher&lt;/a&gt;, the author of the original &lt;a href=&#34;http://www.underjc.com/?q=node/13&#34;&gt;SideRSS&lt;/a&gt;, and want to take this version down or something, just leave a message here - you will need to merge my changes in your code though :-)&lt;/p&gt;
-
-&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/EX-SideRSS&#34;&gt;EXSideRSS&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/SideRSS&#34;&gt;SideRSS&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/wordpress%20plugins&#34;&gt;wordpress plugins&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>After several months of keeping away from updating or changing my website, I broke the fast today. I found a wonderful plugin, sideRSS, which allows display of RSS feeds within a blog&amp;rsquo;s sidebar. As usual, I needed a specific functionality that was not supported the way I wanted it. I hacked it a little bit, renamed the plugin, and posted a custom version for download on my website.
+If you need to share Google Shared Items, on your blog, but hate to include javascript (like I do), then use this.</description>
     </item>
     
     <item>
@@ -122,25 +56,8 @@ $
       <pubDate>Sat, 20 Jan 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/01/20/common-access-portal/</guid>
-      <description>&lt;p&gt;With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;mail, a whole set of accounts, gmail, yahoo, etc&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;feed readers&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;blog editor&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;orkut&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;del.icio&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;google notebook&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What is lacking, is the ability to have a single sign-on/account mgmt capability, a common dashboard, ability to cross-launch/cross-post content.&lt;/p&gt;
-
-&lt;p&gt;Ohh yeah, I want to do thiss all from either my desktop or from my own hosted page.&lt;/p&gt;
-
-&lt;p&gt;So there are some deep implicating requirements for my latest craze - get more done with less clicks!&lt;/p&gt;
-
-&lt;p&gt;I christen it Common Access Portal (Let&amp;rsquo;s put a CAP on things we use!)&lt;/p&gt;
-</description>
+      <description>With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.
+ mail, a whole set of accounts, gmail, yahoo, etc feed readers blog editor orkut del.icio google notebook  What is lacking, is the ability to have a single sign-on/account mgmt capability, a common dashboard, ability to cross-launch/cross-post content.</description>
     </item>
     
   </channel>

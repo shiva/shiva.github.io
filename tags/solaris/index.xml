@@ -1,39 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Solaris on shiv.me</title>
+    <title>solaris on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/solaris/</link>
-    <description>Recent content in Solaris on shiv.me</description>
+    <description>Recent content in solaris on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 08 Sep 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/solaris/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 08 Sep 2007 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/solaris/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unix: how to check system configuration on solaris</title>
       <link>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</link>
       <pubDate>Sat, 08 Sep 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/</guid>
-      <description>&lt;p&gt;I had to compare machine hardware today, and found information on that &lt;a href=&#34;http://esofthub.blogspot.com/2006/10/view-processor-speed-and-ram-size.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+      <description>I had to compare machine hardware today, and found information on that here.
+**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.
+Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output
 
-&lt;p&gt;**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.&lt;/p&gt;
-
-&lt;p&gt;Click on the image below, for a detailed overview of prtdiag&amp;rsquo;s output&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://static.zooomr.com/images/3177597_653fa457f3_o.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/3177597_b6727fa7f6_m.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#psrinfo -p&lt;/strong&gt; - lists number of physical processors .&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#psrinfo -p -v&lt;/strong&gt; - list number of virtual processors (cores) per physical processor.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#psrinfo -v&lt;/strong&gt; - detailed information for each virtual processor.&lt;/p&gt;
-
-&lt;p&gt;**#prtconf | grep Memory **- displays total amount of RAM.&lt;/p&gt;
-
-&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/unix%20commands&#34;&gt;unix commands&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/solaris%20commands&#34;&gt;solaris commands&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/system%20configuration&#34;&gt;system configuration&lt;/a&gt;&lt;/p&gt;
-</description>
+#psrinfo -p - lists number of physical processors .
+#psrinfo -p -v - list number of virtual processors (cores) per physical processor.</description>
     </item>
     
   </channel>

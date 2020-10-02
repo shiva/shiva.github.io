@@ -1,86 +1,65 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.16" />
+<html lang="en-US"><meta charset="utf-8" />
+
+  <title>XML Validator - Rabble-rousing Rambling</title>
 
 
-<title>XML Validator - shiv.me</title>
-<meta property="og:title" content="XML Validator - shiv.me">
+  <meta name="description" content="Default Page Description" />
 
-
-
-  
-  <meta property="description" content="XML Validator">
-  
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/latex.css" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.75.1" /><body>
 
 
 
 
 
 
-<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="http://blog.shiv.me/" class="nav-logo">
-    <img src="http://blog.shiv.me/images/logo.png" 
-         width="50" 
-         height="50" 
-         alt="shiv.me">
-  </a>
-
-  <ul class="nav-links">
-    
-    <li><a href="http://shiv.me/#about">About</a></li>
-    
-    <li><a href="http://github.com/shiva">GitHub</a></li>
-    
-    <li><a href="http://twitter.com/shiva">Twitter</a></li>
-    
-  </ul>
-</nav>
-
-      </header>
-
-
-<main class="content" role="main">
-
-  <article class="article">
-    
-    <span class="article-duration">2 min read</span>
+<header>
+  <nav class="navbar">
+  <div class="nav">
     
 
-    <h1 class="article-title">XML Validator</h1>
-
-    
-    <span class="article-date">February 8, 2007</span>
-    
-
-    <div class="article-content">
+    <ul class="nav-links">
       
-
-<p>It is quite surprising that there are hardly any open-source to validate XML out there. I had the need to validate a auto-generated XML output against a valid xsd, to see if the code that I wrote to generate XML was producing not only syntactically correct XML, but also XML that was data-valid. <strong>XML Validator</strong>, provides an UI that allows you to check the validity of any XML, in with reference to its xsd. It is free for Personal and Commercial use without any warranties. So don&rsquo;t come to me if it makes your dog barks all night, or if your computer commits suicide.</p>
-
-<h2 id="download-it-here-0">Download it <a href="http://shvelmur.com/downloads/projects/XMLValidator.zip">here</a>.</h2>
-
-<p><a href="http://shvelmur.com/images/wpress/XMLValidator_9477/XMLValidator14.png"><img src="http://blog.shiv.me/images/XMLValidator_thumb12.png" alt="" /></a></p>
-
-<h4 id="features-more-like-limitations-now"><strong>Features (more like limitations now - :) )</strong></h4>
-
+    </ul>
+  </div>
+</nav>
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>XML Validator</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Feb 8, 2007
+  
+</span>
+      </div>
+      <br>
+      
+    <p>It is quite surprising that there are hardly any open-source to validate XML out there. I had the need to validate a auto-generated XML output against a valid xsd, to see if the code that I wrote to generate XML was producing not only syntactically correct XML, but also XML that was data-valid. <strong>XML Validator</strong>, provides an UI that allows you to check the validity of any XML, in with reference to its xsd. It is free for Personal and Commercial use without any warranties. So don&rsquo;t come to me if it makes your dog barks all night, or if your computer commits suicide.</p>
+<h2 id="download-it-here0">Download it <a href="http://shvelmur.com/downloads/projects/XMLValidator.zip">here</a>.</h2>
+<p><a href="http://shvelmur.com/images/wpress/XMLValidator_9477/XMLValidator14.png"><img src="http://blog.shiv.me/images/XMLValidator_thumb12.png" alt=""></a></p>
+<h4 id="features-more-like-limitations-now----"><strong>Features (more like limitations now - :) )</strong></h4>
 <ul>
 <li>Compare syntactically valid XML against its XSD.</li>
 <li>Select files by using windows controls.</li>
 <li>No install required.</li>
 </ul>
-
 <h4 id="known-behavior"><strong>Known behavior</strong></h4>
-
 <ul>
 <li>Stops level traversal upon error.</li>
 <li>Uses MSXML parser/validator.</li>
@@ -88,17 +67,15 @@
 <li>Both XML/XSD should be local files.</li>
 <li>If a namespace is used for the XML, it should be provided as input.</li>
 </ul>
-
 <h4 id="features-in-future-releases"><strong>Features in future releases</strong></h4>
-
 <ul>
 <li>Support for multiple parsers
-
 <ul>
 <li>xerces</li>
 <li>xpp</li>
 <li>JDOM</li>
-</ul></li>
+</ul>
+</li>
 <li>CLI support for integration with test scripts.</li>
 <li>Validate XML syntax.</li>
 <li>Pick XSD from the URI (if mentioned).</li>
@@ -106,30 +83,39 @@
 <li>Allow copy/paste XML/XSD.</li>
 <li>Allow URL as input source for XML/XSD.</li>
 </ul>
-
 <p>This is a result of 30 mins of fiddling around with SharpDevelop, so it is not very complete nor does it have a lot of features. I would like to take it there. Your comments and suggestions for new features are welcome.</p>
 
-    </div>
-  </article>
 
-  
 
-</main>
-
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
-
-    </div>
-
+      
+        <div class="blog-tags">
+          
+            <a href="http://blog.shiv.me//tags/xml/">XML</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/xml/">XML</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/tools/">Tools</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/xml/">XML</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/validator/">Validator</a>&nbsp;
+          
+        </div>
+      
+    </article>
     
-  </body>
-</html>
+  </div>
 
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/7ma7X/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="http://blog.shiv.me/about">Shiva Velmurugan</a>
+        &copy;
+        2016
+      </p>
+  </div>
+</footer></body>
+</html>

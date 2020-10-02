@@ -1,44 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Se on shiv.me</title>
+    <title>SE on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/se/</link>
-    <description>Recent content in Se on shiv.me</description>
+    <description>Recent content in SE on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 25 Jan 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/se/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 25 Jan 2007 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/se/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trouble with Sony Ericsson W800i - Phone not detected.</title>
-      <link>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i---phone-not-detected./</link>
+      <link>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i-phone-not-detected./</link>
       <pubDate>Thu, 25 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i---phone-not-detected./</guid>
-      <description>&lt;p&gt;Trying to get the Sony Ericsson W800i has been by far the most traumatic experience of my life. I tried everything possible, but still was unable to get it recognised on my home PC!&lt;/p&gt;
-
-&lt;p&gt;So, finally I decided to resort to the most reliable way to get anything to work with a PC. Do a google search!!!&lt;/p&gt;
-
-&lt;p&gt;Found a wonderful link, (on a forum that solved the issue). Here is the fix suggested, (I have organised in to be more of a step-by-step guide.&lt;/p&gt;
-
-&lt;p&gt;The following involves tampering with the Windows Registry. Kindly take a BACKUP of your registry using regedit before attempting any changes. Oh yeah.. you are on your own in case you screw up something.&lt;/p&gt;
-
-&lt;p&gt;EXPORT ALL THE KEYS MENTIONED BELOW BEFORE DELETING THEM! ALWAYS BEST TO HAVE A BACKUP&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make sure your phone is NOT connected to your computer.&lt;/li&gt;
-&lt;li&gt;Run Regedit.&lt;/li&gt;
-&lt;li&gt;Browse to &amp;ldquo;My ComputerHKEY_LOCAL_MACHINESYSTEMCurrentControlSetEnumUSB&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Delete all key that start with &amp;ldquo;Vis_0fce&amp;amp;Pid_d028&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;You should be back to a stage where no w800 is installed on your machine.&lt;/li&gt;
-&lt;li&gt;Download the drivers (Approved ones) from SE&amp;rsquo;s website under Support.&lt;/li&gt;
-&lt;li&gt;Run the EXE file and let it install.&lt;/li&gt;
-&lt;li&gt;Connect your phone through the USB cable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Link to the orginal post can be found &lt;a href=&#34;http://www.expansys.com/ft.aspx?i=125173&amp;amp;thread=827&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2007/01/25/trouble-with-sony-ericsson-w800i-phone-not-detected./</guid>
+      <description>Trying to get the Sony Ericsson W800i has been by far the most traumatic experience of my life. I tried everything possible, but still was unable to get it recognised on my home PC!
+So, finally I decided to resort to the most reliable way to get anything to work with a PC. Do a google search!!!
+Found a wonderful link, (on a forum that solved the issue). Here is the fix suggested, (I have organised in to be more of a step-by-step guide.</description>
     </item>
     
   </channel>

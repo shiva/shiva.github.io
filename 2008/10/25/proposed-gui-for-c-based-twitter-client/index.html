@@ -1,740 +1,94 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en-US"><meta charset="utf-8" />
 
-  <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Proposed GUI for C&#43;&#43; based twitter client - Rabble-rousing Rambling</title>
 
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>
+  <meta name="description" content="Default Page Description" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/latex.css" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.75.1" /><body>
+
+
+
+
+
+
+<header>
+  <nav class="navbar">
+  <div class="nav">
     
-      Proposed GUI for C&#43;&#43; based twitter client &middot; 
-    
-  </title>
 
-  
-  <link rel="stylesheet" href="http://blog.shiv.me/css/poole.css">
-  <link rel="stylesheet" href="http://blog.shiv.me/css/syntax.css">
-  <link rel="stylesheet" href="http://blog.shiv.me/css/lanyon.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
-
-  
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.shiv.me/assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="http://blog.shiv.me/assets/favicon.ico">
-
-  
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.shiv.me/atom.xml">
-</head>
-
-
-  <body>
-
-    
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+    <ul class="nav-links">
       
+    </ul>
   </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="http://blog.shiv.me/">Home</a>
-    <a class="sidebar-nav-item " href="http://blog.shiv.me/post">Archives</a>
-
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-
-  </nav>
-
-  <div class="sidebar-item">
-      <p>&copy; Shiva. 2016. All rights reserved.</p>
-  </div>
-</div>
-
-
-    
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="http://blog.shiv.me/" title="Home">shiv.me</a>
-            <small></small>
-          </h3>
-        </div>
-      </div>
-
-      <div class="container content">
-
-
-<div class="post">
-  <h1 class="post-title">Proposed GUI for C&#43;&#43; based twitter client</h1>
-  <span class="post-date">Sat, Oct 25, 2008</span>
-  <p>I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.</p>
-
-<p>I&rsquo;ve decided to put my &ldquo;coding for myself&rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.</p>
-
-<p><a href="http://twitpic.com/i942" title="Share photos on twitter with Twitpic"><img src="http://blog.shiv.me/images/i942.jpg" alt="Share photos on twitter with Twitpic" /></a></p>
-
-<p>That&rsquo;s the proposed GUI. Sorry for the bad light. The iphone cam&rsquo;s not too good with tungsten light.</p>
-
-<p>Any suggestions?! I will try and post some mock up as I create em. I don&rsquo;t want to be writing my own twitter REST c++ library. Any suggestion are welcome.</p>
-
-</div>
-
+</nav>
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>Proposed GUI for C&#43;&#43; based twitter client</h1>
+          
+        
       </div>
     </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Oct 25, 2008
+  
+</span>
+      </div>
+      <br>
+      
+    <p>I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.</p>
+<p>I&rsquo;ve decided to put my &ldquo;coding for myself&rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.</p>
+<p><a href="http://twitpic.com/i942" title="Share photos on twitter with Twitpic"><img src="http://blog.shiv.me/images/i942.jpg" alt="Share photos on twitter with Twitpic"></a></p>
+<p>That&rsquo;s the proposed GUI. Sorry for the bad light. The iphone cam&rsquo;s not too good with tungsten light.</p>
+<p>Any suggestions?! I will try and post some mock up as I create em. I don&rsquo;t want to be writing my own twitter REST c++ library. Any suggestion are welcome.</p>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-  </body>
+
+      
+        <div class="blog-tags">
+          
+            <a href="http://blog.shiv.me//tags/c&#43;&#43;/">c&#43;&#43;</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/coding/">coding</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/native-twitter-client/">native twitter client</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/qt/">qt</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/tools/">Tools</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/twitter/">Twitter</a>&nbsp;
+          
+        </div>
+      
+    </article>
+    
+  </div>
+
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/7ma7X/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="http://blog.shiv.me/about">Shiva Velmurugan</a>
+        &copy;
+        2016
+      </p>
+  </div>
+</footer></body>
 </html>
-

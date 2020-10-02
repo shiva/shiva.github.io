@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Old Spice on shiv.me</title>
+    <title>old spice on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/old-spice/</link>
-    <description>Recent content in Old Spice on shiv.me</description>
+    <description>Recent content in old spice on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 21 Mar 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/old-spice/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 21 Mar 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/old-spice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cthulhu is your god</title>
       <link>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</link>
       <pubDate>Mon, 21 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/03/21/cthulhu-is-your-god/</guid>
-      <description>&lt;p&gt;&amp;lsquo;Nuf said!&lt;/p&gt;
-</description>
+      <description>&amp;lsquo;Nuf said!</description>
     </item>
     
   </channel>

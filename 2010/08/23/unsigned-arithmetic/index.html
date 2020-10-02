@@ -1,110 +1,111 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.16" />
+<html lang="en-US"><meta charset="utf-8" />
+
+  <title>Unsigned Arithmetic - Rabble-rousing Rambling</title>
 
 
-<title>Unsigned Arithmetic - shiv.me</title>
-<meta property="og:title" content="Unsigned Arithmetic - shiv.me">
+  <meta name="description" content="Default Page Description" />
 
-
-
-  
-  <meta property="description" content="Unsigned Arithmetic">
-  
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/latex.css" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.75.1" /><body>
 
 
 
 
 
 
-<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="http://blog.shiv.me/" class="nav-logo">
-    <img src="http://blog.shiv.me/images/logo.png" 
-         width="50" 
-         height="50" 
-         alt="shiv.me">
-  </a>
-
-  <ul class="nav-links">
+<header>
+  <nav class="navbar">
+  <div class="nav">
     
-    <li><a href="http://shiv.me/#about">About</a></li>
-    
-    <li><a href="http://github.com/shiva">GitHub</a></li>
-    
-    <li><a href="http://twitter.com/shiva">Twitter</a></li>
-    
-  </ul>
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
 </nav>
-
-      </header>
-
-
-<main class="content" role="main">
-
-  <article class="article">
-    
-    <span class="article-duration">1 min read</span>
-    
-
-    <h1 class="article-title">Unsigned Arithmetic</h1>
-
-    
-    <span class="article-date">August 23, 2010</span>
-    
-
-    <div class="article-content">
-      <p>Since my last post, I&rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&rsquo;t support them.</p>
-
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>Unsigned Arithmetic</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Aug 23, 2010
+  
+</span>
+      </div>
+      <br>
+      
+    <p>Since my last post, I&rsquo;ve had a couple of replies, a few more tweets, and few minutes of talking about unsigned types in Java, and why it doesn&rsquo;t support them.</p>
 <p>I still retail the view that unsigned types are unnecessary for the majority of Java developers. The only kind that should care, are those who deal with network information (like representing an ipaddress or macaddress). Everyone, put down your forks, and do not touch the unsigned.</p>
-
-<p><a href="http://skeletoncoder.blogspot.com/2006/09/java-tutorials-why-no-unsigned.html">http://skeletoncoder.blogspot.com/2006/09/java-tutorials-why-no-unsigned.html</a><br />
-<a href="http://publications.gbdirect.co.uk/c_book/chapter2/integral_types.html">http://publications.gbdirect.co.uk/c_book/chapter2/integral_types.html</a><br />
-<a href="http://docs.google.com/fileview?id=1hIxg1EAi2QbxLqA-X4kAnQGHpQ1I4B2mIF9db4kk4WLzqnzU42ODeG1Zlm8Z&amp;hl=en">http://docs.google.com/fileview?id=1hIxg1EAi2QbxLqA-X4kAnQGHpQ1I4B2mIF9db4kk4WLzqnzU42ODeG1Zlm8Z&amp;hl=en</a><br />
-<a href="http://teneo.wordpress.com/2008/12/23/java-ip-address-to-integer-and-back/">http://teneo.wordpress.com/2008/12/23/java-ip-address-to-integer-and-back/</a><br />
-<a href="http://embeddedgurus.com/stack-overflow/2009/05/signed-versus-unsigned-integers/">http://embeddedgurus.com/stack-overflow/2009/05/signed-versus-unsigned-integers/</a><br />
-<a href="http://embeddedgurus.com/stack-overflow/2009/08/a-tutorial-on-signed-and-unsigned-integers/">http://embeddedgurus.com/stack-overflow/2009/08/a-tutorial-on-signed-and-unsigned-integers/</a><br />
-<a href="http://embeddedgurus.com/stack-overflow/2009/02/effective-c-tips-2-defining-buffer-sizes/">http://embeddedgurus.com/stack-overflow/2009/02/effective-c-tips-2-defining-buffer-sizes/</a><br />
-<a href="http://en.wikipedia.org/wiki/Signed_number_representations">http://en.wikipedia.org/wiki/Signed_number_representations</a><br />
-<a href="http://eli.thegreenplace.net/2010/06/11/the-perils-of-unsigned-iteration-in-cc/">http://eli.thegreenplace.net/2010/06/11/the-perils-of-unsigned-iteration-in-cc/</a><br />
-<a href="http://eli.thegreenplace.net/2004/07/18/cc-annoynace-unsigned-iteration/">http://eli.thegreenplace.net/2004/07/18/cc-annoynace-unsigned-iteration/</a><br />
-<a href="http://www.informit.com/articles/article.aspx?p=686170&amp;seqNum=4">http://www.informit.com/articles/article.aspx?p=686170&amp;seqNum=4</a><br />
-<a href="http://www.gotw.ca/publications/c_family_interview.htm">http://www.gotw.ca/publications/c_family_interview.htm</a><br />
-<a href="http://anteru.net/2010/05/17/736/">http://anteru.net/2010/05/17/736/</a><br />
-<a href="http://docs.google.com/fileview?id=1W-geK8nWnRfLLwEP00VYNsgVbWLawdRLbV-cEGFuktj6ZL5qTSbI8_3-WC3M&amp;hl=en">http://docs.google.com/fileview?id=1W-geK8nWnRfLLwEP00VYNsgVbWLawdRLbV-cEGFuktj6ZL5qTSbI8_3-WC3M&amp;hl=en</a><br />
-<a href="http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html">http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html</a><br />
+<p><a href="http://skeletoncoder.blogspot.com/2006/09/java-tutorials-why-no-unsigned.html">http://skeletoncoder.blogspot.com/2006/09/java-tutorials-why-no-unsigned.html</a><br>
+<a href="http://publications.gbdirect.co.uk/c">http://publications.gbdirect.co.uk/c</a>_book/chapter2/integral_types.html<br>
+<a href="http://docs.google.com/fileview?id=1hIxg1EAi2QbxLqA-X4kAnQGHpQ1I4B2mIF9db4kk4WLzqnzU42ODeG1Zlm8Z&amp;hl=en">http://docs.google.com/fileview?id=1hIxg1EAi2QbxLqA-X4kAnQGHpQ1I4B2mIF9db4kk4WLzqnzU42ODeG1Zlm8Z&amp;hl=en</a><br>
+<a href="http://teneo.wordpress.com/2008/12/23/java-ip-address-to-integer-and-back/">http://teneo.wordpress.com/2008/12/23/java-ip-address-to-integer-and-back/</a><br>
+<a href="http://embeddedgurus.com/stack-overflow/2009/05/signed-versus-unsigned-integers/">http://embeddedgurus.com/stack-overflow/2009/05/signed-versus-unsigned-integers/</a><br>
+<a href="http://embeddedgurus.com/stack-overflow/2009/08/a-tutorial-on-signed-and-unsigned-integers/">http://embeddedgurus.com/stack-overflow/2009/08/a-tutorial-on-signed-and-unsigned-integers/</a><br>
+<a href="http://embeddedgurus.com/stack-overflow/2009/02/effective-c-tips-2-defining-buffer-sizes/">http://embeddedgurus.com/stack-overflow/2009/02/effective-c-tips-2-defining-buffer-sizes/</a><br>
+<a href="http://en.wikipedia.org/wiki/Signed">http://en.wikipedia.org/wiki/Signed</a>_number_representations<br>
+<a href="http://eli.thegreenplace.net/2010/06/11/the-perils-of-unsigned-iteration-in-cc/">http://eli.thegreenplace.net/2010/06/11/the-perils-of-unsigned-iteration-in-cc/</a><br>
+<a href="http://eli.thegreenplace.net/2004/07/18/cc-annoynace-unsigned-iteration/">http://eli.thegreenplace.net/2004/07/18/cc-annoynace-unsigned-iteration/</a><br>
+<a href="http://www.informit.com/articles/article.aspx?p=686170&amp;seqNum=4">http://www.informit.com/articles/article.aspx?p=686170&amp;seqNum=4</a><br>
+<a href="http://www.gotw.ca/publications/c">http://www.gotw.ca/publications/c</a>_family_interview.htm<br>
+<a href="http://anteru.net/2010/05/17/736/">http://anteru.net/2010/05/17/736/</a><br>
+<a href="http://docs.google.com/fileview?id=1W-geK8nWnRfLLwEP00VYNsgVbWLawdRLbV-cEGFuktj6ZL5qTSbI8">http://docs.google.com/fileview?id=1W-geK8nWnRfLLwEP00VYNsgVbWLawdRLbV-cEGFuktj6ZL5qTSbI8</a>_3-WC3M&amp;hl=en<br>
+<a href="http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html">http://www.velocityreviews.com/forums/t590391-p2-unsigned-long-long-overflow.html</a><br>
 <a href="http://embeddedgurus.com/stack-overflow/tag/unsigned/">http://embeddedgurus.com/stack-overflow/tag/unsigned/</a></p>
 
-    </div>
-  </article>
 
-  
 
-</main>
-
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
-
-    </div>
-
+      
+        <div class="blog-tags">
+          
+            <a href="http://blog.shiv.me//tags/c&#43;&#43;/">c&#43;&#43;</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/coding/">coding</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/design/">design</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/development/">Development</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/hacking/">hacking</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/java/">java</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/unsigned-arithmetic/">unsigned arithmetic</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/unsigned-types/">unsigned types</a>&nbsp;
+          
+        </div>
+      
+    </article>
     
-  </body>
-</html>
+  </div>
 
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/7ma7X/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="http://blog.shiv.me/about">Shiva Velmurugan</a>
+        &copy;
+        2016
+      </p>
+  </div>
+</footer></body>
+</html>

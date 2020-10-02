@@ -1,96 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.16" />
+<html lang="en-US"><meta charset="utf-8" />
+
+  <title>Macports from behind a proxy - Rabble-rousing Rambling</title>
 
 
-<title>Macports from behind a proxy - shiv.me</title>
-<meta property="og:title" content="Macports from behind a proxy - shiv.me">
+  <meta name="description" content="Default Page Description" />
 
-
-
-  
-  <meta property="description" content="Macports from behind a proxy">
-  
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/latex.css" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.75.1" /><body>
 
 
 
 
 
 
-<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="http://blog.shiv.me/" class="nav-logo">
-    <img src="http://blog.shiv.me/images/logo.png" 
-         width="50" 
-         height="50" 
-         alt="shiv.me">
-  </a>
-
-  <ul class="nav-links">
+<header>
+  <nav class="navbar">
+  <div class="nav">
     
-    <li><a href="http://shiv.me/#about">About</a></li>
-    
-    <li><a href="http://github.com/shiva">GitHub</a></li>
-    
-    <li><a href="http://twitter.com/shiva">Twitter</a></li>
-    
-  </ul>
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
 </nav>
-
-      </header>
-
-
-<main class="content" role="main">
-
-  <article class="article">
-    
-    <span class="article-duration">1 min read</span>
-    
-
-    <h1 class="article-title">Macports from behind a proxy</h1>
-
-    
-    <span class="article-date">August 27, 2012</span>
-    
-
-    <div class="article-content">
-      <p>I&rsquo;ve been using my MBP as the main computer at work for a couple of weeks now. It is not officially &ldquo;supported&rdquo;, and I&rsquo;m left to my own devices to figure out any issues that arise.</p>
-
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>Macports from behind a proxy</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Aug 27, 2012
+  
+</span>
+      </div>
+      <br>
+      
+    <p>I&rsquo;ve been using my MBP as the main computer at work for a couple of weeks now. It is not officially &ldquo;supported&rdquo;, and I&rsquo;m left to my own devices to figure out any issues that arise.</p>
 <p>Configuring proxies on the mac for all GUI applications is quite simple. However, most of the *nix tools have trouble with it. Macports, which I love to hate, should read it from the environment&rsquo;s $http_proxy and $rsync_proxy, but for some reason doesn&rsquo;t really do so. The simplest fix, is to override system env variables, and use the macport configuration file to provide the proxy. It works like a charm (one of reason to like macports, I suppose)</p>
-
-<p>Edit $HOME/macports/etc/macports/macports.conf, and add the following.<br />
+<p>Edit $HOME/macports/etc/macports/macports.conf, and add the following.<br>
 (I prefer installing macports in its own directory .. if it ever gets too big, I can delete the directory, and go back to using standard tools that come with the mac)</p>
 
-    </div>
-  </article>
 
-  
 
-</main>
-
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
-
-    </div>
-
+      
+    </article>
     
-  </body>
-</html>
+  </div>
 
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/7ma7X/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="http://blog.shiv.me/about">Shiva Velmurugan</a>
+        &copy;
+        2016
+      </p>
+  </div>
+</footer></body>
+</html>

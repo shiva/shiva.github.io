@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US"><meta charset="utf-8" />
+
+  <title>unix - Rabble-rousing Rambling</title>
+
+
+  <meta name="description" content="Default Page Description" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/latex.css" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.75.1" /><body>
+
+
+
+
+
+
+<header>
+  <nav class="navbar">
+  <div class="nav">
+    
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
+</nav>
+  <div class="intro-header">
+    <div class="container">
+      <div class="tags-heading">
+        
+          <h1>unix</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+<div class="container" role="main">
+    <div class="posts-list">
+      
+        
+      
+
+      
+        <article class="post-preview">
+  <a href="http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/">
+      <h2 class="post-title">Job Control on \*NIX systems</h2>
+  </a>
+  <div class="postmeta">
+    <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Jan 31, 2011
+  
+</span>
+  </div>
+  <div class="post-entry">
+    
+      <p>If you are not a UNIX user/not a geek, please turn away right now.
+Every year, I either chance upon something new, or remind myself of something interesting that I&rsquo;ve forgotten. This is the latter case. On a *NIX shell, you can push a foreground process to background (obviously without terminating it):
+$ ./someprocess ... ... ... Ctrl-Z [1]+ Stopped ./someprocess $ bg [1]+ ./someprocess &amp;
+To bring the process into foreground:</p>
+        <a href="http://blog.shiv.me/2011/01/31/job-control-on-%5Cnix-systems/" class="post-read-more">Read More</a>
+    
+  </div>
+</article>
+      
+        <article class="post-preview">
+  <a href="http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/">
+      <h2 class="post-title">Unix: removing duplicates from a file</h2>
+  </a>
+  <div class="postmeta">
+    <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Sep 9, 2008
+  
+</span>
+  </div>
+  <div class="post-entry">
+    
+      <p>Over the last few months, I have re-discovered some unix commands (it&rsquo;s been such a long time)
+ Eliminate duplicate lines from a file   #sort -u filename &gt; filename.new
+  List all lines that do not match a condition   #grep -v ajsk filename
+  Copy contents of two files to one   #cat file1 file2 &gt; file3
+  Append output of a command to a file   #cat file1 &gt;&gt; file2</p>
+        <a href="http://blog.shiv.me/2008/09/09/unix-removing-duplicates-from-a-file/" class="post-read-more">Read More</a>
+    
+  </div>
+</article>
+      
+        <article class="post-preview">
+  <a href="http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/">
+      <h2 class="post-title">cvs - Getting list of files changed in the current tree</h2>
+  </a>
+  <div class="postmeta">
+    <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Jun 23, 2008
+  
+</span>
+  </div>
+  <div class="post-entry">
+    
+      <p>The simple way to retreive the list of changed files would be to update the tree, which would then list the files updated.
+#cvs update . &gt; filelist.dat
+The problem with this, is that if there have been changes to other files after your last update, you will have to manually glean the files that you have changed. I tend face this, particularly during the last couple of weeks before a release, since you don&rsquo;t want to risk updating your tree everyday, but still have to make 2/3 checkins.</p>
+        <a href="http://blog.shiv.me/2008/06/23/cvs-getting-list-of-files-changed-in-the-current-tree/" class="post-read-more">Read More</a>
+    
+  </div>
+</article>
+      
+        <article class="post-preview">
+  <a href="http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/">
+      <h2 class="post-title">Unix: how to check system configuration on solaris</h2>
+  </a>
+  <div class="postmeta">
+    <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Sep 8, 2007
+  
+</span>
+  </div>
+  <div class="post-entry">
+    
+      <p>I had to compare machine hardware today, and found information on that here.
+**#prtdiag -v - **Gives hardware information about FSB, Sparc Model, CPU speed, RAM, Harddisks, USB drives (ie. PCI and networking slots) etc.
+Click on the image below, for a detailed overview of prtdiag&rsquo;s output
+
+#psrinfo -p - lists number of physical processors .
+#psrinfo -p -v - list number of virtual processors (cores) per physical processor.</p>
+        <a href="http://blog.shiv.me/2007/09/08/unix-how-to-check-system-configuration-on-solaris/" class="post-read-more">Read More</a>
+    
+  </div>
+</article>
+      
+      </div>
+    
+    <ul class="pager">
+      
+        <li class="previous">
+          <a href="http://blog.shiv.me/tags/unix/1/">&larr; Newer</a>
+        </li>
+      
+      
+    </ul>
+  
+</div>
+
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/7ma7X/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="http://blog.shiv.me/about">Shiva Velmurugan</a>
+        &copy;
+        2016
+      </p>
+  </div>
+</footer></body>
+</html>

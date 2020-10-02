@@ -1,82 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recap on shiv.me</title>
+    <title>recap on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/recap/</link>
-    <description>Recent content in Recap on shiv.me</description>
+    <description>Recent content in recap on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 31 Dec 2016 20:32:53 -0800</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/recap/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 31 Dec 2016 20:32:53 -0800</lastBuildDate><atom:link href="http://blog.shiv.me/tags/recap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2016 year-end recap</title>
       <link>http://blog.shiv.me/2016/12/31/2016-year-end-recap/</link>
       <pubDate>Sat, 31 Dec 2016 20:32:53 -0800</pubDate>
       
       <guid>http://blog.shiv.me/2016/12/31/2016-year-end-recap/</guid>
-      <description>
-
-&lt;h2 id=&#34;don-t-smoke-stay-quit-doing-great&#34;&gt;Don’t smoke (Stay quit!!) : Doing great!&lt;/h2&gt;
-
-&lt;p&gt;There is no desire to smoke. After being a smoker for over a decade, I was very glad to quit, and stay quit. The way I quit this time was quite cliched. I went to Vegas, smoked incessantly for 3 days, and stopped at the end of the trip &amp;ndash; cold turkey. Never went back to it, and quite frankly disgusted by the thought of smoking now.&lt;/p&gt;
-
-&lt;h2 id=&#34;say-yes-more-often-did-well&#34;&gt;Say yes more often: Did well.&lt;/h2&gt;
-
-&lt;p&gt;I have reduced negativity greatly. This is a good one to keep at for the next year.&lt;/p&gt;
-
-&lt;h2 id=&#34;read-a-book-a-month-failing-miserably&#34;&gt;Read a book a month: Failing miserably.&lt;/h2&gt;
-
-&lt;p&gt;Multiple incomplete books. Really finished only &lt;a href=&#34;https://www.goodreads.com/user/year_in_books/2016/856502&#34;&gt;one book this year&lt;/a&gt; - The Drunkard&amp;rsquo;s Walk: How Randomness rules our lives.&lt;/p&gt;
-
-&lt;p&gt;Other books caught my attention this year:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/13072034-sustainable-materials---with-both-eyes-open&#34;&gt;Sustainable Materials - With Both Eyes Open&lt;/a&gt; by  Julian M. Allwood, Jonathan M. Cullen&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/18736925-capital-in-the-twenty-first-century&#34;&gt;Capital in the Twenty-First Century&lt;/a&gt;  by  Thomas Piketty&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/8082269-domain-specific-languages&#34;&gt;Domain-Specific Languages&lt;/a&gt; by Martin Fowler&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I need to up my game here. The plan is dedicate the first weekend of every month to a book. I need to read more than one book a year!&lt;/p&gt;
-
-&lt;h2 id=&#34;write-an-app-a-month-passable&#34;&gt;Write an app a month: Passable.&lt;/h2&gt;
-
-&lt;p&gt;Built a few apps this year. Unlike other years, I managed to finish them enough to launch them into the wild. It was quite satifying to be able to get them of a git repo, and have them running.&lt;/p&gt;
-
-&lt;p&gt;I have learnt quite a bit through the process, and perhaps will write more about deploying node js apps in production.&lt;/p&gt;
-
-&lt;p&gt;There is potential for a product that simplifies authentication and authorization. All &lt;a href=&#34;https://auth0.com/&#34;&gt;existing&lt;/a&gt; &lt;a href=&#34;https://stormpath.com/&#34;&gt;solutions&lt;/a&gt; that I have tried this year still get in the way of the user. We desperately need a universal interface for identity &amp;ndash; perhaps hardware that can make oAuth more ammenable for login.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.shiv.me/spellcaster/&#34;&gt;Spellcaster&lt;/a&gt; - find that perfect MTG card.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://shiv.me/wishlists/&#34;&gt;Wishlists&lt;/a&gt; - maintain a list of wishlists . Was especially useful for Secret Santa this year&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;blog-once-a-week-failing-miserably&#34;&gt;Blog once a week: Failing miserably.&lt;/h2&gt;
-
-&lt;p&gt;This is going back on the list for next year. I have consumed a lot of content this year, but produced very little.. Most of my posts have been photos on &lt;a href=&#34;https://www.instagram.com/shivanand/&#34;&gt;Instagram&lt;/a&gt; &amp;ndash; photos of food!&lt;/p&gt;
-</description>
+      <description>Don’t smoke (Stay quit!!) : Doing great! There is no desire to smoke. After being a smoker for over a decade, I was very glad to quit, and stay quit. The way I quit this time was quite cliched. I went to Vegas, smoked incessantly for 3 days, and stopped at the end of the trip &amp;ndash; cold turkey. Never went back to it, and quite frankly disgusted by the thought of smoking now.</description>
     </item>
     
     <item>
       <title>2013 on twitter - a recap</title>
-      <link>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</link>
+      <link>http://blog.shiv.me/2014/01/02/2013-on-twitter-a-recap/</link>
       <pubDate>Thu, 02 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter---a-recap/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://vizify.com/&#34;&gt;Vizify&lt;/a&gt; makes a video out of the posts you have made on twitter in the last year. &lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.vizify.com/shivanand/twitter-video&#34;&gt;2013 on twitter&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks to my top followers&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/tinaferan&#34;&gt;Christina&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/ray_lian&#34;&gt;Ray Lian&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://twitter.com/covivant&#34;&gt;Dave Kell&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <guid>http://blog.shiv.me/2014/01/02/2013-on-twitter-a-recap/</guid>
+      <description>Vizify makes a video out of the posts you have made on twitter in the last year. Christina, you are always my #1! Thank you for bringing this to my attention. As any self-respecting nerd would do, I immediately made one for myself. Doesn&amp;rsquo;t the world need yet another summary of meee!!
+2013 on twitter
+Thanks to my top followers
+ Christina Ray Lian Dave Kell  </description>
     </item>
     
   </channel>

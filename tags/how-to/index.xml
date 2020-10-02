@@ -1,28 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>How To on shiv.me</title>
+    <title>how-to on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/how-to/</link>
-    <description>Recent content in How To on shiv.me</description>
+    <description>Recent content in how-to on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 10 Jul 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 10 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use Linux, learn new things</title>
       <link>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</link>
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</guid>
-      <description>&lt;p&gt;After 12+ years, I built a &lt;a href=&#34;https://ca.pcpartpicker.com/b/j6Cypg&#34;&gt;workstation from scratch&lt;/a&gt;. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked &lt;a href=&#34;https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions&#34;&gt;Arch Linux&lt;/a&gt;, on the recommendation of several colleagues. It&amp;rsquo;s been fun. &lt;a href=&#34;https://wiki.archlinux.org/index.php/pacman&#34;&gt;Pacman&lt;/a&gt; and &lt;a href=&#34;https://archlinux.fr/yaourt-en&#34;&gt;Yaourt&lt;/a&gt; are great package managers, and the &lt;a href=&#34;https://en.wikipedia.org/wiki/Rolling_release&#34;&gt;rolling release&lt;/a&gt; model ensures access to the bleeding edge all the time.&lt;/p&gt;
-
-&lt;p&gt;Working in linux always makes you learn something new. Today, I found out a simple way to shutdown KDE gracefully.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# qdbus org.kde.ksmserver /KSMServer logout 0 0 0
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>After 12+ years, I built a workstation from scratch. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked Arch Linux, on the recommendation of several colleagues. It&amp;rsquo;s been fun. Pacman and Yaourt are great package managers, and the rolling release model ensures access to the bleeding edge all the time.</description>
     </item>
     
     <item>
@@ -31,30 +23,8 @@
       <pubDate>Tue, 21 Jun 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/06/21/exporting-xdisplay/</guid>
-      <description>&lt;p&gt;In *nix systems, you can make the display, the GUI of an application, appear on another machine.  This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.&lt;/p&gt;
-
-&lt;p&gt;You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details. By default, the XServer instance on your desktop disallows communication from all machines except localhost. Thus, you will need to add the host in the allowed list using the xhost command.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On your machine&lt;/strong&gt;,  to disable security checks:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ xhost +&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To allow connections from a single  host:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ xhost +&amp;lt;hostname/ip&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On the client machine&lt;/strong&gt; where the application is run, set the X Server to display to (for bash shell):&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:&amp;lt;displaynumber&amp;gt;.&amp;lt;screennumber&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;If you haven&amp;rsquo;t changed the display-number or screen-number :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;$ export DISPLAY=&amp;lt;hostname&amp;gt;:0.0&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;For a more detailed description of the&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.hungry.com/~jamie/xexport.html&#34;&gt;How to export your X Display&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>In *nix systems, you can make the display, the GUI of an application, appear on another machine. This if often required, when the machine you want to run the application on is in a lab, and you have access through a desktop machine that has a monitor.
+You can do this, by running an XServer on the desktop machine and configuring the client (the one where you run your app) with the XServer details.</description>
     </item>
     
   </channel>

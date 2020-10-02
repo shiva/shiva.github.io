@@ -1,29 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on shiv.me</title>
+    <title>Tools on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/tools/</link>
-    <description>Recent content in Tools on shiv.me</description>
+    <description>Recent content in Tools on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 23 Apr 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/tools/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 23 Apr 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogsy - a ray of hope</title>
-      <link>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</link>
+      <link>http://blog.shiv.me/2011/04/23/blogsy-a-ray-of-hope/</link>
       <pubDate>Sat, 23 Apr 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2011/04/23/blogsy---a-ray-of-hope/</guid>
-      <description>&lt;p&gt;This is a test post from &lt;a href=&#34;http://blogsyapp.com/&#34;&gt;blogsy&lt;/a&gt;, an iPad blogging tool.&lt;/p&gt;
-
-&lt;p&gt;The interface design looks thoughtful &amp;ndash; drag &amp;amp; drop of images from flickr and picasa, videos from YouTube, a built it google search and browser to get at other content. Although there is a bit of a learning curve, it makes the iPad a true content generation device.&lt;/p&gt;
-
-&lt;p&gt;Maybe this will keep me blogging this time around. On that note, here&amp;rsquo;s a cutie pie to bring a smile to you, today.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/5603436835/&#34; title=&#34;Hey you by Shivanand Velmurugan, on Flickr&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/5603436835_900566038c.jpg&#34; alt=&#34;Hey you&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2011/04/23/blogsy-a-ray-of-hope/</guid>
+      <description>This is a test post from blogsy, an iPad blogging tool.
+The interface design looks thoughtful &amp;ndash; drag &amp;amp; drop of images from flickr and picasa, videos from YouTube, a built it google search and browser to get at other content. Although there is a bit of a learning curve, it makes the iPad a true content generation device.
+Maybe this will keep me blogging this time around. On that note, here&amp;rsquo;s a cutie pie to bring a smile to you, today.</description>
     </item>
     
     <item>
@@ -32,51 +25,18 @@
       <pubDate>Wed, 24 Mar 2010 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2010/03/24/opml-editor-as-a-wordpress-editor/</guid>
-      <description>&lt;p&gt;This is a test post to see if &lt;a href=&#34;http://www.scripting.com/stories/2007/02/21/daveWinerBio.html&#34;&gt;Dave Winer&lt;/a&gt;&amp;rsquo;s [][1]&lt;a href=&#34;http://editor.opml.org/&#34;&gt;OPML editor&lt;/a&gt; works with a []&lt;a href=&#34;http://wordpressroot.wordpress.com/2008/08/09/writing-for-wordpress-in-the-opml-editor/&#34;&gt;2&lt;/a&gt;[2]&lt;a href=&#34;http://wordpressroot.wordpress.com/2008/08/09/writing-for-wordpress-in-the-opml-editor/&#34;&gt;self-hosted wordpress blog&lt;/a&gt;. There is something geeky about seeing crappy fonts on a screen, that makes one want to use a tool more.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve known of the OPML editor for a few years now, and have tried several times to find a neat use-case for it in my workflow, and it never had a compelling enough reason for me to stick with it. I&amp;rsquo;m hoping that this new wordpress editor tool will make me want to use this more.&lt;/p&gt;
-
-&lt;p&gt;This is the first post that I&amp;rsquo;m writing using OPMLEditor, and here are some of the impressions in the first 30 minutes of use. This is by no means a thorough analysis, and is mostly off the top of my head.&lt;/p&gt;
-
-&lt;p&gt;Some cool things:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Very simple elegant interface, that let&amp;rsquo;s you focus on writing content&lt;/li&gt;
-&lt;li&gt;Updating an existing post, is as simple as opening a window, and starting to type. This also allows for micro-updates. As I typed this post, I save atleast 3 times. Since my blog has RSSCLoud and PubSubHubBub (sucky name), every time I hit save, you happen to be online, you will receive an update.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some annoyances:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HTML markup when you decide to mark up your page. Since I&amp;rsquo;m a geek, I guess I don&amp;rsquo;t mind this, although I would like to be able to use my favourite markup syntax, like Markdown.&lt;/li&gt;
-&lt;li&gt;Non-standard menu layout =&amp;gt; I need to search for stuff. This is pain, until I learnt the ropes a bit (all of 15 mins), and I figured out how to use it.&lt;/li&gt;
-&lt;li&gt;I don&amp;rsquo;t like to take my hands of the keyboard very often, and I tend to shy away from tools that make me do it. Unfortunately, there are no default shortcuts for the simple functionality like adding a link or making something bold, etc. On the one hand, this means, that I will complete writing all that I want to write and then make it pretty. Although, I might get used to working this way, I would still be able to do most of the annotation using just the keyboard. I hope that there is someway to acheive this. I might be wrong about this, so don&amp;rsquo;t stone me over this. ;)&lt;/li&gt;
-&lt;li&gt;Another really annoying thing, every time I press enter, it OPMLEditor starts a new outline, which is great for outlining, but when I try to create a list of items, it sucks &amp;ndash; big time. For instance, see how it is horrible to view this list in the editor. If need to change one element, I will need to look at much more of the text, just to figure out where to change it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.shiv.me/images/user.wordPress.workspace.png&#34; alt=&#34;Screenshot of OPMLEditor&#34; /&gt;
-* This can be solved by allowing multiple lines in the editor (using shift+enter), and ignoring those when converting to HTML.
-* Images have to handle independant of the post creation. I so, wish that the OPML, can also publish the img with the post, but I think Wordpress doesn&amp;rsquo;t provide XMLRPC API for such upload. I posted the image on this post on dropbox, which to a certain extent mitigates this issue, since all you have to do, is use something Skitch to take a screenshot and move it a public dropbox folder. Right-click the image, and you can copy the public link of that image, in finder. Another Cmd-tab, brings you back to the editing context, and few more clicks later, you have placed your image in the post. It&amp;rsquo;s a pain, but it is better than waiting for the image to upload, etc..
-* It creates tables for every item in an outline!! This is going to be a very big problem for me, since this means mixing presentation with data so much, that it will be impossible for me to parse this out later, if I just need to get the data. I don&amp;rsquo;t understand, why what is being done using tables, can&amp;rsquo;t be done using paragraphs instead?! This would also allow, the theme on the site to layout the data in whatever way it deems fit. I wonder if I can change this myself?&lt;/p&gt;
-</description>
+      <description>This is a test post to see if Dave Winer&amp;rsquo;s OPML editor works with a self-hosted wordpress blog. There is something geeky about seeing crappy fonts on a screen, that makes one want to use a tool more.
+I&amp;rsquo;ve known of the OPML editor for a few years now, and have tried several times to find a neat use-case for it in my workflow, and it never had a compelling enough reason for me to stick with it.</description>
     </item>
     
     <item>
       <title>Proposed GUI for C&#43;&#43; based twitter client</title>
-      <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</link>
+      <link>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</link>
       <pubDate>Sat, 25 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c&#43;&#43;-based-twitter-client/</guid>
-      <description>&lt;p&gt;I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://twitpic.com/i942&#34; title=&#34;Share photos on twitter with Twitpic&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/i942.jpg&#34; alt=&#34;Share photos on twitter with Twitpic&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s the proposed GUI. Sorry for the bad light. The iphone cam&amp;rsquo;s not too good with tungsten light.&lt;/p&gt;
-
-&lt;p&gt;Any suggestions?! I will try and post some mock up as I create em. I don&amp;rsquo;t want to be writing my own twitter REST c++ library. Any suggestion are welcome.&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2008/10/25/proposed-gui-for-c-based-twitter-client/</guid>
+      <description>I got really sick of using Adobe AIR apps that take up more and more of system memory for an app that does twitter.
+I&amp;rsquo;ve decided to put my &amp;ldquo;coding for myself&amp;rdquo; hat on and write a QT based C++ application (that should be cross-platform). No name as yet, but I will find something soon. QtTwitter is taken. Mebbe, once I have a working version, I can get ownership of the project on google code.</description>
     </item>
     
     <item>
@@ -85,58 +45,24 @@
       <pubDate>Wed, 04 Jun 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/06/04/a-web-based-writer-for-writing-to-a-blog/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://writetomyblog.com/&#34;&gt;WriteToMyBlog.com&lt;/a&gt;, is a web-based editor (with a lot of formatting options), that allows you to write to your blog (from another website?!).&lt;/p&gt;
+      <description>WriteToMyBlog.com, is a web-based editor (with a lot of formatting options), that allows you to write to your blog (from another website?!).
+First thoughts go like,
+&amp;ldquo;wtf?!&amp;rdquo;, &amp;hellip; &amp;ldquo;hmmm.. interesting&amp;rdquo;&amp;hellip; &amp;ldquo;I am a web 2.0 junkie?!
 
-&lt;p&gt;First thoughts go like,&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;wtf?!&amp;rdquo;, &amp;hellip; &amp;ldquo;hmmm.. interesting&amp;rdquo;&amp;hellip; &amp;ldquo;I am a web 2.0 junkie?!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/22535384@N00/2551244392&#34; title=&#34;writetomyblog-dot-com&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2551244392_1822e5a281.jpg&#34; alt=&#34;writetomyblog-dot-com&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The likes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1. Simplicity of the UI interface - neat, allows lots of space for text&lt;/p&gt;
-
-&lt;p&gt;2. Integration of Flickr and Youtube (although I would love to see more such services)&lt;/p&gt;
-
-&lt;p&gt;3. Zero account creation overhead. (I wrote this post, before I created the account to publish it, and is a 1-click process.)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The dislikes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1. No keyboard shortcuts.&lt;/p&gt;
-
-&lt;p&gt;2. Too many formatting options. I would rather have more external services (quote pownce or twitter conversations, facebook, vimeo and other photo and video sites)&lt;/p&gt;
-
-&lt;p&gt;3. popups (need I say more.. in this day and age.. popups for functionality is a sin &amp;hellip; almost).&lt;/p&gt;
-
-&lt;p&gt;4. A few irksome bugs. (undo doesn&amp;rsquo;t work in-order, flickr requires login name, cursor disappears after including a picture.. etc)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The service offers what should be part of any good bloggingsoftware. With recent improvements in Wordpress Dashboard and Editor, I doubt if this tool will be able to keep my attention for long. The whole concept of logging into one site for writing to another, seems a little weird. I don&amp;rsquo;t really understand the use-case.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update: I found a few more bugs&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Editing an existing post, ignore all previous indentation (white-space).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tags set are technocrati tags, and not wordpress tags (I guess this is more like a feature request than a bug)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I couldn&amp;rsquo;t find a getsatifaction account for this tool, and hence have sent a traceback to their blog. Mark, if you come this way, do create and account for your product/company at &lt;a href=&#34;http://getsatisfaction.com&#34;&gt;getsatisfaction.com&lt;/a&gt;, and do set up some form of bug tracking system, so that your users can be your testers :). Btw, you are welcome for the bugs mentioned here. Ohh.. btw.. I&amp;rsquo;m using Firefox on Mac OSX.&lt;/p&gt;
-</description>
+The likes
+1. Simplicity of the UI interface - neat, allows lots of space for text
+2. Integration of Flickr and Youtube (although I would love to see more such services)
+3. Zero account creation overhead.</description>
     </item>
     
     <item>
       <title>Jott - a voice-based blog client!</title>
-      <link>http://blog.shiv.me/2008/04/09/jott---a-voice-based-blog-client/</link>
+      <link>http://blog.shiv.me/2008/04/09/jott-a-voice-based-blog-client/</link>
       <pubDate>Wed, 09 Apr 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/04/09/jott---a-voice-based-blog-client/</guid>
-      <description>&lt;p&gt;Well, this is a first post to my blog using Jott, which is a very cool service. It allows you to call a number and talk what you want to post, and post it to your blog. I think it&amp;rsquo;s one of the new tools that really enable blogging. I&amp;rsquo;m just going to try it and see how it works out. &lt;a href=&#34;http://www.jott.com/show.aspx?id=d6549201-5361-44c4-adf3-ef43abf8488c&#34;&gt;listen&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Powered by &lt;a href=&#34;http://jott.com&#34;&gt;Jott&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2008/04/09/jott-a-voice-based-blog-client/</guid>
+      <description>Well, this is a first post to my blog using Jott, which is a very cool service. It allows you to call a number and talk what you want to post, and post it to your blog. I think it&amp;rsquo;s one of the new tools that really enable blogging. I&amp;rsquo;m just going to try it and see how it works out. listen
+Powered by Jott</description>
     </item>
     
     <item>
@@ -145,20 +71,9 @@
       <pubDate>Tue, 02 Oct 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/10/02/issue-with-twitbin-jing-the-next-gen-screen-capture/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.twitbin.com/&#34;&gt;Twitbin&lt;/a&gt; has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.&lt;/p&gt;
+      <description>Twitbin has been my favourite client for twitter. the key thing that attracted me to it, was that I can use twitter, along side my browsing, and that makes life much simpler. Also, it have a very simple interface, to track your friends and their messages.
 
-&lt;p&gt;&lt;a href=&#34;http://www.screencast.com/t/K4HLLD1WkGy&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/issuewithtwitbin.png&#34; alt=&#34;issue-with-twitbin&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I realized how much it mean to my twittering experience, when it went down sometime last week. I presumed, it was due to the upgrades that the twitter team was planning, and want to see if the problem persists. Well, looks like twitter is working fine now, through the web-interface, and I guess twitbin should be operational now, but.. well NO.. I still have to use the web interface and it suck big time.&lt;/p&gt;
-
-&lt;p&gt;Just click on the image, on the side, to see a screencast of how I try to use twit-bin and the errors.&lt;/p&gt;
-
-&lt;p&gt;that brings us to the next very cool tool I have been using. It&amp;rsquo;s called &lt;a href=&#34;http://www.jingproject.com/&#34;&gt;Jing&lt;/a&gt;, and it does screen captures. If you are a screen capture addict like myself, you need this tool. Another very neat thing with this tool, is that it allows you to capture only a small portion of the screen (you can select it), and do, either an image capture or a screencast recording on that selected area. Very nice for showing your users, how to use your software or to help your mom do something.&lt;/p&gt;
-
-&lt;p&gt;They also provide a &lt;a href=&#34;http://www.screencast.com/&#34;&gt;service, where you can host your screencast&lt;/a&gt;, and it is free for 200MB storage and 1 GB bandwidth.&lt;/p&gt;
-
-&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/Twitbin&#34;&gt;Twitbin&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/Jing&#34;&gt;Jing&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/screencast&#34;&gt;screencast&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter&#34;&gt;twitter&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tags/twitter%20clients&#34;&gt;twitter clients&lt;/a&gt;&lt;/p&gt;
-</description>
+I realized how much it mean to my twittering experience, when it went down sometime last week. I presumed, it was due to the upgrades that the twitter team was planning, and want to see if the problem persists.</description>
     </item>
     
     <item>
@@ -167,28 +82,8 @@
       <pubDate>Thu, 08 Mar 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/03/08/the-zen-of-photo-management/</guid>
-      <description>&lt;p&gt;I have been &lt;a href=&#34;http://shvelmur.com/wpress/sharpalbum/&#34;&gt;rambling&lt;/a&gt; for the last month or so, about the need for better photo management. Having acquired a N730 recently, I have started shooting more and more pictures, and the chore of organising them, and sharing them has been such a bore, that I haven&amp;rsquo;t uploaded a single picture.&lt;/p&gt;
-
-&lt;p&gt;Well, to change that I launched into building one myself to suit my own needs, only to discover that someone has already thought of most of it and has built a product and a service around it.&lt;/p&gt;
-
-&lt;p&gt;Introducing SharpCast&amp;hellip;. the ultimate photo management solution. Unlimted space, web 2.0 website, client for syncing multiple image sources like, your mobile phone, Laptop, PCs.. and the list goes on.&lt;/p&gt;
-
-&lt;p&gt;Go ahead, &lt;a href=&#34;http://www.google.co.in/url?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fwww.sharpcast.com%2F&amp;amp;ei=EOPvRaO7HZj-gwPbttjnCQ&amp;amp;usg=__x6u1oce_6zGi1Z-LrD1pjc5MAq4=&amp;amp;sig2=HZt2zw6nPowOgv1c2XjJFQ&#34;&gt;try it&lt;/a&gt;. Check out my photos &lt;a href=&#34;http://www.sharpcast.com/photos/user/shvelmur/albums?album=11428_49082886258813&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m going to try and see if we can leverage the photo management infrastructure that is provided by SharpCast and build something out of that.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m thinking,&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Plugin for wordpress&lt;/li&gt;
-&lt;li&gt;AJAX based slideshow&lt;/li&gt;
-&lt;li&gt;Photo blog sync&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I have posted a request on their forums, and will keep you updated on that.&lt;/p&gt;
-
-&lt;p&gt;[tags]photo management, photo organisers, #Album, SharpAlbum, SharpCast[/tags]&lt;/p&gt;
-</description>
+      <description>I have been rambling for the last month or so, about the need for better photo management. Having acquired a N730 recently, I have started shooting more and more pictures, and the chore of organising them, and sharing them has been such a bore, that I haven&amp;rsquo;t uploaded a single picture.
+Well, to change that I launched into building one myself to suit my own needs, only to discover that someone has already thought of most of it and has built a product and a service around it.</description>
     </item>
     
     <item>
@@ -197,39 +92,8 @@
       <pubDate>Wed, 07 Mar 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/03/07/website-clean-up/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m attempting to clean up my online junkyard, yet again, just as &lt;a href=&#34;http://www.sscnet.ucla.edu/southasia/History/Mughals/mahmud_mughals.html&#34;&gt;Mahmud of Ghazni invaded the Indian sub-continent 17 times&lt;/a&gt;. Here are few things that I&amp;rsquo;m doing, which are keeping me from posting, not to mention a 1000 entries in my google reader, loads of work at office, the &lt;a href=&#34;http://shvelmur.com/wpress/sharpalbum/&#34;&gt;impending release of #Album&lt;/a&gt; and not to mention &lt;a href=&#34;http://www.google.com/reader/shared/14480565058256660224&#34;&gt;Mr. Scoble, who doesn&amp;rsquo;t let me sleep&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Conform to &lt;a href=&#34;http://no-www.org&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/blog-button.gif&#34; alt=&#34;No-www.org&#34; /&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Remove all static html files&lt;/li&gt;
-&lt;li&gt;Separate tech items from normal blog. (I&amp;rsquo;m thinking of using wordpress categories to do this)&lt;/li&gt;
-&lt;li&gt;Install &lt;a href=&#34;http://www.google.com/a/&#34;&gt;google-apps&lt;/a&gt; on a sub-domain.&lt;/li&gt;
-&lt;li&gt;Uninstall all tools (photoblog etc)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Apart from those, here are a few ideas that continue to crowd my mind.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Gadgets for google desktop to connect with google notebook&lt;/li&gt;
-&lt;li&gt;Plugin to publish google notebook to blog (think WLW and Wordpress)&lt;/li&gt;
-&lt;li&gt;Extend &lt;a href=&#34;http://shvelmur.com/wpress/projects/wpexapi/&#34;&gt;wordpress extended RPC&lt;/a&gt; to support getTagSuggestions()&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.feedmap.net/&#34;&gt;Feedmap&lt;/a&gt; plugin for wordpress.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So If you are interested in working on any of the ideas listed above or listed &lt;a href=&#34;http://shvelmur.com/wpress/2007/01/30/plugin-ideas-for-windows-live-writer/&#34;&gt;here&lt;/a&gt;, or if you have a solution that solves some of the stuff I&amp;rsquo;m trying to do, do get in touch with me.&lt;/p&gt;
-
-&lt;p&gt;In other news&amp;hellip;.&lt;/p&gt;
-
-&lt;p&gt;Also, in my online surfing adventures (on Google reader), I came across &lt;a href=&#34;http://bink.nu/Article9664.bink&#34;&gt;this gem&lt;/a&gt;. Finally, there seems to be some sanity out there. Product Manager(s) of Ms Office have realised that it is not enough if they make good products, but also keep customers happy in doing so. OpenXML is now finally &amp;ldquo;open&amp;rdquo;, thanks to &lt;a href=&#34;http://novell.com&#34;&gt;Novell&lt;/a&gt; (&amp;lt;&amp;ndash; I work here :) ), which has created a &lt;a href=&#34;http://odf-converter.sourceforge.net/&#34;&gt;OOXML plugin for open office&lt;/a&gt; (I guess I&amp;rsquo;m a little late to the game here).&lt;/p&gt;
-
-&lt;p&gt;As usual, the &lt;a href=&#34;http://boycottnovell.com/category/open-xml/&#34;&gt;nay&lt;/a&gt;-sayers, who now seem to be persistent upon the idea that companies need to be charitable organisations instead of making money for their shareholders. To them , I say, &amp;ldquo;Go buy some Novell or Microsoft shares, hold them for 2 years and then talk of product strategy. They will listen to you then :) &amp;ldquo;&lt;/p&gt;
-
-&lt;p&gt;Ok. No more talk. Pressing Publish!!&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;ve been hosting this site for over 2 years now. Nothing much has come of it, except satisfying my own ever-growing obsession with all things that are related to &amp;ldquo;The Web&amp;rdquo;.
+Over time, I have managed to accumalate a lot of unwanted scripts, html files, tools and code snippets, that I have randomly uploaded to my website. It is a junkyard of sorts, and several attempts at clean it up has ended in adding more crud.</description>
     </item>
     
     <item>
@@ -238,68 +102,18 @@
       <pubDate>Thu, 08 Feb 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/02/08/xml-validator/</guid>
-      <description>
-
-&lt;p&gt;It is quite surprising that there are hardly any open-source to validate XML out there. I had the need to validate a auto-generated XML output against a valid xsd, to see if the code that I wrote to generate XML was producing not only syntactically correct XML, but also XML that was data-valid. &lt;strong&gt;XML Validator&lt;/strong&gt;, provides an UI that allows you to check the validity of any XML, in with reference to its xsd. It is free for Personal and Commercial use without any warranties. So don&amp;rsquo;t come to me if it makes your dog barks all night, or if your computer commits suicide.&lt;/p&gt;
-
-&lt;h2 id=&#34;download-it-here-0&#34;&gt;Download it &lt;a href=&#34;http://shvelmur.com/downloads/projects/XMLValidator.zip&#34;&gt;here&lt;/a&gt;.&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/XMLValidator_9477/XMLValidator14.png&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/XMLValidator_thumb12.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;features-more-like-limitations-now&#34;&gt;&lt;strong&gt;Features (more like limitations now - :) )&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Compare syntactically valid XML against its XSD.&lt;/li&gt;
-&lt;li&gt;Select files by using windows controls.&lt;/li&gt;
-&lt;li&gt;No install required.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;known-behavior&#34;&gt;&lt;strong&gt;Known behavior&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Stops level traversal upon error.&lt;/li&gt;
-&lt;li&gt;Uses MSXML parser/validator.&lt;/li&gt;
-&lt;li&gt;Expects sub-elements to occur in the same order as defined.&lt;/li&gt;
-&lt;li&gt;Both XML/XSD should be local files.&lt;/li&gt;
-&lt;li&gt;If a namespace is used for the XML, it should be provided as input.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;features-in-future-releases&#34;&gt;&lt;strong&gt;Features in future releases&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Support for multiple parsers
-
-&lt;ul&gt;
-&lt;li&gt;xerces&lt;/li&gt;
-&lt;li&gt;xpp&lt;/li&gt;
-&lt;li&gt;JDOM&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;CLI support for integration with test scripts.&lt;/li&gt;
-&lt;li&gt;Validate XML syntax.&lt;/li&gt;
-&lt;li&gt;Pick XSD from the URI (if mentioned).&lt;/li&gt;
-&lt;li&gt;Read namespace from XML/XSD.&lt;/li&gt;
-&lt;li&gt;Allow copy/paste XML/XSD.&lt;/li&gt;
-&lt;li&gt;Allow URL as input source for XML/XSD.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is a result of 30 mins of fiddling around with SharpDevelop, so it is not very complete nor does it have a lot of features. I would like to take it there. Your comments and suggestions for new features are welcome.&lt;/p&gt;
-</description>
+      <description>It is quite surprising that there are hardly any open-source to validate XML out there. I had the need to validate a auto-generated XML output against a valid xsd, to see if the code that I wrote to generate XML was producing not only syntactically correct XML, but also XML that was data-valid. XML Validator, provides an UI that allows you to check the validity of any XML, in with reference to its xsd.</description>
     </item>
     
     <item>
       <title>Nexo - The tool you&#39;ll remember for a while</title>
-      <link>http://blog.shiv.me/2007/02/06/nexo---the-tool-youll-remember-for-a-while/</link>
+      <link>http://blog.shiv.me/2007/02/06/nexo-the-tool-youll-remember-for-a-while/</link>
       <pubDate>Tue, 06 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/02/06/nexo---the-tool-youll-remember-for-a-while/</guid>
-      <description>&lt;p&gt;Firstly, thanks Scoble.. I think I&amp;rsquo;ll stop reading other gadget/tech sites .. you are my new feed filter.&lt;/p&gt;
-
-&lt;p&gt;Secondly, I got a whiff of yet another web 2.0 (does that even mean anything these days!) application site. &lt;a href=&#34;http://www.nexo.com/&#34;&gt;Nexo&lt;/a&gt; is a wonderful wonderful site. just as Scoble says &amp;ldquo;It&amp;rsquo;s Yahoo Groups done right&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;It took me the whole of 1 min to create my account, invite a few friends and setup my own group. Oh yeah, it also provides me with web-space to put my photos etc.&lt;/p&gt;
-
-&lt;p&gt;One thing I would have loved to see, is a way to integrate this with my exisitng site. It&amp;rsquo;s great that I have a nice dashboard, a place to interact with my friends, but I also want them to read some custom content. If only, I could provide a space where my network could read my RSS from NEXO. I know that&amp;rsquo;s being a bit demanding, but hey it&amp;rsquo;s Web 2.0 time. Integration is the key?! no?!&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2007/02/06/nexo-the-tool-youll-remember-for-a-while/</guid>
+      <description>Firstly, thanks Scoble.. I think I&amp;rsquo;ll stop reading other gadget/tech sites .. you are my new feed filter.
+Secondly, I got a whiff of yet another web 2.0 (does that even mean anything these days!) application site. Nexo is a wonderful wonderful site. just as Scoble says &amp;ldquo;It&amp;rsquo;s Yahoo Groups done right&amp;rdquo;.
+It took me the whole of 1 min to create my account, invite a few friends and setup my own group.</description>
     </item>
     
     <item>
@@ -308,96 +122,18 @@
       <pubDate>Sat, 20 Jan 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/01/20/common-access-portal/</guid>
-      <description>&lt;p&gt;With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;mail, a whole set of accounts, gmail, yahoo, etc&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;feed readers&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;blog editor&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;orkut&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;del.icio&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;google notebook&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What is lacking, is the ability to have a single sign-on/account mgmt capability, a common dashboard, ability to cross-launch/cross-post content.&lt;/p&gt;
-
-&lt;p&gt;Ohh yeah, I want to do thiss all from either my desktop or from my own hosted page.&lt;/p&gt;
-
-&lt;p&gt;So there are some deep implicating requirements for my latest craze - get more done with less clicks!&lt;/p&gt;
-
-&lt;p&gt;I christen it Common Access Portal (Let&amp;rsquo;s put a CAP on things we use!)&lt;/p&gt;
-</description>
+      <description>With advent of web 2.0, and some habits cultivated over the last decade, I have a certain list of tasks that I do everyday. I current visit a bunch of websites more than once a day, and an integrated interface would do me so much good.
+ mail, a whole set of accounts, gmail, yahoo, etc feed readers blog editor orkut del.icio google notebook  What is lacking, is the ability to have a single sign-on/account mgmt capability, a common dashboard, ability to cross-launch/cross-post content.</description>
     </item>
     
     <item>
       <title>Windows Live writer - Growing pains</title>
-      <link>http://blog.shiv.me/2006/12/26/windows-live-writer---growing-pains/</link>
+      <link>http://blog.shiv.me/2006/12/26/windows-live-writer-growing-pains/</link>
       <pubDate>Tue, 26 Dec 2006 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2006/12/26/windows-live-writer---growing-pains/</guid>
-      <description>&lt;p&gt;I just downloaded Windows Live Writer&lt;/p&gt;
-
-&lt;p&gt;At first look, it looks good! I haven&amp;rsquo;t been able to say that about most Microsoft products off late. The last product that was awe-inspiring was perhaps VC++ 6.0 (such wide range of features), IE 6.0 (it was big deal when it came into the market) and maybe, to some extent Office 2003 (a lot less buggy and smaller file sizes than previous releases).&lt;/p&gt;
-
-&lt;p&gt;It is perhaps one of the few blog editors that provide an intuitive interface for adding links and particularly images. This is feature alone is reason enough to use this editor. (That is how painful, other editors tend to be).&lt;/p&gt;
-
-&lt;p&gt;I have a personal blog, using wordpress as my blog-engine, and would like to store pictures on my own server, that uploading them to some service that decides when to throw my stuff away! Live writer a is pleasure to use in this department. Just select your image, using the all too familiar File Open Common Control, and insert it in your post.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bunty4.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bunty_thumb2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Inserting the above image, took just a coupla seconds (finally, I can do something useful using a M$ product, and I can do it very quickly too - Note to developers of M$ products - sorry about being soo sarcastic, but that is how exasperated I am using products that are way too generic. What we need these days are very focused and compact solutions, that don&amp;rsquo;t attempt to solve a zillion use-cases using a single product)&lt;/p&gt;
-
-&lt;p&gt;Some of the kewl stuf that can be done with Live writer and I&amp;rsquo;m talking just image manipulations! (Stop it with images!! &amp;hellip; Can&amp;rsquo;t control it &amp;hellip;.. Need to write about other features too!!)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;**Images **- a lot of very kewl and easy to use options&lt;/p&gt;
-
-&lt;p&gt;Custom:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly12.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Small:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly9.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly8.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;other sizes include medium and large, whose dimensions will be coerced based on the wordpress theme that you have. I use K2 and it tries to fit the image by shrinking the width.&lt;/p&gt;
-
-&lt;p&gt;A few more effects&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;normal                                        B &amp;amp; W&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb12.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly33.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb13.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;[]&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly22.jpg&#34;&gt;5&lt;/a&gt; Sepia                                         Warm Color Temp&lt;/p&gt;
-
-&lt;p&gt;[][3]&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb121.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; &lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb1231.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cold Color Temp                         Color Pop&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb1263.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb1264.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Sharpen                                      Gausian Blur&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb1265.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb1266.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Emboss                                       Watermark&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb1267.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://shvelmur.com/images/wpress/WindowsLivewriterGrowingpains_A23C/bubbly32.jpg&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/bubbly_thumb1279.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;**Maps **- Another kewl set of features. However intergrated only with Microsoft live services&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://local.live.com/default.aspx?v=2&amp;amp;cp=37.42154~-121.921&amp;amp;lvl=15&amp;amp;style=r&#34; title=&#34;Click to view this map on Live.com&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/map6a5a8d61a645.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-Homestead, Milpitas - Map View&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://local.live.com/default.aspx?v=2&amp;amp;cp=37.42234~-121.9207&amp;amp;lvl=1&amp;amp;style=o&amp;amp;scene=5853204&#34; title=&#34;Click to view this map on Live.com&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/map04e799187f46.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-Homestead, Milpitas - Bird&amp;rsquo;s Eye View&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://local.live.com/default.aspx?v=2&amp;amp;cp=37.42234~-121.9206&amp;amp;lvl=16&amp;amp;style=h&#34; title=&#34;Click to view this map on Live.com&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/map7dea81fb1474.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
-Homestead, Milpitas - Statelite View&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2006/12/26/windows-live-writer-growing-pains/</guid>
+      <description>I just downloaded Windows Live Writer
+At first look, it looks good! I haven&amp;rsquo;t been able to say that about most Microsoft products off late. The last product that was awe-inspiring was perhaps VC++ 6.0 (such wide range of features), IE 6.0 (it was big deal when it came into the market) and maybe, to some extent Office 2003 (a lot less buggy and smaller file sizes than previous releases).</description>
     </item>
     
     <item>
@@ -406,26 +142,16 @@ Homestead, Milpitas - Statelite View&lt;/p&gt;
       <pubDate>Sun, 24 Dec 2006 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2006/12/24/firefox-upgrade/</guid>
-      <description>&lt;p&gt;It is not just M$ that struggles with frequent patches for its products. Mozilla just released a whole host of bug fixes in a new release 2.0.0.1. You can download it &lt;a href=&#34;http://www.mozilla.com/en-US/firefox/&#34;&gt;here &lt;/a&gt;or use the direct links below.&lt;br /&gt;
-&lt;a href=&#34;http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.1/win32/en-US/Firefox%20Setup%202.0.0.1.exe&#34;&gt;&lt;br /&gt;
-&lt;/a&gt;Http Direct Links to Oregon State University&amp;rsquo;s Open Source Lab&lt;a href=&#34;http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.1/win32/en-US/Firefox%20Setup%202.0.0.1.exe&#34;&gt;&lt;br /&gt;
-Windows&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.1/linux-i686/en-US/firefox-2.0.0.1.tar.gz&#34;&gt;Linux&lt;br /&gt;
-&lt;/a&gt;&lt;a href=&#34;http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.1/mac/en-US/Firefox%202.0.0.1.dmg&#34;&gt;Mac&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ftp mirror&lt;/strong&gt;: ftp.osuosl.org&lt;br /&gt;
-&lt;strong&gt;Firefox 2.0.0.1 home dir&lt;/strong&gt;: /pub/mozilla.org/firefox/releases/2.0.0.1/&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;windows&lt;/strong&gt;: $home/win32/en-US/Firefox Setup 2.0.0.1.exe&lt;br /&gt;
-&lt;strong&gt;linux&lt;/strong&gt;: $home/linux-i686/en-US/firefox-2.0.0.1.tar.gz&lt;br /&gt;
-&lt;strong&gt;mac&lt;/strong&gt;: $home/mac/en-US/Firefox 2.0.0.1.dmg&lt;/p&gt;
-
-&lt;p&gt;There are some issues upon upgrading. Some plugins have trouble working, notably Google Accelerator. You might want to disable that for a while and wait around for an upgrade.&lt;/p&gt;
-
-&lt;p&gt;Also, the upgrade sometimes causes an infinite loop, when upgrading from Firefox 2.0 using the built-in auto-updater. Firefox restarts and starts to download the upgrade, and throws an error about lack of file permissions, the updater terminates and starts again. The only way to get out of that loop is to either log off from windows or terminate your network connection (don&amp;rsquo;t try this at your workplace :) ).&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m yet to confirm it as a bug, but just in case you are also facing the same, do let me know. For 2.0.0.1 upgrade, please use the download links to download the Firefox installer and upgrade offline. This I have found to be the safest route for now!&lt;/p&gt;
-</description>
+      <description>It is not just M$ that struggles with frequent patches for its products. Mozilla just released a whole host of bug fixes in a new release 2.0.0.1. You can download it here or use the direct links below.
+Http Direct Links to Oregon State University&amp;rsquo;s Open Source LabWindows
+Linux
+Mac
+Ftp mirror: ftp.osuosl.org
+Firefox 2.0.0.1 home dir: /pub/mozilla.org/firefox/releases/2.0.0.1/
+windows: $home/win32/en-US/Firefox Setup 2.0.0.1.exe
+linux: $home/linux-i686/en-US/firefox-2.0.0.1.tar.gz
+mac: $home/mac/en-US/Firefox 2.0.0.1.dmg
+There are some issues upon upgrading.</description>
     </item>
     
     <item>
@@ -434,9 +160,8 @@ Windows&lt;/a&gt;&lt;br /&gt;
       <pubDate>Fri, 17 Feb 2006 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2006/02/17/fastr/</guid>
-      <description>&lt;p&gt;Thanks to kottke.org, I found a very engaging game, to keep my busy during the long hours of installing applications at work!&lt;br /&gt;
-Check out &lt;a href=&#34;http://randomchaos.com/games/fastr/&#34;&gt;Fastr.&lt;/a&gt; Oh Yeah, btw, it uses AJAX to update the scores. Welcome to Web 2.0&lt;/p&gt;
-</description>
+      <description>Thanks to kottke.org, I found a very engaging game, to keep my busy during the long hours of installing applications at work!
+Check out Fastr. Oh Yeah, btw, it uses AJAX to update the scores. Welcome to Web 2.0</description>
     </item>
     
     <item>
@@ -445,16 +170,40 @@ Check out &lt;a href=&#34;http://randomchaos.com/games/fastr/&#34;&gt;Fastr.&lt;
       <pubDate>Wed, 21 Sep 2005 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2005/09/21/opera-for-free-yipeee/</guid>
-      <description>&lt;p&gt;There was once a wondeful browser called &amp;ldquo;Opera&amp;rdquo;. The lucid interface, the smal memory footprint - it was simply browsing heaven.&lt;/p&gt;
-
-&lt;p&gt;Then came the version loaded with ads, heavy, sluggish UI and a hug memory footprint in the name of new improved UI. The ads loaded version of opera turned out to nag-ware and I totally detested it and moved to other browsers (read Firefox). Get online and check websites out became &amp;ldquo;swimming&amp;rdquo; and not &amp;ldquo;surfing&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Finally, the good old days are back! get the latest version of Opera sans ads for free.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://my.opera.com/shvelmur/affiliate/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/120x60noads.png&#34; alt=&#34;The best in browsing&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Enjoy! Welcome back to the internet -let&amp;rsquo;s go surfing&lt;/p&gt;
-</description>
+      <description>There was once a wondeful browser called &amp;ldquo;Opera&amp;rdquo;. The lucid interface, the smal memory footprint - it was simply browsing heaven.
+Then came the version loaded with ads, heavy, sluggish UI and a hug memory footprint in the name of new improved UI. The ads loaded version of opera turned out to nag-ware and I totally detested it and moved to other browsers (read Firefox). Get online and check websites out became &amp;ldquo;swimming&amp;rdquo; and not &amp;ldquo;surfing&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Google Talk</title>
+      <link>http://blog.shiv.me/2005/08/24/google-talk/</link>
+      <pubDate>Wed, 24 Aug 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2005/08/24/google-talk/</guid>
+      <description>Another wonderful tool and a new area that Google has strolled into and stormed!
+Check out the new IM from Google.. neat sparse interface as usual. Extremely intuitive and very light on system resources. I&amp;rsquo;m lovin&#39; it!
+Download Google Talk</description>
+    </item>
+    
+    <item>
+      <title>The new face of google</title>
+      <link>http://blog.shiv.me/2005/07/19/the-new-face-of-google/</link>
+      <pubDate>Tue, 19 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2005/07/19/the-new-face-of-google/</guid>
+      <description>Check out the future of google here
+Google Suggest is in BETA testing (as all other kewl features of google ;) ). Just go to the link above and search for your favourite search text and wait for a second before pressing &amp;ldquo;Enter&amp;rdquo; and voila!</description>
+    </item>
+    
+    <item>
+      <title>Firetune - speed up your firefox</title>
+      <link>http://blog.shiv.me/2005/07/07/firetune-speed-up-your-firefox/</link>
+      <pubDate>Thu, 07 Jul 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2005/07/07/firetune-speed-up-your-firefox/</guid>
+      <description>I just found this link on an orkut forum &amp;hellip; yeah , I&amp;rsquo;m part of orkut too!!
+Check out Firetune. It is supposed to make Firefox quicker.
+I&amp;rsquo;m testing it as of now.. and will post some results</description>
     </item>
     
   </channel>

@@ -1,49 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Laptop on shiv.me</title>
+    <title>laptop on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/laptop/</link>
-    <description>Recent content in Laptop on shiv.me</description>
+    <description>Recent content in laptop on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Mon, 29 Jan 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/laptop/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 29 Jan 2007 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/laptop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Got myself a new Laptop</title>
       <link>http://blog.shiv.me/2007/01/29/got-myself-a-new-laptop/</link>
       <pubDate>Mon, 29 Jan 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/01/29/got-myself-a-new-laptop/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m now officially one of the self-obssessed techie guys, sitting in public places and completely ignoring all the life-forms around me. Got a very nice deal from HP. Here is the config!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://h10010.www1.hp.com/wwpc/in/en/ho/WF06b/1090709-1116637-1116665-1116665-1116665-12724286-78159183.html?jumpid=oc_R1002_INENC-001_HP%20Pavilion%20dv2124tu%20Notebook%20PCâŒ©=en&amp;amp;cc=in&#34;&gt;&lt;strong&gt;HP Pavillion DV2124TU&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
-Intel Pentium Core Duo 1.6 Ghz&lt;br /&gt;
-1 GB (2 X 512 MB) DDR2 SDRAM&lt;br /&gt;
-Intel 945 800Mhz FSB Motheboard&lt;br /&gt;
-14.1&amp;rdquo; Widescreen Display&lt;br /&gt;
-LightScribe DVD-RW drive&lt;br /&gt;
-802.11 a/b/g wireless&lt;br /&gt;
-Bluetooth&lt;br /&gt;
-Infrared&lt;br /&gt;
-Altec Lansing Speakers&lt;br /&gt;
-Built in modem and ethernet ports&lt;br /&gt;
-3 USB ports&lt;br /&gt;
-1 DV based USB&lt;br /&gt;
-SD/MMC-Pro/MS/XD card reader&lt;br /&gt;
-Remote control for DVD player&lt;br /&gt;
-Windows XP Media Center Edition&lt;/p&gt;
-
-&lt;p&gt;It costs around Rs. 56000 in India. Since I bought the laptop before the 31 jan 2007, I get the following freebies&lt;/p&gt;
-
-&lt;p&gt;Hauppage USB TV tuner card&lt;br /&gt;
-Reliance USB Internet Data card&lt;/p&gt;
-
-&lt;p&gt;This is essentially the dv2000 branded as 2124 in India. oh yeah, since I bought it betwwen Nov 06 and Mar 07, I get a free upgrade to Windows Vista when it is released.&lt;/p&gt;
-
-&lt;p&gt;It took me the whole of the weekend to get it into working shape, installing all the necessary open source tools that I use. Still a lot of work ahead. I hope to blog more since I have access to decent computing power where ever I go.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m now officially one of the self-obssessed techie guys, sitting in public places and completely ignoring all the life-forms around me. Got a very nice deal from HP. Here is the config!
+HP Pavillion DV2124TU
+Intel Pentium Core Duo 1.6 Ghz
+1 GB (2 X 512 MB) DDR2 SDRAM
+Intel 945 800Mhz FSB Motheboard
+14.1&amp;quot; Widescreen Display
+LightScribe DVD-RW drive
+802.11 a/b/g wireless
+Bluetooth
+Infrared
+Altec Lansing Speakers
+Built in modem and ethernet ports</description>
     </item>
     
     <item>
@@ -52,34 +34,18 @@ Reliance USB Internet Data card&lt;/p&gt;
       <pubDate>Mon, 29 Jan 2007 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2007/01/29/got-myself-a-new-laptop/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m now officially one of the self-obssessed techie guys, sitting in public places and completely ignoring all the life-forms around me. Got a very nice deal from HP. Here is the config!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://h10010.www1.hp.com/wwpc/in/en/ho/WF06b/1090709-1116637-1116665-1116665-1116665-12724286-78159183.html?jumpid=oc_R1002_INENC-001_HP%20Pavilion%20dv2124tu%20Notebook%20PCâŒ©=en&amp;amp;cc=in&#34;&gt;&lt;strong&gt;HP Pavillion DV2124TU&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;
-Intel Pentium Core Duo 1.6 Ghz&lt;br /&gt;
-1 GB (2 X 512 MB) DDR2 SDRAM&lt;br /&gt;
-Intel 945 800Mhz FSB Motheboard&lt;br /&gt;
-14.1&amp;rdquo; Widescreen Display&lt;br /&gt;
-LightScribe DVD-RW drive&lt;br /&gt;
-802.11 a/b/g wireless&lt;br /&gt;
-Bluetooth&lt;br /&gt;
-Infrared&lt;br /&gt;
-Altec Lansing Speakers&lt;br /&gt;
-Built in modem and ethernet ports&lt;br /&gt;
-3 USB ports&lt;br /&gt;
-1 DV based USB&lt;br /&gt;
-SD/MMC-Pro/MS/XD card reader&lt;br /&gt;
-Remote control for DVD player&lt;br /&gt;
-Windows XP Media Center Edition&lt;/p&gt;
-
-&lt;p&gt;It costs around Rs. 56000 in India. Since I bought the laptop before the 31 jan 2007, I get the following freebies&lt;/p&gt;
-
-&lt;p&gt;Hauppage USB TV tuner card&lt;br /&gt;
-Reliance USB Internet Data card&lt;/p&gt;
-
-&lt;p&gt;This is essentially the dv2000 branded as 2124 in India. oh yeah, since I bought it betwwen Nov 06 and Mar 07, I get a free upgrade to Windows Vista when it is released.&lt;/p&gt;
-
-&lt;p&gt;It took me the whole of the weekend to get it into working shape, installing all the necessary open source tools that I use. Still a lot of work ahead. I hope to blog more since I have access to decent computing power where ever I go.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m now officially one of the self-obssessed techie guys, sitting in public places and completely ignoring all the life-forms around me. Got a very nice deal from HP. Here is the config!
+HP Pavillion DV2124TU
+Intel Pentium Core Duo 1.6 Ghz
+1 GB (2 X 512 MB) DDR2 SDRAM
+Intel 945 800Mhz FSB Motheboard
+14.1&amp;quot; Widescreen Display
+LightScribe DVD-RW drive
+802.11 a/b/g wireless
+Bluetooth
+Infrared
+Altec Lansing Speakers
+Built in modem and ethernet ports</description>
     </item>
     
   </channel>

@@ -1,28 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Learning on shiv.me</title>
+    <title>learning on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/learning/</link>
-    <description>Recent content in Learning on shiv.me</description>
+    <description>Recent content in learning on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sun, 10 Jul 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/learning/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 10 Jul 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use Linux, learn new things</title>
       <link>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</link>
       <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2016/07/10/use-linux-learn-new-things/</guid>
-      <description>&lt;p&gt;After 12+ years, I built a &lt;a href=&#34;https://ca.pcpartpicker.com/b/j6Cypg&#34;&gt;workstation from scratch&lt;/a&gt;. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked &lt;a href=&#34;https://wiki.archlinux.org/index.php/arch_compared_to_other_distributions&#34;&gt;Arch Linux&lt;/a&gt;, on the recommendation of several colleagues. It&amp;rsquo;s been fun. &lt;a href=&#34;https://wiki.archlinux.org/index.php/pacman&#34;&gt;Pacman&lt;/a&gt; and &lt;a href=&#34;https://archlinux.fr/yaourt-en&#34;&gt;Yaourt&lt;/a&gt; are great package managers, and the &lt;a href=&#34;https://en.wikipedia.org/wiki/Rolling_release&#34;&gt;rolling release&lt;/a&gt; model ensures access to the bleeding edge all the time.&lt;/p&gt;
-
-&lt;p&gt;Working in linux always makes you learn something new. Today, I found out a simple way to shutdown KDE gracefully.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# qdbus org.kde.ksmserver /KSMServer logout 0 0 0
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>After 12+ years, I built a workstation from scratch. Hardware has come such a long way, but that is a post unto itself. Having always worked with Ubuntu and other debian variants it was time to venture into a more lean distro. I picked Arch Linux, on the recommendation of several colleagues. It&amp;rsquo;s been fun. Pacman and Yaourt are great package managers, and the rolling release model ensures access to the bleeding edge all the time.</description>
     </item>
     
   </channel>

@@ -1,122 +1,113 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.16" />
+<html lang="en-US"><meta charset="utf-8" />
+
+  <title>Badly punctuated parameter list in #define - Rabble-rousing Rambling</title>
 
 
-<title>Badly punctuated parameter list in #define - shiv.me</title>
-<meta property="og:title" content="Badly punctuated parameter list in #define - shiv.me">
+  <meta name="description" content="Default Page Description" />
 
-
-
-  
-  <meta property="description" content="Badly punctuated parameter list in #define">
-  
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/latex.css" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.75.1" /><body>
 
 
 
 
 
 
-<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" media="all">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="http://blog.shiv.me/" class="nav-logo">
-    <img src="http://blog.shiv.me/images/logo.png" 
-         width="50" 
-         height="50" 
-         alt="shiv.me">
-  </a>
-
-  <ul class="nav-links">
+<header>
+  <nav class="navbar">
+  <div class="nav">
     
-    <li><a href="http://shiv.me/#about">About</a></li>
-    
-    <li><a href="http://github.com/shiva">GitHub</a></li>
-    
-    <li><a href="http://twitter.com/shiva">Twitter</a></li>
-    
-  </ul>
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
 </nav>
-
-      </header>
-
-
-<main class="content" role="main">
-
-  <article class="article">
-    
-    <span class="article-duration">1 min read</span>
-    
-
-    <h1 class="article-title">Badly punctuated parameter list in #define</h1>
-
-    
-    <span class="article-date">November 8, 2011</span>
-    
-
-    <div class="article-content">
-      <p>Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &ldquo;*$&amp;%*$#&amp;% you piece of sh** compiler&rdquo;</p>
-
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>Badly punctuated parameter list in #define</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Nov 8, 2011
+  
+</span>
+      </div>
+      <br>
+      
+    <p>Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &ldquo;*$&amp;%*$#&amp;% you piece of sh** compiler&rdquo;</p>
 <p>I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.</p>
-
-<pre><code class="language-bash">$ gmake  
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ gmake  
 ...  
 ...  
-some_file.h:42: badly punctuated parameter list in \`#define'  
-some_file.h:64: badly punctuated parameter list in \`#define'  
+some_file.h:42: badly punctuated parameter list in <span style="color:#ae81ff">\`</span><span style="color:#75715e">#define&#39;  </span>
+some_file.h:64: badly punctuated parameter list in <span style="color:#ae81ff">\`</span><span style="color:#75715e">#define&#39;  </span>
 Failed to compile  
 $  
-</code></pre>
-
-<p>This was caused by the following:</p>
-
-<pre><code class="language-c">...  
+</code></pre></div><p>This was caused by the following:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">...  
 ...  
-#define LOG(...) { printf (##__VA_ARGS__); }  
+<span style="color:#75715e">#define LOG(...) { printf (##__VA_ARGS__); }  
+</span><span style="color:#75715e"></span>...  
 ...  
+</code></pre></div><p>This works in most modern C compilers. However, if you happen to use one from the 80s (I exaggerate a little - not by much), it throws the error as above. You can fix this as follows:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">...  
 ...  
-</code></pre>
-
-<p>This works in most modern C compilers. However, if you happen to use one from the 80s (I exaggerate a little - not by much), it throws the error as above. You can fix this as follows:</p>
-
-<pre><code class="language-c">...  
+<span style="color:#75715e">#define LOG(ARGS...) { printf (##ARGS); }  
+</span><span style="color:#75715e"></span>...  
 ...  
-#define LOG(ARGS...) { printf (##ARGS); }  
-...  
-...  
-</code></pre>
+</code></pre></div><p><a href="http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html">source</a></p>
 
-<p><a href="http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html">source</a></p>
 
-    </div>
-  </article>
 
-  
-
-</main>
-
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="http://blog.shiv.me/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="http://blog.shiv.me/images/hugo-logo.png" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
-
-    </div>
-
+      
+        <div class="blog-tags">
+          
+            <a href="http://blog.shiv.me//tags/pre-processor/">pre-processor</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/badly-punctuated-parameter-list/">badly punctuated parameter list</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/code/">code</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/compiler-issues/">compiler issues</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/development/">Development</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/gcc/">gcc</a>&nbsp;
+          
+            <a href="http://blog.shiv.me//tags/programming/">programming</a>&nbsp;
+          
+        </div>
+      
+    </article>
     
-  </body>
-</html>
+  </div>
 
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/7ma7X/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="http://blog.shiv.me/about">Shiva Velmurugan</a>
+        &copy;
+        2016
+      </p>
+  </div>
+</footer></body>
+</html>

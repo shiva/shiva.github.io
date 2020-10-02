@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
-HUGO_TARBALL="https://github.com/spf13/hugo/releases/download/v0.16/hugo_0.16_linux-64bit.tgz"
+HUGO_TARBALL="https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_0.75.1_Linux-64bit.tar.gz"
 CHECKOUT_DIR=`pwd`
 
 echo "Install hugo ..."

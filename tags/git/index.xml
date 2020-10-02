@@ -1,53 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on shiv.me</title>
+    <title>git on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/git/</link>
-    <description>Recent content in Git on shiv.me</description>
+    <description>Recent content in git on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 29 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 29 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working with large C codebases</title>
       <link>http://blog.shiv.me/2016/12/29/working-with-large-c-codebases/</link>
       <pubDate>Thu, 29 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2016/12/29/working-with-large-c-codebases/</guid>
-      <description>
-
-&lt;h3 id=&#34;searching-for-symbols&#34;&gt;Searching for symbols&lt;/h3&gt;
-
-&lt;p&gt;The product that I work on, has over 22 million lines of source &amp;ndash; most of it a nightmare. I use vim as my editor of choice &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understanding the challenge-du-jour.&lt;/p&gt;
-
-&lt;p&gt;Throw in fuzzy find capabilities of the most awesome &lt;a href=&#34;1&#34; title=&#34;Don&#39;t even think of using eclipse or another IDE. A code-base this size, is simply too large for anything except simple text-based tools
-&#34;&gt;Ctrl+p plugin&lt;/a&gt;, and vim becomes the best &amp;lsquo;IDE&amp;rsquo; out there!&lt;/p&gt;
-
-&lt;p&gt;However, large code bases result in very large indexes. A fully indexed ctags file for the product I work is several gigabytes. At this scale, searching for a symbols slows vim down substantially. It is vital to isolate and index a portion of the source &amp;ndash; the part that I am interested in on a given day.&lt;/p&gt;
-
-&lt;p&gt;I use the following aliases to build tags files and cscope databases as I need.&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/shiva/89240cdece79f84867f0feeb9d73f1f5.js&#34;&gt;&lt;/script&gt;
-
-&lt;h3 id=&#34;dealing-with-whitespace&#34;&gt;Dealing with whitespace&lt;/h3&gt;
-
-&lt;p&gt;I like to strip trailing whitespace. Trailing whitespace, results in confusing diffs between two versions of a file. It increases the congnitive dissonance when reading git-diffs and patches &amp;ndash; it is quite tiresome when reviewing 20-30 commits a day.&lt;/p&gt;
-
-&lt;p&gt;The following aliases help strip trailing whitespace given a file and keep commits deltas devoid of un-necessary whitespace changes.&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/shiva/7f5ab9dbc7ed5bea59a4ce03aa2c9fb8.js&#34;&gt;&lt;/script&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;Don&amp;rsquo;t even think of using eclipse or another IDE. A code-base this size, is simply too large for anything except simple text-based tools
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;↩︎︎&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <description>Searching for symbols The product that I work on, has over 22 million lines of source &amp;ndash; most of it a nightmare. I use vim as my editor of choice 1. Both cscope and ctags (integrated into vim), allow me to quickly move between files and lookup definitions of symbols, and help in understanding the challenge-du-jour.
+Throw in fuzzy find capabilities of the most awesome Ctrl+p plugin, and vim becomes the best &amp;lsquo;IDE&amp;rsquo; out there!</description>
     </item>
     
     <item>
@@ -56,15 +24,7 @@
       <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2014/03/31/getting-git-status-on-multiple-directories/</guid>
-      <description>&lt;p&gt;At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue.
-The following command, executes git status in every subdirectory that is a git repository.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;for d in `find . -name &amp;quot;.git&amp;quot;`; do 
-echo &amp;quot;processing $d ...&amp;quot;; 
-git --git-dir=$d --work-tree=$d/.. status; 
-done
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>At any given time, I have a handful of git repositories that I work on. While typing in the command-line is great, it getting tiring when you have a several directories that you have to manually change to and check. The &amp;ldquo;git status&amp;rdquo; command can take the git repo and the working directory as input. That, and a little bash programming to the rescue. The following command, executes git status in every subdirectory that is a git repository.</description>
     </item>
     
     <item>
@@ -73,24 +33,8 @@ done
       <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2012/09/26/beautiful-git-logs-and-listing-files-in-a-commit/</guid>
-      <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-config-alias&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.&lt;/p&gt;
-
-&lt;p&gt;The following is from the latest &lt;a href=&#34;https://github.com/torvalds/linux&#34; title=&#34;linux by Linus&#34;&gt;linux.git&lt;/a&gt;&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-log-output-for-linux&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Fortunately, git log has options one can use, that make the output look like this:&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-lg-output-for-linux&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Another useful command is git show, with the &amp;ndash;name-only option. It displays the list of files in a particular commit.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-show-name-only&#34;&gt;&lt;/script&gt;
-</description>
+      <description>Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.
+ For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.</description>
     </item>
     
   </channel>

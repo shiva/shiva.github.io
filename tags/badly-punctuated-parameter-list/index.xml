@@ -1,54 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Badly Punctuated Parameter List on shiv.me</title>
+    <title>badly punctuated parameter list on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/badly-punctuated-parameter-list/</link>
-    <description>Recent content in Badly Punctuated Parameter List on shiv.me</description>
+    <description>Recent content in badly punctuated parameter list on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/badly-punctuated-parameter-list/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 08 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/badly-punctuated-parameter-list/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Badly punctuated parameter list in #define</title>
       <link>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</link>
       <pubDate>Tue, 08 Nov 2011 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2011/11/08/badly-punctuated-parameter-list/</guid>
-      <description>&lt;p&gt;Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ gmake  
-...  
-...  
-some_file.h:42: badly punctuated parameter list in \`#define&#39;  
-some_file.h:64: badly punctuated parameter list in \`#define&#39;  
-Failed to compile  
-$  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This was caused by the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(...) { printf (##__VA_ARGS__); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This works in most modern C compilers. However, if you happen to use one from the 80s (I exaggerate a little - not by much), it throws the error as above. You can fix this as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;...  
-...  
-#define LOG(ARGS...) { printf (##ARGS); }  
-...  
-...  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nixscripts.blogspot.com/2010/09/badly-punctuated-parameter-list.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Sometimes working with an old c compiler brings up painful, yet fun-filled days of making it speak the same language as you, and sometimes you just go &amp;ldquo;*$&amp;amp;%*$#&amp;amp;% you piece of sh** compiler&amp;rdquo;
+I had one such moment today, and after I had returned to Zen (some soul-searching and some google searching), I realized it quite simple.
+$ gmake ... ... some_file.h:42: badly punctuated parameter list in \`#define&amp;#39;  some_file.h:64: badly punctuated parameter list in \`#define&amp;#39;  Failed to compile $ This was caused by the following:</description>
     </item>
     
   </channel>

@@ -1,39 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alias on shiv.me</title>
+    <title>alias on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/alias/</link>
-    <description>Recent content in Alias on shiv.me</description>
+    <description>Recent content in alias on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 26 Sep 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/alias/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 26 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/alias/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beautiful git logs and listing files in a commit</title>
       <link>http://blog.shiv.me/2012/09/26/beautiful-git-logs-and-listing-files-in-a-commit/</link>
       <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2012/09/26/beautiful-git-logs-and-listing-files-in-a-commit/</guid>
-      <description>&lt;p&gt;Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-config-alias&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.&lt;/p&gt;
-
-&lt;p&gt;The following is from the latest &lt;a href=&#34;https://github.com/torvalds/linux&#34; title=&#34;linux by Linus&#34;&gt;linux.git&lt;/a&gt;&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-log-output-for-linux&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Fortunately, git log has options one can use, that make the output look like this:&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-lg-output-for-linux&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Another useful command is git show, with the &amp;ndash;name-only option. It displays the list of files in a particular commit.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/shiva/3791502.js?file=file-git-show-name-only&#34;&gt;&lt;/script&gt;
-</description>
+      <description>Working with git is fun. However, it is easy to get tired of the log list of parameters one has to use to very often. Git aliases are a great way to deal with this.
+ For instance, the standard git log, it pretty much useless in any large project, where there are several hundred commits in a day. Most often, the commit you are looking for in probably several pages deep.</description>
     </item>
     
   </channel>

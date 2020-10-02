@@ -1,29 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nexo on shiv.me</title>
+    <title>nexo on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/nexo/</link>
-    <description>Recent content in Nexo on shiv.me</description>
+    <description>Recent content in nexo on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Tue, 06 Feb 2007 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/nexo/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 06 Feb 2007 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/nexo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nexo - The tool you&#39;ll remember for a while</title>
-      <link>http://blog.shiv.me/2007/02/06/nexo---the-tool-youll-remember-for-a-while/</link>
+      <link>http://blog.shiv.me/2007/02/06/nexo-the-tool-youll-remember-for-a-while/</link>
       <pubDate>Tue, 06 Feb 2007 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2007/02/06/nexo---the-tool-youll-remember-for-a-while/</guid>
-      <description>&lt;p&gt;Firstly, thanks Scoble.. I think I&amp;rsquo;ll stop reading other gadget/tech sites .. you are my new feed filter.&lt;/p&gt;
-
-&lt;p&gt;Secondly, I got a whiff of yet another web 2.0 (does that even mean anything these days!) application site. &lt;a href=&#34;http://www.nexo.com/&#34;&gt;Nexo&lt;/a&gt; is a wonderful wonderful site. just as Scoble says &amp;ldquo;It&amp;rsquo;s Yahoo Groups done right&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;It took me the whole of 1 min to create my account, invite a few friends and setup my own group. Oh yeah, it also provides me with web-space to put my photos etc.&lt;/p&gt;
-
-&lt;p&gt;One thing I would have loved to see, is a way to integrate this with my exisitng site. It&amp;rsquo;s great that I have a nice dashboard, a place to interact with my friends, but I also want them to read some custom content. If only, I could provide a space where my network could read my RSS from NEXO. I know that&amp;rsquo;s being a bit demanding, but hey it&amp;rsquo;s Web 2.0 time. Integration is the key?! no?!&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2007/02/06/nexo-the-tool-youll-remember-for-a-while/</guid>
+      <description>Firstly, thanks Scoble.. I think I&amp;rsquo;ll stop reading other gadget/tech sites .. you are my new feed filter.
+Secondly, I got a whiff of yet another web 2.0 (does that even mean anything these days!) application site. Nexo is a wonderful wonderful site. just as Scoble says &amp;ldquo;It&amp;rsquo;s Yahoo Groups done right&amp;rdquo;.
+It took me the whole of 1 min to create my account, invite a few friends and setup my own group.</description>
     </item>
     
   </channel>

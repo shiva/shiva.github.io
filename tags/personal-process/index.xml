@@ -1,47 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal Process on shiv.me</title>
+    <title>personal process on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/personal-process/</link>
-    <description>Recent content in Personal Process on shiv.me</description>
+    <description>Recent content in personal process on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Wed, 15 Oct 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/personal-process/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 15 Oct 2008 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/personal-process/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I handle 1000&#43; emails and 300&#43; blog posts a day</title>
-      <link>http://blog.shiv.me/2008/10/15/how-i-handle-1000&#43;-emails-and-300&#43;-blog-posts-a-day/</link>
+      <link>http://blog.shiv.me/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</link>
       <pubDate>Wed, 15 Oct 2008 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.shiv.me/2008/10/15/how-i-handle-1000&#43;-emails-and-300&#43;-blog-posts-a-day/</guid>
-      <description>&lt;p&gt;Several people are shocked to hear that I read 1000+ emails and &lt;a href=&#34;http://www.google.com/reader/shared/18301612726860782682&#34;&gt;several hundred blog posts a day&lt;/a&gt;. Ofcourse, when I say that, all I mean is that, I process that much content. I read around 30-40% (That is really the signal-to-noise ratio of web content these days&amp;ndash;and that is, if you are subscribed to high quality feeds)&lt;/p&gt;
-
-&lt;p&gt;[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;google reader trends&amp;rdquo;]&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2945049781/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2945049781_d005a9184b.jpg&#34; alt=&#34;google reader trends&#34; /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
-
-&lt;p&gt;One of friends was curious how I can handle all that data flow, and I emailed her this:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Everyday, go to bed with a zero count.&lt;/li&gt;
-&lt;li&gt;Use tools to reduce your processing. (use email rules/filters to move mails to manageable folders and Google reader for feeds)&lt;/li&gt;
-&lt;li&gt;Learn to skip-read. I use a 2 parse method.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Parse through sets of items (email headers or blog post headlines), and mark the ones your need to pay attention to (usually around 40%).&lt;/li&gt;
-&lt;li&gt;Filter based on short-listed items and then go through them in detail. In the case of blog posts, if something does retain my attention after the first 4 sentences, I skip that item.&lt;/li&gt;
-&lt;li&gt;(only for blog posts) I mark the ones I have to comment on, and then do my commenting after I finish a folder.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sometimes, you just can&amp;rsquo;t squeeze everything in a day, I either bookmark or mail it to myself to be addressed over the weekend.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What do you think? Am I missing something that will make my life a little easier?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: Thanks to Aswinanand for pointing this out&amp;ndash;I don&amp;rsquo;t really get 1000+ emails. I was just exaggerating (which is just another way of saying, click-baiting! :) )&lt;/p&gt;
-</description>
+      <guid>http://blog.shiv.me/2008/10/15/how-i-handle-1000-emails-and-300-blog-posts-a-day/</guid>
+      <description>Several people are shocked to hear that I read 1000+ emails and several hundred blog posts a day. Ofcourse, when I say that, all I mean is that, I process that much content. I read around 30-40% (That is really the signal-to-noise ratio of web content these days&amp;ndash;and that is, if you are subscribed to high quality feeds)
+[caption id=&amp;quot;&amp;quot; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;450&amp;rdquo; caption=&amp;ldquo;google reader trends&amp;rdquo;][/caption]
+One of friends was curious how I can handle all that data flow, and I emailed her this:</description>
     </item>
     
   </channel>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US"><meta charset="utf-8" />
+
+  <title>Mono and Sharpdevelop - A baby step - Rabble-rousing Rambling</title>
+
+
+  <meta name="description" content="Default Page Description" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/latex.css" />
+<link rel="stylesheet" href="http://blog.shiv.me/css/main.css" />
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<meta name="generator" content="Hugo 0.75.1" /><body>
+
+
+
+
+
+
+<header>
+  <nav class="navbar">
+  <div class="nav">
+    
+
+    <ul class="nav-links">
+      
+    </ul>
+  </div>
+</nav>
+  <div class="intro-header">
+    <div class="container">
+      <div class="post-heading">
+        
+          <h1>Mono and Sharpdevelop - A baby step</h1>
+          
+        
+      </div>
+    </div>
+  </div>
+</header>
+<div id="content">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
+      <div class="postmeta">
+        <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>Dec 24, 2006
+  
+</span>
+      </div>
+      <br>
+      
+    <p>Having joined Novell recently, the opportunity to learn a bunch of new development skills has come up. Novell products make extensive use of the mono platform for applications development.</p>
+<p>After 4 long years, I find myself in need of re-learning some windows application development. I tried setting up mono on my windows pc, and encountered some peculiar issues. I had installed mono and then went looking around for an IDE. Well, monodevelop sounded kewl, and tried to get in compiled on windows. I found that I needed to setup cygwin if I need to build it, and another 100 MB download is not what I wanted to be doing.</p>
+<p>So I pulled Sharpdevelop 2.1.0, (monodevelop was apparently forked from sharpdevelop), off <a href="http://www.icsharpcode.net/OpenSource/SD/Download/">here</a>, and I installed it. As per the instructions found <a href="http://community.sharpdevelop.net/blogs/mattward/archive/2005/10/12/SharpDevelopAndMono.aspx">here</a>, I tried to compile the application, but SharpDevelop, threw a twister at me. It said &ldquo;mono is not installed&rdquo;. I tried hunting around for some options somewhere that told SharpDevelop where to look for mono, but was able to find no help.</p>
+<p>Well, I did get it fixed. All I had to do was re-run mono install.</p>
+<p>Aparently, the order of installation of the IDE and mono is:</p>
+<p>1. Install the IDE<br>
+2. Install mono</p>
+<p>I always thought that it had to be the other way around. Nice curve ball that one!<br>
+Anyway, here&rsquo;s the very first application that I have written in C# running on Mono!</p>
+<p><a href="http://shvelmur.com/wpress/wp-content/uploads/2006/12/first-csharp-app-big.jpg"><img src="http://blog.shiv.me/images/first-csharp-app-big.jpg" alt="first C# app-Large"></a></p>
+
+
+
+      
+        <div class="blog-tags">
+          
+            <a href="http://blog.shiv.me//tags/coding/">coding</a>&nbsp;
+          
+        </div>
+      
+    </article>
+    
+  </div>
+
+        </div><footer>
+  <div class="container">
+    <p class="credits copyright">
+      <p class="credits theme-by">
+        Powered By <a href="https://gohugo.io">Hugo</a>&nbsp;/&nbsp;Theme&nbsp;<a href="https://github.com/7ma7X/HugoTeX">HugoTeX</a>
+        <br>
+        <a href="http://blog.shiv.me/about">Shiva Velmurugan</a>
+        &copy;
+        2016
+      </p>
+  </div>
+</footer></body>
+</html>

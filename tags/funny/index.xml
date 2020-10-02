@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Funny on shiv.me</title>
+    <title>funny on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/funny/</link>
-    <description>Recent content in Funny on shiv.me</description>
+    <description>Recent content in funny on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Fri, 06 Mar 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/funny/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 06 Mar 2009 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/funny/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Latest Communication Technologies</title>
       <link>http://blog.shiv.me/2009/03/06/latest-communication-technologies/</link>
       <pubDate>Fri, 06 Mar 2009 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2009/03/06/latest-communication-technologies/</guid>
-      <description>&lt;p&gt;All you nerds, be careful before you brag about your new gadget.&lt;/p&gt;
-</description>
+      <description>All you nerds, be careful before you brag about your new gadget.</description>
     </item>
     
   </channel>

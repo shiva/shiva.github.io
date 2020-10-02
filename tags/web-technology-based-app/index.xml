@@ -1,37 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web Technology Based App on shiv.me</title>
+    <title>web-technology based app on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/web-technology-based-app/</link>
-    <description>Recent content in Web Technology Based App on shiv.me</description>
+    <description>Recent content in web-technology based app on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Thu, 25 Sep 2008 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/web-technology-based-app/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 25 Sep 2008 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/web-technology-based-app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Webified desktop applications</title>
       <link>http://blog.shiv.me/2008/09/25/webified-desktop-applications/</link>
       <pubDate>Thu, 25 Sep 2008 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2008/09/25/webified-desktop-applications/</guid>
-      <description>&lt;p&gt;You know something is seriously out of whack, when you download a 12 MB application that is just a step above an ftp application. I know, a rant at such an ungodly hour! Yup! I have been up 2 hours past bed-time trying to upload a few high-resolution photos.&lt;/p&gt;
-
-&lt;p&gt;I found these shots of fireworks that I captured about two months back, and finally managed to sneak in some time to process these shots. I started my attempt at putting &lt;a href=&#34;http://flickr.com/photos/shvelmur/sets/72157607481830420/&#34;&gt;these&lt;/a&gt; on my &lt;a href=&#34;http://flickr.com/photos/shvelmur/&#34;&gt;flickr account&lt;/a&gt;, and &lt;a href=&#34;http://www.stevey.com/2008/01/12/the-new-flickr-uploader/&#34;&gt;the pitiful uploader V3&lt;/a&gt;, has been failing for the last 2 hours! I doesn&amp;rsquo;t seem to be the servers, since the 2.5 version works fine. Although, I must confess, I&amp;rsquo;m uploading files that are more than 5MB, and it&amp;rsquo;s really just timeout issues.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2887342372/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2887342372_76fa1b7ecc.jpg&#34; alt=&#34;Mirage of a once bright expression of light&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;What is with this craze for making all desktop applications suck, by re-writing the simplest of desktop apps in  javascript and its ilk I&amp;rsquo;m looking at you, AIR)? It&amp;rsquo;s fine to use these heavy-weight stacks as a stop-gap solution. But, to turn a prefectly &lt;a href=&#34;http://techiteasy.org/2007/12/20/bloatware-the-case-of-flickr-uploadr-3/&#34;&gt;good app into mush&lt;/a&gt;, in the name of multi-platform support is a crime&amp;ndash;no less.&lt;/p&gt;
-
-&lt;p&gt;If you want to write multi-platform applications&amp;ndash;use Java or some library like Boost. It also, helps to remember the main functionality, and ensure that works well&amp;ndash;really well. An uploader, should never fail, when &amp;ldquo;uploading&amp;rdquo; stuff, an email client&amp;ndash;should have reliable email dispatch, etc.&lt;/p&gt;
-
-&lt;p&gt;I wonder where this will lead us? Maybe 10 years from now, we will end up with a calculator application that will use 100 MB disk spave, and we wouldn&amp;rsquo;t worry about it, coz our computers will have 10 GB of RAM and several  PetaHz processing power or some such crap. I&amp;rsquo;m not really looking forward to a future like that. Maybe, I should start that open source project for a native flick app after all.&lt;/p&gt;
-
-&lt;p&gt;Update: They are finally up&amp;hellip;phew! Here&amp;rsquo;s the fireworks collection:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2886495217/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2886495217_9ecd37176b_s.jpg&#34; alt=&#34;So what if the Hadron Collidor is down?!&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2887337666/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2887337666_7e2ced36dd_s.jpg&#34; alt=&#34;The big bang (s)&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2886444569/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2886444569_ded215b944_s.jpg&#34; alt=&#34;Celebration of Light 2008 - US - #1&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2887300174/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2887300174_5ce8258758_s.jpg&#34; alt=&#34;A tree in the sky&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;http://www.flickr.com/photos/shvelmur/2887314148/&#34;&gt;&lt;img src=&#34;http://blog.shiv.me/images/2887314148_7468e98e26_s.jpg&#34; alt=&#34;Celebration of Light 2008 - China - #4&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>You know something is seriously out of whack, when you download a 12 MB application that is just a step above an ftp application. I know, a rant at such an ungodly hour! Yup! I have been up 2 hours past bed-time trying to upload a few high-resolution photos.
+I found these shots of fireworks that I captured about two months back, and finally managed to sneak in some time to process these shots.</description>
     </item>
     
   </channel>

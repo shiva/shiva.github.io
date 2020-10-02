@@ -1,41 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Dns on shiv.me</title>
+    <title>open dns on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/open-dns/</link>
-    <description>Recent content in Open Dns on shiv.me</description>
+    <description>Recent content in open dns on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Fri, 02 Jan 2009 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/open-dns/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 02 Jan 2009 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/open-dns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are you using Open-DNS?</title>
       <link>http://blog.shiv.me/2009/01/02/are-you-using-open-dns/</link>
       <pubDate>Fri, 02 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2009/01/02/are-you-using-open-dns/</guid>
-      <description>&lt;p&gt;You should be using Open-DNS, if you answer yes to one of the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Are you frustrated with crazy-long wait times before even the website url shows up?&lt;/li&gt;
-&lt;li&gt;Is your ISP is a cheapo-*#$% using a crappy machine for DNS, and you wait enough to count the seconds between pressing enter and the little thingy on the browser status bar says &amp;ldquo;done&amp;rdquo;?&lt;/li&gt;
-&lt;li&gt;Are you subject to phishing attacks?&lt;/li&gt;
-&lt;li&gt;Do you want peace of mind?&lt;/li&gt;
-&lt;li&gt;Do you want auto-correction of urls?&lt;/li&gt;
-&lt;li&gt;Want to block your teen from accessing &amp;ldquo;excessive&amp;rdquo; porn?&lt;/li&gt;
-&lt;li&gt;Do you need a new dog to carry you paper?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.opendns.com/&#34;&gt;OpenDNS&lt;/a&gt; is for you (well, for the dog, you&amp;rsquo;ll have to move your ass and get one yourself).  It is quite trivial to setup and really speeds up your browsing speed. You can can set it up for each computer that you use, or better still, change the configuration on your router, which would apply across all machine connected through that router.&lt;/p&gt;
-
-&lt;p&gt;Changing the DNS server setting on your router, offers a few advantanges. For instance, you can define your own shortcuts for frequently used sites, and they would apply across all machines in your network. You set &amp;ldquo;mail&amp;rdquo; as a shortcut for &amp;ldquo;&lt;a href=&#34;http://gmail.com&amp;quot;&#34;&gt;http://gmail.com&amp;quot;&lt;/a&gt; and every time you time &amp;ldquo;mail&amp;rdquo; in your browser&amp;rsquo;s address bar, it will be replaced with &amp;ldquo;&lt;a href=&#34;http://gmail.com&amp;quot;&#34;&gt;http://gmail.com&amp;quot;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Open DNS also auto-corrects most common spelling mistakes of popular urls. For example, if you type googel.com, it will correct it to &lt;a href=&#34;http://google.com&#34;&gt;http://google.com&lt;/a&gt;. It will also suggest urls when it can&amp;rsquo;t find the correct url. Certain domains can be placed in a black/white list. How cool would it be to let your 15-year old know who is boss for a change?! Ground them for a week or so, denying them facebook access, for instance. Grounding 2.0!&lt;/p&gt;
-
-&lt;p&gt;Isn&amp;rsquo;t this enough reason to spend 2 minutes configuring openDNS?! What are you waiting for.. &lt;a href=&#34;http://www.opendns.com/&#34;&gt;go on&lt;/a&gt;!&lt;/p&gt;
-</description>
+      <description>You should be using Open-DNS, if you answer yes to one of the following:
+ Are you frustrated with crazy-long wait times before even the website url shows up? Is your ISP is a cheapo-*#$% using a crappy machine for DNS, and you wait enough to count the seconds between pressing enter and the little thingy on the browser status bar says &amp;ldquo;done&amp;rdquo;? Are you subject to phishing attacks? Do you want peace of mind?</description>
     </item>
     
   </channel>

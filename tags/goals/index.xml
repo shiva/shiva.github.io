@@ -1,62 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Goals on shiv.me</title>
+    <title>goals on Rabble-rousing Rambling</title>
     <link>http://blog.shiv.me/tags/goals/</link>
-    <description>Recent content in Goals on shiv.me</description>
+    <description>Recent content in goals on Rabble-rousing Rambling</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
-    <lastBuildDate>Sat, 31 Dec 2016 20:32:53 -0800</lastBuildDate>
-    <atom:link href="http://blog.shiv.me/tags/goals/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 31 Dec 2016 20:32:53 -0800</lastBuildDate><atom:link href="http://blog.shiv.me/tags/goals/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2016 year-end recap</title>
       <link>http://blog.shiv.me/2016/12/31/2016-year-end-recap/</link>
       <pubDate>Sat, 31 Dec 2016 20:32:53 -0800</pubDate>
       
       <guid>http://blog.shiv.me/2016/12/31/2016-year-end-recap/</guid>
-      <description>
-
-&lt;h2 id=&#34;don-t-smoke-stay-quit-doing-great&#34;&gt;Don’t smoke (Stay quit!!) : Doing great!&lt;/h2&gt;
-
-&lt;p&gt;There is no desire to smoke. After being a smoker for over a decade, I was very glad to quit, and stay quit. The way I quit this time was quite cliched. I went to Vegas, smoked incessantly for 3 days, and stopped at the end of the trip &amp;ndash; cold turkey. Never went back to it, and quite frankly disgusted by the thought of smoking now.&lt;/p&gt;
-
-&lt;h2 id=&#34;say-yes-more-often-did-well&#34;&gt;Say yes more often: Did well.&lt;/h2&gt;
-
-&lt;p&gt;I have reduced negativity greatly. This is a good one to keep at for the next year.&lt;/p&gt;
-
-&lt;h2 id=&#34;read-a-book-a-month-failing-miserably&#34;&gt;Read a book a month: Failing miserably.&lt;/h2&gt;
-
-&lt;p&gt;Multiple incomplete books. Really finished only &lt;a href=&#34;https://www.goodreads.com/user/year_in_books/2016/856502&#34;&gt;one book this year&lt;/a&gt; - The Drunkard&amp;rsquo;s Walk: How Randomness rules our lives.&lt;/p&gt;
-
-&lt;p&gt;Other books caught my attention this year:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/13072034-sustainable-materials---with-both-eyes-open&#34;&gt;Sustainable Materials - With Both Eyes Open&lt;/a&gt; by  Julian M. Allwood, Jonathan M. Cullen&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/18736925-capital-in-the-twenty-first-century&#34;&gt;Capital in the Twenty-First Century&lt;/a&gt;  by  Thomas Piketty&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/8082269-domain-specific-languages&#34;&gt;Domain-Specific Languages&lt;/a&gt; by Martin Fowler&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I need to up my game here. The plan is dedicate the first weekend of every month to a book. I need to read more than one book a year!&lt;/p&gt;
-
-&lt;h2 id=&#34;write-an-app-a-month-passable&#34;&gt;Write an app a month: Passable.&lt;/h2&gt;
-
-&lt;p&gt;Built a few apps this year. Unlike other years, I managed to finish them enough to launch them into the wild. It was quite satifying to be able to get them of a git repo, and have them running.&lt;/p&gt;
-
-&lt;p&gt;I have learnt quite a bit through the process, and perhaps will write more about deploying node js apps in production.&lt;/p&gt;
-
-&lt;p&gt;There is potential for a product that simplifies authentication and authorization. All &lt;a href=&#34;https://auth0.com/&#34;&gt;existing&lt;/a&gt; &lt;a href=&#34;https://stormpath.com/&#34;&gt;solutions&lt;/a&gt; that I have tried this year still get in the way of the user. We desperately need a universal interface for identity &amp;ndash; perhaps hardware that can make oAuth more ammenable for login.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.shiv.me/spellcaster/&#34;&gt;Spellcaster&lt;/a&gt; - find that perfect MTG card.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://shiv.me/wishlists/&#34;&gt;Wishlists&lt;/a&gt; - maintain a list of wishlists . Was especially useful for Secret Santa this year&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;blog-once-a-week-failing-miserably&#34;&gt;Blog once a week: Failing miserably.&lt;/h2&gt;
-
-&lt;p&gt;This is going back on the list for next year. I have consumed a lot of content this year, but produced very little.. Most of my posts have been photos on &lt;a href=&#34;https://www.instagram.com/shivanand/&#34;&gt;Instagram&lt;/a&gt; &amp;ndash; photos of food!&lt;/p&gt;
-</description>
+      <description>Don’t smoke (Stay quit!!) : Doing great! There is no desire to smoke. After being a smoker for over a decade, I was very glad to quit, and stay quit. The way I quit this time was quite cliched. I went to Vegas, smoked incessantly for 3 days, and stopped at the end of the trip &amp;ndash; cold turkey. Never went back to it, and quite frankly disgusted by the thought of smoking now.</description>
     </item>
     
     <item>
@@ -65,34 +23,9 @@
       <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2016/01/31/jan-goal-update/</guid>
-      <description>
-
-&lt;p&gt;It has not been a great start. It, however, has been a busy one.&lt;/p&gt;
-
-&lt;h2 id=&#34;don-t-smoke-stay-quit-going-strong&#34;&gt;Don’t smoke (Stay quit!!) : Going strong!&lt;/h2&gt;
-
-&lt;p&gt;The urge to smoke still surfaces on occasion. I have, however, been able to avoid every time. I must admit that it gets easier, but it always take a bit of an effort.m&lt;/p&gt;
-
-&lt;h2 id=&#34;say-yes-more-often-doing-ok&#34;&gt;Say yes more often: Doing ok.&lt;/h2&gt;
-
-&lt;p&gt;I have caught myself a couple of times. Still needs work&lt;/p&gt;
-
-&lt;h2 id=&#34;read-a-book-a-month-failing-miserably&#34;&gt;Read a book a month: Failing miserably.&lt;/h2&gt;
-
-&lt;p&gt;Read about 5 pages. Currently reading &lt;a href=&#34;http://amzn.to/1PI7fTC&#34;&gt;Norwegian Wood&lt;/a&gt; by Haruki Murakami. It is a very interesting book, but I have not been able to find time consistently. TV, netflix and youtube, usurps time away from other pursuits.&lt;/p&gt;
-
-&lt;h2 id=&#34;write-an-app-a-month-doing-ok&#34;&gt;Write an app a month: Doing ok.&lt;/h2&gt;
-
-&lt;p&gt;I have managed to write a small app to collect links and text and store those into a database. The app is written in go and is called notedown. It&amp;rsquo;s a lot of fun to hack something together. I am struggling with user authentication and authorization. &lt;a href=&#34;https://auth0.com/&#34;&gt;auth0&lt;/a&gt; is a great service to get started with implementing a good system for any app. At the moment, I have managed to put together a very rough version that kinda works.&lt;/p&gt;
-
-&lt;p&gt;At the moment, the goal is to get parity with apps like instapaper or evernote. The eventual goal, is to make notedown provide automatic tagging and aggregation of links. For the next month, I will focus on getting this solution deployed with a simple gui that is cross-platform.&lt;/p&gt;
-
-&lt;p&gt;If you are interested in the idea, you can reach me on &lt;a href=&#34;http://twitter.com/shiva&#34;&gt;twitter&lt;/a&gt;, or &lt;a href=&#34;https://gitter.im/shiva/notedown?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&#34;&gt;Gitter&lt;/a&gt; or hack at it on &lt;a href=&#34;https://github.com/shiva/notedown&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;blog-once-a-week-failing-miserably&#34;&gt;Blog once a week: Failing miserably.&lt;/h2&gt;
-
-&lt;p&gt;As this post illustrates, I have procrastinated all month long. I guess two posts a month is still better than none.&lt;/p&gt;
-</description>
+      <description>It has not been a great start. It, however, has been a busy one.
+Don’t smoke (Stay quit!!) : Going strong! The urge to smoke still surfaces on occasion. I have, however, been able to avoid every time. I must admit that it gets easier, but it always take a bit of an effort.m
+Say yes more often: Doing ok. I have caught myself a couple of times. Still needs work</description>
     </item>
     
     <item>
@@ -101,18 +34,8 @@
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.shiv.me/2016/01/05/goals-for-2016/</guid>
-      <description>&lt;p&gt;The word &amp;ldquo;resolutions&amp;rdquo;, feels forced. It feels like a ritual declaration of intent, followed immediately by inaction, and eventually concession that it was all in jest. This year, I am going to have some goals.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Don’t smoke (Stay quit!!)&lt;/li&gt;
-&lt;li&gt;Say yes more often&lt;/li&gt;
-&lt;li&gt;Read a book a month&lt;/li&gt;
-&lt;li&gt;Write an app a month&lt;/li&gt;
-&lt;li&gt;Blog once a week&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Goals, feels more friendly, reachable, inviting almost.&lt;/p&gt;
-</description>
+      <description>The word &amp;ldquo;resolutions&amp;rdquo;, feels forced. It feels like a ritual declaration of intent, followed immediately by inaction, and eventually concession that it was all in jest. This year, I am going to have some goals.
+ Don’t smoke (Stay quit!!) Say yes more often Read a book a month Write an app a month Blog once a week  Goals, feels more friendly, reachable, inviting almost.</description>
     </item>
     
   </channel>
