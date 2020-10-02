@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>strip whitespace on Rabble-rousing Rambling</title>
+    <title>strip whitespace on Reflections</title>
     <link>http://blog.shiv.me/tags/strip-whitespace/</link>
-    <description>Recent content in strip whitespace on Rabble-rousing Rambling</description>
+    <description>Recent content in strip whitespace on Reflections</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
     <lastBuildDate>Thu, 29 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.shiv.me/tags/strip-whitespace/index.xml" rel="self" type="application/rss+xml" />
     <item>

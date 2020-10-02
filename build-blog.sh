@@ -37,11 +37,12 @@ echo "Checkout ${GITHUB_PUBLISH_REPO} ..."
 rm -rf public
 git clone --depth=1 --single-branch -b ${GITHUB_PUBLISH_BRANCH} ${GITHUB_PUBLISH_REPO} ${BLOG_DIR}/public
 
-echo "Checkout blog theme ..."
+
+echo "Update themes ..."
 cd ${BLOG_DIR}
-git submodule update --init themes/HugoTex
+git submodule update --init --recursive
 
 echo "Re-generate blog ..."
-${CHECKOUT_DIR}/binaries/hugo
+${CHECKOUT_DIR}/binaries/hugo -v
 
 echo "Done."

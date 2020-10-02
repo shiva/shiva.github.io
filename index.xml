@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rabble-rousing Rambling</title>
+    <title>Reflections</title>
     <link>http://blog.shiv.me/</link>
-    <description>Recent content on Rabble-rousing Rambling</description>
+    <description>Recent content on Reflections</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en</language>
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
     <lastBuildDate>Sat, 31 Dec 2016 20:32:53 -0800</lastBuildDate><atom:link href="http://blog.shiv.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://blog.shiv.me/about/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/about/</guid>
+      <description>I am Shiva. You may know me as Shivanand Velmurugan. Perhaps you know me as Anand. In any case, welcome! I am a hacker (not security, but the programming kind). I am father to a fast growing girl, that rules my world, and keeps me on my toes. I take pictures, dabble at the piano, and (used to) play tennis.
+This website is a collection of posts and articles that I have written since 2004.</description>
+    </item>
+    
     <item>
       <title>2016 year-end recap</title>
       <link>http://blog.shiv.me/2016/12/31/2016-year-end-recap/</link>
@@ -3365,6 +3375,17 @@ Perhaps the dawn of an era, where Indian software companies will start developin
       
       <guid>http://blog.shiv.me/1/01/01/</guid>
       <description>blog-posts </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://blog.shiv.me/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/readme/</guid>
+      <description>blog-posts 
+This repo is setup to auto-publish to http://blog.shiv.me
+ Add new post Commit and push  </description>
     </item>
     
   </channel>
