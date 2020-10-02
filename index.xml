@@ -3367,16 +3367,5 @@ Perhaps the dawn of an era, where Indian software companies will start developin
       <description>blog-posts </description>
     </item>
     
-    <item>
-      <title></title>
-      <link>http://blog.shiv.me/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.shiv.me/readme/</guid>
-      <description>blog-posts 
-This repo is setup to auto-publish to http://blog.shiv.me
- Add new post Commit and push  </description>
-    </item>
-    
   </channel>
 </rss>
