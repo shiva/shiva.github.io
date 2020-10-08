@@ -78,12 +78,7 @@
   </url>
   
   <url>
-    <loc>http://blog.shiv.me/tags/remove-whitespace/</loc>
-    <lastmod>2016-12-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.shiv.me/tags/strip-whitespace/</loc>
+    <loc>http://blog.shiv.me/tags/vim/</loc>
     <lastmod>2016-12-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -114,11 +109,6 @@
   
   <url>
     <loc>http://blog.shiv.me/tags/language/</loc>
-    <lastmod>2016-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.shiv.me/categories/programming-languages/</loc>
     <lastmod>2016-11-06T00:00:00+00:00</lastmod>
   </url>
   

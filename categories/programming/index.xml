@@ -18,5 +18,16 @@
 Throw in fuzzy find capabilities of the most awesome Ctrl+p plugin, and vim becomes the best &amp;lsquo;IDE&amp;rsquo; out there!</description>
     </item>
     
+    <item>
+      <title>Elixir - A crash course</title>
+      <link>http://blog.shiv.me/2016/11/06/elixir-crash-course/</link>
+      <pubDate>Sun, 06 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.shiv.me/2016/11/06/elixir-crash-course/</guid>
+      <description>These are notes from the official Elixir documentation. It a quick walk-through of the unique features in Elixir for someone coming from years of C &amp;mdash; a way for me to remember and use as a reference.
+Summary  Types Operators Control Structures  Types Atoms Named contants with a value. true and false are atoms.
+Strings  Supports unicode string natively! It&amp;rsquo;s about time. 1 You can concatenate strings using &amp;lt;&amp;gt;.</description>
+    </item>
+    
   </channel>
 </rss>
