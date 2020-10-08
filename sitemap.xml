@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.shiv.me/about/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://blog.shiv.me/tags/2016/</loc>
     <lastmod>2016-12-31T20:32:53-08:00</lastmod>
   </url>
@@ -3990,15 +3985,6 @@
   <url>
     <loc>http://blog.shiv.me/2004/08/04/chennai-online-news-service/</loc>
     <lastmod>2004-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.shiv.me/1/01/01/</loc>
-  </url>
-  
-  <url>
-    <loc>http://blog.shiv.me/readme/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -9,16 +9,6 @@
     <copyright>Copyright 2016 &amp;copy; Shivanand Velmurugan</copyright>
     <lastBuildDate>Sat, 31 Dec 2016 20:32:53 -0800</lastBuildDate><atom:link href="http://blog.shiv.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://blog.shiv.me/about/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.shiv.me/about/</guid>
-      <description>I am Shiva. You may know me as Shivanand Velmurugan. Perhaps you know me as Anand. In any case, welcome! I am a hacker (not security, but the programming kind). I am father to a fast growing girl, that rules my world, and keeps me on my toes. I take pictures, dabble at the piano, and (used to) play tennis.
-This website is a collection of posts and articles that I have written since 2004.</description>
-    </item>
-    
-    <item>
       <title>2016 year-end recap</title>
       <link>http://blog.shiv.me/2016/12/31/2016-year-end-recap/</link>
       <pubDate>Sat, 31 Dec 2016 20:32:53 -0800</pubDate>
@@ -3366,26 +3356,6 @@ Is it true that Google is offering a terabyte of space or is it a marketing gimm
       <guid>http://blog.shiv.me/2004/08/04/chennai-online-news-service/</guid>
       <description>Chennai Online News Service - View News
 Perhaps the dawn of an era, where Indian software companies will start developing products and not stop with providing services to US software giants. Good news for all Indian developers, maybe in the future, we can truly claim second place in software innovation.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://blog.shiv.me/1/01/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.shiv.me/1/01/01/</guid>
-      <description>blog-posts </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://blog.shiv.me/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.shiv.me/readme/</guid>
-      <description>blog-posts 
-This repo is setup to auto-publish to http://blog.shiv.me
- Add new post Commit and push  </description>
     </item>
     
   </channel>
